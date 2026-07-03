@@ -83,6 +83,12 @@
   tr.detail td { padding: 0; background: #10151d; }
   .bd { padding: 6px 16px 18px; }
   .bd h4 { margin: 12px 0 8px; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+  .bd-head { display: flex; align-items: center; gap: 14px; margin: 12px 0 4px; }
+  .avatar { width: 64px; height: 64px; border-radius: 12px; object-fit: cover; background: var(--bg2); border: 1px solid var(--line); flex: none; }
+  .avatar-ph { display: grid; place-items: center; font-weight: 800; font-size: 24px; color: var(--muted); }
+  .bd-head .hname { font-size: 18px; font-weight: 750; }
+  .bd-head .hsum { color: var(--accent2); font-weight: 800; }
+  .pod .avatar { width: 54px; height: 54px; border-radius: 50%; margin: 4px auto 6px; display: block; }
   .bd .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 6px 18px; }
   .bd .li { display: flex; justify-content: space-between; gap: 10px; padding: 5px 0; border-bottom: 1px dashed #222a35; font-size: 14px; }
   .bd .li .v { font-variant-numeric: tabular-nums; font-weight: 700; }
@@ -309,7 +315,12 @@
     });
     var note = (p.raw && p.raw.style === "legacy") ? '<div class="src">Punktacja przeniesiona z pierwotnego arkusza (2010).</div>' : "";
     var src = p.source ? '<div class="src">Źródło: <a href="' + esc(p.source) + '" target="_blank" rel="noopener">Wikipedia</a></div>' : "";
-    return '<div class="bd"><h4>Rozbicie punktów — razem ' + fmt(s.total) + '</h4>' +
+    return '<div class="bd">' +
+           '<div class="bd-head">' + avatarHtml(p, "avatar") +
+             '<div><div class="hname">' + esc(p.name) + '</div>' +
+             '<div><span class="pos ' + p.position + '">' + POS_LABEL[p.position] + '</span> · ' +
+             'razem <span class="hsum">' + fmt(s.total) + '</span> pkt</div></div></div>' +
+           '<h4>Rozbicie punktów</h4>' +
            '<div class="grid">' + rows + '</div>' + note + src + '</div>';
   }
   function liRow(label, pts, deriv) {
@@ -329,6 +340,7 @@
     el.innerHTML = order.map(function (idx) {
       var p = full[idx], place = idx + 1;
       return '<div class="pod p' + place + '"><div class="rankbadge">' + place + '</div>' +
+        avatarHtml(p, "avatar") +
         '<div class="pscore">' + fmt(p.total) + '</div>' +
         '<div class="pname">' + esc(p.name) + '</div>' +
         '<div class="psub"><span class="pos ' + p.position + '">' + POS_LABEL[p.position] + '</span> · ' +
@@ -348,6 +360,16 @@
   }
 
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+
+  function avatarHtml(p, cls) {
+    var photo = p.raw && p.raw.photo;
+    if (photo) {
+      return '<img class="' + cls + '" loading="lazy" alt="' + esc(p.name) +
+        '" src="' + esc(photo) + '" onerror="this.replaceWith(Object.assign(document.createElement(\'div\'),{className:\'' +
+        cls + ' avatar-ph\',textContent:\'' + esc(p.name.charAt(0)) + '\'}))">';
+    }
+    return '<div class="' + cls + ' avatar-ph">' + esc(p.name.charAt(0)) + '</div>';
+  }
 
   document.getElementById("q").addEventListener("input", function (e) { state.q = e.target.value; render(); });
   document.getElementById("posfilter").addEventListener("click", function (e) {
