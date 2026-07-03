@@ -1,0 +1,4 @@
+# Wymuś końce linii LF dla plików wrażliwych na format (Pages/CI).
+CNAME text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf

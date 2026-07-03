@@ -1,0 +1,46 @@
+name: Deploy na GitHub Pages
+
+# Publikuje statyczną stronę (HTML/CSS/JS) na GitHub Pages po każdym pushu do main.
+# Można też uruchomić ręcznie (Actions -> Run workflow).
+# Nie wymaga żadnych sekretów - GitHub sam autoryzuje deploy tokenem OIDC.
+#
+# Wersje akcji zweryfikowane z oficjalnym starter workflow GitHuba (actions/starter-workflows).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Uprawnienia wymagane przez deploy Pages (token do publikacji).
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Jeden deploy naraz; kolejny czeka, nie przerywa trwającego.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Konfiguracja Pages
+        uses: actions/configure-pages@v5
+
+      - name: Spakowanie strony (katalog public/)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Publikujemy tylko katalog strony. docs/ (folder roboczy) zostaje poza publikacją.
+          path: './public'
+
+      - name: Deploy na Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

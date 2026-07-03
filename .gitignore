@@ -1,0 +1,18 @@
+# Pliki robocze - nie trafiają na produkcję (GitHub Pages publikuje całe repo).
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+.vscode/
+.idea/
+
+# Pliki lokalne / notatki, które mają zostać poza publiczną stroną.
+_local/
+scratch/
+
+# Folder roboczy - lokalny, nie publikowany i nie trafia do repo
+# (dane zrodlowe, robocze XLS-y, notatki).
+docs/
+
+# Pliki tymczasowe/lock MS Office (np. ~$Tabela....xlsx).
+~$*

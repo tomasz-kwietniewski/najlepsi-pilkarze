@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raport - szablon startowy</title>
+  <meta name="description" content="Przykladowy raport HTML - szablon startowy pod GitHub Pages.">
+  <style>
+    :root {
+      --tlo: #0f1115;
+      --karta: #171a21;
+      --linia: #262b36;
+      --tekst: #e8eaed;
+      --tekst-slaby: #9aa4b2;
+      --akcent: #4f8cff;
+      --akcent-2: #35d0a5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: var(--tlo);
+      color: var(--tekst);
+      line-height: 1.5;
+    }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 48px 20px 80px; }
+    header { margin-bottom: 40px; }
+    h1 { font-size: 2rem; margin: 0 0 8px; letter-spacing: -0.02em; }
+    .lead { color: var(--tekst-slaby); margin: 0; }
+    .karta {
+      background: var(--karta);
+      border: 1px solid var(--linia);
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    h2 { font-size: 1.1rem; margin: 0 0 16px; }
+    table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--linia); }
+    th { color: var(--tekst-slaby); font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    td.num { text-align: right; }
+    .bar-row { display: grid; grid-template-columns: 140px 1fr 56px; align-items: center; gap: 12px; margin: 10px 0; }
+    .bar-label { color: var(--tekst-slaby); font-size: 0.9rem; }
+    .bar-track { background: var(--linia); border-radius: 999px; height: 12px; overflow: hidden; }
+    .bar-fill { height: 100%; background: linear-gradient(90deg, var(--akcent), var(--akcent-2)); border-radius: 999px; }
+    .bar-val { text-align: right; font-variant-numeric: tabular-nums; font-size: 0.9rem; }
+    footer { color: var(--tekst-slaby); font-size: 0.85rem; margin-top: 40px; }
+    a { color: var(--akcent); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Raport - szablon startowy</h1>
+      <p class="lead">Ten plik to placeholder. Podmień treść na swoje dane i zrób <code>git push</code> - GitHub Pages opublikuje resztę.</p>
+    </header>
+
+    <section class="karta">
+      <h2>Tabela danych</h2>
+      <table>
+        <thead>
+          <tr><th>Pozycja</th><th>Kategoria</th><th class="num">Wynik</th></tr>
+        </thead>
+        <tbody id="tabela"></tbody>
+      </table>
+    </section>
+
+    <section class="karta">
+      <h2>Wykres (czysty CSS, bez zewnętrznych bibliotek)</h2>
+      <div id="wykres"></div>
+    </section>
+
+    <footer>
+      Szablon startowy GitHub Pages. Wygenerowany statycznie, w pełni samodzielny (bez CDN).
+    </footer>
+  </div>
+
+  <script>
+    // Dane przykładowe - podmień na swoje. Wszystko w jednym pliku, bez zależności.
+    const dane = [
+      { nazwa: "Alfa",   kat: "A", wynik: 92 },
+      { nazwa: "Beta",   kat: "B", wynik: 78 },
+      { nazwa: "Gamma",  kat: "A", wynik: 65 },
+      { nazwa: "Delta",  kat: "C", wynik: 54 },
+      { nazwa: "Epsilon",kat: "B", wynik: 41 },
+    ];
+
+    const max = Math.max(...dane.map(d => d.wynik));
+
+    document.getElementById("tabela").innerHTML = dane
+      .map(d => `<tr><td>${d.nazwa}</td><td>${d.kat}</td><td class="num">${d.wynik}</td></tr>`)
+      .join("");
+
+    document.getElementById("wykres").innerHTML = dane
+      .map(d => `
+        <div class="bar-row">
+          <span class="bar-label">${d.nazwa}</span>
+          <span class="bar-track"><span class="bar-fill" style="width:${(d.wynik / max * 100).toFixed(1)}%"></span></span>
+          <span class="bar-val">${d.wynik}</span>
+        </div>`)
+      .join("");
+  </script>
+</body>
+</html>
