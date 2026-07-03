@@ -1,104 +1,305 @@
 <!doctype html>
 <html lang="pl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Raport - szablon startowy</title>
-  <meta name="description" content="Przykladowy raport HTML - szablon startowy pod GitHub Pages.">
-  <style>
-    :root {
-      --tlo: #0f1115;
-      --karta: #171a21;
-      --linia: #262b36;
-      --tekst: #e8eaed;
-      --tekst-slaby: #9aa4b2;
-      --akcent: #4f8cff;
-      --akcent-2: #35d0a5;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      background: var(--tlo);
-      color: var(--tekst);
-      line-height: 1.5;
-    }
-    .wrap { max-width: 880px; margin: 0 auto; padding: 48px 20px 80px; }
-    header { margin-bottom: 40px; }
-    h1 { font-size: 2rem; margin: 0 0 8px; letter-spacing: -0.02em; }
-    .lead { color: var(--tekst-slaby); margin: 0; }
-    .karta {
-      background: var(--karta);
-      border: 1px solid var(--linia);
-      border-radius: 14px;
-      padding: 24px;
-      margin-bottom: 24px;
-    }
-    h2 { font-size: 1.1rem; margin: 0 0 16px; }
-    table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
-    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--linia); }
-    th { color: var(--tekst-slaby); font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.04em; }
-    td.num { text-align: right; }
-    .bar-row { display: grid; grid-template-columns: 140px 1fr 56px; align-items: center; gap: 12px; margin: 10px 0; }
-    .bar-label { color: var(--tekst-slaby); font-size: 0.9rem; }
-    .bar-track { background: var(--linia); border-radius: 999px; height: 12px; overflow: hidden; }
-    .bar-fill { height: 100%; background: linear-gradient(90deg, var(--akcent), var(--akcent-2)); border-radius: 999px; }
-    .bar-val { text-align: right; font-variant-numeric: tabular-nums; font-size: 0.9rem; }
-    footer { color: var(--tekst-slaby); font-size: 0.85rem; margin-top: 40px; }
-    a { color: var(--akcent); }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Najlepsi piłkarze</title>
+<style>
+  :root {
+    --bg: #0e1116;
+    --bg2: #151a22;
+    --card: #1b212b;
+    --line: #2a323f;
+    --txt: #e8edf4;
+    --muted: #8b97a8;
+    --accent: #35c46b;      /* murawa */
+    --accent2: #f0b429;     /* zloto */
+    --gold: #f7c948;
+    --silver: #c7ced8;
+    --bronze: #d9843b;
+    --def: #4aa3df; --mid: #35c46b; --fwd: #e5534b; --gk: #b98bd6;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: radial-gradient(1200px 600px at 50% -200px, #1a2230 0%, var(--bg) 60%);
+    color: var(--txt);
+    font: 16px/1.5 "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1060px; margin: 0 auto; padding: 28px 18px 80px; }
+
+  header.top { text-align: center; padding: 20px 0 8px; }
+  header.top .kicker { color: var(--accent); font-weight: 700; letter-spacing: .18em; text-transform: uppercase; font-size: 12px; }
+  header.top h1 { font-size: clamp(30px, 6vw, 52px); margin: 6px 0 4px; letter-spacing: -.02em; }
+  header.top p.lead { color: var(--muted); max-width: 620px; margin: 8px auto 0; }
+  header.top .meta { color: var(--muted); font-size: 13px; margin-top: 10px; }
+  header.top a { color: var(--accent); text-decoration: none; }
+  header.top a:hover { text-decoration: underline; }
+
+  /* Podium */
+  .podium { display: grid; grid-template-columns: 1fr 1.15fr 1fr; gap: 12px; align-items: end; margin: 30px 0 8px; }
+  .pod { background: linear-gradient(180deg, var(--card), #10151d); border: 1px solid var(--line); border-radius: 14px; padding: 18px 14px; text-align: center; position: relative; }
+  .pod .rankbadge { position: absolute; top: -14px; left: 50%; transform: translateX(-50%); width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; color: #10151d; }
+  .pod.p1 { transform: translateY(-14px); border-color: var(--gold); box-shadow: 0 0 0 1px rgba(247,201,72,.25), 0 18px 50px -20px rgba(247,201,72,.4); }
+  .pod.p1 .rankbadge { background: var(--gold); }
+  .pod.p2 .rankbadge { background: var(--silver); }
+  .pod.p3 .rankbadge { background: var(--bronze); }
+  .pod .pname { font-weight: 700; margin: 6px 0 2px; font-size: 17px; }
+  .pod .pscore { font-size: 28px; font-weight: 800; color: var(--accent2); }
+  .pod .psub { color: var(--muted); font-size: 12.5px; }
+
+  /* Controls */
+  .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 26px 0 14px; }
+  .controls input[type=search] {
+    flex: 1 1 220px; min-width: 160px; background: var(--bg2); border: 1px solid var(--line);
+    color: var(--txt); border-radius: 10px; padding: 10px 12px; font-size: 15px;
+  }
+  .segs { display: flex; gap: 4px; background: var(--bg2); border: 1px solid var(--line); border-radius: 10px; padding: 4px; }
+  .segs button { background: transparent; border: 0; color: var(--muted); padding: 7px 11px; border-radius: 7px; cursor: pointer; font-size: 13.5px; font-weight: 600; }
+  .segs button.active { background: var(--accent); color: #0c1017; }
+
+  /* Table */
+  .tablecard { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  .tscroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; min-width: 560px; }
+  thead th { text-align: left; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); padding: 13px 14px; border-bottom: 1px solid var(--line); cursor: pointer; white-space: nowrap; user-select: none; }
+  thead th.num { text-align: right; }
+  thead th .arr { opacity: .7; font-size: 10px; }
+  tbody tr.row { border-bottom: 1px solid #222a35; cursor: pointer; transition: background .12s; }
+  tbody tr.row:hover { background: #202836; }
+  tbody td { padding: 12px 14px; vertical-align: middle; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .rank { color: var(--muted); font-weight: 700; width: 34px; }
+  .rank.top { color: var(--accent2); }
+  .name { font-weight: 650; }
+  .total { font-weight: 800; color: var(--accent2); font-size: 16px; }
+  .pos { display: inline-block; min-width: 40px; text-align: center; font-size: 11px; font-weight: 800; letter-spacing: .05em; padding: 3px 7px; border-radius: 6px; color: #0c1017; }
+  .pos.DEF { background: var(--def); } .pos.MID { background: var(--mid); } .pos.FWD { background: var(--fwd); } .pos.GK { background: var(--gk); }
+  .chev { color: var(--muted); transition: transform .15s; display: inline-block; }
+  tr.row.open .chev { transform: rotate(90deg); }
+
+  /* Breakdown */
+  tr.detail td { padding: 0; background: #10151d; }
+  .bd { padding: 6px 16px 18px; }
+  .bd h4 { margin: 12px 0 8px; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+  .bd .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 6px 18px; }
+  .bd .li { display: flex; justify-content: space-between; gap: 10px; padding: 5px 0; border-bottom: 1px dashed #222a35; font-size: 14px; }
+  .bd .li .v { font-variant-numeric: tabular-nums; font-weight: 700; }
+  .bd .li.zero { opacity: .4; }
+  .bd .src { margin-top: 12px; font-size: 13px; }
+  .bd .src a { color: var(--accent); }
+
+  .wip { margin-top: 30px; }
+  .wip h3 { font-size: 15px; }
+  .wip .note { color: var(--muted); font-size: 13.5px; margin: 2px 0 12px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { background: var(--bg2); border: 1px solid var(--line); border-radius: 20px; padding: 6px 12px; font-size: 13px; color: var(--muted); }
+
+  footer { color: var(--muted); font-size: 13px; text-align: center; margin-top: 40px; line-height: 1.7; }
+  footer a { color: var(--accent); text-decoration: none; }
+  .loading { text-align: center; color: var(--muted); padding: 40px; }
+</style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <h1>Raport - szablon startowy</h1>
-      <p class="lead">Ten plik to placeholder. Podmień treść na swoje dane i zrób <code>git push</code> - GitHub Pages opublikuje resztę.</p>
-    </header>
+<div class="wrap">
+  <header class="top">
+    <div class="kicker">Ranking wszech czasów</div>
+    <h1>Najlepsi piłkarze</h1>
+    <p class="lead">Autorski system punktowy: trofea klubowe i reprezentacyjne, występy oraz gole ważone pozycją na boisku. Projekt hobbystyczny z lat 2008-2010, odświeżony.</p>
+    <p class="meta" id="meta"></p>
+  </header>
 
-    <section class="karta">
-      <h2>Tabela danych</h2>
-      <table>
-        <thead>
-          <tr><th>Pozycja</th><th>Kategoria</th><th class="num">Wynik</th></tr>
-        </thead>
-        <tbody id="tabela"></tbody>
-      </table>
-    </section>
+  <div id="podium" class="podium"></div>
 
-    <section class="karta">
-      <h2>Wykres (czysty CSS, bez zewnętrznych bibliotek)</h2>
-      <div id="wykres"></div>
-    </section>
-
-    <footer>
-      Szablon startowy GitHub Pages. Wygenerowany statycznie, w pełni samodzielny (bez CDN).
-    </footer>
+  <div class="controls">
+    <input type="search" id="q" placeholder="Szukaj piłkarza...">
+    <div class="segs" id="posfilter">
+      <button data-pos="ALL" class="active">Wszyscy</button>
+      <button data-pos="GK">GK</button>
+      <button data-pos="DEF">OBR</button>
+      <button data-pos="MID">POM</button>
+      <button data-pos="FWD">NAP</button>
+    </div>
   </div>
 
-  <script>
-    // Dane przykładowe - podmień na swoje. Wszystko w jednym pliku, bez zależności.
-    const dane = [
-      { nazwa: "Alfa",   kat: "A", wynik: 92 },
-      { nazwa: "Beta",   kat: "B", wynik: 78 },
-      { nazwa: "Gamma",  kat: "A", wynik: 65 },
-      { nazwa: "Delta",  kat: "C", wynik: 54 },
-      { nazwa: "Epsilon",kat: "B", wynik: 41 },
-    ];
+  <div class="tablecard">
+    <div class="tscroll">
+      <table id="tbl">
+        <thead>
+          <tr>
+            <th class="num" data-sort="rank">#</th>
+            <th data-sort="name">Piłkarz</th>
+            <th data-sort="position">Poz.</th>
+            <th class="num" data-sort="appearances">Występy</th>
+            <th class="num" data-sort="goals">Gole</th>
+            <th class="num" data-sort="total">Punkty <span class="arr">▼</span></th>
+          </tr>
+        </thead>
+        <tbody id="tbody"><tr><td colspan="6" class="loading">Wczytywanie danych...</td></tr></tbody>
+      </table>
+    </div>
+  </div>
 
-    const max = Math.max(...dane.map(d => d.wynik));
+  <section class="wip" id="wip" style="display:none">
+    <h3>W trakcie uzupełniania danych <span id="wipcount"></span></h3>
+    <p class="note">Ci piłkarze czekają na pełny dorobek (aktywni po 2010 albo nowo dodani). Po uzupełnieniu wskoczą do rankingu.</p>
+    <div class="chips" id="wipchips"></div>
+  </section>
 
-    document.getElementById("tabela").innerHTML = dane
-      .map(d => `<tr><td>${d.nazwa}</td><td>${d.kat}</td><td class="num">${d.wynik}</td></tr>`)
-      .join("");
+  <footer>
+    <p><strong>Punktacja:</strong> występy 1 pkt/35 meczów · gole: napastnik 1/17, pomocnik 1/8, obrońca 1/3 · MŚ 10/8/6 · ME 9/7/5 · mistrzostwo 5 · puchar 3 · Liga Mistrzów 7/5 · Złota Piłka i Piłkarz Roku 5/3/1.</p>
+    <p>Dane: angielska Wikipedia.</p>
+  </footer>
+</div>
 
-    document.getElementById("wykres").innerHTML = dane
-      .map(d => `
-        <div class="bar-row">
-          <span class="bar-label">${d.nazwa}</span>
-          <span class="bar-track"><span class="bar-fill" style="width:${(d.wynik / max * 100).toFixed(1)}%"></span></span>
-          <span class="bar-val">${d.wynik}</span>
-        </div>`)
-      .join("");
-  </script>
+<script src="scoring.js"></script>
+<script>
+(function () {
+  "use strict";
+  var POS_LABEL = { GK: "GK", DEF: "OBR", MID: "POM", FWD: "NAP" };
+  var state = { players: [], sortKey: "total", sortDir: -1, pos: "ALL", q: "" };
+
+  function fmt(n) { return (Math.round(n * 10) / 10).toLocaleString("pl-PL"); }
+
+  fetch("data/players.json")
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      state.players = (data.players || []).map(function (p) {
+        var s = Scoring.scorePlayer(p);
+        return {
+          name: p.name, position: p.position, appearances: p.appearances || 0,
+          goals: p.goals || 0, total: s.total, score: s,
+          complete: p.dataComplete !== false, source: p.source || ""
+        };
+      });
+      render();
+    })
+    .catch(function (e) {
+      document.getElementById("tbody").innerHTML =
+        '<tr><td colspan="6" class="loading">Błąd wczytywania danych: ' + esc(String(e)) + '</td></tr>';
+    });
+
+  function ranked() {
+    return state.players.filter(function (p) { return p.complete; })
+      .slice().sort(function (a, b) { return b.total - a.total; });
+  }
+
+  function render() {
+    var full = ranked();
+    var rankOf = {};
+    full.forEach(function (p, i) { rankOf[p.name] = i + 1; });
+
+    renderMeta(full);
+    renderPodium(full);
+    renderWip();
+
+    var view = full.filter(function (p) {
+      if (state.pos !== "ALL" && p.position !== state.pos) return false;
+      if (state.q && p.name.toLowerCase().indexOf(state.q.toLowerCase()) < 0) return false;
+      return true;
+    });
+    view.sort(function (a, b) {
+      var k = state.sortKey, dir = state.sortDir, av, bv;
+      if (k === "rank") { av = rankOf[a.name]; bv = rankOf[b.name]; return (av - bv) * dir; }
+      if (k === "name") { return a.name.localeCompare(b.name) * dir; }
+      if (k === "position") { return a.position.localeCompare(b.position) * dir || b.total - a.total; }
+      av = a[k]; bv = b[k];
+      return (av - bv) * dir;
+    });
+
+    var tb = document.getElementById("tbody");
+    tb.innerHTML = "";
+    view.forEach(function (p) {
+      var rk = rankOf[p.name];
+      var tr = document.createElement("tr");
+      tr.className = "row";
+      tr.innerHTML =
+        '<td class="num rank ' + (rk <= 3 ? "top" : "") + '">' + rk + '</td>' +
+        '<td class="name"><span class="chev">▶</span> ' + esc(p.name) + '</td>' +
+        '<td><span class="pos ' + p.position + '">' + POS_LABEL[p.position] + '</span></td>' +
+        '<td class="num">' + p.appearances + '</td>' +
+        '<td class="num">' + p.goals + '</td>' +
+        '<td class="num total">' + fmt(p.total) + '</td>';
+      var det = document.createElement("tr");
+      det.className = "detail";
+      det.style.display = "none";
+      det.innerHTML = '<td colspan="6">' + breakdownHtml(p) + '</td>';
+      tr.addEventListener("click", function () {
+        var open = det.style.display !== "none";
+        det.style.display = open ? "none" : "";
+        tr.classList.toggle("open", !open);
+      });
+      tb.appendChild(tr);
+      tb.appendChild(det);
+    });
+    if (!view.length) tb.innerHTML = '<tr><td colspan="6" class="loading">Brak wyników.</td></tr>';
+  }
+
+  function breakdownHtml(p) {
+    var s = p.score, rows = "";
+    rows += liRow("Występy (" + p.appearances + ")", s.appPts);
+    rows += liRow("Gole (" + p.goals + ", " + POS_LABEL[p.position] + ")", s.goalPts);
+    s.categories.forEach(function (c) { rows += liRow(c.label, c.points); });
+    var src = p.source ? '<div class="src">Źródło: <a href="' + esc(p.source) + '" target="_blank" rel="noopener">Wikipedia</a></div>' : "";
+    return '<div class="bd"><h4>Rozbicie punktów — razem ' + fmt(s.total) + '</h4>' +
+           '<div class="grid">' + rows + '</div>' + src + '</div>';
+  }
+  function liRow(label, pts) {
+    return '<div class="li' + (pts ? "" : " zero") + '"><span>' + esc(label) + '</span><span class="v">' + fmt(pts) + '</span></div>';
+  }
+
+  function renderMeta(full) {
+    document.getElementById("meta").innerHTML =
+      full.length + " sklasyfikowanych · <a href=\"#wip\">reszta w uzupełnianiu</a> · metodologia w stopce";
+  }
+
+  function renderPodium(full) {
+    var el = document.getElementById("podium");
+    if (full.length < 3) { el.style.display = "none"; return; }
+    var order = [1, 0, 2];
+    el.innerHTML = order.map(function (idx) {
+      var p = full[idx], place = idx + 1;
+      return '<div class="pod p' + place + '"><div class="rankbadge">' + place + '</div>' +
+        '<div class="pscore">' + fmt(p.total) + '</div>' +
+        '<div class="pname">' + esc(p.name) + '</div>' +
+        '<div class="psub"><span class="pos ' + p.position + '">' + POS_LABEL[p.position] + '</span> · ' +
+        p.appearances + ' meczów</div></div>';
+    }).join("");
+  }
+
+  function renderWip() {
+    var wip = state.players.filter(function (p) { return !p.complete; });
+    var sec = document.getElementById("wip");
+    if (!wip.length) { sec.style.display = "none"; return; }
+    sec.style.display = "";
+    document.getElementById("wipcount").textContent = "(" + wip.length + ")";
+    document.getElementById("wipchips").innerHTML = wip
+      .slice().sort(function (a, b) { return a.name.localeCompare(b.name); })
+      .map(function (p) { return '<span class="chip">' + esc(p.name) + '</span>'; }).join("");
+  }
+
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+
+  document.getElementById("q").addEventListener("input", function (e) { state.q = e.target.value; render(); });
+  document.getElementById("posfilter").addEventListener("click", function (e) {
+    var b = e.target.closest("button"); if (!b) return;
+    state.pos = b.dataset.pos;
+    [].forEach.call(this.querySelectorAll("button"), function (x) { x.classList.toggle("active", x === b); });
+    render();
+  });
+  document.querySelectorAll("thead th").forEach(function (th) {
+    th.addEventListener("click", function () {
+      var k = th.dataset.sort;
+      if (state.sortKey === k) state.sortDir *= -1;
+      else { state.sortKey = k; state.sortDir = (k === "name" || k === "position") ? 1 : -1; }
+      document.querySelectorAll("thead th .arr").forEach(function (a) { a.remove(); });
+      var arr = document.createElement("span"); arr.className = "arr";
+      arr.textContent = state.sortDir < 0 ? " ▼" : " ▲"; th.appendChild(arr);
+      render();
+    });
+  });
+})();
+</script>
 </body>
 </html>
