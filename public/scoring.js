@@ -16,13 +16,15 @@
     appearancesPer: 35,               // 1 pkt za 35 wystepow
     goalDivisor: { GK: 17, DEF: 3, MID: 8, FWD: 17 }, // 1 pkt za N goli wg pozycji
     wc: { win: 10, final: 8, semi: 6 },   // MS
-    euro: { win: 9, final: 7, semi: 5 },  // ME (lub Copa America - polfinal jako semi)
-    league: 5,          // mistrzostwo kraju (za kazde)
+    euro: { win: 9, final: 7, semi: 5 },  // ME
+    copa: { win: 4.5, final: 3.5, semi: 2.5 }, // Copa America = polowa wag ME
+    league: 5,          // mistrzostwo kraju (za kazde; TYLKO top ligi: Anglia/Hiszpania/Wlochy/Niemcy/Francja/Portugalia/Holandia)
     natCup: 3,          // puchar kraju
     leagueCup: 1,       // puchar ligi krajowej
     natSupercup: 1,     // superpuchar kraju
     ucl: { win: 7, final: 5 },   // Liga Mistrzow
-    uefa: { win: 5, final: 3 },  // UEFA / Puchar Zdobywcow Pucharow (+ Liga Konferencji)
+    uefa: { win: 5, final: 3 },  // Puchar UEFA/Liga Europy + Puchar Zdobywcow Pucharow
+    conference: { win: 2.5, final: 1.5 }, // Liga Konferencji = polowa Pucharu UEFA
     euroSupercup: 2,    // Superpuchar Europy
     intercontinental: 2,// Puchar Interkontynentalny (+ Klubowe MS)
     ballon: { first: 5, second: 3, third: 1 }, // Zlota Pilka France Football
@@ -32,13 +34,15 @@
   // Kolejnosc i etykiety kategorii w rozbiciu (poza wystepami i golami).
   var CATEGORIES = [
     { key: "wc",              label: "Mistrzostwa Swiata" },
-    { key: "euro",            label: "Mistrzostwa Europy / Copa America" },
+    { key: "euro",            label: "Mistrzostwa Europy" },
+    { key: "copa",            label: "Copa America" },
     { key: "league",          label: "Mistrzostwo kraju" },
     { key: "natCup",          label: "Puchar kraju" },
     { key: "leagueCup",       label: "Puchar ligi" },
     { key: "natSupercup",     label: "Superpuchar kraju" },
     { key: "ucl",             label: "Liga Mistrzow" },
-    { key: "uefa",            label: "Puchar UEFA / Konferencji" },
+    { key: "uefa",            label: "Puchar UEFA / ZP" },
+    { key: "conference",      label: "Liga Konferencji" },
     { key: "euroSupercup",    label: "Superpuchar Europy" },
     { key: "intercontinental",label: "Puchar Interkontynentalny / Klubowe MS" },
     { key: "ballon",          label: "Zlota Pilka" },
