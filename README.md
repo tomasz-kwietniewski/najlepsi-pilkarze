@@ -15,6 +15,7 @@ Czysta statyka - żadnego PHP ani bazy. Publikowany jest tylko katalog `public/`
 - `public/index.html` - samodzielny, interaktywny raport (ranking, sortowanie, filtry, rozbicie punktów).
 
 Folder `docs/` to lokalny katalog roboczy (dane źródłowe, notatki) - poza repo i poza publikacją.
+Specyfikacja i decyzje projektowe: `spec/` (śledzone w repo, ale nie publikowane na stronie).
 
 > Uwaga: obecny `public/index.html` to jeszcze przykładowa strona ze startera (placeholder),
 > póki budujemy właściwy ranking. Każdy push do `main` publikuje aktualną wersję.
