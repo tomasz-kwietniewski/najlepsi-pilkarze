@@ -51,26 +51,48 @@
     {
       "name": "Ryan Giggs",
       "position": "MID",
-      "appearances": 886,
-      "goals": 163,
-      "style": "legacy",
-      "pts": {
-        "wc": 0,
-        "euro": 0,
-        "league": 55,
-        "natCup": 12,
+      "appearances": 736,
+      "goals": 126,
+      "style": "counts",
+      "dataComplete": true,
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 13,
+        "natCup": 4,
         "leagueCup": 3,
-        "natSupercup": 7,
-        "ucl": 19,
-        "uefa": 5,
-        "euroSupercup": 2,
-        "intercontinental": 4,
-        "ballon": 0,
-        "fifa": 0
+        "natSupercup": 9,
+        "ucl": {
+          "win": 2,
+          "final": 0
+        },
+        "uefa": {
+          "win": 1,
+          "final": 0
+        },
+        "euroSupercup": 1,
+        "intercontinental": 2,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
       },
-      "dataComplete": false,
-      "source": "",
-      "notes": ""
+      "notes": "13x PL, 4x FA Cup, 2x LM (1999, 2008), CWC 1991, Interkont. 1999 + Klubowe MŚ 2008.",
+      "source": "https://en.wikipedia.org/wiki/Ryan_Giggs"
     },
     {
       "name": "Roberto Carlos",
@@ -313,30 +335,6 @@
       "notes": ""
     },
     {
-      "name": "Raul",
-      "position": "FWD",
-      "appearances": 826,
-      "goals": 365,
-      "style": "legacy",
-      "pts": {
-        "wc": 0,
-        "euro": 0,
-        "league": 30,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 4,
-        "ucl": 21,
-        "uefa": 0,
-        "euroSupercup": 2,
-        "intercontinental": 4,
-        "ballon": 3,
-        "fifa": 1
-      },
-      "dataComplete": false,
-      "source": "",
-      "notes": ""
-    },
-    {
       "name": "Edwin van der Sar",
       "position": "GK",
       "appearances": 686,
@@ -530,27 +528,49 @@
     },
     {
       "name": "Ronaldinho",
-      "position": "MID",
-      "appearances": 427,
-      "goals": 168,
-      "style": "legacy",
-      "pts": {
-        "wc": 10,
-        "euro": 9,
-        "league": 10,
+      "position": "FWD",
+      "appearances": 508,
+      "goals": 238,
+      "style": "counts",
+      "dataComplete": true,
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 3,
         "natCup": 0,
         "leagueCup": 0,
         "natSupercup": 2,
-        "ucl": 7,
-        "uefa": 0,
+        "ucl": {
+          "win": 1,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
         "euroSupercup": 0,
         "intercontinental": 0,
-        "ballon": 6,
-        "fifa": 11
+        "ballon": {
+          "first": 1,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 2,
+          "second": 0,
+          "third": 0
+        }
       },
-      "dataComplete": false,
-      "source": "",
-      "notes": ""
+      "notes": "Gole skorygowane do 238 (205 klub + 33 reprezentacja). Copa Libertadores/Confed Cup bez slotu.",
+      "source": "https://en.wikipedia.org/wiki/Ronaldinho"
     },
     {
       "name": "Cafu",
@@ -579,26 +599,48 @@
     {
       "name": "Cristiano Ronaldo",
       "position": "FWD",
-      "appearances": 949,
-      "goals": 679,
-      "style": "legacy",
-      "pts": {
-        "wc": 0,
-        "euro": 0,
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "ucl": 0,
-        "uefa": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "ballon": 11,
-        "fifa": 9
+      "appearances": 1300,
+      "goals": 970,
+      "style": "counts",
+      "dataComplete": true,
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 1
+        },
+        "euro": {
+          "win": 1,
+          "final": 1,
+          "semi": 1
+        },
+        "league": 7,
+        "natCup": 3,
+        "leagueCup": 2,
+        "natSupercup": 5,
+        "ucl": {
+          "win": 5,
+          "final": 1
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 2,
+        "intercontinental": 4,
+        "ballon": {
+          "first": 5,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 3,
+          "second": 0,
+          "third": 0
+        }
       },
-      "dataComplete": false,
-      "source": "",
-      "notes": ""
+      "notes": "5x Złota Piłka, 5x LM (+ finał 2009), ME 2016. Mistrzostwa skorygowane do 7 (3 PL + 2 La Liga + 2 Serie A; ligi saudyjskiej NIE zdobył). Puchar ligi 2 (2006, 2009). Występy/gole przybliżone (Wikipedia: ponad 1300/970).",
+      "source": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
     },
     {
       "name": "Lilian Thuram",
@@ -627,26 +669,48 @@
     {
       "name": "Lionel Messi",
       "position": "FWD",
-      "appearances": 851,
-      "goals": 674,
-      "style": "legacy",
-      "pts": {
-        "wc": 0,
-        "euro": 0,
-        "league": 0,
-        "natCup": 0,
+      "appearances": 859,
+      "goals": 681,
+      "style": "counts",
+      "dataComplete": true,
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 1,
+          "semi": 0
+        },
+        "euro": {
+          "win": 2,
+          "final": 3,
+          "semi": 1
+        },
+        "league": 12,
+        "natCup": 7,
         "leagueCup": 0,
-        "natSupercup": 0,
-        "ucl": 0,
-        "uefa": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "ballon": 9,
-        "fifa": 11
+        "natSupercup": 9,
+        "ucl": {
+          "win": 4,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 3,
+        "intercontinental": 3,
+        "ballon": {
+          "first": 8,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 4,
+          "second": 1,
+          "third": 0
+        }
       },
-      "dataComplete": false,
-      "source": "",
-      "notes": ""
+      "notes": "8x Złota Piłka, MŚ 2022; euro=Copa America (2x mistrz, 3x finał, 1x półfinał) liczona skalą ME. 12 mistrzostw (10 La Liga + 2 Ligue 1), 4x LM.",
+      "source": "https://en.wikipedia.org/wiki/Lionel_Messi"
     },
     {
       "name": "Filippo Inzaghi",
@@ -1107,26 +1171,48 @@
     {
       "name": "Kaká",
       "position": "MID",
-      "appearances": 0,
-      "goals": 0,
-      "style": "legacy",
-      "pts": {
-        "wc": 0,
-        "euro": 0,
-        "league": 0,
-        "natCup": 0,
+      "appearances": 553,
+      "goals": 178,
+      "style": "counts",
+      "dataComplete": true,
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 2,
+        "natCup": 1,
         "leagueCup": 0,
         "natSupercup": 0,
-        "ucl": 0,
-        "uefa": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "ballon": 5,
-        "fifa": 5
+        "ucl": {
+          "win": 1,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 2,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 1,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 1,
+          "second": 0,
+          "third": 0
+        }
       },
-      "dataComplete": false,
-      "source": "",
-      "notes": ""
+      "notes": "Serie A 2004 + La Liga 2012; UCL 2007; Klubowe MŚ 2007; Ballon d'Or 2007 + FIFA WPY 2007.",
+      "source": "https://en.wikipedia.org/wiki/Kak%C3%A1"
     },
     {
       "name": "Fernando Torres",
@@ -1155,26 +1241,48 @@
     {
       "name": "Xavi",
       "position": "MID",
-      "appearances": 0,
-      "goals": 0,
-      "style": "legacy",
-      "pts": {
-        "wc": 0,
-        "euro": 0,
-        "league": 0,
-        "natCup": 0,
+      "appearances": 720,
+      "goals": 91,
+      "style": "counts",
+      "dataComplete": true,
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 2,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 9,
+        "natCup": 5,
         "leagueCup": 0,
-        "natSupercup": 0,
-        "ucl": 0,
-        "uefa": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "ballon": 1,
-        "fifa": 1
+        "natSupercup": 7,
+        "ucl": {
+          "win": 4,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 2,
+        "intercontinental": 2,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 3
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 1
+        }
       },
-      "dataComplete": false,
-      "source": "",
-      "notes": ""
+      "notes": "MŚ 2010, ME 2008+2012, 4x LM, 8 La Liga + 1 liga Kataru. Trofea Al Sadd tylko z okresu gry (bez trenerskich).",
+      "source": "https://en.wikipedia.org/wiki/Xavi_(footballer,_born_1980)"
     },
     {
       "name": "Steven Gerrard",
@@ -1347,26 +1455,48 @@
     {
       "name": "Andrés Iniesta",
       "position": "MID",
-      "appearances": 0,
-      "goals": 0,
-      "style": "legacy",
-      "pts": {
-        "wc": 0,
-        "euro": 0,
-        "league": 0,
-        "natCup": 0,
+      "appearances": 756,
+      "goals": 79,
+      "style": "counts",
+      "dataComplete": true,
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 2,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 9,
+        "natCup": 7,
         "leagueCup": 0,
-        "natSupercup": 0,
-        "ucl": 0,
-        "uefa": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "ballon": 0,
-        "fifa": 0
+        "natSupercup": 4,
+        "ucl": {
+          "win": 4,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 3,
+        "intercontinental": 3,
+        "ballon": {
+          "first": 0,
+          "second": 1,
+          "third": 1
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
       },
-      "dataComplete": false,
-      "source": "",
-      "notes": ""
+      "notes": "MŚ 2010 (gol w finale), ME 2008+2012, 4x LM, 9 La Liga. Złota Piłka 2. 2010, 3. 2012.",
+      "source": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta"
     },
     {
       "name": "Rio Ferdinand",
@@ -1703,6 +1833,236 @@
       "dataComplete": false,
       "source": "",
       "notes": ""
+    },
+    {
+      "name": "Raúl",
+      "position": "FWD",
+      "appearances": 976,
+      "goals": 414,
+      "style": "counts",
+      "dataComplete": true,
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 6,
+        "natCup": 1,
+        "leagueCup": 0,
+        "natSupercup": 5,
+        "ucl": {
+          "win": 3,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 1,
+        "intercontinental": 2,
+        "ballon": {
+          "first": 0,
+          "second": 1,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 1
+        }
+      },
+      "notes": "Występy/gole ujednolicone do wszystkich meczów oficjalnych (~976/414). 6x La Liga, 3x LM; DFB-Pokal (Schalke) jako puchar kraju; Ballon d'Or 2. 2001, FIFA WPY 3. 2001.",
+      "source": "https://en.wikipedia.org/wiki/Ra%C3%BAl_Gonz%C3%A1lez"
+    },
+    {
+      "name": "Luka Modrić",
+      "position": "MID",
+      "appearances": 894,
+      "goals": 112,
+      "style": "counts",
+      "dataComplete": true,
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 1,
+          "semi": 1
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 6,
+        "natCup": 3,
+        "leagueCup": 1,
+        "natSupercup": 5,
+        "ucl": {
+          "win": 6,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 5,
+        "intercontinental": 6,
+        "ballon": {
+          "first": 1,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 1,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "notes": "6x LM, Złota Piłka i The Best 2018, MŚ finał 2018 + półfinał 2022.",
+      "source": "https://en.wikipedia.org/wiki/Luka_Modri%C4%87"
+    },
+    {
+      "name": "Karim Benzema",
+      "position": "FWD",
+      "appearances": 742,
+      "goals": 380,
+      "style": "counts",
+      "dataComplete": true,
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 1,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 9,
+        "natCup": 4,
+        "leagueCup": 0,
+        "natSupercup": 5,
+        "ucl": {
+          "win": 5,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 4,
+        "intercontinental": 5,
+        "ballon": {
+          "first": 1,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "notes": "5x LM, Złota Piłka 2022, 9 mistrzostw (4 Ligue1 + 4 La Liga + 1 Saudi), MŚ finał 2022.",
+      "source": "https://en.wikipedia.org/wiki/Karim_Benzema"
+    },
+    {
+      "name": "Sergio Ramos",
+      "position": "DEF",
+      "appearances": 814,
+      "goals": 112,
+      "style": "counts",
+      "dataComplete": true,
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 2,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 7,
+        "natCup": 2,
+        "leagueCup": 0,
+        "natSupercup": 5,
+        "ucl": {
+          "win": 4,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 3,
+        "intercontinental": 3,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "notes": "Obrońca, 112 goli; MŚ 2010, ME 2008 i 2012, 4x LM, 7 mistrzostw.",
+      "source": "https://en.wikipedia.org/wiki/Sergio_Ramos"
+    },
+    {
+      "name": "Toni Kroos",
+      "position": "MID",
+      "appearances": 606,
+      "goals": 66,
+      "style": "counts",
+      "dataComplete": true,
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 1
+        },
+        "league": 7,
+        "natCup": 4,
+        "leagueCup": 0,
+        "natSupercup": 5,
+        "ucl": {
+          "win": 6,
+          "final": 1
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 4,
+        "intercontinental": 6,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "notes": "MŚ 2014, 6x LM (+ przegrany finał 2012), 7 mistrzostw (3 Bundesliga + 4 La Liga).",
+      "source": "https://en.wikipedia.org/wiki/Toni_Kroos"
     }
   ]
 }
