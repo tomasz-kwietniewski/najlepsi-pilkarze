@@ -87,6 +87,18 @@
   .bd .li { display: flex; justify-content: space-between; gap: 10px; padding: 5px 0; border-bottom: 1px dashed #222a35; font-size: 14px; }
   .bd .li .v { font-variant-numeric: tabular-nums; font-weight: 700; }
   .bd .li.zero { opacity: .4; }
+  .bd .deriv { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+
+  details.method { margin-top: 34px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  details.method > summary { cursor: pointer; padding: 16px 18px; font-weight: 700; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+  details.method > summary::-webkit-details-marker { display: none; }
+  details.method > summary::after { content: "▶"; color: var(--accent); font-size: 12px; transition: transform .15s; }
+  details.method[open] > summary::after { transform: rotate(90deg); }
+  .method .body { padding: 4px 20px 22px; color: #cdd6e2; font-size: 14.5px; line-height: 1.65; }
+  .method .body h4 { color: var(--txt); margin: 18px 0 6px; font-size: 14px; }
+  .method .body ul { margin: 6px 0; padding-left: 20px; }
+  .method .body li { margin: 3px 0; }
+  .method .body b { color: var(--accent2); }
   .bd .src { margin-top: 12px; font-size: 13px; }
   .bd .src a { color: var(--accent); }
 
@@ -147,6 +159,44 @@
     <div class="chips" id="wipchips"></div>
   </section>
 
+  <details class="method">
+    <summary>Metodologia i historia projektu</summary>
+    <div class="body">
+      <p>To projekt hobbystyczny, który zacząłem z przyjacielem <b>Emilem</b> jeszcze na studiach, w latach 2008-2010. Chcieliśmy przeliczyć osiągnięcia piłkarzy, których dobrze wspominamy z lat 90. i 2000., na jeden system punktowy - żeby dało się ich uczciwie porównać i docenić najlepszych. Wtedy robiliśmy to ręcznie w arkuszu, na danych z angielskiej Wikipedii. Ta wersja to odświeżenie tamtego pomysłu: pełne kariery do dziś i współcześni piłkarze.</p>
+
+      <h4>Występy i gole</h4>
+      <ul>
+        <li>Występy: <b>1 pkt za 35 meczów</b>.</li>
+        <li>Gole zależnie od pozycji: napastnik 1 pkt/<b>17</b>, pomocnik 1/<b>8</b>, obrońca 1/<b>3</b> (gol obrońcy jest rzadszy, więc cenniejszy).</li>
+      </ul>
+
+      <h4>Trofea reprezentacyjne</h4>
+      <ul>
+        <li>Mistrzostwa Świata: 1. miejsce <b>10</b>, finał <b>8</b>, półfinał <b>6</b>.</li>
+        <li>Mistrzostwa Europy: <b>9 / 7 / 5</b>. Copa America: połowa tego - <b>4,5 / 3,5 / 2,5</b>.</li>
+      </ul>
+
+      <h4>Trofea klubowe</h4>
+      <ul>
+        <li>Mistrzostwo kraju <b>5</b>, puchar kraju <b>3</b>, puchar ligi <b>1</b>, superpuchar <b>1</b>.</li>
+        <li>Liga Mistrzów: zwycięstwo <b>7</b>, przegrany finał <b>5</b>.</li>
+        <li>Puchar UEFA / Liga Europy / Puchar Zdobywców Pucharów: <b>5 / 3</b>. Liga Konferencji: połowa - <b>2,5 / 1,5</b>.</li>
+        <li>Superpuchar Europy <b>2</b>, Puchar Interkontynentalny / Klubowe MŚ <b>2</b>.</li>
+      </ul>
+
+      <h4>Nagrody indywidualne</h4>
+      <ul>
+        <li>Złota Piłka i Piłkarz Roku FIFA / The Best: za 1./2./3. miejsce <b>5 / 3 / 1</b>.</li>
+      </ul>
+
+      <h4>Zasady szczegółowe</h4>
+      <ul>
+        <li>Liczą się tylko <b>czołowe ligi europejskie</b> (Anglia, Hiszpania, Włochy, Niemcy, Francja, Portugalia, Holandia). Występy, gole i tytuły ze słabszych rozgrywek (saudyjska, MLS, brazylijska, katarska, japońska itd.) nie liczą się wcale.</li>
+        <li>Dane z angielskiej Wikipedii. Kliknij wiersz piłkarza, aby zobaczyć, skąd wzięła się każda liczba punktów.</li>
+      </ul>
+    </div>
+  </details>
+
   <footer>
     <p><strong>Punktacja:</strong> występy 1 pkt/35 meczów · gole: napastnik 1/17, pomocnik 1/8, obrońca 1/3 · MŚ 10/8/6 · ME 9/7/5 · mistrzostwo 5 · puchar 3 · Liga Mistrzów 7/5 · Złota Piłka i Piłkarz Roku 5/3/1.</p>
     <p>Dane: angielska Wikipedia. Liczby występów i goli dla nowo dodanych piłkarzy są jeszcze weryfikowane (docelowo tylko z czołowych lig europejskich) - punktacja za trofea jest ostateczna.</p>
@@ -169,7 +219,7 @@
         var s = Scoring.scorePlayer(p);
         return {
           name: p.name, position: p.position, appearances: p.appearances || 0,
-          goals: p.goals || 0, total: s.total, score: s,
+          goals: p.goals || 0, total: s.total, score: s, raw: p,
           complete: p.dataComplete !== false, source: p.source || ""
         };
       });
@@ -236,17 +286,35 @@
     if (!view.length) tb.innerHTML = '<tr><td colspan="6" class="loading">Brak wyników.</td></tr>';
   }
 
+  var PLACE_LABEL = { win: "1.", final: "fin.", semi: "1/2", first: "1.", second: "2.", third: "3." };
+  function derivation(key, val) {
+    // buduje napis typu "2×7 + 1×5" z liczb zdobyc i wag
+    var w = Scoring.WEIGHTS[key];
+    if (val == null) return "";
+    if (typeof w === "number") {
+      return val ? (val + "×" + w) : "";
+    }
+    var parts = [];
+    for (var pl in w) {
+      if (w.hasOwnProperty(pl) && val[pl]) parts.push(val[pl] + "×" + w[pl]);
+    }
+    return parts.join(" + ");
+  }
   function breakdownHtml(p) {
-    var s = p.score, rows = "";
-    rows += liRow("Występy (" + p.appearances + ")", s.appPts);
-    rows += liRow("Gole (" + p.goals + ", " + POS_LABEL[p.position] + ")", s.goalPts);
-    s.categories.forEach(function (c) { rows += liRow(c.label, c.points); });
+    var s = p.score, rows = "", counts = (p.raw && p.raw.style !== "legacy") ? (p.raw.counts || {}) : null;
+    rows += liRow("Występy (" + p.appearances + ")", s.appPts, p.appearances + "÷35");
+    rows += liRow("Gole (" + p.goals + ", " + POS_LABEL[p.position] + ")", s.goalPts, p.goals ? (p.goals + "÷" + Scoring.goalDivisor(p.position)) : "");
+    s.categories.forEach(function (c) {
+      rows += liRow(c.label, c.points, counts ? derivation(c.key, counts[c.key]) : "");
+    });
+    var note = (p.raw && p.raw.style === "legacy") ? '<div class="src">Punktacja przeniesiona z pierwotnego arkusza (2010).</div>' : "";
     var src = p.source ? '<div class="src">Źródło: <a href="' + esc(p.source) + '" target="_blank" rel="noopener">Wikipedia</a></div>' : "";
     return '<div class="bd"><h4>Rozbicie punktów — razem ' + fmt(s.total) + '</h4>' +
-           '<div class="grid">' + rows + '</div>' + src + '</div>';
+           '<div class="grid">' + rows + '</div>' + note + src + '</div>';
   }
-  function liRow(label, pts) {
-    return '<div class="li' + (pts ? "" : " zero") + '"><span>' + esc(label) + '</span><span class="v">' + fmt(pts) + '</span></div>';
+  function liRow(label, pts, deriv) {
+    var d = deriv ? ' <span class="deriv">(' + esc(deriv) + ')</span>' : "";
+    return '<div class="li' + (pts ? "" : " zero") + '"><span>' + esc(label) + d + '</span><span class="v">' + fmt(pts) + '</span></div>';
   }
 
   function renderMeta(full) {
