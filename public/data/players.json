@@ -217,26 +217,50 @@
     {
       "name": "Thierry Henry",
       "position": "FWD",
-      "appearances": 752,
-      "goals": 335,
-      "style": "legacy",
-      "pts": {
-        "wc": 18,
-        "euro": 9,
-        "league": 20,
-        "natCup": 12,
+      "appearances": 680,
+      "goals": 289,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 1,
+          "semi": 0
+        },
+        "euro": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "copa": {},
+        "league": 4,
+        "natCup": 4,
         "leagueCup": 0,
         "natSupercup": 4,
-        "ucl": 12,
-        "uefa": 3,
-        "euroSupercup": 2,
-        "intercontinental": 2,
-        "ballon": 4,
-        "fifa": 6
+        "ucl": {
+          "win": 1,
+          "final": 2
+        },
+        "uefa": {
+          "win": 0,
+          "final": 1
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 1,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 2,
+          "third": 0
+        }
       },
-      "dataComplete": false,
-      "source": "",
-      "notes": ""
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Thierry_Henry",
+      "notes": "FIX Henry euro final=0 (nie dublowac ME2000 win). league4=Ligue1+2 Premier+La Liga top. MS1998. NY Red Bulls(MLS) wystepy odjac. ZASTEPUJE legacy Thierry Henry."
     },
     {
       "name": "Bixente Lizarazu",
@@ -313,26 +337,50 @@
     {
       "name": "Clarence Seedorf",
       "position": "MID",
-      "appearances": 769,
-      "goals": 108,
-      "style": "legacy",
-      "pts": {
-        "wc": 0,
-        "euro": 5,
-        "league": 20,
-        "natCup": 3,
+      "appearances": 741,
+      "goals": 118,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 1
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 3
+        },
+        "copa": {},
+        "league": 5,
+        "natCup": 2,
         "leagueCup": 0,
-        "natSupercup": 4,
-        "ucl": 35,
-        "uefa": 0,
-        "euroSupercup": 4,
-        "intercontinental": 4,
-        "ballon": 0,
-        "fifa": 0
+        "natSupercup": 2,
+        "ucl": {
+          "win": 4,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 2,
+        "intercontinental": 2,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
       },
-      "dataComplete": false,
-      "source": "",
-      "notes": ""
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Clarence_Seedorf",
+      "notes": "FIX ucl final=0 (nie dublowac 4 wygranych). league5=2 Ajax+1 Real+2 Milan top. MS1998 polfinal, 3 polfinaly ME. Botafogo(br) wystepy odjac. ZASTEPUJE legacy Clarence Seedorf."
     },
     {
       "name": "Edwin van der Sar",
@@ -680,9 +728,9 @@
           "semi": 0
         },
         "euro": {
-          "win": 2,
-          "final": 3,
-          "semi": 1
+          "win": 0,
+          "final": 0,
+          "semi": 0
         },
         "league": 12,
         "natCup": 7,
@@ -707,9 +755,14 @@
           "first": 4,
           "second": 1,
           "third": 0
+        },
+        "copa": {
+          "win": 2,
+          "final": 3,
+          "semi": 1
         }
       },
-      "notes": "8x Złota Piłka, MŚ 2022; euro=Copa America (2x mistrz, 3x finał, 1x półfinał) liczona skalą ME. 12 mistrzostw (10 La Liga + 2 Ligue 1), 4x LM.",
+      "notes": "8x Złota Piłka, MŚ 2022; euro=Copa America (2x mistrz, 3x finał, 1x półfinał) liczona skalą ME. 12 mistrzostw (10 La Liga + 2 Ligue 1), 4x LM. Copa America przeniesiona do kategorii copa (pol wag ME).",
       "source": "https://en.wikipedia.org/wiki/Lionel_Messi"
     },
     {
@@ -1123,26 +1176,50 @@
     {
       "name": "Roberto Baggio",
       "position": "FWD",
-      "appearances": 0,
-      "goals": 0,
-      "style": "legacy",
-      "pts": {
-        "wc": 0,
-        "euro": 0,
-        "league": 0,
-        "natCup": 0,
+      "appearances": 548,
+      "goals": 248,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 1,
+          "semi": 1
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "copa": {},
+        "league": 2,
+        "natCup": 1,
         "leagueCup": 0,
         "natSupercup": 0,
-        "ucl": 0,
-        "uefa": 0,
+        "ucl": {
+          "win": 0,
+          "final": 0
+        },
+        "uefa": {
+          "win": 1,
+          "final": 2
+        },
+        "conference": {},
         "euroSupercup": 0,
         "intercontinental": 0,
-        "ballon": 8,
-        "fifa": 6
+        "ballon": {
+          "first": 1,
+          "second": 1,
+          "third": 0
+        },
+        "fifa": {
+          "first": 1,
+          "second": 0,
+          "third": 1
+        }
       },
-      "dataComplete": false,
-      "source": "",
-      "notes": ""
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Roberto_Baggio",
+      "notes": "wloskie top. MS1994 final,MS1990 polfinal. Zlota Pilka1993. ZASTEPUJE legacy Roberto Baggio."
     },
     {
       "name": "Fabio Cannavaro",
@@ -2063,6 +2140,1518 @@
       },
       "notes": "MŚ 2014, 6x LM (+ przegrany finał 2012), 7 mistrzostw (3 Bundesliga + 4 La Liga).",
       "source": "https://en.wikipedia.org/wiki/Toni_Kroos"
+    },
+    {
+      "name": "Rodri",
+      "position": "MID",
+      "appearances": 470,
+      "goals": 35,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "copa": {},
+        "league": 4,
+        "natCup": 2,
+        "leagueCup": 3,
+        "natSupercup": 1,
+        "ucl": {
+          "win": 1,
+          "final": 2
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 2,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 1,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Rodri_(footballer,_born_1996)",
+      "notes": "wszystkie ligi top; ME2024."
+    },
+    {
+      "name": "Jude Bellingham",
+      "position": "MID",
+      "appearances": 272,
+      "goals": 58,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 2,
+          "semi": 0
+        },
+        "copa": {},
+        "league": 1,
+        "natCup": 1,
+        "leagueCup": 0,
+        "natSupercup": 1,
+        "ucl": {
+          "win": 1,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 1
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 1
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Jude_Bellingham",
+      "notes": "natCup=1 DFB-Pokal; ligi top."
+    },
+    {
+      "name": "Kevin De Bruyne",
+      "position": "MID",
+      "appearances": 545,
+      "goals": 110,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 1
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "copa": {},
+        "league": 6,
+        "natCup": 3,
+        "leagueCup": 5,
+        "natSupercup": 4,
+        "ucl": {
+          "win": 1,
+          "final": 2
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 2,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 1
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Kevin_De_Bruyne",
+      "notes": "FIX league7=6 Premier+1 Belgian(Genk); belgijska nie top-7 -> 6. natCup3 zawiera 1 DFB-Pokal(Wolfsburg,top ok)+2 FA."
+    },
+    {
+      "name": "Virgil van Dijk",
+      "position": "DEF",
+      "appearances": 573,
+      "goals": 60,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 1
+        },
+        "copa": {},
+        "league": 2,
+        "natCup": 1,
+        "leagueCup": 2,
+        "natSupercup": 1,
+        "ucl": {
+          "win": 1,
+          "final": 3
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 1,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Virgil_van_Dijk",
+      "notes": "FIX league4=2 Premier+2 Scottish(Celtic); szkocka nie top-7 -> 2; leagueCup3 zawiera 1 szkocki -> 2. Groningen/Celtic wystepy? Celtic odjac."
+    },
+    {
+      "name": "Manuel Neuer",
+      "position": "GK",
+      "appearances": 699,
+      "goals": 0,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 1
+        },
+        "copa": {},
+        "league": 13,
+        "natCup": 7,
+        "leagueCup": 1,
+        "natSupercup": 5,
+        "ucl": {
+          "win": 2,
+          "final": 3
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 2,
+        "intercontinental": 3,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 1
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Manuel_Neuer",
+      "notes": "niemieckie top. MS2014."
+    },
+    {
+      "name": "Antoine Griezmann",
+      "position": "FWD",
+      "appearances": 740,
+      "goals": 254,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 1,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 1,
+          "semi": 0
+        },
+        "copa": {},
+        "league": 0,
+        "natCup": 1,
+        "leagueCup": 0,
+        "natSupercup": 1,
+        "ucl": {
+          "win": 0,
+          "final": 1
+        },
+        "uefa": {
+          "win": 1,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 0,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 1
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 1
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Antoine_Griezmann",
+      "notes": "league0 (tylko Segunda). ligi top. Real Sociedad/Atletico/Barca top."
+    },
+    {
+      "name": "Sadio Mané",
+      "position": "FWD",
+      "appearances": 606,
+      "goals": 245,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {},
+        "copa": {},
+        "league": 2,
+        "natCup": 1,
+        "leagueCup": 1,
+        "natSupercup": 0,
+        "ucl": {
+          "win": 1,
+          "final": 2
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 1,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Sadio_Man%C3%A9",
+      "notes": "FIX league4=Austria(Salzburg)+Premier+Bundesliga+Saudi -> tylko Premier2020+Bundesliga2023 = 2. natCup2 zawiera Puchar Austrii -> 1 (FA Cup). Salzburg+Saudi wystepy odjac."
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "position": "FWD",
+      "appearances": 421,
+      "goals": 136,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 1,
+          "semi": 0
+        },
+        "euro": {},
+        "copa": {},
+        "league": 6,
+        "natCup": 5,
+        "leagueCup": 0,
+        "natSupercup": 5,
+        "ucl": {
+          "win": 2,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 1,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 1,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Ousmane_Demb%C3%A9l%C3%A9",
+      "notes": "ligi top. Zlota Pilka+The Best 2025."
+    },
+    {
+      "name": "Lamine Yamal",
+      "position": "FWD",
+      "appearances": 154,
+      "goals": 49,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 1,
+          "final": 1,
+          "semi": 0
+        },
+        "copa": {},
+        "league": 3,
+        "natCup": 1,
+        "leagueCup": 0,
+        "natSupercup": 2,
+        "ucl": {
+          "win": 0,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 0,
+        "intercontinental": 0,
+        "ballon": {
+          "first": 0,
+          "second": 1,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Lamine_Yamal",
+      "notes": "ME2024. ligi top."
+    },
+    {
+      "name": "Franck Ribéry",
+      "position": "FWD",
+      "appearances": 604,
+      "goals": 130,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 1,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "copa": {},
+        "league": 9,
+        "natCup": 6,
+        "leagueCup": 0,
+        "natSupercup": 3,
+        "ucl": {
+          "win": 1,
+          "final": 2
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 1
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Franck_Rib%C3%A9ry",
+      "notes": "9 Bundesliga; MS2006 final. Fiorentina wloska top. Marsylia/Bayern top."
+    },
+    {
+      "name": "Philipp Lahm",
+      "position": "DEF",
+      "appearances": 652,
+      "goals": 22,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 0,
+          "semi": 1
+        },
+        "euro": {
+          "win": 0,
+          "final": 1,
+          "semi": 1
+        },
+        "copa": {},
+        "league": 8,
+        "natCup": 6,
+        "leagueCup": 0,
+        "natSupercup": 0,
+        "ucl": {
+          "win": 1,
+          "final": 1
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Philipp_Lahm",
+      "notes": "niemieckie top. MS2014, MS2006/2010 polfinal, ME2008 final, ME2012 polfinal."
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "position": "MID",
+      "appearances": 663,
+      "goals": 80,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 0,
+          "semi": 1
+        },
+        "euro": {
+          "win": 0,
+          "final": 1,
+          "semi": 1
+        },
+        "copa": {},
+        "league": 8,
+        "natCup": 8,
+        "leagueCup": 1,
+        "natSupercup": 1,
+        "ucl": {
+          "win": 1,
+          "final": 1
+        },
+        "uefa": {
+          "win": 1,
+          "final": 1
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Bastian_Schweinsteiger",
+      "notes": "8 Bundesliga; natCup8=7 DFB-Pokal+1 FA Cup(ManUtd). Europa League 2017 uefa."
+    },
+    {
+      "name": "David Villa",
+      "position": "FWD",
+      "appearances": 617,
+      "goals": 330,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "copa": {},
+        "league": 2,
+        "natCup": 2,
+        "leagueCup": 0,
+        "natSupercup": 2,
+        "ucl": {
+          "win": 1,
+          "final": 1
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 0,
+        "intercontinental": 0,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/David_Villa",
+      "notes": "MS2010,ME2008. hiszp top. NYCFC(MLS)+Vissel(JP) wystepy odjac."
+    },
+    {
+      "name": "Diego Godín",
+      "position": "DEF",
+      "appearances": 640,
+      "goals": 40,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {},
+        "copa": {
+          "win": 1,
+          "final": 1,
+          "semi": 1
+        },
+        "league": 1,
+        "natCup": 1,
+        "leagueCup": 0,
+        "natSupercup": 1,
+        "ucl": {
+          "win": 0,
+          "final": 2
+        },
+        "uefa": {
+          "win": 2,
+          "final": 2
+        },
+        "conference": {},
+        "euroSupercup": 3,
+        "intercontinental": 0,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Diego_God%C3%ADn",
+      "notes": "COPA 2011. Atletico hiszp top. Nacional/Velez/AtleticoMineiro/Cerro wystepy odjac."
+    },
+    {
+      "name": "Romário",
+      "position": "FWD",
+      "appearances": 500,
+      "goals": 330,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 1,
+          "semi": 1
+        },
+        "euro": {},
+        "copa": {
+          "win": 2,
+          "final": 2,
+          "semi": 2
+        },
+        "league": 4,
+        "natCup": 0,
+        "leagueCup": 0,
+        "natSupercup": 0,
+        "ucl": {
+          "win": 0,
+          "final": 1
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 0,
+        "intercontinental": 0,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 1,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Rom%C3%A1rio",
+      "notes": "FIX league=4 (3 Eredivisie PSV + 1 La Liga Barca); agent bledn dal 1 brazylijska. Wystepy 768/597 zawieraja kluby brazylijskie -> mocno odjac (zostaje PSV+Barca+Valencia+repr). FIFA WPY1994."
+    },
+    {
+      "name": "Gerard Piqué",
+      "position": "DEF",
+      "appearances": 667,
+      "goals": 57,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "copa": {},
+        "league": 10,
+        "natCup": 7,
+        "leagueCup": 1,
+        "natSupercup": 6,
+        "ucl": {
+          "win": 4,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 2,
+        "intercontinental": 3,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Gerard_Piqu%C3%A9",
+      "notes": "league10=9 La Liga+1 Premier; natCup7; leagueCup1 EFL. MS2010,ME2012. top."
+    },
+    {
+      "name": "Sergio Busquets",
+      "position": "MID",
+      "appearances": 863,
+      "goals": 21,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 1,
+          "final": 0,
+          "semi": 1
+        },
+        "copa": {},
+        "league": 9,
+        "natCup": 7,
+        "leagueCup": 0,
+        "natSupercup": 7,
+        "ucl": {
+          "win": 3,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 3,
+        "intercontinental": 3,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Sergio_Busquets",
+      "notes": "FIX league10 zawiera 1 MLS -> 9; leagueCup1=LeaguesCup(US) -> 0; natCup7 Copa del Rey. Miami wystepy odjac. MS2010,ME2012,ME2020 polfinal."
+    },
+    {
+      "name": "Dani Alves",
+      "position": "DEF",
+      "appearances": 767,
+      "goals": 48,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {},
+        "copa": {
+          "win": 2,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 9,
+        "natCup": 6,
+        "leagueCup": 1,
+        "natSupercup": 5,
+        "ucl": {
+          "win": 3,
+          "final": 0
+        },
+        "uefa": {
+          "win": 2,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 4,
+        "intercontinental": 3,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Dani_Alves",
+      "notes": "COPA 2007,2019. league9=6 La Liga+1 Serie A+2 Ligue1 top. natCup7 zawiera Copa do Nordeste -> 6. Bahia/SaoPaulo/Pumas wystepy odjac."
+    },
+    {
+      "name": "Marcelo",
+      "position": "DEF",
+      "appearances": 663,
+      "goals": 52,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {},
+        "copa": {},
+        "league": 6,
+        "natCup": 2,
+        "leagueCup": 0,
+        "natSupercup": 5,
+        "ucl": {
+          "win": 5,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 3,
+        "intercontinental": 4,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Marcelo_(footballer,_born_1988)",
+      "notes": "6 La Liga top. Fluminense(brazyl) wystepy odjac."
+    },
+    {
+      "name": "Thiago Silva",
+      "position": "DEF",
+      "appearances": 652,
+      "goals": 35,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 1
+        },
+        "euro": {},
+        "copa": {
+          "win": 1,
+          "final": 1,
+          "semi": 0
+        },
+        "league": 9,
+        "natCup": 6,
+        "leagueCup": 6,
+        "natSupercup": 2,
+        "ucl": {
+          "win": 1,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Thiago_Silva",
+      "notes": "COPA 2019 win,2021 final. league9=7 Ligue1+1 Serie A+1 Primeira(Porto top). MS2014 polfinal. Fluminense wystepy odjac."
+    },
+    {
+      "name": "Kylian Mbappé",
+      "position": "FWD",
+      "appearances": 425,
+      "goals": 313,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 1,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "copa": {},
+        "league": 6,
+        "natCup": 4,
+        "leagueCup": 2,
+        "natSupercup": 3,
+        "ucl": {
+          "win": 0,
+          "final": 1
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9",
+      "notes": "ligi top. MS2018 win,2022 final."
+    },
+    {
+      "name": "Neymar",
+      "position": "FWD",
+      "appearances": 470,
+      "goals": 215,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {},
+        "copa": {
+          "win": 0,
+          "final": 1,
+          "semi": 0
+        },
+        "league": 7,
+        "natCup": 7,
+        "leagueCup": 1,
+        "natSupercup": 2,
+        "ucl": {
+          "win": 1,
+          "final": 1
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 2
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 1
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Neymar",
+      "notes": "COPA final2021. league7=2 La Liga+5 Ligue1 top. natCup7. Santos(br)+AlHilal(sa) wystepy odjac."
+    },
+    {
+      "name": "Mohamed Salah",
+      "position": "FWD",
+      "appearances": 625,
+      "goals": 293,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {},
+        "copa": {},
+        "league": 2,
+        "natCup": 1,
+        "leagueCup": 1,
+        "natSupercup": 1,
+        "ucl": {
+          "win": 1,
+          "final": 1
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 2
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Mohamed_Salah",
+      "notes": "FIX league4=2 Premier+2 Swiss(Basel); szwajc nie top-7 -> 2. Basel wystepy odjac."
+    },
+    {
+      "name": "Erling Haaland",
+      "position": "FWD",
+      "appearances": 455,
+      "goals": 377,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {},
+        "copa": {},
+        "league": 3,
+        "natCup": 2,
+        "leagueCup": 0,
+        "natSupercup": 1,
+        "ucl": {
+          "win": 1,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 1,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Erling_Haaland",
+      "notes": "FIX league4=Austria(Salzburg)+3 Premier; Austria nie top-7 -> 3. Salzburg/Molde wystepy odjac."
+    },
+    {
+      "name": "Vinícius Júnior",
+      "position": "FWD",
+      "appearances": 503,
+      "goals": 159,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {},
+        "copa": {
+          "win": 0,
+          "final": 1,
+          "semi": 0
+        },
+        "league": 3,
+        "natCup": 1,
+        "leagueCup": 0,
+        "natSupercup": 3,
+        "ucl": {
+          "win": 2,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 2,
+        "intercontinental": 3,
+        "ballon": {
+          "first": 0,
+          "second": 1,
+          "third": 0
+        },
+        "fifa": {
+          "first": 1,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Vin%C3%ADcius_J%C3%BAnior",
+      "notes": "COPA final2021. 3 La Liga top. Flamengo wystepy odjac. The Best 2024."
+    },
+    {
+      "name": "Ángel Di María",
+      "position": "FWD",
+      "appearances": 704,
+      "goals": 158,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 1,
+          "semi": 0
+        },
+        "euro": {},
+        "copa": {
+          "win": 2,
+          "final": 2,
+          "semi": 0
+        },
+        "league": 7,
+        "natCup": 6,
+        "leagueCup": 7,
+        "natSupercup": 2,
+        "ucl": {
+          "win": 1,
+          "final": 1
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 0,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/%C3%81ngel_Di_Mar%C3%ADa",
+      "notes": "COPA 2021,2024 win;2015,2016 final. league7=5 Ligue1+2 Primeira top. Rosario(arg) wystepy odjac."
+    },
+    {
+      "name": "N'Golo Kanté",
+      "position": "MID",
+      "appearances": 502,
+      "goals": 31,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 1,
+          "semi": 0
+        },
+        "copa": {},
+        "league": 2,
+        "natCup": 1,
+        "leagueCup": 0,
+        "natSupercup": 0,
+        "ucl": {
+          "win": 1,
+          "final": 0
+        },
+        "uefa": {
+          "win": 1,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/N%27Golo_Kant%C3%A9",
+      "notes": "FIX league3=2 Premier+1 Saudi -> 2; natCup2=FA+King'sCup(sa) -> 1. AlIttihad wystepy odjac. MS2018,ME2016 final."
+    },
+    {
+      "name": "Joshua Kimmich",
+      "position": "MID",
+      "appearances": 662,
+      "goals": 60,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 1
+        },
+        "copa": {},
+        "league": 10,
+        "natCup": 4,
+        "leagueCup": 0,
+        "natSupercup": 7,
+        "ucl": {
+          "win": 1,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Joshua_Kimmich",
+      "notes": "10 Bundesliga top. ME2016 polfinal."
+    },
+    {
+      "name": "Casemiro",
+      "position": "MID",
+      "appearances": 527,
+      "goals": 59,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {},
+        "copa": {
+          "win": 1,
+          "final": 1,
+          "semi": 0
+        },
+        "league": 3,
+        "natCup": 2,
+        "leagueCup": 1,
+        "natSupercup": 3,
+        "ucl": {
+          "win": 5,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 1
+        },
+        "conference": {},
+        "euroSupercup": 3,
+        "intercontinental": 3,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Casemiro",
+      "notes": "COPA 2019 win,2021 final. 3 La Liga top. SaoPaulo(br) wystepy odjac."
+    },
+    {
+      "name": "Gareth Bale",
+      "position": "FWD",
+      "appearances": 505,
+      "goals": 182,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 1
+        },
+        "copa": {},
+        "league": 3,
+        "natCup": 1,
+        "leagueCup": 0,
+        "natSupercup": 1,
+        "ucl": {
+          "win": 5,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 2,
+        "intercontinental": 3,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Gareth_Bale",
+      "notes": "3 La Liga top. Tottenham/Southampton top. LAFC(MLS) wystepy odjac. ME2016 polfinal."
+    },
+    {
+      "name": "Hristo Stoichkov",
+      "position": "FWD",
+      "appearances": 470,
+      "goals": 178,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 1
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "copa": {},
+        "league": 5,
+        "natCup": 2,
+        "leagueCup": 0,
+        "natSupercup": 4,
+        "ucl": {
+          "win": 1,
+          "final": 2
+        },
+        "uefa": {
+          "win": 1,
+          "final": 2
+        },
+        "conference": {},
+        "euroSupercup": 2,
+        "intercontinental": 0,
+        "ballon": {
+          "first": 1,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 2,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Hristo_Stoichkov",
+      "notes": "FIX league8=3 CSKA(bulg)+5 Barca; bulg nie top-7 -> 5. natCup6 zawiera 4 bulg -> 2 Copa del Rey. CSKA wystepy odjac. Zlota Pilka1994,MS1994 polfinal."
+    },
+    {
+      "name": "George Weah",
+      "position": "FWD",
+      "appearances": 470,
+      "goals": 193,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {},
+        "copa": {},
+        "league": 3,
+        "natCup": 4,
+        "leagueCup": 1,
+        "natSupercup": 0,
+        "ucl": {
+          "win": 0,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {},
+        "euroSupercup": 0,
+        "intercontinental": 0,
+        "ballon": {
+          "first": 1,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 1,
+          "second": 1,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/George_Weah",
+      "notes": "FIX league3=1 Ligue1(PSG)+2 Serie A(Milan) top (agent dal 4 z liberyjska). natCup4=3 Coupe de France+1 FA Cup. Monaco/Milan/PSG/Marsylia/Chelsea/ManCity top; afryk. odjac. Zlota Pilka1995,FIFA WPY1995."
     }
   ]
 }
