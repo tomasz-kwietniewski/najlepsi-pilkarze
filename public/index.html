@@ -83,12 +83,26 @@
   tr.detail td { padding: 0; background: #10151d; }
   .bd { padding: 6px 16px 18px; }
   .bd h4 { margin: 12px 0 8px; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
-  .bd-head { display: flex; align-items: center; gap: 14px; margin: 12px 0 4px; }
-  .avatar { width: 64px; height: 64px; border-radius: 12px; object-fit: cover; background: var(--bg2); border: 1px solid var(--line); flex: none; }
-  .avatar-ph { display: grid; place-items: center; font-weight: 800; font-size: 24px; color: var(--muted); }
-  .bd-head .hname { font-size: 18px; font-weight: 750; }
+  .bd-head { display: flex; align-items: center; gap: 16px; margin: 12px 0 4px; }
+  .avatar { object-fit: cover; object-position: top center; background: var(--bg2); border: 1px solid var(--line); flex: none; }
+  img.avatar { cursor: zoom-in; }
+  .avatar-ph { display: grid; place-items: center; font-weight: 800; color: var(--muted); }
+  .bd .avatar { width: 104px; height: 104px; border-radius: 14px; }
+  .bd .avatar-ph { font-size: 40px; }
+  .bd-head .hname { font-size: 19px; font-weight: 750; }
   .bd-head .hsum { color: var(--accent2); font-weight: 800; }
-  .pod .avatar { width: 54px; height: 54px; border-radius: 50%; margin: 4px auto 6px; display: block; }
+  .pod .avatar { width: 88px; height: 88px; border-radius: 50%; margin: 6px auto 8px; display: block; }
+  .pod .avatar-ph { font-size: 34px; }
+  /* maly awatar w wierszu */
+  td.name .rowav { width: 34px; height: 34px; border-radius: 50%; object-fit: cover; object-position: top center; vertical-align: middle; margin-right: 9px; border: 1px solid var(--line); background: var(--bg2); flex: none; }
+  td.name .rowav.avatar-ph { display: inline-grid; place-items: center; font-weight: 800; font-size: 14px; color: var(--muted); }
+  td.name .ncell { display: flex; align-items: center; }
+
+  /* lightbox */
+  #lb { position: fixed; inset: 0; background: rgba(6,9,13,.9); display: none; place-items: center; z-index: 50; cursor: zoom-out; }
+  #lb.open { display: grid; }
+  #lb img { max-width: 90vw; max-height: 82vh; border-radius: 14px; box-shadow: 0 20px 60px -10px rgba(0,0,0,.7); }
+  #lb .cap { position: absolute; bottom: 24px; left: 0; right: 0; text-align: center; color: var(--txt); font-weight: 700; font-size: 18px; text-shadow: 0 2px 8px #000; }
   .bd .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 6px 18px; }
   .bd .li { display: flex; justify-content: space-between; gap: 10px; padding: 5px 0; border-bottom: 1px dashed #222a35; font-size: 14px; }
   .bd .li .v { font-variant-numeric: tabular-nums; font-weight: 700; }
@@ -148,7 +162,7 @@
           <tr>
             <th class="num" data-sort="rank">#</th>
             <th data-sort="name">Piłkarz</th>
-            <th data-sort="position">Poz.</th>
+            <th data-sort="position">Pozycja</th>
             <th class="num" data-sort="appearances">Występy</th>
             <th class="num" data-sort="goals">Gole</th>
             <th class="num" data-sort="total">Punkty <span class="arr">▼</span></th>
@@ -209,11 +223,14 @@
   </footer>
 </div>
 
+<div id="lb"><img alt=""><div class="cap"></div></div>
+
 <script src="scoring.js"></script>
 <script>
 (function () {
   "use strict";
-  var POS_LABEL = { GK: "GK", DEF: "OBR", MID: "POM", FWD: "NAP" };
+  var POS_LABEL = { GK: "Bramkarz", DEF: "Obrońca", MID: "Pomocnik", FWD: "Napastnik" };
+  var POS_SHORT = { GK: "GK", DEF: "OBR", MID: "POM", FWD: "NAP" };
   var state = { players: [], sortKey: "total", sortDir: -1, pos: "ALL", q: "" };
 
   function fmt(n) { return (Math.round(n * 10) / 10).toLocaleString("pl-PL"); }
@@ -272,7 +289,7 @@
       tr.className = "row";
       tr.innerHTML =
         '<td class="num rank ' + (rk <= 3 ? "top" : "") + '">' + rk + '</td>' +
-        '<td class="name"><span class="chev">▶</span> ' + esc(p.name) + '</td>' +
+        '<td class="name"><span class="ncell"><span class="chev">▶</span>' + avatarHtml(p, "rowav", 80) + esc(p.name) + '</span></td>' +
         '<td><span class="pos ' + p.position + '">' + POS_LABEL[p.position] + '</span></td>' +
         '<td class="num">' + p.appearances + '</td>' +
         '<td class="num">' + p.goals + '</td>' +
@@ -309,7 +326,7 @@
   function breakdownHtml(p) {
     var s = p.score, rows = "", counts = (p.raw && p.raw.style !== "legacy") ? (p.raw.counts || {}) : null;
     rows += liRow("Występy (" + p.appearances + ")", s.appPts, p.appearances + "÷35");
-    rows += liRow("Gole (" + p.goals + ", " + POS_LABEL[p.position] + ")", s.goalPts, p.goals ? (p.goals + "÷" + Scoring.goalDivisor(p.position)) : "");
+    rows += liRow("Gole (" + p.goals + ", " + POS_SHORT[p.position] + ")", s.goalPts, p.goals ? (p.goals + "÷" + Scoring.goalDivisor(p.position)) : "");
     s.categories.forEach(function (c) {
       rows += liRow(c.label, c.points, counts ? derivation(c.key, counts[c.key]) : "");
     });
@@ -330,7 +347,7 @@
 
   function renderMeta(full) {
     document.getElementById("meta").innerHTML =
-      full.length + " sklasyfikowanych · <a href=\"#wip\">reszta w uzupełnianiu</a> · metodologia w stopce";
+      full.length + " sklasyfikowanych · <a href=\"#wip\">reszta w uzupełnianiu</a> · sortuj klikając nagłówek kolumny";
   }
 
   function renderPodium(full) {
@@ -343,7 +360,7 @@
         avatarHtml(p, "avatar") +
         '<div class="pscore">' + fmt(p.total) + '</div>' +
         '<div class="pname">' + esc(p.name) + '</div>' +
-        '<div class="psub"><span class="pos ' + p.position + '">' + POS_LABEL[p.position] + '</span> · ' +
+        '<div class="psub"><span class="pos ' + p.position + '">' + POS_SHORT[p.position] + '</span> · ' +
         p.appearances + ' meczów</div></div>';
     }).join("");
   }
@@ -361,14 +378,24 @@
 
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
 
-  function avatarHtml(p, cls) {
-    var photo = p.raw && p.raw.photo;
+  // Wikimedia pozwala zamowic dowolny rozmiar miniatury zmieniajac "NNNpx-" w URL.
+  function sizedPhoto(url, size) {
+    if (!url) return url;
+    if (url.indexOf("/thumb/") >= 0) return url.replace(/\/\d+px-([^\/]+)$/, "/" + size + "px-$1");
+    var file = url.substring(url.lastIndexOf("/") + 1);
+    if (url.indexOf("/commons/") >= 0) return url.replace("/commons/", "/commons/thumb/") + "/" + size + "px-" + file;
+    if (url.indexOf("/en/") >= 0) return url.replace("/en/", "/en/thumb/") + "/" + size + "px-" + file;
+    return url;
+  }
+  function avatarHtml(p, cls, size) {
+    var photo = p.raw && p.raw.photo, initial = esc(p.name.charAt(0));
     if (photo) {
       return '<img class="' + cls + '" loading="lazy" alt="' + esc(p.name) +
-        '" src="' + esc(photo) + '" onerror="this.replaceWith(Object.assign(document.createElement(\'div\'),{className:\'' +
-        cls + ' avatar-ph\',textContent:\'' + esc(p.name.charAt(0)) + '\'}))">';
+        '" src="' + esc(sizedPhoto(photo, size || 200)) + '" data-full="' + esc(sizedPhoto(photo, 700)) +
+        '" data-name="' + esc(p.name) + '" onerror="this.replaceWith(Object.assign(document.createElement(\'div\'),{className:\'' +
+        cls + ' avatar-ph\',textContent:\'' + initial + '\'}))">';
     }
-    return '<div class="' + cls + ' avatar-ph">' + esc(p.name.charAt(0)) + '</div>';
+    return '<div class="' + cls + ' avatar-ph">' + initial + '</div>';
   }
 
   document.getElementById("q").addEventListener("input", function (e) { state.q = e.target.value; render(); });
@@ -389,6 +416,19 @@
       render();
     });
   });
+
+  // Lightbox: klik w zdjecie powieksza (i nie rozwija wiersza)
+  var lb = document.getElementById("lb"), lbImg = lb.querySelector("img"), lbCap = lb.querySelector(".cap");
+  document.addEventListener("click", function (e) {
+    var img = e.target.closest && e.target.closest("img.avatar");
+    if (img && img.dataset.full) {
+      e.stopPropagation();
+      lbImg.src = img.dataset.full; lbCap.textContent = img.dataset.name || "";
+      lb.classList.add("open");
+    }
+  }, true);
+  lb.addEventListener("click", function () { lb.classList.remove("open"); lbImg.src = ""; });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") { lb.classList.remove("open"); lbImg.src = ""; } });
 })();
 </script>
 </body>

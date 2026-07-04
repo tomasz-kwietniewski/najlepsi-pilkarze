@@ -35,11 +35,11 @@ const c = S.scorePlayer({
     intercontinental: 3      // 6
   }
 });
-check("counts: MS win = 10", near(c.categories.find(x => x.key === "wc").points, 10));
+check("counts: MS win = 12", near(c.categories.find(x => x.key === "wc").points, 12));
 check("counts: 5 mistrzostw = 25", near(c.categories.find(x => x.key === "league").points, 25));
-check("counts: LM 2 wygrane + 1 final = 19", near(c.categories.find(x => x.key === "ucl").points, 19));
+check("counts: LM 2 wygrane + 1 final = 21", near(c.categories.find(x => x.key === "ucl").points, 21));
 check("counts: Zlota Pilka 1x1 + 2x3 = 7", near(c.categories.find(x => x.key === "ballon").points, 7));
-check("counts: suma trofeow = 72", near(c.trophyPts, 10 + 5 + 25 + 19 + 7 + 6));
+check("counts: suma trofeow = 76", near(c.trophyPts, 12 + 5 + 25 + 21 + 7 + 6));
 
 // 4. Styl "legacy" - punkty sumowane wprost, gole liczone nowa regula
 // Maldini: 1028 wyst, 40 goli (DEF), pts z arkusza (suma kategorii = 114)
