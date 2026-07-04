@@ -9,7 +9,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Paolo_Maldini_AC_Milan_Technical_director_2018.jpg/330px-Paolo_Maldini_AC_Milan_Technical_director_2018.jpg",
+      "photo": "img/paolo-maldini.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -65,7 +65,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Luis_Figo_2023.jpg/330px-Luis_Figo_2023.jpg",
+      "photo": "img/luis-figo.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -157,7 +157,7 @@
       },
       "notes": "13x PL, 4x FA Cup, 2x LM (1999, 2008), CWC 1991, Interkont. 1999 + Klubowe MŚ 2008.",
       "source": "https://en.wikipedia.org/wiki/Ryan_Giggs",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ryan_Giggs_2015_%28cropped%29.jpg"
+      "photo": "img/ryan-giggs.jpg"
     },
     {
       "name": "Roberto Carlos",
@@ -168,7 +168,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/LS3_1288_%2853332367864%29_%28cropped%29.jpg/330px-LS3_1288_%2853332367864%29_%28cropped%29.jpg",
+      "photo": "img/roberto-carlos.jpg",
       "counts": {
         "wc": {
           "win": 1,
@@ -224,7 +224,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg/330px-Zinedine_Zidane_by_Tasnim_03.jpg",
+      "photo": "img/zinedine-zidane.jpg",
       "counts": {
         "wc": {
           "win": 1,
@@ -280,7 +280,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Fernando_Hierro_in_Spain-Iran_press_conference_2018-06-19.jpg/330px-Fernando_Hierro_in_Spain-Iran_press_conference_2018-06-19.jpg",
+      "photo": "img/fernando-hierro.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -336,7 +336,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Ronaldo_Lu%C3%ADs_Naz%C3%A1rio_de_Lima_2019_%283x4_cropped%29.jpg/330px-Ronaldo_Lu%C3%ADs_Naz%C3%A1rio_de_Lima_2019_%283x4_cropped%29.jpg",
+      "photo": "img/ronaldo-r9.jpg",
       "counts": {
         "wc": {
           "win": 2,
@@ -392,7 +392,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Laurent_blanc_11_11_2013_reves_de_Clara.jpg/330px-Laurent_blanc_11_11_2013_reves_de_Clara.jpg",
+      "photo": "img/laurent-blanc.jpg",
       "counts": {
         "wc": {
           "win": 1,
@@ -486,7 +486,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Thierry_Henry",
       "notes": "FIX Henry euro final=0 (nie dublowac ME2000 win). league4=Ligue1+2 Premier+La Liga top. MS1998. NY Red Bulls(MLS) wystepy odjac. ZASTEPUJE legacy Thierry Henry.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Thierry_Henry_%2851649035951%29_%28cropped%29.jpg/330px-Thierry_Henry_%2851649035951%29_%28cropped%29.jpg"
+      "photo": "img/thierry-henry.jpg"
     },
     {
       "name": "Bixente Lizarazu",
@@ -497,7 +497,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Bixente_Lizarazu_%28cropped%29.jpg/330px-Bixente_Lizarazu_%28cropped%29.jpg",
+      "photo": "img/bixente-lizarazu.jpg",
       "counts": {
         "wc": {
           "win": 1,
@@ -553,7 +553,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/2022-07-30_Fu%C3%9Fball%2C_M%C3%A4nner%2C_DFL-Supercup%2C_RB_Leipzig_-_FC_Bayern_M%C3%BCnchen_1DX_3179_by_Stepro.jpg/330px-2022-07-30_Fu%C3%9Fball%2C_M%C3%A4nner%2C_DFL-Supercup%2C_RB_Leipzig_-_FC_Bayern_M%C3%BCnchen_1DX_3179_by_Stepro.jpg",
+      "photo": "img/oliver-kahn.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -609,7 +609,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/7/75/Dennis_Bergkamp_2014_%28cropped%29.jpg",
+      "photo": "img/denis-bergkamp.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -703,7 +703,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Clarence_Seedorf",
       "notes": "FIX ucl final=0 (nie dublowac 4 wygranych). league5=2 Ajax+1 Real+2 Milan top. MS1998 polfinal, 3 polfinaly ME. Botafogo(br) wystepy odjac. ZASTEPUJE legacy Clarence Seedorf.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Clarence_Seedorf_Introductory_Press_Conferences%2C_2_June_2025_-_40_%28cropped%29.jpg/330px-Clarence_Seedorf_Introductory_Press_Conferences%2C_2_June_2025_-_40_%28cropped%29.jpg"
+      "photo": "img/clarence-seedorf.jpg"
     },
     {
       "name": "Edwin van der Sar",
@@ -759,7 +759,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Edwin_van_der_Sar",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Edwin_van_der_Sar_2015.jpg/330px-Edwin_van_der_Sar_2015.jpg"
+      "photo": "img/edwin-van-der-sar.jpg"
     },
     {
       "name": "Deco",
@@ -814,7 +814,8 @@
       },
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Deco",
-      "notes": ""
+      "notes": "",
+      "photo": "img/deco.jpg"
     },
     {
       "name": "David Beckham",
@@ -870,7 +871,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/David_Beckham",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/David_Beckham_UNICEF_%28cropped2%29.jpg/330px-David_Beckham_UNICEF_%28cropped2%29.jpg"
+      "photo": "img/david-beckham.jpg"
     },
     {
       "name": "Pavel Nedved",
@@ -881,7 +882,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Pavel_Nedv%C4%9Bd.jpg/330px-Pavel_Nedv%C4%9Bd.jpg",
+      "photo": "img/pavel-nedved.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -937,7 +938,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/FrankBoer.JPG/330px-FrankBoer.JPG",
+      "photo": "img/frank-de-boer.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -993,7 +994,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Didier_Deschamps_France_v_Senegal_16_June_2026-519_%28cropped%29.jpg/330px-Didier_Deschamps_France_v_Senegal_16_June_2026-519_%28cropped%29.jpg",
+      "photo": "img/didier-deschamps.jpg",
       "counts": {
         "wc": {
           "win": 1,
@@ -1049,7 +1050,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Roy_keane_2014.jpg/330px-Roy_keane_2014.jpg",
+      "photo": "img/roy-keane.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -1105,7 +1106,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Marcel_Desailly_-_240422_192752-3_%28cropped%29.jpg/330px-25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Marcel_Desailly_-_240422_192752-3_%28cropped%29.jpg",
+      "photo": "img/marcel-desailly.jpg",
       "counts": {
         "wc": {
           "win": 1,
@@ -1197,7 +1198,7 @@
       },
       "notes": "Gole skorygowane do 238 (205 klub + 33 reprezentacja). Copa Libertadores/Confed Cup bez slotu.",
       "source": "https://en.wikipedia.org/wiki/Ronaldinho",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/2019_-_Press_conferences_-_Day_1_ENX_6950_%2849019873887%29_%28cropped%29.jpg/330px-2019_-_Press_conferences_-_Day_1_ENX_6950_%2849019873887%29_%28cropped%29.jpg"
+      "photo": "img/ronaldinho.jpg"
     },
     {
       "name": "Cafu",
@@ -1208,7 +1209,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cafu_-_26.02.2026_-_Cerim%C3%B4nia_de_apresenta%C3%A7%C3%A3o_das_ta%C3%A7as_da_Copa_do_Mundo_de_2026.jpg/330px-Cafu_-_26.02.2026_-_Cerim%C3%B4nia_de_apresenta%C3%A7%C3%A3o_das_ta%C3%A7as_da_Copa_do_Mundo_de_2026.jpg",
+      "photo": "img/cafu.jpg",
       "counts": {
         "wc": {
           "win": 2,
@@ -1300,7 +1301,7 @@
       },
       "notes": "5x Złota Piłka, 5x LM (+ finał 2009), ME 2016. Mistrzostwa skorygowane do 7 (3 PL + 2 La Liga + 2 Serie A; ligi saudyjskiej NIE zdobył). Puchar ligi 2 (2006, 2009). Występy/gole przybliżone (Wikipedia: ponad 1300/970).",
       "source": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Cristiano_Ronaldo_2275_%28cropped%29.jpg/330px-Cristiano_Ronaldo_2275_%28cropped%29.jpg"
+      "photo": "img/cristiano-ronaldo.jpg"
     },
     {
       "name": "Lilian Thuram",
@@ -1311,7 +1312,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Lilian_Thuram_-_F%C3%A9vrier_2013.jpg/330px-Lilian_Thuram_-_F%C3%A9vrier_2013.jpg",
+      "photo": "img/lilian-thuram.jpg",
       "counts": {
         "wc": {
           "win": 1,
@@ -1408,7 +1409,7 @@
       },
       "notes": "8x Złota Piłka, MŚ 2022; euro=Copa America (2x mistrz, 3x finał, 1x półfinał) liczona skalą ME. 12 mistrzostw (10 La Liga + 2 Ligue 1), 4x LM. Copa America przeniesiona do kategorii copa (pol wag ME).",
       "source": "https://en.wikipedia.org/wiki/Lionel_Messi",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Lionel_Messi_NE_Revolution_Inter_Miami_7.9.25-055.jpg/330px-Lionel_Messi_NE_Revolution_Inter_Miami_7.9.25-055.jpg"
+      "photo": "img/lionel-messi.jpg"
     },
     {
       "name": "Filippo Inzaghi",
@@ -1464,7 +1465,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Filippo_Inzaghi",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Filippo_Inzaghi_2011.jpg/330px-Filippo_Inzaghi_2011.jpg"
+      "photo": "img/filippo-inzaghi.jpg"
     },
     {
       "name": "Peter Schmeichel",
@@ -1475,7 +1476,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Peter_Schmeichel_2012-01-25_001.jpg/330px-Peter_Schmeichel_2012-01-25_001.jpg",
+      "photo": "img/peter-schmeichel.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -1531,7 +1532,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Rivaldo.jpg",
+      "photo": "img/rivaldo.jpg",
       "counts": {
         "wc": {
           "win": 1,
@@ -1632,7 +1633,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Javier_Zanetti",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Metalist-Inter_%282%29.jpg/330px-Metalist-Inter_%282%29.jpg"
+      "photo": "img/javier-zanetti.jpg"
     },
     {
       "name": "Frank Lampard",
@@ -1688,7 +1689,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Frank_Lampard",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Frank_Lampard_2019.jpg/330px-Frank_Lampard_2019.jpg"
+      "photo": "img/frank-lampard.jpg"
     },
     {
       "name": "Jaap Stam",
@@ -1699,7 +1700,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Jaap_Stam_-_1.jpg/330px-Jaap_Stam_-_1.jpg",
+      "photo": "img/jaap-stam.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -1755,7 +1756,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg/330px-Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg",
+      "photo": "img/pep-guardiola.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -1856,7 +1857,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Ruud_van_Nistelrooy",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ruud_van_Nistelrooy_2017.jpg/330px-Ruud_van_Nistelrooy_2017.jpg"
+      "photo": "img/ruud-van-nistelrooy.jpg"
     },
     {
       "name": "Andrij Szewczenko",
@@ -1867,7 +1868,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9_%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_2024_%28cropped%29.png/330px-%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9_%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_2024_%28cropped%29.png",
+      "photo": "img/andrij-szewczenko.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -1968,7 +1969,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Iker_Casillas",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Iker-Casillas-SportsTrade-2021-cropped.jpg/330px-Iker-Casillas-SportsTrade-2021-cropped.jpg"
+      "photo": "img/iker-casillas.jpg"
     },
     {
       "name": "Gianluigi Buffon",
@@ -2024,7 +2025,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Gianluigi_Buffon",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Norway_Italy_-_June_2025_A_44_%28Gianluigi_Buffon%29.jpg/330px-Norway_Italy_-_June_2025_A_44_%28Gianluigi_Buffon%29.jpg"
+      "photo": "img/gianluigi-buffon.jpg"
     },
     {
       "name": "Nicolas Anelka",
@@ -2080,7 +2081,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Nicolas_Anelka",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Nicolas_Anelka_4720.jpg"
+      "photo": "img/nicolas-anelka.jpg"
     },
     {
       "name": "Juan Sebastián Verón",
@@ -2091,7 +2092,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Juan_Sebastian_Veron_2017.jpg/330px-Juan_Sebastian_Veron_2017.jpg",
+      "photo": "img/juan-sebastian-veron.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -2192,7 +2193,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Michael_Owen",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Michael_Owen.jpg/330px-Michael_Owen.jpg"
+      "photo": "img/michael-owen.jpg"
     },
     {
       "name": "Alan Shearer",
@@ -2203,7 +2204,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Alan_Shearer_2008.jpg",
+      "photo": "img/alan-shearer.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -2304,7 +2305,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Robert_Lewandowski",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/2019147183134_2019-05-27_Fussball_1.FC_Kaiserslautern_vs_FC_Bayern_M%C3%BCnchen_-_Sven_-_1D_X_MK_II_-_0228_-_B70I8527_%28cropped%29.jpg/330px-2019147183134_2019-05-27_Fussball_1.FC_Kaiserslautern_vs_FC_Bayern_M%C3%BCnchen_-_Sven_-_1D_X_MK_II_-_0228_-_B70I8527_%28cropped%29.jpg"
+      "photo": "img/robert-lewandowski.jpg"
     },
     {
       "name": "Jerzy Dudek",
@@ -2315,7 +2316,7 @@
       "dataComplete": true,
       "source": "",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Jerzy_Dudek_%28cropped%29.jpg/330px-Jerzy_Dudek_%28cropped%29.jpg",
+      "photo": "img/jerzy-dudek.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -2409,7 +2410,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Roberto_Baggio",
       "notes": "wloskie top. MS1994 final,MS1990 polfinal. Zlota Pilka1993. ZASTEPUJE legacy Roberto Baggio.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/%D8%B1%D9%88%D8%A8%D8%B1%D8%AA%D9%88_%D8%A8%D8%A7%D8%AC%D9%88_%28cropped%29.jpg/330px-%D8%B1%D9%88%D8%A8%D8%B1%D8%AA%D9%88_%D8%A8%D8%A7%D8%AC%D9%88_%28cropped%29.jpg"
+      "photo": "img/roberto-baggio.jpg"
     },
     {
       "name": "Fabio Cannavaro",
@@ -2465,7 +2466,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Fabio_Cannavaro",
       "notes": "Tytuly Serie A Juventusu (2005,2006) odebrane w Calciopoli - nie liczone; league=2 (La Liga Real 2007,2008).",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Fabio_Cannavaro_2011.jpg/330px-Fabio_Cannavaro_2011.jpg"
+      "photo": "img/fabio-cannavaro.jpg"
     },
     {
       "name": "Kaká",
@@ -2512,7 +2513,7 @@
       },
       "notes": "Serie A 2004 + La Liga 2012; UCL 2007; Klubowe MŚ 2007; Ballon d'Or 2007 + FIFA WPY 2007.",
       "source": "https://en.wikipedia.org/wiki/Kak%C3%A1",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Kak%C3%A1_visited_Stadium_St._Petersburg.jpg/330px-Kak%C3%A1_visited_Stadium_St._Petersburg.jpg"
+      "photo": "img/kaka.jpg"
     },
     {
       "name": "Fernando Torres",
@@ -2568,7 +2569,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Fernando_Torres",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/57/Fernando_Torres_2017.jpg"
+      "photo": "img/fernando-torres.jpg"
     },
     {
       "name": "Xavi",
@@ -2614,7 +2615,8 @@
         }
       },
       "notes": "MŚ 2010, ME 2008+2012, 4x LM, 8 La Liga + 1 liga Kataru. Trofea Al Sadd tylko z okresu gry (bez trenerskich).",
-      "source": "https://en.wikipedia.org/wiki/Xavi_(footballer,_born_1980)"
+      "source": "https://en.wikipedia.org/wiki/Xavi_(footballer,_born_1980)",
+      "photo": "img/xavi.jpg"
     },
     {
       "name": "Steven Gerrard",
@@ -2670,7 +2672,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Steven_Gerrard",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Steven_Gerrard_2018.jpg/330px-Steven_Gerrard_2018.jpg"
+      "photo": "img/steven-gerrard.jpg"
     },
     {
       "name": "Samuel Eto'o",
@@ -2726,7 +2728,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Samuel_Eto%27o",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Samuel_2011.jpg/330px-Samuel_2011.jpg"
+      "photo": "img/samuel-eto-o.jpg"
     },
     {
       "name": "Gabriel Batistuta",
@@ -2782,7 +2784,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Gabriel_Batistuta",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Omar_Batistuta_%282%29.jpg/330px-Omar_Batistuta_%282%29.jpg"
+      "photo": "img/gabriel-batistuta.jpg"
     },
     {
       "name": "Zlatan Ibrahimović",
@@ -2838,7 +2840,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Zlatan_Ibrahimovi%C4%87_June_2018.jpg/330px-Zlatan_Ibrahimovi%C4%87_June_2018.jpg"
+      "photo": "img/zlatan-ibrahimovic.jpg"
     },
     {
       "name": "Fernando Morientes",
@@ -2894,7 +2896,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Fernando_Morientes",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Fernando_Morientes_-_53822470816.jpg/330px-Fernando_Morientes_-_53822470816.jpg"
+      "photo": "img/fernando-morientes.jpg"
     },
     {
       "name": "David Trezeguet",
@@ -2950,7 +2952,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/David_Trezeguet",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/David_Trezeguet_became_Save_the_Dream_Ambassador%2C_2017_%28cropped%29.jpg/330px-David_Trezeguet_became_Save_the_Dream_Ambassador%2C_2017_%28cropped%29.jpg"
+      "photo": "img/david-trezeguet.jpg"
     },
     {
       "name": "Gaizka Mendieta",
@@ -3006,7 +3008,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Gaizka_Mendieta",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/2018_Gaizka_Mendieta.jpg"
+      "photo": "img/gaizka-mendieta.jpg"
     },
     {
       "name": "Andrés Iniesta",
@@ -3053,7 +3055,7 @@
       },
       "notes": "MŚ 2010 (gol w finale), ME 2008+2012, 4x LM, 9 La Liga. Złota Piłka 2. 2010, 3. 2012.",
       "source": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Andr%C3%A9s_Iniesta_2019.jpg/330px-Andr%C3%A9s_Iniesta_2019.jpg"
+      "photo": "img/andres-iniesta.jpg"
     },
     {
       "name": "Rio Ferdinand",
@@ -3109,7 +3111,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Rio_Ferdinand",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Web_Summit_2015_-_Dublin%2C_Ireland_-_22183056474_%28cropped%29.jpg/330px-Web_Summit_2015_-_Dublin%2C_Ireland_-_22183056474_%28cropped%29.jpg"
+      "photo": "img/rio-ferdinand.jpg"
     },
     {
       "name": "Wayne Rooney",
@@ -3165,7 +3167,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Wayne_Rooney",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg/330px-Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg"
+      "photo": "img/wayne-rooney.jpg"
     },
     {
       "name": "Patrick Vieira",
@@ -3221,7 +3223,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Patrick_Vieira",
       "notes": "Liga 6 = 3 Premier (Arsenal) + 3 Serie A (Inter); tytul Juventusu anulowany.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Patrick_Vieira_NYCFC_%28cropped%29.JPG/330px-Patrick_Vieira_NYCFC_%28cropped%29.JPG"
+      "photo": "img/patrick-vieira.jpg"
     },
     {
       "name": "Didier Drogba",
@@ -3277,7 +3279,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Didier_Drogba",
       "notes": "Galatasaray (Turcja) wykluczony (nie top-7): odjeto 37 wyst/15 goli, tytul Super Lig i turecki superpuchar. Liga 3 = Premier League z Chelsea.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Didier_Drogba_%282019%29_%28cropped2%29.jpg/330px-Didier_Drogba_%282019%29_%28cropped2%29.jpg"
+      "photo": "img/didier-drogba.jpg"
     },
     {
       "name": "John Terry",
@@ -3333,7 +3335,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/John_Terry",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_Terry_at_pro-am_Wentworth_golf_course_September_2023_%28cropped%29.jpg/330px-John_Terry_at_pro-am_Wentworth_golf_course_September_2023_%28cropped%29.jpg"
+      "photo": "img/john-terry.jpg"
     },
     {
       "name": "Alessandro Del Piero",
@@ -3389,7 +3391,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Alessandro_Del_Piero",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/25th_Laureus_World_Sports_Awards_-_Alessandro_Del_Piero_-_240421_155220_%28cropped%29.jpg/330px-25th_Laureus_World_Sports_Awards_-_Alessandro_Del_Piero_-_240421_155220_%28cropped%29.jpg"
+      "photo": "img/alessandro-del-piero.jpg"
     },
     {
       "name": "Alessandro Nesta",
@@ -3445,7 +3447,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Alessandro_Nesta",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Alessandro_Nesta_as_Miami_FC_Manager.jpg/330px-Alessandro_Nesta_as_Miami_FC_Manager.jpg"
+      "photo": "img/alessandro-nesta.jpg"
     },
     {
       "name": "Andrea Pirlo",
@@ -3501,7 +3503,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Andrea_Pirlo",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Andrea_Pirlo_%28cropped%29.jpg/330px-20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Andrea_Pirlo_%28cropped%29.jpg"
+      "photo": "img/andrea-pirlo.jpg"
     },
     {
       "name": "Dunga",
@@ -3557,7 +3559,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Dunga",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Aecio_Neves_e_Dunga_-_17-06-2008_%288368243127%29_%28cropped%29.jpg/330px-Aecio_Neves_e_Dunga_-_17-06-2008_%288368243127%29_%28cropped%29.jpg"
+      "photo": "img/dunga.jpg"
     },
     {
       "name": "Francesco Totti",
@@ -3613,7 +3615,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Francesco_Totti",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/KL-2018_%284%29.jpg/330px-KL-2018_%284%29.jpg"
+      "photo": "img/francesco-totti.jpg"
     },
     {
       "name": "Michael Ballack",
@@ -3669,7 +3671,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Michael_Ballack",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/10._Tag_der_Legenden_2014_69.jpg/330px-10._Tag_der_Legenden_2014_69.jpg"
+      "photo": "img/michael-ballack.jpg"
     },
     {
       "name": "Patrick Kluivert",
@@ -3725,7 +3727,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Patrick_Kluivert",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Patrick_Kluivert_at_Web_Summit_2024_%28cropped_2%29.jpg/330px-Patrick_Kluivert_at_Web_Summit_2024_%28cropped_2%29.jpg"
+      "photo": "img/patrick-kluivert.jpg"
     },
     {
       "name": "Henrik Larsson",
@@ -3781,7 +3783,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Henrik_Larsson",
       "notes": "Celtic (Szkocja) i Helsingborg (Szwecja) wykluczone. Liczone: Feyenoord+Barcelona+ManUtd + reprezentacja.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Henrik_Larsson_in_Jan_2014.jpg/330px-Henrik_Larsson_in_Jan_2014.jpg"
+      "photo": "img/henrik-larsson.jpg"
     },
     {
       "name": "Ashley Cole",
@@ -3837,7 +3839,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Ashley_Cole",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/ACole.JPG"
+      "photo": "img/ashley-cole.jpg"
     },
     {
       "name": "Raúl",
@@ -3884,7 +3886,7 @@
       },
       "notes": "Występy/gole ujednolicone do wszystkich meczów oficjalnych (~976/414). 6x La Liga, 3x LM; DFB-Pokal (Schalke) jako puchar kraju; Ballon d'Or 2. 2001, FIFA WPY 3. 2001.",
       "source": "https://en.wikipedia.org/wiki/Ra%C3%BAl_Gonz%C3%A1lez",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/25th_Laureus_World_Sports_Awards_-_Ra%C3%BAl_-_240422_132916-2_%28cropped%29.jpg/330px-25th_Laureus_World_Sports_Awards_-_Ra%C3%BAl_-_240422_132916-2_%28cropped%29.jpg"
+      "photo": "img/raul.jpg"
     },
     {
       "name": "Luka Modrić",
@@ -3931,7 +3933,7 @@
       },
       "notes": "6x LM, Złota Piłka i The Best 2018, MŚ finał 2018 + półfinał 2022.",
       "source": "https://en.wikipedia.org/wiki/Luka_Modri%C4%87",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ofrenda_de_la_Liga_y_la_Champions-57-L.Mill%C3%A1n_%2852109310843%29_%28Luka_Modri%C4%87%29.jpg/330px-Ofrenda_de_la_Liga_y_la_Champions-57-L.Mill%C3%A1n_%2852109310843%29_%28Luka_Modri%C4%87%29.jpg"
+      "photo": "img/luka-modric.jpg"
     },
     {
       "name": "Karim Benzema",
@@ -3978,7 +3980,7 @@
       },
       "notes": "5x LM, Złota Piłka 2022, 9 mistrzostw (4 Ligue1 + 4 La Liga + 1 Saudi), MŚ finał 2022.",
       "source": "https://en.wikipedia.org/wiki/Karim_Benzema",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Karim_Benzema_Pick.jpg/330px-Karim_Benzema_Pick.jpg"
+      "photo": "img/karim-benzema.jpg"
     },
     {
       "name": "Sergio Ramos",
@@ -4025,7 +4027,7 @@
       },
       "notes": "Obrońca, 112 goli; MŚ 2010, ME 2008 i 2012, 4x LM, 7 mistrzostw.",
       "source": "https://en.wikipedia.org/wiki/Sergio_Ramos",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Sergio_Ramos_Interview_2021_%28cropped%29.jpg/330px-Sergio_Ramos_Interview_2021_%28cropped%29.jpg"
+      "photo": "img/sergio-ramos.jpg"
     },
     {
       "name": "Toni Kroos",
@@ -4072,7 +4074,7 @@
       },
       "notes": "MŚ 2014, 6x LM (+ przegrany finał 2012), 7 mistrzostw (3 Bundesliga + 4 La Liga).",
       "source": "https://en.wikipedia.org/wiki/Toni_Kroos",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Toni_Kroos_Real_Madrid_2021.jpg/330px-Toni_Kroos_Real_Madrid_2021.jpg"
+      "photo": "img/toni-kroos.jpg"
     },
     {
       "name": "Rodri",
@@ -4121,7 +4123,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Rodri_(footballer,_born_1996)",
       "notes": "wszystkie ligi top; ME2024.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg/330px-RODRI_-_SWE_vs_ESP_-_UEFA_EURO_2020_QUALIFIERS_-_2019.10.15_%28cropped%29.jpg"
+      "photo": "img/rodri.jpg"
     },
     {
       "name": "Jude Bellingham",
@@ -4170,7 +4172,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Jude_Bellingham",
       "notes": "natCup=1 DFB-Pokal; ligi top.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/330px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg"
+      "photo": "img/jude-bellingham.jpg"
     },
     {
       "name": "Kevin De Bruyne",
@@ -4219,7 +4221,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Kevin_De_Bruyne",
       "notes": "FIX league7=6 Premier+1 Belgian(Genk); belgijska nie top-7 -> 6. natCup3 zawiera 1 DFB-Pokal(Wolfsburg,top ok)+2 FA.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg/330px-Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg"
+      "photo": "img/kevin-de-bruyne.jpg"
     },
     {
       "name": "Virgil van Dijk",
@@ -4268,7 +4270,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Virgil_van_Dijk",
       "notes": "FIX league4=2 Premier+2 Scottish(Celtic); szkocka nie top-7 -> 2; leagueCup3 zawiera 1 szkocki -> 2. Groningen/Celtic wystepy? Celtic odjac.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/20160604_AUT_NED_8876_%28cropped%29.jpg/330px-20160604_AUT_NED_8876_%28cropped%29.jpg"
+      "photo": "img/virgil-van-dijk.jpg"
     },
     {
       "name": "Manuel Neuer",
@@ -4317,7 +4319,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Manuel_Neuer",
       "notes": "niemieckie top. MS2014.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/20180602_FIFA_Friendly_Match_Austria_vs._Germany_Manuel_Neuer_850_0723.jpg/330px-20180602_FIFA_Friendly_Match_Austria_vs._Germany_Manuel_Neuer_850_0723.jpg"
+      "photo": "img/manuel-neuer.jpg"
     },
     {
       "name": "Antoine Griezmann",
@@ -4366,7 +4368,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Antoine_Griezmann",
       "notes": "league0 (tylko Segunda). ligi top. Real Sociedad/Atletico/Barca top.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/FRA-ARG_%2810%29_%28cropped%29.jpg/330px-FRA-ARG_%2810%29_%28cropped%29.jpg"
+      "photo": "img/antoine-griezmann.jpg"
     },
     {
       "name": "Sadio Mané",
@@ -4411,7 +4413,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Sadio_Man%C3%A9",
       "notes": "FIX league4=Austria(Salzburg)+Premier+Bundesliga+Saudi -> tylko Premier2020+Bundesliga2023 = 2. natCup2 zawiera Puchar Austrii -> 1 (FA Cup). Salzburg+Saudi wystepy odjac.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Sadio_Mane_France_v_Senegal_16_June_2026-450.jpg/330px-Sadio_Mane_France_v_Senegal_16_June_2026-450.jpg"
+      "photo": "img/sadio-mane.jpg"
     },
     {
       "name": "Ousmane Dembélé",
@@ -4456,7 +4458,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Ousmane_Demb%C3%A9l%C3%A9",
       "notes": "ligi top. Zlota Pilka+The Best 2025.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Ousmane_Dembele_France_v_Senegal_16_June_2026-341_%28cropped%29.jpg/330px-Ousmane_Dembele_France_v_Senegal_16_June_2026-341_%28cropped%29.jpg"
+      "photo": "img/ousmane-dembele.jpg"
     },
     {
       "name": "Lamine Yamal",
@@ -4505,7 +4507,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Lamine_Yamal",
       "notes": "ME2024. ligi top.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Lamine_Yamal_a_Xina_%282025%29.png/330px-Lamine_Yamal_a_Xina_%282025%29.png"
+      "photo": "img/lamine-yamal.jpg"
     },
     {
       "name": "Franck Ribéry",
@@ -4554,7 +4556,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Franck_Rib%C3%A9ry",
       "notes": "9 Bundesliga; MS2006 final. Fiorentina wloska top. Marsylia/Bayern top.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Franck_Ribery_2019_%28cropped%29.jpg/330px-Franck_Ribery_2019_%28cropped%29.jpg"
+      "photo": "img/franck-ribery.jpg"
     },
     {
       "name": "Philipp Lahm",
@@ -4603,7 +4605,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Philipp_Lahm",
       "notes": "niemieckie top. MS2014, MS2006/2010 polfinal, ME2008 final, ME2012 polfinal.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Philipp_Lahm_auf_der_Berlinale_2024%2C_Ausschnitt.jpg/330px-Philipp_Lahm_auf_der_Berlinale_2024%2C_Ausschnitt.jpg"
+      "photo": "img/philipp-lahm.jpg"
     },
     {
       "name": "Bastian Schweinsteiger",
@@ -4652,7 +4654,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Bastian_Schweinsteiger",
       "notes": "8 Bundesliga; natCup8=7 DFB-Pokal+1 FA Cup(ManUtd). Europa League 2017 uefa.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Re-publica_23_-_Tag_3_%2852957826298%29_%28cropped%29.jpg/330px-Re-publica_23_-_Tag_3_%2852957826298%29_%28cropped%29.jpg"
+      "photo": "img/bastian-schweinsteiger.jpg"
     },
     {
       "name": "David Villa",
@@ -4701,7 +4703,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/David_Villa",
       "notes": "MS2010,ME2008. hiszp top. NYCFC(MLS)+Vissel(JP) wystepy odjac.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Spain-Tahiti%2C_Confederations_Cup_2013_%2802%29_%28Villa_crop%29.jpg/330px-Spain-Tahiti%2C_Confederations_Cup_2013_%2802%29_%28Villa_crop%29.jpg"
+      "photo": "img/david-villa.jpg"
     },
     {
       "name": "Diego Godín",
@@ -4750,7 +4752,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Diego_God%C3%ADn",
       "notes": "COPA 2011. Atletico hiszp top. Nacional/Velez/AtleticoMineiro/Cerro wystepy odjac.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Diego_God%C3%ADn_2018_%28cropped%29.jpg/330px-Diego_God%C3%ADn_2018_%28cropped%29.jpg"
+      "photo": "img/diego-godin.jpg"
     },
     {
       "name": "Romário",
@@ -4799,7 +4801,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Rom%C3%A1rio",
       "notes": "FIX league=4 (3 Eredivisie PSV + 1 La Liga Barca); agent bledn dal 1 brazylijska. Wystepy 768/597 zawieraja kluby brazylijskie -> mocno odjac (zostaje PSV+Barca+Valencia+repr). FIFA WPY1994.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Senadores_da_57%C2%AA_Legislatura_%2852689451805%29.jpg/330px-Senadores_da_57%C2%AA_Legislatura_%2852689451805%29.jpg"
+      "photo": "img/romario.jpg"
     },
     {
       "name": "Gerard Piqué",
@@ -4848,7 +4850,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Gerard_Piqu%C3%A9",
       "notes": "league10=9 La Liga+1 Premier; natCup7; leagueCup1 EFL. MS2010,ME2012. top.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Gerard_Piqu%C3%A9_Euro_2012_vs_France_01.jpg/330px-Gerard_Piqu%C3%A9_Euro_2012_vs_France_01.jpg"
+      "photo": "img/gerard-pique.jpg"
     },
     {
       "name": "Sergio Busquets",
@@ -4897,7 +4899,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Sergio_Busquets",
       "notes": "FIX league10 zawiera 1 MLS -> 9; leagueCup1=LeaguesCup(US) -> 0; natCup7 Copa del Rey. Miami wystepy odjac. MS2010,ME2012,ME2020 polfinal.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sergio_Busquets_NYCFC_Miami_24_Sep_2025-020_%28cropped%29.jpg/330px-Sergio_Busquets_NYCFC_Miami_24_Sep_2025-020_%28cropped%29.jpg"
+      "photo": "img/sergio-busquets.jpg"
     },
     {
       "name": "Dani Alves",
@@ -4946,7 +4948,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Dani_Alves",
       "notes": "COPA 2007,2019. league9=6 La Liga+1 Serie A+2 Ligue1 top. natCup7 zawiera Copa do Nordeste -> 6. Bahia/SaoPaulo/Pumas wystepy odjac.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/dd/07_07_2019_Final_da_Copa_Am%C3%A9rica_2019_%2848226649586%29_%28cropped%29.jpg"
+      "photo": "img/dani-alves.jpg"
     },
     {
       "name": "Marcelo",
@@ -4991,7 +4993,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Marcelo_(footballer,_born_1988)",
       "notes": "6 La Liga top. Fluminense(brazyl) wystepy odjac.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Marcelo_Vieira_in_2022.jpg/330px-Marcelo_Vieira_in_2022.jpg"
+      "photo": "img/marcelo.jpg"
     },
     {
       "name": "Thiago Silva",
@@ -5040,7 +5042,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Thiago_Silva",
       "notes": "COPA 2019 win,2021 final. league9=7 Ligue1+1 Serie A+1 Primeira(Porto top). MS2014 polfinal. Fluminense wystepy odjac.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Thiago_Silva_850_1582.jpg/330px-20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Thiago_Silva_850_1582.jpg"
+      "photo": "img/thiago-silva.jpg"
     },
     {
       "name": "Kylian Mbappé",
@@ -5089,7 +5091,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9",
       "notes": "ligi top. MS2018 win,2022 final.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/330px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg"
+      "photo": "img/kylian-mbappe.jpg"
     },
     {
       "name": "Neymar",
@@ -5138,7 +5140,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Neymar",
       "notes": "COPA final2021. league7=2 La Liga+5 Ligue1 top. natCup7. Santos(br)+AlHilal(sa) wystepy odjac.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg/330px-Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg"
+      "photo": "img/neymar.jpg"
     },
     {
       "name": "Mohamed Salah",
@@ -5183,7 +5185,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Mohamed_Salah",
       "notes": "FIX league4=2 Premier+2 Swiss(Basel); szwajc nie top-7 -> 2. Basel wystepy odjac.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mohamed_Salah_2018.jpg/330px-Mohamed_Salah_2018.jpg"
+      "photo": "img/mohamed-salah.jpg"
     },
     {
       "name": "Erling Haaland",
@@ -5228,7 +5230,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Erling_Haaland",
       "notes": "FIX league4=Austria(Salzburg)+3 Premier; Austria nie top-7 -> 3. Salzburg/Molde wystepy odjac.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg/330px-Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg"
+      "photo": "img/erling-haaland.jpg"
     },
     {
       "name": "Vinícius Júnior",
@@ -5277,7 +5279,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Vin%C3%ADcius_J%C3%BAnior",
       "notes": "COPA final2021. 3 La Liga top. Flamengo wystepy odjac. The Best 2024.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/330px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg"
+      "photo": "img/vinicius-junior.jpg"
     },
     {
       "name": "Ángel Di María",
@@ -5326,7 +5328,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/%C3%81ngel_Di_Mar%C3%ADa",
       "notes": "COPA 2021,2024 win;2015,2016 final. league7=5 Ligue1+2 Primeira top. Rosario(arg) wystepy odjac.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/NIG-ARG_%285%29.jpg/330px-NIG-ARG_%285%29.jpg"
+      "photo": "img/angel-di-maria.jpg"
     },
     {
       "name": "N'Golo Kanté",
@@ -5375,7 +5377,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/N%27Golo_Kant%C3%A9",
       "notes": "FIX league3=2 Premier+1 Saudi -> 2; natCup2=FA+King'sCup(sa) -> 1. AlIttihad wystepy odjac. MS2018,ME2016 final.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/N%27Golo_Kante_France_v_Senegal_16_June_2026-397.jpg/330px-N%27Golo_Kante_France_v_Senegal_16_June_2026-397.jpg"
+      "photo": "img/n-golo-kante.jpg"
     },
     {
       "name": "Joshua Kimmich",
@@ -5424,7 +5426,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Joshua_Kimmich",
       "notes": "10 Bundesliga top. ME2016 polfinal.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/2019-06-11_Fu%C3%9Fball%2C_M%C3%A4nner%2C_L%C3%A4nderspiel%2C_Deutschland-Estland_StP_2078_LR10_by_Stepro_%28cropped%29.jpg/330px-2019-06-11_Fu%C3%9Fball%2C_M%C3%A4nner%2C_L%C3%A4nderspiel%2C_Deutschland-Estland_StP_2078_LR10_by_Stepro_%28cropped%29.jpg"
+      "photo": "img/joshua-kimmich.jpg"
     },
     {
       "name": "Casemiro",
@@ -5473,7 +5475,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Casemiro",
       "notes": "COPA 2019 win,2021 final. 3 La Liga top. SaoPaulo(br) wystepy odjac.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Casemiro_Brazil_V_Morocco_13_June_2026-76_%28cropped%29.jpg/330px-Casemiro_Brazil_V_Morocco_13_June_2026-76_%28cropped%29.jpg"
+      "photo": "img/casemiro.jpg"
     },
     {
       "name": "Gareth Bale",
@@ -5522,7 +5524,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Gareth_Bale",
       "notes": "3 La Liga top. Tottenham/Southampton top. LAFC(MLS) wystepy odjac. ME2016 polfinal.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/2022_FIFA_World_Cup_United_States_1%E2%80%931_Wales_-_%2832%29_%28cropped%29.jpg/330px-2022_FIFA_World_Cup_United_States_1%E2%80%931_Wales_-_%2832%29_%28cropped%29.jpg"
+      "photo": "img/gareth-bale.jpg"
     },
     {
       "name": "Hristo Stoichkov",
@@ -5571,7 +5573,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Hristo_Stoichkov",
       "notes": "FIX league8=3 CSKA(bulg)+5 Barca; bulg nie top-7 -> 5. natCup6 zawiera 4 bulg -> 2 Copa del Rey. CSKA wystepy odjac. Zlota Pilka1994,MS1994 polfinal.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Stoichkov_in_2016.jpg/330px-Stoichkov_in_2016.jpg"
+      "photo": "img/hristo-stoichkov.jpg"
     },
     {
       "name": "George Weah",
@@ -5616,7 +5618,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/George_Weah",
       "notes": "FIX league3=1 Ligue1(PSG)+2 Serie A(Milan) top (agent dal 4 z liberyjska). natCup4=3 Coupe de France+1 FA Cup. Monaco/Milan/PSG/Marsylia/Chelsea/ManCity top; afryk. odjac. Zlota Pilka1995,FIFA WPY1995.",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Clar_Weah%2C_George_Weah%2C_Joe_Biden%2C_Jill_Biden_%28cropped%29.jpg"
+      "photo": "img/george-weah.jpg"
     },
     {
       "name": "Luis Suárez",
@@ -5672,7 +5674,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Luis_Su%C3%A1rez_2026_%28cropped%29.jpg/330px-Luis_Su%C3%A1rez_2026_%28cropped%29.jpg"
+      "photo": "img/luis-suarez.jpg"
     },
     {
       "name": "Edinson Cavani",
@@ -5728,7 +5730,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Edinson_Cavani",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Edinson_Cavani_2018_%28cropped%29.jpg/330px-Edinson_Cavani_2018_%28cropped%29.jpg"
+      "photo": "img/edinson-cavani.jpg"
     },
     {
       "name": "Harry Kane",
@@ -5784,7 +5786,7 @@
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Harry_Kane",
       "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg/330px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg"
+      "photo": "img/harry-kane.jpg"
     }
   ]
 }
