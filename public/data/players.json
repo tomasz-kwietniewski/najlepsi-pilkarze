@@ -2141,13 +2141,9 @@
     {
       "name": "Michael Owen",
       "position": "FWD",
-      "appearances": 532,
-      "goals": 251,
+      "appearances": 442,
+      "goals": 202,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Michael_Owen.jpg/330px-Michael_Owen.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -2159,6 +2155,15 @@
           "final": 0,
           "semi": 0
         },
+        "copa": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 0,
+        "natCup": 1,
+        "leagueCup": 2,
+        "natSupercup": 0,
         "ucl": {
           "win": 0,
           "final": 0
@@ -2167,6 +2172,12 @@
           "win": 1,
           "final": 0
         },
+        "conference": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 1,
+        "intercontinental": 0,
         "ballon": {
           "first": 1,
           "second": 0,
@@ -2176,23 +2187,12 @@
           "first": 0,
           "second": 0,
           "third": 0
-        },
-        "league": 0,
-        "natCup": 1,
-        "leagueCup": 2,
-        "natSupercup": 0,
-        "euroSupercup": 1,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Michael_Owen",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Michael_Owen.jpg/330px-Michael_Owen.jpg"
     },
     {
       "name": "Alan Shearer",
@@ -2253,13 +2253,9 @@
     {
       "name": "Robert Lewandowski",
       "position": "FWD",
-      "appearances": 664,
-      "goals": 411,
+      "appearances": 685,
+      "goals": 484,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/2019147183134_2019-05-27_Fussball_1.FC_Kaiserslautern_vs_FC_Bayern_M%C3%BCnchen_-_Sven_-_1D_X_MK_II_-_0228_-_B70I8527_%28cropped%29.jpg/330px-2019147183134_2019-05-27_Fussball_1.FC_Kaiserslautern_vs_FC_Bayern_M%C3%BCnchen_-_Sven_-_1D_X_MK_II_-_0228_-_B70I8527_%28cropped%29.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -2271,40 +2267,44 @@
           "final": 0,
           "semi": 0
         },
-        "ucl": {
-          "win": 0,
-          "final": 0
-        },
-        "uefa": {
-          "win": 0,
-          "final": 0
-        },
-        "ballon": {
-          "first": 0,
-          "second": 0,
-          "third": 0
-        },
-        "fifa": {
-          "first": 0,
-          "second": 0,
-          "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
         "copa": {
           "win": 0,
           "final": 0,
           "semi": 0
         },
+        "league": 13,
+        "natCup": 8,
+        "leagueCup": 0,
+        "natSupercup": 9,
+        "ucl": {
+          "win": 1,
+          "final": 1
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
         "conference": {
           "win": 0,
           "final": 0
+        },
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 1,
+          "third": 0
+        },
+        "fifa": {
+          "first": 2,
+          "second": 0,
+          "third": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Robert_Lewandowski",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/2019147183134_2019-05-27_Fussball_1.FC_Kaiserslautern_vs_FC_Bayern_M%C3%BCnchen_-_Sven_-_1D_X_MK_II_-_0228_-_B70I8527_%28cropped%29.jpg/330px-2019147183134_2019-05-27_Fussball_1.FC_Kaiserslautern_vs_FC_Bayern_M%C3%BCnchen_-_Sven_-_1D_X_MK_II_-_0228_-_B70I8527_%28cropped%29.jpg"
     },
     {
       "name": "Jerzy Dudek",
@@ -2414,32 +2414,43 @@
     {
       "name": "Fabio Cannavaro",
       "position": "DEF",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 651,
+      "goals": 16,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Fabio_Cannavaro_2011.jpg/330px-Fabio_Cannavaro_2011.jpg",
       "counts": {
         "wc": {
-          "win": 0,
+          "win": 1,
           "final": 0,
           "semi": 0
         },
         "euro": {
           "win": 0,
+          "final": 1,
+          "semi": 0
+        },
+        "copa": {
+          "win": 0,
           "final": 0,
           "semi": 0
         },
+        "league": 2,
+        "natCup": 2,
+        "leagueCup": 0,
+        "natSupercup": 2,
         "ucl": {
           "win": 0,
           "final": 0
         },
         "uefa": {
+          "win": 1,
+          "final": 0
+        },
+        "conference": {
           "win": 0,
           "final": 0
         },
+        "euroSupercup": 1,
+        "intercontinental": 0,
         "ballon": {
           "first": 1,
           "second": 0,
@@ -2449,23 +2460,12 @@
           "first": 1,
           "second": 0,
           "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Fabio_Cannavaro",
+      "notes": "Tytuly Serie A Juventusu (2005,2006) odebrane w Calciopoli - nie liczone; league=2 (La Liga Real 2007,2008).",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Fabio_Cannavaro_2011.jpg/330px-Fabio_Cannavaro_2011.jpg"
     },
     {
       "name": "Kaká",
@@ -2517,32 +2517,43 @@
     {
       "name": "Fernando Torres",
       "position": "FWD",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 685,
+      "goals": 233,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/57/Fernando_Torres_2017.jpg",
       "counts": {
         "wc": {
-          "win": 0,
+          "win": 1,
           "final": 0,
           "semi": 0
         },
         "euro": {
+          "win": 2,
+          "final": 0,
+          "semi": 0
+        },
+        "copa": {
           "win": 0,
           "final": 0,
           "semi": 0
         },
+        "league": 0,
+        "natCup": 1,
+        "leagueCup": 0,
+        "natSupercup": 0,
         "ucl": {
-          "win": 0,
-          "final": 0
+          "win": 1,
+          "final": 1
         },
         "uefa": {
+          "win": 2,
+          "final": 0
+        },
+        "conference": {
           "win": 0,
           "final": 0
         },
+        "euroSupercup": 1,
+        "intercontinental": 0,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -2552,23 +2563,12 @@
           "first": 0,
           "second": 0,
           "third": 1
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Fernando_Torres",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/57/Fernando_Torres_2017.jpg"
     },
     {
       "name": "Xavi",
@@ -2619,13 +2619,9 @@
     {
       "name": "Steven Gerrard",
       "position": "MID",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 618,
+      "goals": 141,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Steven_Gerrard_2018.jpg/330px-Steven_Gerrard_2018.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -2637,14 +2633,29 @@
           "final": 0,
           "semi": 0
         },
-        "ucl": {
+        "copa": {
           "win": 0,
-          "final": 0
+          "final": 0,
+          "semi": 0
+        },
+        "league": 0,
+        "natCup": 2,
+        "leagueCup": 3,
+        "natSupercup": 0,
+        "ucl": {
+          "win": 1,
+          "final": 1
         },
         "uefa": {
+          "win": 1,
+          "final": 0
+        },
+        "conference": {
           "win": 0,
           "final": 0
         },
+        "euroSupercup": 1,
+        "intercontinental": 0,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -2653,35 +2664,20 @@
         "fifa": {
           "first": 0,
           "second": 0,
-          "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
+          "third": 1
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Steven_Gerrard",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Steven_Gerrard_2018.jpg/330px-Steven_Gerrard_2018.jpg"
     },
     {
       "name": "Samuel Eto'o",
       "position": "FWD",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 522,
+      "goals": 265,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Samuel_2011.jpg/330px-Samuel_2011.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -2693,14 +2689,29 @@
           "final": 0,
           "semi": 0
         },
-        "ucl": {
+        "copa": {
           "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 4,
+        "natCup": 4,
+        "leagueCup": 0,
+        "natSupercup": 3,
+        "ucl": {
+          "win": 3,
           "final": 0
         },
         "uefa": {
           "win": 0,
           "final": 0
         },
+        "conference": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 0,
+        "intercontinental": 1,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -2710,34 +2721,19 @@
           "first": 0,
           "second": 0,
           "third": 1
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Samuel_Eto%27o",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Samuel_2011.jpg/330px-Samuel_2011.jpg"
     },
     {
       "name": "Gabriel Batistuta",
       "position": "FWD",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 422,
+      "goals": 256,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Omar_Batistuta_%282%29.jpg/330px-Omar_Batistuta_%282%29.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -2749,6 +2745,15 @@
           "final": 0,
           "semi": 0
         },
+        "copa": {
+          "win": 2,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 1,
+        "natCup": 1,
+        "leagueCup": 0,
+        "natSupercup": 2,
         "ucl": {
           "win": 0,
           "final": 0
@@ -2757,6 +2762,12 @@
           "win": 0,
           "final": 0
         },
+        "conference": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 0,
+        "intercontinental": 0,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -2766,34 +2777,19 @@
           "first": 0,
           "second": 0,
           "third": 1
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Gabriel_Batistuta",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Omar_Batistuta_%282%29.jpg/330px-Omar_Batistuta_%282%29.jpg"
     },
     {
       "name": "Zlatan Ibrahimović",
       "position": "FWD",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 703,
+      "goals": 415,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Zlatan_Ibrahimovi%C4%87_June_2018.jpg/330px-Zlatan_Ibrahimovi%C4%87_June_2018.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -2805,14 +2801,29 @@
           "final": 0,
           "semi": 0
         },
+        "copa": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 8,
+        "natCup": 2,
+        "leagueCup": 3,
+        "natSupercup": 3,
         "ucl": {
           "win": 0,
           "final": 0
         },
         "uefa": {
+          "win": 1,
+          "final": 0
+        },
+        "conference": {
           "win": 0,
           "final": 0
         },
+        "euroSupercup": 0,
+        "intercontinental": 0,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -2822,34 +2833,19 @@
           "first": 0,
           "second": 0,
           "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Zlatan_Ibrahimovi%C4%87_June_2018.jpg/330px-Zlatan_Ibrahimovi%C4%87_June_2018.jpg"
     },
     {
       "name": "Fernando Morientes",
       "position": "FWD",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 465,
+      "goals": 170,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Fernando_Morientes_-_53822470816.jpg/330px-Fernando_Morientes_-_53822470816.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -2861,14 +2857,29 @@
           "final": 0,
           "semi": 0
         },
-        "ucl": {
+        "copa": {
           "win": 0,
-          "final": 0
+          "final": 0,
+          "semi": 0
+        },
+        "league": 3,
+        "natCup": 2,
+        "leagueCup": 1,
+        "natSupercup": 1,
+        "ucl": {
+          "win": 3,
+          "final": 1
         },
         "uefa": {
           "win": 0,
           "final": 0
         },
+        "conference": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 1,
+        "intercontinental": 2,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -2878,53 +2889,53 @@
           "first": 0,
           "second": 0,
           "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Fernando_Morientes",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Fernando_Morientes_-_53822470816.jpg/330px-Fernando_Morientes_-_53822470816.jpg"
     },
     {
       "name": "David Trezeguet",
       "position": "FWD",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 440,
+      "goals": 236,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/David_Trezeguet_became_Save_the_Dream_Ambassador%2C_2017_%28cropped%29.jpg/330px-David_Trezeguet_became_Save_the_Dream_Ambassador%2C_2017_%28cropped%29.jpg",
       "counts": {
         "wc": {
-          "win": 0,
-          "final": 0,
+          "win": 1,
+          "final": 1,
           "semi": 0
         },
         "euro": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "copa": {
           "win": 0,
           "final": 0,
           "semi": 0
         },
+        "league": 4,
+        "natCup": 0,
+        "leagueCup": 0,
+        "natSupercup": 2,
         "ucl": {
           "win": 0,
-          "final": 0
+          "final": 1
         },
         "uefa": {
           "win": 0,
           "final": 0
         },
+        "conference": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 0,
+        "intercontinental": 0,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -2934,34 +2945,19 @@
           "first": 0,
           "second": 0,
           "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/David_Trezeguet",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/David_Trezeguet_became_Save_the_Dream_Ambassador%2C_2017_%28cropped%29.jpg/330px-David_Trezeguet_became_Save_the_Dream_Ambassador%2C_2017_%28cropped%29.jpg"
     },
     {
       "name": "Gaizka Mendieta",
       "position": "MID",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 370,
+      "goals": 58,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/2018_Gaizka_Mendieta.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -2973,14 +2969,29 @@
           "final": 0,
           "semi": 0
         },
+        "copa": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 0,
+        "natCup": 1,
+        "leagueCup": 1,
+        "natSupercup": 1,
         "ucl": {
           "win": 0,
-          "final": 0
+          "final": 2
         },
         "uefa": {
           "win": 0,
+          "final": 1
+        },
+        "conference": {
+          "win": 0,
           "final": 0
         },
+        "euroSupercup": 0,
+        "intercontinental": 0,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -2990,23 +3001,12 @@
           "first": 0,
           "second": 0,
           "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Gaizka_Mendieta",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/2018_Gaizka_Mendieta.jpg"
     },
     {
       "name": "Andrés Iniesta",
@@ -3058,13 +3058,9 @@
     {
       "name": "Rio Ferdinand",
       "position": "DEF",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 595,
+      "goals": 14,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Web_Summit_2015_-_Dublin%2C_Ireland_-_22183056474_%28cropped%29.jpg/330px-Web_Summit_2015_-_Dublin%2C_Ireland_-_22183056474_%28cropped%29.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -3076,14 +3072,29 @@
           "final": 0,
           "semi": 0
         },
-        "ucl": {
+        "copa": {
           "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 6,
+        "natCup": 0,
+        "leagueCup": 2,
+        "natSupercup": 4,
+        "ucl": {
+          "win": 1,
           "final": 0
         },
         "uefa": {
           "win": 0,
           "final": 0
         },
+        "conference": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 0,
+        "intercontinental": 1,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -3093,34 +3104,19 @@
           "first": 0,
           "second": 0,
           "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Rio_Ferdinand",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Web_Summit_2015_-_Dublin%2C_Ireland_-_22183056474_%28cropped%29.jpg/330px-Web_Summit_2015_-_Dublin%2C_Ireland_-_22183056474_%28cropped%29.jpg"
     },
     {
       "name": "Wayne Rooney",
       "position": "FWD",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 641,
+      "goals": 267,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg/330px-Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -3132,14 +3128,29 @@
           "final": 0,
           "semi": 0
         },
-        "ucl": {
+        "copa": {
           "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 5,
+        "natCup": 1,
+        "leagueCup": 2,
+        "natSupercup": 2,
+        "ucl": {
+          "win": 1,
           "final": 0
         },
         "uefa": {
+          "win": 1,
+          "final": 0
+        },
+        "conference": {
           "win": 0,
           "final": 0
         },
+        "euroSupercup": 0,
+        "intercontinental": 1,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -3149,53 +3160,53 @@
           "first": 0,
           "second": 0,
           "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Wayne_Rooney",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg/330px-Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg"
     },
     {
       "name": "Patrick Vieira",
       "position": "MID",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 563,
+      "goals": 51,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Patrick_Vieira_NYCFC_%28cropped%29.JPG/330px-Patrick_Vieira_NYCFC_%28cropped%29.JPG",
       "counts": {
         "wc": {
-          "win": 0,
+          "win": 1,
           "final": 0,
           "semi": 0
         },
         "euro": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "copa": {
           "win": 0,
           "final": 0,
           "semi": 0
         },
+        "league": 6,
+        "natCup": 5,
+        "leagueCup": 0,
+        "natSupercup": 4,
         "ucl": {
           "win": 0,
           "final": 0
         },
         "uefa": {
           "win": 0,
+          "final": 1
+        },
+        "conference": {
+          "win": 0,
           "final": 0
         },
+        "euroSupercup": 0,
+        "intercontinental": 0,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -3205,34 +3216,19 @@
           "first": 0,
           "second": 0,
           "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Patrick_Vieira",
+      "notes": "Liga 6 = 3 Premier (Arsenal) + 3 Serie A (Inter); tytul Juventusu anulowany.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Patrick_Vieira_NYCFC_%28cropped%29.JPG/330px-Patrick_Vieira_NYCFC_%28cropped%29.JPG"
     },
     {
       "name": "Didier Drogba",
       "position": "FWD",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 503,
+      "goals": 220,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Didier_Drogba_%282019%29_%28cropped2%29.jpg/330px-Didier_Drogba_%282019%29_%28cropped2%29.jpg",
       "counts": {
         "wc": {
           "win": 0,
@@ -3244,14 +3240,29 @@
           "final": 0,
           "semi": 0
         },
-        "ucl": {
+        "copa": {
           "win": 0,
-          "final": 0
+          "final": 0,
+          "semi": 0
+        },
+        "league": 3,
+        "natCup": 4,
+        "leagueCup": 2,
+        "natSupercup": 2,
+        "ucl": {
+          "win": 1,
+          "final": 1
         },
         "uefa": {
           "win": 0,
           "final": 0
         },
+        "conference": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 0,
+        "intercontinental": 0,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -3261,23 +3272,12 @@
           "first": 0,
           "second": 0,
           "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Didier_Drogba",
+      "notes": "Galatasaray (Turcja) wykluczony (nie top-7): odjeto 37 wyst/15 goli, tytul Super Lig i turecki superpuchar. Liga 3 = Premier League z Chelsea.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Didier_Drogba_%282019%29_%28cropped2%29.jpg/330px-Didier_Drogba_%282019%29_%28cropped2%29.jpg"
     },
     {
       "name": "John Terry",
@@ -3506,17 +3506,13 @@
     {
       "name": "Dunga",
       "position": "MID",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 315,
+      "goals": 26,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Aecio_Neves_e_Dunga_-_17-06-2008_%288368243127%29_%28cropped%29.jpg/330px-Aecio_Neves_e_Dunga_-_17-06-2008_%288368243127%29_%28cropped%29.jpg",
       "counts": {
         "wc": {
-          "win": 0,
-          "final": 0,
+          "win": 1,
+          "final": 1,
           "semi": 0
         },
         "euro": {
@@ -3524,6 +3520,15 @@
           "final": 0,
           "semi": 0
         },
+        "copa": {
+          "win": 2,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 0,
+        "natCup": 0,
+        "leagueCup": 0,
+        "natSupercup": 0,
         "ucl": {
           "win": 0,
           "final": 0
@@ -3532,6 +3537,12 @@
           "win": 0,
           "final": 0
         },
+        "conference": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 0,
+        "intercontinental": 0,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -3541,23 +3552,12 @@
           "first": 0,
           "second": 0,
           "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Dunga",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Aecio_Neves_e_Dunga_-_17-06-2008_%288368243127%29_%28cropped%29.jpg/330px-Aecio_Neves_e_Dunga_-_17-06-2008_%288368243127%29_%28cropped%29.jpg"
     },
     {
       "name": "Francesco Totti",
@@ -3618,32 +3618,43 @@
     {
       "name": "Michael Ballack",
       "position": "MID",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 435,
+      "goals": 134,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/10._Tag_der_Legenden_2014_69.jpg/330px-10._Tag_der_Legenden_2014_69.jpg",
       "counts": {
         "wc": {
           "win": 0,
-          "final": 0,
+          "final": 1,
           "semi": 0
         },
         "euro": {
           "win": 0,
+          "final": 1,
+          "semi": 0
+        },
+        "copa": {
+          "win": 0,
           "final": 0,
           "semi": 0
         },
+        "league": 5,
+        "natCup": 6,
+        "leagueCup": 1,
+        "natSupercup": 0,
         "ucl": {
           "win": 0,
-          "final": 0
+          "final": 2
         },
         "uefa": {
           "win": 0,
           "final": 0
         },
+        "conference": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 0,
+        "intercontinental": 0,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -3653,53 +3664,53 @@
           "first": 0,
           "second": 0,
           "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Michael_Ballack",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/10._Tag_der_Legenden_2014_69.jpg/330px-10._Tag_der_Legenden_2014_69.jpg"
     },
     {
       "name": "Patrick Kluivert",
       "position": "FWD",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 423,
+      "goals": 189,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Patrick_Kluivert_at_Web_Summit_2024_%28cropped_2%29.jpg/330px-Patrick_Kluivert_at_Web_Summit_2024_%28cropped_2%29.jpg",
       "counts": {
         "wc": {
           "win": 0,
           "final": 0,
-          "semi": 0
+          "semi": 1
         },
         "euro": {
           "win": 0,
           "final": 0,
+          "semi": 1
+        },
+        "copa": {
+          "win": 0,
+          "final": 0,
           "semi": 0
         },
+        "league": 3,
+        "natCup": 0,
+        "leagueCup": 0,
+        "natSupercup": 2,
         "ucl": {
-          "win": 0,
+          "win": 1,
           "final": 0
         },
         "uefa": {
           "win": 0,
           "final": 0
         },
+        "conference": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 1,
+        "intercontinental": 1,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -3709,53 +3720,53 @@
           "first": 0,
           "second": 0,
           "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Patrick_Kluivert",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Patrick_Kluivert_at_Web_Summit_2024_%28cropped_2%29.jpg/330px-Patrick_Kluivert_at_Web_Summit_2024_%28cropped_2%29.jpg"
     },
     {
       "name": "Henrik Larsson",
       "position": "FWD",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 254,
+      "goals": 77,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Henrik_Larsson_in_Jan_2014.jpg/330px-Henrik_Larsson_in_Jan_2014.jpg",
       "counts": {
         "wc": {
           "win": 0,
           "final": 0,
-          "semi": 0
+          "semi": 1
         },
         "euro": {
           "win": 0,
           "final": 0,
           "semi": 0
         },
-        "ucl": {
+        "copa": {
           "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 2,
+        "natCup": 2,
+        "leagueCup": 0,
+        "natSupercup": 0,
+        "ucl": {
+          "win": 1,
           "final": 0
         },
         "uefa": {
           "win": 0,
           "final": 0
         },
+        "conference": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 0,
+        "intercontinental": 0,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -3765,34 +3776,19 @@
           "first": 0,
           "second": 0,
           "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Henrik_Larsson",
+      "notes": "Celtic (Szkocja) i Helsingborg (Szwecja) wykluczone. Liczone: Feyenoord+Barcelona+ManUtd + reprezentacja.",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Henrik_Larsson_in_Jan_2014.jpg/330px-Henrik_Larsson_in_Jan_2014.jpg"
     },
     {
       "name": "Ashley Cole",
       "position": "DEF",
-      "appearances": 0,
-      "goals": 0,
+      "appearances": 526,
+      "goals": 16,
       "style": "counts",
-      "dataComplete": false,
-      "source": "",
-      "notes": "",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/ACole.JPG",
       "counts": {
         "wc": {
           "win": 0,
@@ -3804,14 +3800,29 @@
           "final": 0,
           "semi": 0
         },
-        "ucl": {
+        "copa": {
           "win": 0,
-          "final": 0
+          "final": 0,
+          "semi": 0
+        },
+        "league": 3,
+        "natCup": 7,
+        "leagueCup": 1,
+        "natSupercup": 3,
+        "ucl": {
+          "win": 1,
+          "final": 1
         },
         "uefa": {
+          "win": 1,
+          "final": 0
+        },
+        "conference": {
           "win": 0,
           "final": 0
         },
+        "euroSupercup": 0,
+        "intercontinental": 0,
         "ballon": {
           "first": 0,
           "second": 0,
@@ -3821,23 +3832,12 @@
           "first": 0,
           "second": 0,
           "third": 0
-        },
-        "league": 0,
-        "natCup": 0,
-        "leagueCup": 0,
-        "natSupercup": 0,
-        "euroSupercup": 0,
-        "intercontinental": 0,
-        "copa": {
-          "win": 0,
-          "final": 0,
-          "semi": 0
-        },
-        "conference": {
-          "win": 0,
-          "final": 0
         }
-      }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Ashley_Cole",
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/ACole.JPG"
     },
     {
       "name": "Raúl",
@@ -5617,6 +5617,171 @@
       "source": "https://en.wikipedia.org/wiki/George_Weah",
       "notes": "FIX league3=1 Ligue1(PSG)+2 Serie A(Milan) top (agent dal 4 z liberyjska). natCup4=3 Coupe de France+1 FA Cup. Monaco/Milan/PSG/Marsylia/Chelsea/ManCity top; afryk. odjac. Zlota Pilka1995,FIFA WPY1995.",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Clar_Weah%2C_George_Weah%2C_Joe_Biden%2C_Jill_Biden_%28cropped%29.jpg"
+    },
+    {
+      "name": "Luis Suárez",
+      "position": "FWD",
+      "appearances": 621,
+      "goals": 398,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "copa": {
+          "win": 1,
+          "final": 0,
+          "semi": 1
+        },
+        "league": 5,
+        "natCup": 5,
+        "leagueCup": 1,
+        "natSupercup": 0,
+        "ucl": {
+          "win": 1,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 1,
+        "intercontinental": 1,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez",
+      "notes": ""
+    },
+    {
+      "name": "Edinson Cavani",
+      "position": "FWD",
+      "appearances": 615,
+      "goals": 325,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "euro": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "copa": {
+          "win": 1,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 6,
+        "natCup": 5,
+        "leagueCup": 5,
+        "natSupercup": 1,
+        "ucl": {
+          "win": 0,
+          "final": 0
+        },
+        "uefa": {
+          "win": 0,
+          "final": 1
+        },
+        "conference": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 0,
+        "intercontinental": 0,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Edinson_Cavani",
+      "notes": ""
+    },
+    {
+      "name": "Harry Kane",
+      "position": "FWD",
+      "appearances": 585,
+      "goals": 409,
+      "style": "counts",
+      "counts": {
+        "wc": {
+          "win": 0,
+          "final": 0,
+          "semi": 1
+        },
+        "euro": {
+          "win": 0,
+          "final": 2,
+          "semi": 0
+        },
+        "copa": {
+          "win": 0,
+          "final": 0,
+          "semi": 0
+        },
+        "league": 1,
+        "natCup": 1,
+        "leagueCup": 0,
+        "natSupercup": 1,
+        "ucl": {
+          "win": 0,
+          "final": 1
+        },
+        "uefa": {
+          "win": 0,
+          "final": 0
+        },
+        "conference": {
+          "win": 0,
+          "final": 0
+        },
+        "euroSupercup": 0,
+        "intercontinental": 0,
+        "ballon": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        },
+        "fifa": {
+          "first": 0,
+          "second": 0,
+          "third": 0
+        }
+      },
+      "dataComplete": true,
+      "source": "https://en.wikipedia.org/wiki/Harry_Kane",
+      "notes": ""
     }
   ]
 }
