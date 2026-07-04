@@ -5671,7 +5671,8 @@
       },
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez",
-      "notes": ""
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Luis_Su%C3%A1rez_2026_%28cropped%29.jpg/330px-Luis_Su%C3%A1rez_2026_%28cropped%29.jpg"
     },
     {
       "name": "Edinson Cavani",
@@ -5726,7 +5727,8 @@
       },
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Edinson_Cavani",
-      "notes": ""
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Edinson_Cavani_2018_%28cropped%29.jpg/330px-Edinson_Cavani_2018_%28cropped%29.jpg"
     },
     {
       "name": "Harry Kane",
@@ -5781,7 +5783,8 @@
       },
       "dataComplete": true,
       "source": "https://en.wikipedia.org/wiki/Harry_Kane",
-      "notes": ""
+      "notes": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg/330px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg"
     }
   ]
 }
