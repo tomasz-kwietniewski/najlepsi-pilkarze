@@ -28,7 +28,16 @@
 ## Publikacja - DZIAŁA
 - [x] GitHub Pages + subdomena najlepsipilkarze.tomaszkwietniewski.pl (HTTPS).
 
-## Ewentualne dalsze kroki (opcjonalne)
-- [ ] Zdjęcia Deco i Xavi (obecnie placeholder z inicjałem).
-- [ ] Self-hosting zdjęć zamiast hotlinku z Wikimedia (większa niezależność).
-- [ ] Dokładniejsza weryfikacja występów/goli (obecnie ugruntowane wartości all-competitions).
+## W TOKU (główne zadanie na następną sesję)
+- [ ] "Trofea i lata" w rozwinięciu piłkarza: przy każdej kategorii pokazać KLUBY i LATA
+      (rok = zakończenie sezonu, np. 1999), grupowane per klub, tylko top-ligi.
+      RENDER GOTOWY (index.html: detailHtml + CSS, czyta pole `player.detail`).
+      BRAKUJE: zebrać `detail` dla 110 graczy z Wikipedii (Honours -> nasze kategorie) i dopisać do players.json.
+      Format detail: { categoryKey: ["Klub: 1999, 2005", ...] }; wc/euro/copa: ["2022 (mistrz)"]; ballon/fifa: ["2009 (1.)"].
+
+## Zrobione dodatkowo
+- [x] Zdjęcia self-hostowane w public/img/ (110/110, w tym Deco i Xavi z plików usera).
+- [x] Występy/gole = wszystkie rozgrywki, tylko top-ligi + reprezentacja.
+
+## Opcjonalne
+- [ ] Dokładniejsza weryfikacja występów/goli co do meczu (kosmetyka, ~1 pkt różnicy).
