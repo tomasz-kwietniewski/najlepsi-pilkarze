@@ -21,6 +21,8 @@
 - [x] Rozbicie punktów pokazuje derywację ("3 mistrzostwa x 5 = 15").
 - [x] Rozwijany opis metodologii i historii u dołu.
 - [x] Sortowanie po pozycji (pełne nazwy), występach, golach, punktach.
+- [x] Sortowanie ulepszone: pozycja w kolejności boiskowej (GK->OBR->POM->NAP, nie alfabetycznie);
+      wskaźniki na WSZYSTKICH kolumnach (przyciemniony ▾ = sortowalna, aktywna ▼/▲ na zielono).
 
 ## README - WDROŻONE
 - [x] Pełny opis: po co, jak, historia (Tomasz + Emil), metodologia.
@@ -29,11 +31,21 @@
 - [x] GitHub Pages + subdomena najlepsipilkarze.tomaszkwietniewski.pl (HTTPS).
 
 ## W TOKU (główne zadanie na następną sesję)
-- [ ] "Trofea i lata" w rozwinięciu piłkarza: przy każdej kategorii pokazać KLUBY i LATA
+- [~] "Trofea i lata" w rozwinięciu piłkarza: przy każdej kategorii KLUBY i LATA
       (rok = zakończenie sezonu, np. 1999), grupowane per klub, tylko top-ligi.
       RENDER GOTOWY (index.html: detailHtml + CSS, czyta pole `player.detail`).
-      BRAKUJE: zebrać `detail` dla 110 graczy z Wikipedii (Honours -> nasze kategorie) i dopisać do players.json.
-      Format detail: { categoryKey: ["Klub: 1999, 2005", ...] }; wc/euro/copa: ["2022 (mistrz)"]; ballon/fifa: ["2009 (1.)"].
+      ROZSZERZONE (decyzja usera): Wikipedia = źródło prawdy, przy okazji AUDYT counts (poprawa punktów).
+      ZROBIONE 28/110 (zweryfikowane), TOP-25 KOMPLETNIE ZWERYFIKOWANY I STABILNY. 25. miejsce = Marcelo 132,9.
+      Audyt wykrył błędy W OBIE STRONY: zawyżenia (trofea słabych lig) i POMINIĘCIA (przegrane finały LM, półfinały
+      reprezentacji, superpuchary, Copa America wpisana w euro u Brazylijczyków). Maldini +22 -> 3. miejsce.
+      Znacznik na stronie: gracze bez pola detail = kropka "w trakcie weryfikacji" + notka w rozwinięciu.
+      Do decyzji usera: Figo Inter 2005-06 (Calciopoli) - na razie liczone.
+      NARZĘDZIE: `tools/merge_detail.py` - dopisuje `detail` i WALIDUJE spójność liczby lat z `counts`
+        (odrzuca zapis, jeśli lata != punktacja). Wejście: JSON {"Nazwa": {categoryKey: [...]}}.
+        Użycie: python tools/merge_detail.py public/data/players.json detail.json [--dry-run].
+      BRAKUJE: zebrać `detail` dla pozostałych 109 graczy (Honours z Wikipedii -> nasze kategorie), partiami.
+      Format detail: { categoryKey: ["Klub: 1999, 2005", ...] }; wc/euro/copa: ["2022 (mistrz)"];
+        ucl/uefa/conference: ["Klub: lata"] (przegrany finał z tagiem "(finał)"); ballon/fifa: ["2009 (1.)"].
 
 ## Zrobione dodatkowo
 - [x] Zdjęcia self-hostowane w public/img/ (110/110, w tym Deco i Xavi z plików usera).

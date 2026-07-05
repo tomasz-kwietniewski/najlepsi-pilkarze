@@ -63,9 +63,12 @@
   .tablecard { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
   .tscroll { overflow-x: auto; }
   table { width: 100%; border-collapse: collapse; min-width: 560px; }
-  thead th { text-align: left; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); padding: 13px 14px; border-bottom: 1px solid var(--line); cursor: pointer; white-space: nowrap; user-select: none; }
+  thead th { text-align: left; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); padding: 13px 14px; border-bottom: 1px solid var(--line); cursor: pointer; white-space: nowrap; user-select: none; transition: color .12s; }
+  thead th:hover { color: var(--txt); }
   thead th.num { text-align: right; }
-  thead th .arr { opacity: .7; font-size: 10px; }
+  thead th.sorted { color: var(--accent); }
+  thead th .arr { font-size: 9px; margin-left: 3px; opacity: .35; }
+  thead th.sorted .arr { opacity: 1; }
   tbody tr.row { border-bottom: 1px solid #222a35; cursor: pointer; transition: background .12s; }
   tbody tr.row:hover { background: #202836; }
   tbody td { padding: 12px 14px; vertical-align: middle; }
@@ -78,6 +81,9 @@
   .pos.DEF { background: var(--def); } .pos.MID { background: var(--mid); } .pos.FWD { background: var(--fwd); } .pos.GK { background: var(--gk); }
   .chev { color: var(--muted); transition: transform .15s; display: inline-block; }
   tr.row.open .chev { transform: rotate(90deg); }
+  /* znacznik: dorobek trofeow jeszcze nie zweryfikowany wzgl. Wikipedii */
+  .wipdot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--accent2); opacity: .5; margin-left: 8px; vertical-align: middle; }
+  .bd .verifnote { margin-top: 12px; font-size: 12.5px; color: var(--muted); font-style: italic; }
 
   /* Breakdown */
   tr.detail td { padding: 0; background: #10151d; }
@@ -168,7 +174,7 @@
             <th data-sort="position">Pozycja</th>
             <th class="num" data-sort="appearances">Występy</th>
             <th class="num" data-sort="goals">Gole</th>
-            <th class="num" data-sort="total">Punkty <span class="arr">▼</span></th>
+            <th class="num" data-sort="total">Punkty</th>
           </tr>
         </thead>
         <tbody id="tbody"><tr><td colspan="6" class="loading">Wczytywanie danych...</td></tr></tbody>
@@ -234,6 +240,7 @@
   "use strict";
   var POS_LABEL = { GK: "Bramkarz", DEF: "Obrońca", MID: "Pomocnik", FWD: "Napastnik" };
   var POS_SHORT = { GK: "GK", DEF: "OBR", MID: "POM", FWD: "NAP" };
+  var POS_ORDER = { GK: 0, DEF: 1, MID: 2, FWD: 3 };  // naturalna kolejnosc boiskowa (nie alfabetyczna)
   var state = { players: [], sortKey: "total", sortDir: -1, pos: "ALL", q: "" };
 
   function fmt(n) { return (Math.round(n * 10) / 10).toLocaleString("pl-PL"); }
@@ -279,7 +286,7 @@
       var k = state.sortKey, dir = state.sortDir, av, bv;
       if (k === "rank") { av = rankOf[a.name]; bv = rankOf[b.name]; return (av - bv) * dir; }
       if (k === "name") { return a.name.localeCompare(b.name) * dir; }
-      if (k === "position") { return a.position.localeCompare(b.position) * dir || b.total - a.total; }
+      if (k === "position") { return ((POS_ORDER[a.position] || 0) - (POS_ORDER[b.position] || 0)) * dir || b.total - a.total; }
       av = a[k]; bv = b[k];
       return (av - bv) * dir;
     });
@@ -292,7 +299,8 @@
       tr.className = "row";
       tr.innerHTML =
         '<td class="num rank ' + (rk <= 3 ? "top" : "") + '">' + rk + '</td>' +
-        '<td class="name"><span class="ncell"><span class="chev">▶</span>' + avatarHtml(p, "rowav", 80) + esc(p.name) + '</span></td>' +
+        '<td class="name"><span class="ncell"><span class="chev">▶</span>' + avatarHtml(p, "rowav", 80) + esc(p.name) +
+          (isVerified(p) ? "" : '<span class="wipdot" title="Dorobek trofeów w trakcie weryfikacji"></span>') + '</span></td>' +
         '<td><span class="pos ' + p.position + '">' + POS_LABEL[p.position] + '</span></td>' +
         '<td class="num">' + p.appearances + '</td>' +
         '<td class="num">' + p.goals + '</td>' +
@@ -310,7 +318,22 @@
       tb.appendChild(det);
     });
     if (!view.length) tb.innerHTML = '<tr><td colspan="6" class="loading">Brak wyników.</td></tr>';
+    updateSortIndicators();
   }
+
+  // Wskazniki sortowania: aktywna kolumna ma ▼/▲, pozostale przyciemniony ▾ (sygnal, ze mozna sortowac)
+  function updateSortIndicators() {
+    document.querySelectorAll("thead th[data-sort]").forEach(function (th) {
+      var active = state.sortKey === th.dataset.sort;
+      th.classList.toggle("sorted", active);
+      var arr = th.querySelector(".arr");
+      if (!arr) { arr = document.createElement("span"); arr.className = "arr"; th.appendChild(arr); }
+      arr.textContent = active ? (state.sortDir < 0 ? "▼" : "▲") : "▾";
+    });
+  }
+
+  // Gracz "zweryfikowany" = ma zebrany dorobek trofeow z latami (pole detail wg Wikipedii).
+  function isVerified(p) { return !!(p.raw && p.raw.detail); }
 
   var PLACE_LABEL = { win: "1.", final: "fin.", semi: "1/2", first: "1.", second: "2.", third: "3." };
   function derivation(key, val) {
@@ -341,7 +364,9 @@
              '<div><span class="pos ' + p.position + '">' + POS_LABEL[p.position] + '</span> · ' +
              'razem <span class="hsum">' + fmt(s.total) + '</span> pkt</div></div></div>' +
            '<h4>Rozbicie punktów</h4>' +
-           '<div class="grid">' + rows + '</div>' + detailHtml(p) + note + src + '</div>';
+           '<div class="grid">' + rows + '</div>' + detailHtml(p) +
+           (isVerified(p) ? "" : '<div class="verifnote">Dorobek trofeów jeszcze nie zweryfikowany wg Wikipedii - liczby mogą się zmienić po weryfikacji.</div>') +
+           note + src + '</div>';
   }
 
   // Szczegolowe trofea z latami (jesli zebrane): p.raw.detail = { categoryKey: ["Klub: 1999, 2005", ...] }
@@ -361,8 +386,13 @@
   }
 
   function renderMeta(full) {
-    document.getElementById("meta").innerHTML =
-      full.length + " sklasyfikowanych · <a href=\"#wip\">reszta w uzupełnianiu</a> · sortuj klikając nagłówek kolumny";
+    var verified = state.players.filter(isVerified).length;
+    var wip = state.players.filter(function (p) { return !p.complete; }).length;
+    var parts = [full.length + " sklasyfikowanych"];
+    if (verified) parts.push(verified + " z pełnym dorobkiem trofeów");
+    if (wip) parts.push('<a href="#wip">reszta w uzupełnianiu</a>');
+    parts.push("sortuj klikając nagłówek kolumny");
+    document.getElementById("meta").innerHTML = parts.join(" · ");
   }
 
   function renderPodium(full) {
@@ -420,14 +450,11 @@
     [].forEach.call(this.querySelectorAll("button"), function (x) { x.classList.toggle("active", x === b); });
     render();
   });
-  document.querySelectorAll("thead th").forEach(function (th) {
+  document.querySelectorAll("thead th[data-sort]").forEach(function (th) {
     th.addEventListener("click", function () {
       var k = th.dataset.sort;
       if (state.sortKey === k) state.sortDir *= -1;
       else { state.sortKey = k; state.sortDir = (k === "name" || k === "position") ? 1 : -1; }
-      document.querySelectorAll("thead th .arr").forEach(function (a) { a.remove(); });
-      var arr = document.createElement("span"); arr.className = "arr";
-      arr.textContent = state.sortDir < 0 ? " ▼" : " ▲"; th.appendChild(arr);
       render();
     });
   });
