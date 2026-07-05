@@ -26,13 +26,13 @@ i nagród indywidualnych**.
   - bramkarz: liczony jak napastnik (gole sporadyczne).
 
 ### Trofea reprezentacyjne
-- **Mistrzostwa Świata**: 1. miejsce **10**, finał **8**, półfinał **6**.
+- **Mistrzostwa Świata**: 1. miejsce **12**, finał **8**, półfinał **6**.
 - **Mistrzostwa Europy**: 1. miejsce **9**, finał **7**, półfinał **5**.
 - **Copa America**: połowa wag ME - **4,5 / 3,5 / 2,5**.
 
 ### Trofea klubowe
 - Mistrzostwo kraju: **5** (za każde). Puchar kraju: **3**. Puchar ligi: **1**. Superpuchar kraju: **1**.
-- **Liga Mistrzów**: zwycięstwo **7**, przegrany finał **5**.
+- **Liga Mistrzów**: zwycięstwo **8**, przegrany finał **5**.
 - **Puchar UEFA / Liga Europy / Puchar Zdobywców Pucharów**: **5 / 3**.
 - **Liga Konferencji**: połowa tego - **2,5 / 1,5**.
 - Superpuchar Europy: **2**. Puchar Interkontynentalny / Klubowe MŚ: **2**.
