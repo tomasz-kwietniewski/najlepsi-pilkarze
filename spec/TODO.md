@@ -30,23 +30,15 @@
 ## Publikacja - DZIAŁA
 - [x] GitHub Pages + subdomena najlepsipilkarze.tomaszkwietniewski.pl (HTTPS).
 
-## W TOKU (główne zadanie na następną sesję)
-- [~] "Trofea i lata" w rozwinięciu piłkarza: przy każdej kategorii KLUBY i LATA
-      (rok = zakończenie sezonu, np. 1999), grupowane per klub, tylko top-ligi.
-      RENDER GOTOWY (index.html: detailHtml + CSS, czyta pole `player.detail`).
-      ROZSZERZONE (decyzja usera): Wikipedia = źródło prawdy, przy okazji AUDYT counts (poprawa punktów).
-      ZROBIONE 82/110+ (agentami, partiami; ostatnie 28 w toku -> pełne 110). ROZBICIE klub/reprezentacja dla 110/110.
-      TOP-25 KOMPLETNIE ZWERYFIKOWANY. Audyt agentami: 6+4 subagentów wg REGULY_AUDYTU.md, ja waliduję merge_detail.py.
-      Audyt wykrył błędy W OBIE STRONY: zawyżenia (trofea słabych lig) i POMINIĘCIA (przegrane finały LM, półfinały
-      reprezentacji, superpuchary, Copa America wpisana w euro u Brazylijczyków). Maldini +22 -> 3. miejsce.
-      Znacznik na stronie: gracze bez pola detail = kropka "w trakcie weryfikacji" + notka w rozwinięciu.
-      Do decyzji usera: Figo Inter 2005-06 (Calciopoli) - na razie liczone.
-      NARZĘDZIE: `tools/merge_detail.py` - dopisuje `detail` i WALIDUJE spójność liczby lat z `counts`
-        (odrzuca zapis, jeśli lata != punktacja). Wejście: JSON {"Nazwa": {categoryKey: [...]}}.
-        Użycie: python tools/merge_detail.py public/data/players.json detail.json [--dry-run].
-      BRAKUJE: zebrać `detail` dla pozostałych 109 graczy (Honours z Wikipedii -> nasze kategorie), partiami.
-      Format detail: { categoryKey: ["Klub: 1999, 2005", ...] }; wc/euro/copa: ["2022 (mistrz)"];
-        ucl/uefa/conference: ["Klub: lata"] (przegrany finał z tagiem "(finał)"); ballon/fifa: ["2009 (1.)"].
+## Trofea, audyt i rozbicie - WDROŻONE (kompletne 110/110)
+- [x] "Trofea i lata" w rozwinięciu piłkarza: przy każdej kategorii KLUBY i LATA (rok = zakończenie sezonu),
+      grupowane per klub, tylko top-ligi; przegrane finały LM z tagiem "(finał)". Zebrane dla WSZYSTKICH 110.
+- [x] AUDYT counts wg Wikipedii (źródło prawdy) - poprawione liczby trofeów wszystkich 110. Top-28 ręcznie,
+      reszta subagentami (10 partii wg scratchpad/REGULY_AUDYTU.md), każda walidowana tools/merge_detail.py.
+- [x] Rozbicie występów i goli na KLUB vs REPREZENTACJA (pola natApp/natGoals; klub = różnica). 110/110.
+- [x] Znacznik AKTYWNYCH (pole active) - zielona pulsująca kropka + notka; 28 wciąż grających.
+- [x] Calciopoli: odjęto Interowi Scudetto 2005/06 (Figo, Zanetti, Verón) - spójnie z odjęciem Juventusowi.
+- [x] Cachebust przy fetch players.json (świeże dane po deploy).
 
 ## Zrobione dodatkowo
 - [x] Zdjęcia self-hostowane w public/img/ (110/110, w tym Deco i Xavi z plików usera).

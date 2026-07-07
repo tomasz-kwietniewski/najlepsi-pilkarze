@@ -30,6 +30,10 @@ i nagród indywidualnych**.
 - **Mistrzostwa Europy**: 1. miejsce **9**, finał **7**, półfinał **5**.
 - **Copa America**: połowa wag ME - **4,5 / 3,5 / 2,5**.
 
+Za "półfinał" liczymy dotarcie do najlepszej czwórki (3.-4. miejsce MŚ, top-4 ME/Copa), gdy piłkarz
+był w kadrze turnieju. Copa America liczymy osobno od Mistrzostw Europy (częsty błąd u zawodników
+z Ameryki Płd.). Nations League i Puchar Konfederacji nie liczą się.
+
 ### Trofea klubowe
 - Mistrzostwo kraju: **5** (za każde). Puchar kraju: **3**. Puchar ligi: **1**. Superpuchar kraju: **1**.
 - **Liga Mistrzów**: zwycięstwo **8**, przegrany finał **5**.
@@ -49,18 +53,40 @@ i nagród indywidualnych**.
 - Puchar Konfederacji i inne turnieje towarzyskie: nie liczymy.
 - Nowe rozgrywki mapujemy na najbliższy odpowiednik (Klubowe MŚ -> Puchar Interkontynentalny,
   The Best -> Piłkarz Roku FIFA, Liga Konferencji -> pod Puchar UEFA z połową wagi).
+- **Calciopoli**: tytuły Serie A 2004/05 i 2005/06 odebrane Juventusowi nie liczą się -
+  ani Juventusowi, ani Interowi (Scudetto 2005/06 przyznane administracyjnie, nie zdobyte na boisku).
 
 ## Skąd dane
 
-Angielska Wikipedia - sekcje "Honours" (trofea) i infoboksy (występy, gole). Piłkarze dodawani
-są po akceptacji; nowych typujemy m.in. z podiów Złotej Piłki i The Best z ostatnich lat.
+Angielska Wikipedia - sekcje "Honours" (trofea) oraz infoboksy (występy i gole klubowe, występy
+i gole w reprezentacji). Każdy dorobek trofeowy jest **zweryfikowany wg Wikipedii jako źródła prawdy** -
+przy weryfikacji poprawiliśmy sporo błędów w obie strony (zawyżenia z lig spoza czołówki, ale też
+pominięcia - np. przegrane finały Ligi Mistrzów czy półfinały reprezentacji). Piłkarze dodawani są
+po akceptacji; nowych typujemy m.in. z podiów Złotej Piłki i The Best z ostatnich lat.
+
+## Co widać na stronie
+
+- **Podium** trzech najlepszych i pełny, sortowalny ranking (po pozycji, występach, golach, punktach).
+- Filtr pozycji, szukajka, zdjęcia z powiększeniem (lightbox).
+- Po kliknięciu wiersza - **rozwinięcie piłkarza**:
+  - rozbicie punktów z derywacją (np. "3 mistrzostwa x 5"),
+  - **występy i gole w podziale na klub i reprezentację**,
+  - **"Trofea i lata"** - przy każdej kategorii kluby i lata zdobycia (rok = zakończenie sezonu),
+    tylko z czołowych lig; przegrane finały oznaczone.
+- **Zielona pulsująca kropka** przy piłkarzach wciąż aktywnych - ich pozycja może się jeszcze zmienić.
 
 ## Jak to zbudowane (technicznie)
 
 Czysta strona statyczna, bez serwera i bazy. Trzy warstwy:
-- `public/data/players.json` - surowe dane wejściowe każdego piłkarza,
-- `public/scoring.js` - reguły punktacji (jedno źródło prawdy; zmiana wagi = jedna liczba),
-- `public/index.html` - interaktywny raport (ranking, sortowanie, filtry, rozbicie punktów).
+- `public/data/players.json` - dane każdego piłkarza. Pola: `name`, `position`, `appearances`, `goals`,
+  `counts` (liczby trofeów wg kategorii), `detail` (trofea i lata per klub), `natApp`/`natGoals`
+  (występy i gole w reprezentacji - klub liczony jako różnica), `active` (czy wciąż gra), `photo`, `source`.
+- `public/scoring.js` - reguły punktacji (jedno źródło prawdy; zmiana wagi = jedna liczba).
+- `public/index.html` - interaktywny raport.
+
+Narzędzia pomocnicze w `tools/` (Python): `merge_detail.py` (dopisuje trofea/lata i **waliduje spójność**
+liczb z punktacją), `merge_caps.py` (występy/gole reprezentacji), `merge_active.py` (status aktywności).
+Skrypty pobierające dane z Wikipedii (sekcje Honours, infoboksy) są uruchamiane doraźnie.
 
 Publikacja: push do `main` -> GitHub Actions publikuje na GitHub Pages pod subdomeną
 (bez sekretów, autoryzacja tokenem OIDC). Folder `docs/` to lokalny katalog roboczy (poza repo).
