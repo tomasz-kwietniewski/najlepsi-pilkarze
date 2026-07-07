@@ -92,7 +92,9 @@
     "fifa": [
      "1995 (2.)"
     ]
-   }
+   },
+   "natApp": 126,
+   "natGoals": 7
   },
   {
    "name": "Luis Figo",
@@ -192,7 +194,9 @@
      "2001 (1.)",
      "2000 (2.)"
     ]
-   }
+   },
+   "natApp": 127,
+   "natGoals": 32
   },
   {
    "name": "Ryan Giggs",
@@ -271,7 +275,9 @@
     "intercontinental": [
      "Manchester United: 1999, 2008"
     ]
-   }
+   },
+   "natApp": 64,
+   "natGoals": 12
   },
   {
    "name": "Roberto Carlos",
@@ -359,7 +365,9 @@
     "fifa": [
      "1997 (2.)"
     ]
-   }
+   },
+   "natApp": 125,
+   "natGoals": 10
   },
   {
    "name": "Zinedine Zidane",
@@ -459,7 +467,9 @@
      "2000 (1.)",
      "2003 (1.)"
     ]
-   }
+   },
+   "natApp": 108,
+   "natGoals": 31
   },
   {
    "name": "Fernando Hierro",
@@ -515,7 +525,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 89,
+   "natGoals": 29
   },
   {
    "name": "Ronaldo (R9)",
@@ -614,7 +626,9 @@
      "1998 (2.)",
      "2003 (3.)"
     ]
-   }
+   },
+   "natApp": 98,
+   "natGoals": 62
   },
   {
    "name": "Laurent Blanc",
@@ -670,7 +684,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 97,
+   "natGoals": 16
   },
   {
    "name": "Thierry Henry",
@@ -768,7 +784,9 @@
      "2003 (2.)",
      "2004 (2.)"
     ]
-   }
+   },
+   "natApp": 123,
+   "natGoals": 51
   },
   {
    "name": "Bixente Lizarazu",
@@ -824,7 +842,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 97,
+   "natGoals": 2
   },
   {
    "name": "Oliver Kahn",
@@ -880,7 +900,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 86,
+   "natGoals": 0
   },
   {
    "name": "Denis Bergkamp",
@@ -936,7 +958,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 79,
+   "natGoals": 37
   },
   {
    "name": "Clarence Seedorf",
@@ -1027,7 +1051,9 @@
      "Real Madryt: 1998",
      "AC Milan: 2007"
     ]
-   }
+   },
+   "natApp": 87,
+   "natGoals": 11
   },
   {
    "name": "Edwin van der Sar",
@@ -1123,7 +1149,9 @@
      "Ajax: 1995",
      "Manchester United: 2008"
     ]
-   }
+   },
+   "natApp": 130,
+   "natGoals": 0
   },
   {
    "name": "Deco",
@@ -1179,7 +1207,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Deco",
    "notes": "",
-   "photo": "img/deco.jpg"
+   "photo": "img/deco.jpg",
+   "natApp": 75,
+   "natGoals": 5
   },
   {
    "name": "David Beckham",
@@ -1235,7 +1265,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/David_Beckham",
    "notes": "",
-   "photo": "img/david-beckham.jpg"
+   "photo": "img/david-beckham.jpg",
+   "natApp": 115,
+   "natGoals": 17
   },
   {
    "name": "Pavel Nedved",
@@ -1291,7 +1323,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 91,
+   "natGoals": 18
   },
   {
    "name": "Frank de Boer",
@@ -1347,7 +1381,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 112,
+   "natGoals": 13
   },
   {
    "name": "Didier Deschamps",
@@ -1403,7 +1439,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 103,
+   "natGoals": 4
   },
   {
    "name": "Roy Keane",
@@ -1459,7 +1497,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 67,
+   "natGoals": 9
   },
   {
    "name": "Marcel Desailly",
@@ -1515,7 +1555,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 116,
+   "natGoals": 3
   },
   {
    "name": "Ronaldinho",
@@ -1562,7 +1604,9 @@
    },
    "notes": "Gole skorygowane do 238 (205 klub + 33 reprezentacja). Copa Libertadores/Confed Cup bez slotu.",
    "source": "https://en.wikipedia.org/wiki/Ronaldinho",
-   "photo": "img/ronaldinho.jpg"
+   "photo": "img/ronaldinho.jpg",
+   "natApp": 97,
+   "natGoals": 33
   },
   {
    "name": "Cafu",
@@ -1618,7 +1662,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 142,
+   "natGoals": 5
   },
   {
    "name": "Cristiano Ronaldo",
@@ -1725,7 +1771,9 @@
      "2016 (1.)",
      "2017 (1.)"
     ]
-   }
+   },
+   "natApp": 233,
+   "natGoals": 146
   },
   {
    "name": "Lilian Thuram",
@@ -1781,7 +1829,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 142,
+   "natGoals": 2
   },
   {
    "name": "Lionel Messi",
@@ -1884,7 +1934,9 @@
      "2023 (1.)",
      "2021 (2.)"
     ]
-   }
+   },
+   "natApp": 203,
+   "natGoals": 124
   },
   {
    "name": "Filippo Inzaghi",
@@ -1940,7 +1992,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Filippo_Inzaghi",
    "notes": "",
-   "photo": "img/filippo-inzaghi.jpg"
+   "photo": "img/filippo-inzaghi.jpg",
+   "natApp": 57,
+   "natGoals": 25
   },
   {
    "name": "Peter Schmeichel",
@@ -1996,7 +2050,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 129,
+   "natGoals": 1
   },
   {
    "name": "Rivaldo",
@@ -2052,7 +2108,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 74,
+   "natGoals": 35
   },
   {
    "name": "Javier Zanetti",
@@ -2108,7 +2166,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Javier_Zanetti",
    "notes": "",
-   "photo": "img/javier-zanetti.jpg"
+   "photo": "img/javier-zanetti.jpg",
+   "natApp": 145,
+   "natGoals": 5
   },
   {
    "name": "Frank Lampard",
@@ -2164,7 +2224,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Frank_Lampard",
    "notes": "",
-   "photo": "img/frank-lampard.jpg"
+   "photo": "img/frank-lampard.jpg",
+   "natApp": 106,
+   "natGoals": 29
   },
   {
    "name": "Jaap Stam",
@@ -2220,7 +2282,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 67,
+   "natGoals": 3
   },
   {
    "name": "Pep Guardiola",
@@ -2276,7 +2340,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 47,
+   "natGoals": 5
   },
   {
    "name": "Ruud van Nistelrooy",
@@ -2332,7 +2398,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Ruud_van_Nistelrooy",
    "notes": "",
-   "photo": "img/ruud-van-nistelrooy.jpg"
+   "photo": "img/ruud-van-nistelrooy.jpg",
+   "natApp": 70,
+   "natGoals": 35
   },
   {
    "name": "Andrij Szewczenko",
@@ -2388,7 +2456,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 111,
+   "natGoals": 48
   },
   {
    "name": "Iker Casillas",
@@ -2444,7 +2514,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Iker_Casillas",
    "notes": "",
-   "photo": "img/iker-casillas.jpg"
+   "photo": "img/iker-casillas.jpg",
+   "natApp": 167,
+   "natGoals": 0
   },
   {
    "name": "Gianluigi Buffon",
@@ -2532,7 +2604,9 @@
     "ballon": [
      "2006 (2.)"
     ]
-   }
+   },
+   "natApp": 176,
+   "natGoals": 0
   },
   {
    "name": "Nicolas Anelka",
@@ -2588,7 +2662,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Nicolas_Anelka",
    "notes": "",
-   "photo": "img/nicolas-anelka.jpg"
+   "photo": "img/nicolas-anelka.jpg",
+   "natApp": 69,
+   "natGoals": 14
   },
   {
    "name": "Juan Sebastián Verón",
@@ -2644,7 +2720,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 72,
+   "natGoals": 9
   },
   {
    "name": "Michael Owen",
@@ -2700,7 +2778,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Michael_Owen",
    "notes": "",
-   "photo": "img/michael-owen.jpg"
+   "photo": "img/michael-owen.jpg",
+   "natApp": 89,
+   "natGoals": 40
   },
   {
    "name": "Alan Shearer",
@@ -2756,7 +2836,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 63,
+   "natGoals": 30
   },
   {
    "name": "Robert Lewandowski",
@@ -2846,7 +2928,9 @@
      "2020 (1.)",
      "2021 (1.)"
     ]
-   }
+   },
+   "natApp": 167,
+   "natGoals": 89
   },
   {
    "name": "Jerzy Dudek",
@@ -2902,7 +2986,9 @@
      "win": 0,
      "final": 0
     }
-   }
+   },
+   "natApp": 60,
+   "natGoals": 0
   },
   {
    "name": "Roberto Baggio",
@@ -2951,7 +3037,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Roberto_Baggio",
    "notes": "wloskie top. MS1994 final,MS1990 polfinal. Zlota Pilka1993. ZASTEPUJE legacy Roberto Baggio.",
-   "photo": "img/roberto-baggio.jpg"
+   "photo": "img/roberto-baggio.jpg",
+   "natApp": 56,
+   "natGoals": 27
   },
   {
    "name": "Fabio Cannavaro",
@@ -3007,7 +3095,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Fabio_Cannavaro",
    "notes": "Tytuly Serie A Juventusu (2005,2006) odebrane w Calciopoli - nie liczone; league=2 (La Liga Real 2007,2008).",
-   "photo": "img/fabio-cannavaro.jpg"
+   "photo": "img/fabio-cannavaro.jpg",
+   "natApp": 136,
+   "natGoals": 2
   },
   {
    "name": "Kaká",
@@ -3054,7 +3144,9 @@
    },
    "notes": "Serie A 2004 + La Liga 2012; UCL 2007; Klubowe MŚ 2007; Ballon d'Or 2007 + FIFA WPY 2007.",
    "source": "https://en.wikipedia.org/wiki/Kak%C3%A1",
-   "photo": "img/kaka.jpg"
+   "photo": "img/kaka.jpg",
+   "natApp": 92,
+   "natGoals": 29
   },
   {
    "name": "Fernando Torres",
@@ -3110,7 +3202,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Fernando_Torres",
    "notes": "",
-   "photo": "img/fernando-torres.jpg"
+   "photo": "img/fernando-torres.jpg",
+   "natApp": 110,
+   "natGoals": 38
   },
   {
    "name": "Xavi",
@@ -3198,7 +3292,9 @@
      "2010 (3.)",
      "2011 (3.)"
     ]
-   }
+   },
+   "natApp": 133,
+   "natGoals": 13
   },
   {
    "name": "Steven Gerrard",
@@ -3254,7 +3350,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Steven_Gerrard",
    "notes": "",
-   "photo": "img/steven-gerrard.jpg"
+   "photo": "img/steven-gerrard.jpg",
+   "natApp": 114,
+   "natGoals": 21
   },
   {
    "name": "Samuel Eto'o",
@@ -3310,7 +3408,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Samuel_Eto%27o",
    "notes": "",
-   "photo": "img/samuel-eto-o.jpg"
+   "photo": "img/samuel-eto-o.jpg",
+   "natApp": 118,
+   "natGoals": 56
   },
   {
    "name": "Gabriel Batistuta",
@@ -3366,7 +3466,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Gabriel_Batistuta",
    "notes": "",
-   "photo": "img/gabriel-batistuta.jpg"
+   "photo": "img/gabriel-batistuta.jpg",
+   "natApp": 78,
+   "natGoals": 56
   },
   {
    "name": "Zlatan Ibrahimović",
@@ -3422,7 +3524,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87",
    "notes": "",
-   "photo": "img/zlatan-ibrahimovic.jpg"
+   "photo": "img/zlatan-ibrahimovic.jpg",
+   "natApp": 122,
+   "natGoals": 62
   },
   {
    "name": "Fernando Morientes",
@@ -3478,7 +3582,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Fernando_Morientes",
    "notes": "",
-   "photo": "img/fernando-morientes.jpg"
+   "photo": "img/fernando-morientes.jpg",
+   "natApp": 47,
+   "natGoals": 27
   },
   {
    "name": "David Trezeguet",
@@ -3534,7 +3640,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/David_Trezeguet",
    "notes": "",
-   "photo": "img/david-trezeguet.jpg"
+   "photo": "img/david-trezeguet.jpg",
+   "natApp": 71,
+   "natGoals": 34
   },
   {
    "name": "Gaizka Mendieta",
@@ -3590,7 +3698,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Gaizka_Mendieta",
    "notes": "",
-   "photo": "img/gaizka-mendieta.jpg"
+   "photo": "img/gaizka-mendieta.jpg",
+   "natApp": 40,
+   "natGoals": 8
   },
   {
    "name": "Andrés Iniesta",
@@ -3677,7 +3787,9 @@
      "2010 (2.)",
      "2012 (3.)"
     ]
-   }
+   },
+   "natApp": 131,
+   "natGoals": 13
   },
   {
    "name": "Rio Ferdinand",
@@ -3733,7 +3845,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Rio_Ferdinand",
    "notes": "",
-   "photo": "img/rio-ferdinand.jpg"
+   "photo": "img/rio-ferdinand.jpg",
+   "natApp": 81,
+   "natGoals": 3
   },
   {
    "name": "Wayne Rooney",
@@ -3789,7 +3903,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Wayne_Rooney",
    "notes": "",
-   "photo": "img/wayne-rooney.jpg"
+   "photo": "img/wayne-rooney.jpg",
+   "natApp": 120,
+   "natGoals": 53
   },
   {
    "name": "Patrick Vieira",
@@ -3845,7 +3961,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Patrick_Vieira",
    "notes": "Liga 6 = 3 Premier (Arsenal) + 3 Serie A (Inter); tytul Juventusu anulowany.",
-   "photo": "img/patrick-vieira.jpg"
+   "photo": "img/patrick-vieira.jpg",
+   "natApp": 107,
+   "natGoals": 6
   },
   {
    "name": "Didier Drogba",
@@ -3901,7 +4019,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Didier_Drogba",
    "notes": "Galatasaray (Turcja) wykluczony (nie top-7): odjeto 37 wyst/15 goli, tytul Super Lig i turecki superpuchar. Liga 3 = Premier League z Chelsea.",
-   "photo": "img/didier-drogba.jpg"
+   "photo": "img/didier-drogba.jpg",
+   "natApp": 105,
+   "natGoals": 65
   },
   {
    "name": "John Terry",
@@ -3957,7 +4077,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/John_Terry",
    "notes": "",
-   "photo": "img/john-terry.jpg"
+   "photo": "img/john-terry.jpg",
+   "natApp": 78,
+   "natGoals": 6
   },
   {
    "name": "Alessandro Del Piero",
@@ -4013,7 +4135,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Alessandro_Del_Piero",
    "notes": "",
-   "photo": "img/alessandro-del-piero.jpg"
+   "photo": "img/alessandro-del-piero.jpg",
+   "natApp": 91,
+   "natGoals": 27
   },
   {
    "name": "Alessandro Nesta",
@@ -4069,7 +4193,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Alessandro_Nesta",
    "notes": "",
-   "photo": "img/alessandro-nesta.jpg"
+   "photo": "img/alessandro-nesta.jpg",
+   "natApp": 78,
+   "natGoals": 0
   },
   {
    "name": "Andrea Pirlo",
@@ -4125,7 +4251,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Andrea_Pirlo",
    "notes": "",
-   "photo": "img/andrea-pirlo.jpg"
+   "photo": "img/andrea-pirlo.jpg",
+   "natApp": 116,
+   "natGoals": 13
   },
   {
    "name": "Dunga",
@@ -4181,7 +4309,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Dunga",
    "notes": "",
-   "photo": "img/dunga.jpg"
+   "photo": "img/dunga.jpg",
+   "natApp": 91,
+   "natGoals": 6
   },
   {
    "name": "Francesco Totti",
@@ -4237,7 +4367,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Francesco_Totti",
    "notes": "",
-   "photo": "img/francesco-totti.jpg"
+   "photo": "img/francesco-totti.jpg",
+   "natApp": 58,
+   "natGoals": 9
   },
   {
    "name": "Michael Ballack",
@@ -4293,7 +4425,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Michael_Ballack",
    "notes": "",
-   "photo": "img/michael-ballack.jpg"
+   "photo": "img/michael-ballack.jpg",
+   "natApp": 98,
+   "natGoals": 42
   },
   {
    "name": "Patrick Kluivert",
@@ -4349,7 +4483,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Patrick_Kluivert",
    "notes": "",
-   "photo": "img/patrick-kluivert.jpg"
+   "photo": "img/patrick-kluivert.jpg",
+   "natApp": 79,
+   "natGoals": 40
   },
   {
    "name": "Henrik Larsson",
@@ -4405,7 +4541,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Henrik_Larsson",
    "notes": "Celtic (Szkocja) i Helsingborg (Szwecja) wykluczone. Liczone: Feyenoord+Barcelona+ManUtd + reprezentacja.",
-   "photo": "img/henrik-larsson.jpg"
+   "photo": "img/henrik-larsson.jpg",
+   "natApp": 106,
+   "natGoals": 37
   },
   {
    "name": "Ashley Cole",
@@ -4461,7 +4599,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Ashley_Cole",
    "notes": "",
-   "photo": "img/ashley-cole.jpg"
+   "photo": "img/ashley-cole.jpg",
+   "natApp": 107,
+   "natGoals": 0
   },
   {
    "name": "Raúl",
@@ -4508,7 +4648,9 @@
    },
    "notes": "Występy/gole ujednolicone do wszystkich meczów oficjalnych (~976/414). 6x La Liga, 3x LM; DFB-Pokal (Schalke) jako puchar kraju; Ballon d'Or 2. 2001, FIFA WPY 3. 2001.",
    "source": "https://en.wikipedia.org/wiki/Ra%C3%BAl_Gonz%C3%A1lez",
-   "photo": "img/raul.jpg"
+   "photo": "img/raul.jpg",
+   "natApp": 102,
+   "natGoals": 44
   },
   {
    "name": "Luka Modrić",
@@ -4594,7 +4736,9 @@
     "fifa": [
      "2018 (1.)"
     ]
-   }
+   },
+   "natApp": 202,
+   "natGoals": 29
   },
   {
    "name": "Karim Benzema",
@@ -4679,7 +4823,9 @@
     "ballon": [
      "2022 (1.)"
     ]
-   }
+   },
+   "natApp": 97,
+   "natGoals": 37
   },
   {
    "name": "Sergio Ramos",
@@ -4764,7 +4910,9 @@
     "intercontinental": [
      "Real Madryt: 2014, 2016, 2017, 2018"
     ]
-   }
+   },
+   "natApp": 180,
+   "natGoals": 23
   },
   {
    "name": "Toni Kroos",
@@ -4854,7 +5002,9 @@
      "Bayern Monachium: 2013",
      "Real Madryt: 2014, 2016, 2017, 2018, 2022"
     ]
-   }
+   },
+   "natApp": 114,
+   "natGoals": 17
   },
   {
    "name": "Rodri",
@@ -4903,7 +5053,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Rodri_(footballer,_born_1996)",
    "notes": "wszystkie ligi top; ME2024.",
-   "photo": "img/rodri.jpg"
+   "photo": "img/rodri.jpg",
+   "natApp": 67,
+   "natGoals": 4
   },
   {
    "name": "Jude Bellingham",
@@ -4952,7 +5104,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Jude_Bellingham",
    "notes": "natCup=1 DFB-Pokal; ligi top.",
-   "photo": "img/jude-bellingham.jpg"
+   "photo": "img/jude-bellingham.jpg",
+   "natApp": 53,
+   "natGoals": 10
   },
   {
    "name": "Kevin De Bruyne",
@@ -5001,7 +5155,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Kevin_De_Bruyne",
    "notes": "FIX league7=6 Premier+1 Belgian(Genk); belgijska nie top-7 -> 6. natCup3 zawiera 1 DFB-Pokal(Wolfsburg,top ok)+2 FA.",
-   "photo": "img/kevin-de-bruyne.jpg"
+   "photo": "img/kevin-de-bruyne.jpg",
+   "natApp": 123,
+   "natGoals": 38
   },
   {
    "name": "Virgil van Dijk",
@@ -5050,7 +5206,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Virgil_van_Dijk",
    "notes": "FIX league4=2 Premier+2 Scottish(Celtic); szkocka nie top-7 -> 2; leagueCup3 zawiera 1 szkocki -> 2. Groningen/Celtic wystepy? Celtic odjac.",
-   "photo": "img/virgil-van-dijk.jpg"
+   "photo": "img/virgil-van-dijk.jpg",
+   "natApp": 96,
+   "natGoals": 13
   },
   {
    "name": "Manuel Neuer",
@@ -5140,7 +5298,9 @@
     "ballon": [
      "2014 (3.)"
     ]
-   }
+   },
+   "natApp": 128,
+   "natGoals": 0
   },
   {
    "name": "Antoine Griezmann",
@@ -5189,7 +5349,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Antoine_Griezmann",
    "notes": "league0 (tylko Segunda). ligi top. Real Sociedad/Atletico/Barca top.",
-   "photo": "img/antoine-griezmann.jpg"
+   "photo": "img/antoine-griezmann.jpg",
+   "natApp": 137,
+   "natGoals": 44
   },
   {
    "name": "Sadio Mané",
@@ -5234,7 +5396,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Sadio_Man%C3%A9",
    "notes": "FIX league4=Austria(Salzburg)+Premier+Bundesliga+Saudi -> tylko Premier2020+Bundesliga2023 = 2. natCup2 zawiera Puchar Austrii -> 1 (FA Cup). Salzburg+Saudi wystepy odjac.",
-   "photo": "img/sadio-mane.jpg"
+   "photo": "img/sadio-mane.jpg",
+   "natApp": 132,
+   "natGoals": 55
   },
   {
    "name": "Ousmane Dembélé",
@@ -5279,7 +5443,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Ousmane_Demb%C3%A9l%C3%A9",
    "notes": "ligi top. Zlota Pilka+The Best 2025.",
-   "photo": "img/ousmane-dembele.jpg"
+   "photo": "img/ousmane-dembele.jpg",
+   "natApp": 64,
+   "natGoals": 11
   },
   {
    "name": "Lamine Yamal",
@@ -5328,7 +5494,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Lamine_Yamal",
    "notes": "ME2024. ligi top.",
-   "photo": "img/lamine-yamal.jpg"
+   "photo": "img/lamine-yamal.jpg",
+   "natApp": 30,
+   "natGoals": 7
   },
   {
    "name": "Franck Ribéry",
@@ -5377,7 +5545,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Franck_Rib%C3%A9ry",
    "notes": "9 Bundesliga; MS2006 final. Fiorentina wloska top. Marsylia/Bayern top.",
-   "photo": "img/franck-ribery.jpg"
+   "photo": "img/franck-ribery.jpg",
+   "natApp": 81,
+   "natGoals": 16
   },
   {
    "name": "Philipp Lahm",
@@ -5467,7 +5637,9 @@
     "intercontinental": [
      "Bayern Monachium: 2013"
     ]
-   }
+   },
+   "natApp": 113,
+   "natGoals": 5
   },
   {
    "name": "Bastian Schweinsteiger",
@@ -5561,7 +5733,9 @@
     "intercontinental": [
      "Bayern Monachium: 2013"
     ]
-   }
+   },
+   "natApp": 121,
+   "natGoals": 24
   },
   {
    "name": "David Villa",
@@ -5610,7 +5784,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/David_Villa",
    "notes": "MS2010,ME2008. hiszp top. NYCFC(MLS)+Vissel(JP) wystepy odjac.",
-   "photo": "img/david-villa.jpg"
+   "photo": "img/david-villa.jpg",
+   "natApp": 98,
+   "natGoals": 59
   },
   {
    "name": "Diego Godín",
@@ -5659,7 +5835,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Diego_God%C3%ADn",
    "notes": "COPA 2011. Atletico hiszp top. Nacional/Velez/AtleticoMineiro/Cerro wystepy odjac.",
-   "photo": "img/diego-godin.jpg"
+   "photo": "img/diego-godin.jpg",
+   "natApp": 161,
+   "natGoals": 8
   },
   {
    "name": "Romário",
@@ -5708,7 +5886,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Rom%C3%A1rio",
    "notes": "FIX league=4 (3 Eredivisie PSV + 1 La Liga Barca); agent bledn dal 1 brazylijska. Wystepy 768/597 zawieraja kluby brazylijskie -> mocno odjac (zostaje PSV+Barca+Valencia+repr). FIFA WPY1994.",
-   "photo": "img/romario.jpg"
+   "photo": "img/romario.jpg",
+   "natApp": 70,
+   "natGoals": 55
   },
   {
    "name": "Gerard Piqué",
@@ -5796,7 +5976,9 @@
     "intercontinental": [
      "Barcelona: 2009, 2011, 2015"
     ]
-   }
+   },
+   "natApp": 102,
+   "natGoals": 5
   },
   {
    "name": "Sergio Busquets",
@@ -5879,7 +6061,9 @@
     "intercontinental": [
      "Barcelona: 2009, 2011, 2015"
     ]
-   }
+   },
+   "natApp": 143,
+   "natGoals": 2
   },
   {
    "name": "Dani Alves",
@@ -5976,7 +6160,9 @@
     "intercontinental": [
      "Barcelona: 2009, 2011, 2015"
     ]
-   }
+   },
+   "natApp": 126,
+   "natGoals": 8
   },
   {
    "name": "Marcelo",
@@ -6055,7 +6241,9 @@
     "intercontinental": [
      "Real Madryt: 2014, 2016, 2017, 2018"
     ]
-   }
+   },
+   "natApp": 58,
+   "natGoals": 6
   },
   {
    "name": "Thiago Silva",
@@ -6144,7 +6332,9 @@
     "intercontinental": [
      "Chelsea: 2021"
     ]
-   }
+   },
+   "natApp": 113,
+   "natGoals": 7
   },
   {
    "name": "Kylian Mbappé",
@@ -6193,7 +6383,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9",
    "notes": "ligi top. MS2018 win,2022 final.",
-   "photo": "img/kylian-mbappe.jpg"
+   "photo": "img/kylian-mbappe.jpg",
+   "natApp": 103,
+   "natGoals": 63
   },
   {
    "name": "Neymar",
@@ -6242,7 +6434,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Neymar",
    "notes": "COPA final2021. league7=2 La Liga+5 Ligue1 top. natCup7. Santos(br)+AlHilal(sa) wystepy odjac.",
-   "photo": "img/neymar.jpg"
+   "photo": "img/neymar.jpg",
+   "natApp": 130,
+   "natGoals": 80
   },
   {
    "name": "Mohamed Salah",
@@ -6287,7 +6481,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Mohamed_Salah",
    "notes": "FIX league4=2 Premier+2 Swiss(Basel); szwajc nie top-7 -> 2. Basel wystepy odjac.",
-   "photo": "img/mohamed-salah.jpg"
+   "photo": "img/mohamed-salah.jpg",
+   "natApp": 120,
+   "natGoals": 68
   },
   {
    "name": "Erling Haaland",
@@ -6332,7 +6528,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Erling_Haaland",
    "notes": "FIX league4=Austria(Salzburg)+3 Premier; Austria nie top-7 -> 3. Salzburg/Molde wystepy odjac.",
-   "photo": "img/erling-haaland.jpg"
+   "photo": "img/erling-haaland.jpg",
+   "natApp": 54,
+   "natGoals": 62
   },
   {
    "name": "Vinícius Júnior",
@@ -6381,7 +6579,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Vin%C3%ADcius_J%C3%BAnior",
    "notes": "COPA final2021. 3 La Liga top. Flamengo wystepy odjac. The Best 2024.",
-   "photo": "img/vinicius-junior.jpg"
+   "photo": "img/vinicius-junior.jpg",
+   "natApp": 54,
+   "natGoals": 13
   },
   {
    "name": "Ángel Di María",
@@ -6474,7 +6674,9 @@
     "euroSupercup": [
      "Real Madryt: 2014"
     ]
-   }
+   },
+   "natApp": 145,
+   "natGoals": 31
   },
   {
    "name": "N'Golo Kanté",
@@ -6523,7 +6725,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/N%27Golo_Kant%C3%A9",
    "notes": "FIX league3=2 Premier+1 Saudi -> 2; natCup2=FA+King'sCup(sa) -> 1. AlIttihad wystepy odjac. MS2018,ME2016 final.",
-   "photo": "img/n-golo-kante.jpg"
+   "photo": "img/n-golo-kante.jpg",
+   "natApp": 69,
+   "natGoals": 2
   },
   {
    "name": "Joshua Kimmich",
@@ -6572,7 +6776,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Joshua_Kimmich",
    "notes": "10 Bundesliga top. ME2016 polfinal.",
-   "photo": "img/joshua-kimmich.jpg"
+   "photo": "img/joshua-kimmich.jpg",
+   "natApp": 114,
+   "natGoals": 10
   },
   {
    "name": "Casemiro",
@@ -6621,7 +6827,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Casemiro",
    "notes": "COPA 2019 win,2021 final. 3 La Liga top. SaoPaulo(br) wystepy odjac.",
-   "photo": "img/casemiro.jpg"
+   "photo": "img/casemiro.jpg",
+   "natApp": 91,
+   "natGoals": 10
   },
   {
    "name": "Gareth Bale",
@@ -6670,7 +6878,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Gareth_Bale",
    "notes": "3 La Liga top. Tottenham/Southampton top. LAFC(MLS) wystepy odjac. ME2016 polfinal.",
-   "photo": "img/gareth-bale.jpg"
+   "photo": "img/gareth-bale.jpg",
+   "natApp": 111,
+   "natGoals": 41
   },
   {
    "name": "Hristo Stoichkov",
@@ -6719,7 +6929,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Hristo_Stoichkov",
    "notes": "FIX league8=3 CSKA(bulg)+5 Barca; bulg nie top-7 -> 5. natCup6 zawiera 4 bulg -> 2 Copa del Rey. CSKA wystepy odjac. Zlota Pilka1994,MS1994 polfinal.",
-   "photo": "img/hristo-stoichkov.jpg"
+   "photo": "img/hristo-stoichkov.jpg",
+   "natApp": 83,
+   "natGoals": 37
   },
   {
    "name": "George Weah",
@@ -6764,7 +6976,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/George_Weah",
    "notes": "FIX league3=1 Ligue1(PSG)+2 Serie A(Milan) top (agent dal 4 z liberyjska). natCup4=3 Coupe de France+1 FA Cup. Monaco/Milan/PSG/Marsylia/Chelsea/ManCity top; afryk. odjac. Zlota Pilka1995,FIFA WPY1995.",
-   "photo": "img/george-weah.jpg"
+   "photo": "img/george-weah.jpg",
+   "natApp": 75,
+   "natGoals": 18
   },
   {
    "name": "Luis Suárez",
@@ -6820,7 +7034,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez",
    "notes": "",
-   "photo": "img/luis-suarez.jpg"
+   "photo": "img/luis-suarez.jpg",
+   "natApp": 143,
+   "natGoals": 69
   },
   {
    "name": "Edinson Cavani",
@@ -6876,7 +7092,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Edinson_Cavani",
    "notes": "",
-   "photo": "img/edinson-cavani.jpg"
+   "photo": "img/edinson-cavani.jpg",
+   "natApp": 136,
+   "natGoals": 58
   },
   {
    "name": "Harry Kane",
@@ -6932,7 +7150,9 @@
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Harry_Kane",
    "notes": "",
-   "photo": "img/harry-kane.jpg"
+   "photo": "img/harry-kane.jpg",
+   "natApp": 119,
+   "natGoals": 85
   }
  ]
 }

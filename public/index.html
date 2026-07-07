@@ -79,7 +79,7 @@
   .total { font-weight: 800; color: var(--accent2); font-size: 16px; }
   .pos { display: inline-block; min-width: 40px; text-align: center; font-size: 11px; font-weight: 800; letter-spacing: .05em; padding: 3px 7px; border-radius: 6px; color: #0c1017; }
   .pos.DEF { background: var(--def); } .pos.MID { background: var(--mid); } .pos.FWD { background: var(--fwd); } .pos.GK { background: var(--gk); }
-  .chev { color: var(--muted); transition: transform .15s; display: inline-block; }
+  .chev { color: var(--muted); transition: transform .15s; display: inline-block; margin-right: 11px; }
   tr.row.open .chev { transform: rotate(90deg); }
   /* znacznik: dorobek trofeow jeszcze nie zweryfikowany wzgl. Wikipedii */
   .wipdot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--accent2); opacity: .5; margin-left: 8px; vertical-align: middle; }
@@ -114,6 +114,16 @@
   .bd .li .v { font-variant-numeric: tabular-nums; font-weight: 700; }
   .bd .li.zero { opacity: .4; }
   .bd .deriv { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+  /* rozbicie wystepow/goli: klub vs reprezentacja */
+  .bd .split { display: flex; gap: 12px; margin-top: 4px; font-size: 12px; font-variant-numeric: tabular-nums; }
+  .bd .split .seg { display: inline-flex; align-items: center; gap: 5px; }
+  .bd .split .seg b { color: var(--txt); font-weight: 700; }
+  .bd .split .seg .dot { width: 7px; height: 7px; border-radius: 50%; flex: none; }
+  .bd .split .seg.club { color: var(--muted); }
+  .bd .split .seg.club .dot { background: var(--muted); }
+  .bd .split .seg.nat { color: var(--accent2); }
+  .bd .split .seg.nat .dot { background: var(--accent2); }
+  .bd .split .seg.nat b { color: var(--accent2); }
 
   details.method { margin-top: 34px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
   details.method > summary { cursor: pointer; padding: 16px 18px; font-weight: 700; list-style: none; display: flex; justify-content: space-between; align-items: center; }
@@ -245,7 +255,8 @@
 
   function fmt(n) { return (Math.round(n * 10) / 10).toLocaleString("pl-PL"); }
 
-  fetch("data/players.json")
+  // cachebust: po deploy dane sa aktualne od razu (inaczej przegladarka/CDN moze serwowac stary ranking)
+  fetch("data/players.json?v=" + Date.now())
     .then(function (r) { return r.json(); })
     .then(function (data) {
       state.players = (data.players || []).map(function (p) {
@@ -349,10 +360,19 @@
     }
     return parts.join(" + ");
   }
+  // Rozbicie liczby na klub (top-ligi) i reprezentację, gdy znamy występy/gole kadry.
+  function clubNatSplit(natVal, total) {
+    if (typeof natVal !== "number") return "";
+    var club = total - natVal;
+    return '<span class="split">' +
+      '<span class="seg club"><span class="dot"></span>kluby <b>' + club + '</b></span>' +
+      '<span class="seg nat"><span class="dot"></span>reprezentacja <b>' + natVal + '</b></span></span>';
+  }
   function breakdownHtml(p) {
     var s = p.score, rows = "", counts = (p.raw && p.raw.style !== "legacy") ? (p.raw.counts || {}) : null;
-    rows += liRow("Występy (" + p.appearances + ")", s.appPts, p.appearances + "÷35");
-    rows += liRow("Gole (" + p.goals + ", " + POS_SHORT[p.position] + ")", s.goalPts, p.goals ? (p.goals + "÷" + Scoring.goalDivisor(p.position)) : "");
+    var natApp = p.raw && p.raw.natApp, natGoals = p.raw && p.raw.natGoals;
+    rows += liRow("Występy (" + p.appearances + ")", s.appPts, p.appearances + "÷35", clubNatSplit(natApp, p.appearances));
+    rows += liRow("Gole (" + p.goals + ", " + POS_SHORT[p.position] + ")", s.goalPts, p.goals ? (p.goals + "÷" + Scoring.goalDivisor(p.position)) : "", clubNatSplit(natGoals, p.goals));
     s.categories.forEach(function (c) {
       rows += liRow(c.label, c.points, counts ? derivation(c.key, counts[c.key]) : "");
     });
@@ -380,9 +400,9 @@
     });
     return rows ? '<h4>Trofea i lata</h4><div class="detbox">' + rows + '</div>' : "";
   }
-  function liRow(label, pts, deriv) {
+  function liRow(label, pts, deriv, split) {
     var d = deriv ? ' <span class="deriv">(' + esc(deriv) + ')</span>' : "";
-    return '<div class="li' + (pts ? "" : " zero") + '"><span>' + esc(label) + d + '</span><span class="v">' + fmt(pts) + '</span></div>';
+    return '<div class="li' + (pts ? "" : " zero") + '"><span>' + esc(label) + d + (split || "") + '</span><span class="v">' + fmt(pts) + '</span></div>';
   }
 
   function renderMeta(full) {
