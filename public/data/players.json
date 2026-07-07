@@ -122,7 +122,7 @@
      "final": 0,
      "semi": 0
     },
-    "league": 8,
+    "league": 7,
     "natCup": 4,
     "leagueCup": 0,
     "natSupercup": 5,
@@ -162,7 +162,7 @@
     "league": [
      "Barcelona: 1998, 1999",
      "Real Madryt: 2001, 2003",
-     "Inter Mediolan: 2006, 2007, 2008, 2009"
+     "Inter Mediolan: 2007, 2008, 2009"
     ],
     "natCup": [
      "Sporting CP: 1995",
@@ -2633,7 +2633,7 @@
      "final": 0,
      "semi": 0
     },
-    "league": 5,
+    "league": 4,
     "natCup": 4,
     "leagueCup": 0,
     "natSupercup": 4,
@@ -2670,7 +2670,7 @@
    "natGoals": 5,
    "detail": {
     "league": [
-     "Inter Mediolan: 2006, 2007, 2008, 2009, 2010"
+     "Inter Mediolan: 2007, 2008, 2009, 2010"
     ],
     "natCup": [
      "Inter Mediolan: 2005, 2006, 2010, 2011"
@@ -3372,7 +3372,7 @@
      "final": 1,
      "semi": 0
     },
-    "league": 3,
+    "league": 2,
     "natCup": 4,
     "leagueCup": 0,
     "natSupercup": 2,
@@ -3409,8 +3409,7 @@
     ],
     "league": [
      "Lazio: 2000",
-     "Manchester United: 2003",
-     "Inter Mediolan: 2006"
+     "Manchester United: 2003"
     ],
     "natCup": [
      "Parma: 1999",
