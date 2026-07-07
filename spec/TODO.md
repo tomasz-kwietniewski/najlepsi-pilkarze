@@ -35,7 +35,8 @@
       (rok = zakończenie sezonu, np. 1999), grupowane per klub, tylko top-ligi.
       RENDER GOTOWY (index.html: detailHtml + CSS, czyta pole `player.detail`).
       ROZSZERZONE (decyzja usera): Wikipedia = źródło prawdy, przy okazji AUDYT counts (poprawa punktów).
-      ZROBIONE 28/110 (zweryfikowane), TOP-25 KOMPLETNIE ZWERYFIKOWANY I STABILNY. 25. miejsce = Marcelo 132,9.
+      ZROBIONE 82/110+ (agentami, partiami; ostatnie 28 w toku -> pełne 110). ROZBICIE klub/reprezentacja dla 110/110.
+      TOP-25 KOMPLETNIE ZWERYFIKOWANY. Audyt agentami: 6+4 subagentów wg REGULY_AUDYTU.md, ja waliduję merge_detail.py.
       Audyt wykrył błędy W OBIE STRONY: zawyżenia (trofea słabych lig) i POMINIĘCIA (przegrane finały LM, półfinały
       reprezentacji, superpuchary, Copa America wpisana w euro u Brazylijczyków). Maldini +22 -> 3. miejsce.
       Znacznik na stronie: gracze bez pola detail = kropka "w trakcie weryfikacji" + notka w rozwinięciu.

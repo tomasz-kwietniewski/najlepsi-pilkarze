@@ -492,6 +492,15 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 5,
+    "natCup": 1,
+    "leagueCup": 0,
+    "natSupercup": 4,
     "ucl": {
      "win": 3,
      "final": 0
@@ -500,6 +509,12 @@
      "win": 0,
      "final": 0
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 1,
+    "intercontinental": 2,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -509,25 +524,30 @@
      "first": 0,
      "second": 0,
      "third": 0
-    },
-    "league": 5,
-    "natCup": 1,
-    "leagueCup": 0,
-    "natSupercup": 4,
-    "euroSupercup": 1,
-    "intercontinental": 2,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 89,
-   "natGoals": 29
+   "natGoals": 29,
+   "detail": {
+    "league": [
+     "Real Madryt: 1990, 1995, 1997, 2001, 2003"
+    ],
+    "natCup": [
+     "Real Madryt: 1993"
+    ],
+    "natSupercup": [
+     "Real Madryt: 1990, 1993, 1997, 2001"
+    ],
+    "ucl": [
+     "Real Madryt: 1998, 2000, 2002"
+    ],
+    "euroSupercup": [
+     "Real Madryt: 2002"
+    ],
+    "intercontinental": [
+     "Real Madryt: 1998, 2002"
+    ]
+   }
   },
   {
    "name": "Ronaldo (R9)",
@@ -651,6 +671,15 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 2,
+    "natCup": 3,
+    "leagueCup": 0,
+    "natSupercup": 1,
     "ucl": {
      "win": 0,
      "final": 0
@@ -659,6 +688,12 @@
      "win": 1,
      "final": 0
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 0,
+    "intercontinental": 0,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -668,25 +703,33 @@
      "first": 0,
      "second": 0,
      "third": 0
-    },
-    "league": 2,
-    "natCup": 2,
-    "leagueCup": 0,
-    "natSupercup": 1,
-    "euroSupercup": 0,
-    "intercontinental": 0,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 97,
-   "natGoals": 16
+   "natGoals": 16,
+   "detail": {
+    "wc": [
+     "1998 (mistrz)"
+    ],
+    "euro": [
+     "2000 (mistrz)"
+    ],
+    "league": [
+     "Auxerre: 1996",
+     "Manchester United: 2003"
+    ],
+    "natCup": [
+     "Montpellier: 1990",
+     "Auxerre: 1996",
+     "Barcelona: 1997"
+    ],
+    "natSupercup": [
+     "Barcelona: 1996"
+    ],
+    "uefa": [
+     "Barcelona: 1997"
+    ]
+   }
   },
   {
    "name": "Thierry Henry",
@@ -809,14 +852,29 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 6,
+    "natCup": 5,
+    "leagueCup": 1,
+    "natSupercup": 0,
     "ucl": {
      "win": 1,
-     "final": 0
+     "final": 1
     },
     "uefa": {
      "win": 0,
      "final": 1
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 0,
+    "intercontinental": 1,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -826,25 +884,37 @@
      "first": 0,
      "second": 0,
      "third": 0
-    },
-    "league": 6,
-    "natCup": 5,
-    "leagueCup": 5,
-    "natSupercup": 0,
-    "euroSupercup": 0,
-    "intercontinental": 1,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 97,
-   "natGoals": 2
+   "natGoals": 2,
+   "detail": {
+    "wc": [
+     "1998 (mistrz)"
+    ],
+    "euro": [
+     "2000 (mistrz)"
+    ],
+    "league": [
+     "Bayern Monachium: 1999, 2000, 2001, 2003, 2005, 2006"
+    ],
+    "natCup": [
+     "Bayern Monachium: 1998, 2000, 2003, 2005, 2006"
+    ],
+    "leagueCup": [
+     "Bayern Monachium: 1997"
+    ],
+    "ucl": [
+     "Bayern Monachium: 2001",
+     "Bayern Monachium 1999 (finał)"
+    ],
+    "uefa": [
+     "Bordeaux 1996 (finał)"
+    ],
+    "intercontinental": [
+     "Bayern Monachium: 2001"
+    ]
+   }
   },
   {
    "name": "Oliver Kahn",
@@ -860,13 +930,22 @@
     "wc": {
      "win": 0,
      "final": 1,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
+     "win": 1,
+     "final": 0,
+     "semi": 0
+    },
+    "copa": {
      "win": 0,
      "final": 0,
      "semi": 0
     },
+    "league": 8,
+    "natCup": 6,
+    "leagueCup": 5,
+    "natSupercup": 0,
     "ucl": {
      "win": 1,
      "final": 1
@@ -875,6 +954,12 @@
      "win": 1,
      "final": 0
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 0,
+    "intercontinental": 1,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -884,25 +969,45 @@
      "first": 0,
      "second": 1,
      "third": 0
-    },
-    "league": 8,
-    "natCup": 6,
-    "leagueCup": 6,
-    "natSupercup": 0,
-    "euroSupercup": 0,
-    "intercontinental": 1,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 86,
-   "natGoals": 0
+   "natGoals": 0,
+   "detail": {
+    "wc": [
+     "2002 (finał)",
+     "2006 (półfinał)"
+    ],
+    "euro": [
+     "1996 (mistrz)"
+    ],
+    "league": [
+     "Bayern Monachium: 1997, 1999, 2000, 2001, 2003, 2005, 2006, 2008"
+    ],
+    "natCup": [
+     "Bayern Monachium: 1998, 2000, 2003, 2005, 2006, 2008"
+    ],
+    "leagueCup": [
+     "Bayern Monachium: 1997, 1998, 2000, 2004, 2007"
+    ],
+    "ucl": [
+     "Bayern Monachium: 2001",
+     "Bayern Monachium 1999 (finał)"
+    ],
+    "uefa": [
+     "Bayern Monachium: 1996"
+    ],
+    "intercontinental": [
+     "Bayern Monachium: 2001"
+    ],
+    "ballon": [
+     "2001 (3.)",
+     "2002 (3.)"
+    ],
+    "fifa": [
+     "2002 (2.)"
+    ]
+   }
   },
   {
    "name": "Denis Bergkamp",
@@ -923,16 +1028,31 @@
     "euro": {
      "win": 0,
      "final": 0,
+     "semi": 2
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
      "semi": 0
     },
+    "league": 4,
+    "natCup": 6,
+    "leagueCup": 0,
+    "natSupercup": 3,
     "ucl": {
      "win": 0,
      "final": 1
     },
     "uefa": {
      "win": 3,
-     "final": 1
+     "final": 2
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 0,
+    "intercontinental": 0,
     "ballon": {
      "first": 0,
      "second": 1,
@@ -942,25 +1062,44 @@
      "first": 0,
      "second": 0,
      "third": 2
-    },
-    "league": 4,
-    "natCup": 6,
-    "leagueCup": 0,
-    "natSupercup": 4,
-    "euroSupercup": 0,
-    "intercontinental": 0,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 79,
-   "natGoals": 37
+   "natGoals": 37,
+   "detail": {
+    "euro": [
+     "1992 (półfinał)",
+     "2000 (półfinał)"
+    ],
+    "league": [
+     "Ajax: 1990",
+     "Arsenal: 1998, 2002, 2004"
+    ],
+    "natCup": [
+     "Ajax: 1987, 1993",
+     "Arsenal: 1998, 2002, 2003, 2005"
+    ],
+    "natSupercup": [
+     "Arsenal: 1998, 2002, 2004"
+    ],
+    "ucl": [
+     "Arsenal 2006 (finał)"
+    ],
+    "uefa": [
+     "Ajax: 1987, 1992",
+     "Inter Mediolan: 1994",
+     "Ajax 1988 (finał)",
+     "Arsenal 2000 (finał)"
+    ],
+    "ballon": [
+     "1993 (2.)",
+     "1992 (3.)"
+    ],
+    "fifa": [
+     "1993 (3.)",
+     "1997 (3.)"
+    ]
+   }
   },
   {
    "name": "Clarence Seedorf",
@@ -1178,7 +1317,7 @@
     "league": 6,
     "natCup": 5,
     "leagueCup": 0,
-    "natSupercup": 4,
+    "natSupercup": 5,
     "ucl": {
      "win": 2,
      "final": 0
@@ -1209,7 +1348,36 @@
    "notes": "",
    "photo": "img/deco.jpg",
    "natApp": 75,
-   "natGoals": 5
+   "natGoals": 5,
+   "detail": {
+    "euro": [
+     "2004 (finał)"
+    ],
+    "league": [
+     "Porto: 1999, 2003, 2004",
+     "Barcelona: 2005, 2006",
+     "Chelsea: 2010"
+    ],
+    "natCup": [
+     "Porto: 2000, 2001, 2003",
+     "Chelsea: 2009, 2010"
+    ],
+    "natSupercup": [
+     "Porto: 2001, 2003",
+     "Barcelona: 2005, 2006",
+     "Chelsea: 2009"
+    ],
+    "ucl": [
+     "Porto: 2004",
+     "Barcelona: 2006"
+    ],
+    "uefa": [
+     "Porto: 2003"
+    ],
+    "ballon": [
+     "2004 (2.)"
+    ]
+   }
   },
   {
    "name": "David Beckham",
@@ -1233,7 +1401,7 @@
      "final": 0,
      "semi": 0
     },
-    "league": 7,
+    "league": 8,
     "natCup": 2,
     "leagueCup": 0,
     "natSupercup": 3,
@@ -1267,7 +1435,34 @@
    "notes": "",
    "photo": "img/david-beckham.jpg",
    "natApp": 115,
-   "natGoals": 17
+   "natGoals": 17,
+   "detail": {
+    "league": [
+     "Manchester United: 1996, 1997, 1999, 2000, 2001, 2003",
+     "Real Madryt: 2007",
+     "Paris Saint-Germain: 2013"
+    ],
+    "natCup": [
+     "Manchester United: 1996, 1999"
+    ],
+    "natSupercup": [
+     "Manchester United: 1996, 1997",
+     "Real Madryt: 2003"
+    ],
+    "ucl": [
+     "Manchester United: 1999"
+    ],
+    "intercontinental": [
+     "Manchester United: 1999"
+    ],
+    "ballon": [
+     "1999 (2.)"
+    ],
+    "fifa": [
+     "1999 (2.)",
+     "2001 (2.)"
+    ]
+   }
   },
   {
    "name": "Pavel Nedved",
@@ -1290,6 +1485,15 @@
      "final": 1,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 3,
+    "natCup": 2,
+    "leagueCup": 0,
+    "natSupercup": 4,
     "ucl": {
      "win": 0,
      "final": 1
@@ -1298,6 +1502,12 @@
      "win": 1,
      "final": 1
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 1,
+    "intercontinental": 0,
     "ballon": {
      "first": 1,
      "second": 0,
@@ -1307,25 +1517,39 @@
      "first": 0,
      "second": 0,
      "third": 0
-    },
-    "league": 5,
-    "natCup": 2,
-    "leagueCup": 0,
-    "natSupercup": 4,
-    "euroSupercup": 1,
-    "intercontinental": 0,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 91,
-   "natGoals": 18
+   "natGoals": 18,
+   "detail": {
+    "euro": [
+     "1996 (finał)"
+    ],
+    "league": [
+     "Lazio: 2000",
+     "Juventus: 2002, 2003"
+    ],
+    "natCup": [
+     "Lazio: 1998, 2000"
+    ],
+    "natSupercup": [
+     "Lazio: 1998, 2000",
+     "Juventus: 2002, 2003"
+    ],
+    "ucl": [
+     "Juventus 2003 (finał)"
+    ],
+    "uefa": [
+     "Lazio: 1999",
+     "Lazio 1998 (finał)"
+    ],
+    "euroSupercup": [
+     "Lazio: 1999"
+    ],
+    "ballon": [
+     "2003 (1.)"
+    ]
+   }
   },
   {
    "name": "Frank de Boer",
@@ -1341,13 +1565,22 @@
     "wc": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 6,
+    "natCup": 2,
+    "leagueCup": 0,
+    "natSupercup": 3,
     "ucl": {
      "win": 1,
      "final": 0
@@ -1356,6 +1589,12 @@
      "win": 1,
      "final": 0
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 1,
+    "intercontinental": 1,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -1365,25 +1604,37 @@
      "first": 0,
      "second": 0,
      "third": 0
-    },
-    "league": 6,
-    "natCup": 2,
-    "leagueCup": 0,
-    "natSupercup": 3,
-    "euroSupercup": 1,
-    "intercontinental": 1,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 112,
-   "natGoals": 13
+   "natGoals": 13,
+   "detail": {
+    "wc": [
+     "1998 (półfinał)"
+    ],
+    "league": [
+     "Ajax: 1990, 1994, 1995, 1996, 1998",
+     "Barcelona: 1999"
+    ],
+    "natCup": [
+     "Ajax: 1993, 1998"
+    ],
+    "natSupercup": [
+     "Ajax: 1993, 1994, 1995"
+    ],
+    "ucl": [
+     "Ajax: 1995"
+    ],
+    "uefa": [
+     "Ajax: 1992"
+    ],
+    "euroSupercup": [
+     "Ajax: 1995"
+    ],
+    "intercontinental": [
+     "Ajax: 1995"
+    ]
+   }
   },
   {
    "name": "Didier Deschamps",
@@ -1406,14 +1657,29 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 5,
+    "natCup": 2,
+    "leagueCup": 0,
+    "natSupercup": 2,
     "ucl": {
      "win": 2,
-     "final": 0
+     "final": 3
     },
     "uefa": {
      "win": 0,
+     "final": 1
+    },
+    "conference": {
+     "win": 0,
      "final": 0
     },
+    "euroSupercup": 1,
+    "intercontinental": 1,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -1423,25 +1689,45 @@
      "first": 0,
      "second": 0,
      "third": 0
-    },
-    "league": 5,
-    "natCup": 2,
-    "leagueCup": 0,
-    "natSupercup": 0,
-    "euroSupercup": 1,
-    "intercontinental": 1,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 103,
-   "natGoals": 4
+   "natGoals": 4,
+   "detail": {
+    "wc": [
+     "1998 (mistrz)"
+    ],
+    "euro": [
+     "2000 (mistrz)"
+    ],
+    "league": [
+     "Marseille: 1990, 1992",
+     "Juventus: 1995, 1997, 1998"
+    ],
+    "natCup": [
+     "Juventus: 1995",
+     "Chelsea: 2000"
+    ],
+    "natSupercup": [
+     "Juventus: 1995, 1997"
+    ],
+    "ucl": [
+     "Marseille: 1993",
+     "Juventus: 1996",
+     "Juventus 1997 (finał)",
+     "Juventus 1998 (finał)",
+     "Valencia 2001 (finał)"
+    ],
+    "uefa": [
+     "Juventus 1995 (finał)"
+    ],
+    "euroSupercup": [
+     "Juventus: 1996"
+    ],
+    "intercontinental": [
+     "Juventus: 1996"
+    ]
+   }
   },
   {
    "name": "Roy Keane",
@@ -1464,6 +1750,15 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 7,
+    "natCup": 4,
+    "leagueCup": 0,
+    "natSupercup": 4,
     "ucl": {
      "win": 1,
      "final": 0
@@ -1472,6 +1767,12 @@
      "win": 0,
      "final": 0
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 0,
+    "intercontinental": 1,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -1481,25 +1782,27 @@
      "first": 0,
      "second": 0,
      "third": 0
-    },
-    "league": 7,
-    "natCup": 4,
-    "leagueCup": 0,
-    "natSupercup": 4,
-    "euroSupercup": 0,
-    "intercontinental": 1,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 67,
-   "natGoals": 9
+   "natGoals": 9,
+   "detail": {
+    "league": [
+     "Manchester United: 1994, 1996, 1997, 1999, 2000, 2001, 2003"
+    ],
+    "natCup": [
+     "Manchester United: 1994, 1996, 1999, 2004"
+    ],
+    "natSupercup": [
+     "Manchester United: 1993, 1996, 1997, 2003"
+    ],
+    "ucl": [
+     "Manchester United: 1999"
+    ],
+    "intercontinental": [
+     "Manchester United: 1999"
+    ]
+   }
   },
   {
    "name": "Marcel Desailly",
@@ -1522,6 +1825,15 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 2,
+    "natCup": 1,
+    "leagueCup": 0,
+    "natSupercup": 2,
     "ucl": {
      "win": 2,
      "final": 0
@@ -1530,6 +1842,12 @@
      "win": 0,
      "final": 0
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 2,
+    "intercontinental": 0,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -1539,25 +1857,36 @@
      "first": 0,
      "second": 0,
      "third": 0
-    },
-    "league": 2,
-    "natCup": 1,
-    "leagueCup": 0,
-    "natSupercup": 2,
-    "euroSupercup": 2,
-    "intercontinental": 0,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 116,
-   "natGoals": 3
+   "natGoals": 3,
+   "detail": {
+    "wc": [
+     "1998 (mistrz)"
+    ],
+    "euro": [
+     "2000 (mistrz)"
+    ],
+    "league": [
+     "AC Milan: 1994, 1996"
+    ],
+    "natCup": [
+     "Chelsea: 2000"
+    ],
+    "natSupercup": [
+     "AC Milan: 1994",
+     "Chelsea: 2000"
+    ],
+    "ucl": [
+     "Marseille: 1993",
+     "AC Milan: 1994"
+    ],
+    "euroSupercup": [
+     "AC Milan: 1994",
+     "Chelsea: 1998"
+    ]
+   }
   },
   {
    "name": "Ronaldinho",
@@ -1577,6 +1906,11 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 1,
+     "final": 0,
+     "semi": 0
+    },
     "league": 3,
     "natCup": 0,
     "leagueCup": 0,
@@ -1586,6 +1920,10 @@
      "final": 0
     },
     "uefa": {
+     "win": 0,
+     "final": 0
+    },
+    "conference": {
      "win": 0,
      "final": 0
     },
@@ -1599,14 +1937,40 @@
     "fifa": {
      "first": 2,
      "second": 0,
-     "third": 0
+     "third": 1
     }
    },
    "notes": "Gole skorygowane do 238 (205 klub + 33 reprezentacja). Copa Libertadores/Confed Cup bez slotu.",
    "source": "https://en.wikipedia.org/wiki/Ronaldinho",
    "photo": "img/ronaldinho.jpg",
    "natApp": 97,
-   "natGoals": 33
+   "natGoals": 33,
+   "detail": {
+    "wc": [
+     "2002 (mistrz)"
+    ],
+    "copa": [
+     "1999 (mistrz)"
+    ],
+    "league": [
+     "Barcelona: 2005, 2006",
+     "AC Milan: 2011"
+    ],
+    "natSupercup": [
+     "Barcelona: 2005, 2006"
+    ],
+    "ucl": [
+     "Barcelona: 2006"
+    ],
+    "ballon": [
+     "2005 (1.)"
+    ],
+    "fifa": [
+     "2004 (1.)",
+     "2005 (1.)",
+     "2006 (3.)"
+    ]
+   }
   },
   {
    "name": "Cafu",
@@ -1625,10 +1989,19 @@
      "semi": 0
     },
     "euro": {
-     "win": 1,
+     "win": 0,
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 2,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 2,
+    "natCup": 0,
+    "leagueCup": 0,
+    "natSupercup": 1,
     "ucl": {
      "win": 1,
      "final": 0
@@ -1637,6 +2010,12 @@
      "win": 1,
      "final": 0
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 2,
+    "intercontinental": 1,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -1646,25 +2025,40 @@
      "first": 0,
      "second": 0,
      "third": 0
-    },
-    "league": 2,
-    "natCup": 0,
-    "leagueCup": 0,
-    "natSupercup": 1,
-    "euroSupercup": 1,
-    "intercontinental": 1,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 142,
-   "natGoals": 5
+   "natGoals": 5,
+   "detail": {
+    "wc": [
+     "1994 (mistrz)",
+     "2002 (mistrz)",
+     "1998 (finał)"
+    ],
+    "copa": [
+     "1997 (mistrz)",
+     "1999 (mistrz)"
+    ],
+    "league": [
+     "Roma: 2001",
+     "AC Milan: 2004"
+    ],
+    "natSupercup": [
+     "AC Milan: 2004"
+    ],
+    "ucl": [
+     "AC Milan: 2007"
+    ],
+    "uefa": [
+     "Real Zaragoza: 1995"
+    ],
+    "euroSupercup": [
+     "AC Milan: 2003, 2007"
+    ],
+    "intercontinental": [
+     "AC Milan: 2007"
+    ]
+   }
   },
   {
    "name": "Cristiano Ronaldo",
@@ -1796,14 +2190,29 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 2,
+    "natCup": 2,
+    "leagueCup": 0,
+    "natSupercup": 3,
     "ucl": {
      "win": 0,
-     "final": 1
+     "final": 0
     },
     "uefa": {
      "win": 1,
      "final": 0
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 0,
+    "intercontinental": 0,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -1813,25 +2222,34 @@
      "first": 0,
      "second": 0,
      "third": 0
-    },
-    "league": 2,
-    "natCup": 2,
-    "leagueCup": 0,
-    "natSupercup": 3,
-    "euroSupercup": 0,
-    "intercontinental": 0,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 142,
-   "natGoals": 2
+   "natGoals": 2,
+   "detail": {
+    "wc": [
+     "1998 (mistrz)",
+     "2006 (finał)"
+    ],
+    "euro": [
+     "2000 (mistrz)"
+    ],
+    "league": [
+     "Juventus: 2002, 2003"
+    ],
+    "natCup": [
+     "Monaco: 1991",
+     "Parma: 1999"
+    ],
+    "natSupercup": [
+     "Parma: 1999",
+     "Juventus: 2002",
+     "Barcelona: 2006"
+    ],
+    "uefa": [
+     "Parma: 1999"
+    ]
+   }
   },
   {
    "name": "Lionel Messi",
@@ -1952,7 +2370,7 @@
     },
     "euro": {
      "win": 0,
-     "final": 1,
+     "final": 0,
      "semi": 0
     },
     "copa": {
@@ -1963,7 +2381,7 @@
     "league": 3,
     "natCup": 1,
     "leagueCup": 0,
-    "natSupercup": 2,
+    "natSupercup": 1,
     "ucl": {
      "win": 2,
      "final": 0
@@ -1976,7 +2394,7 @@
      "win": 0,
      "final": 0
     },
-    "euroSupercup": 1,
+    "euroSupercup": 2,
     "intercontinental": 1,
     "ballon": {
      "first": 0,
@@ -1994,7 +2412,31 @@
    "notes": "",
    "photo": "img/filippo-inzaghi.jpg",
    "natApp": 57,
-   "natGoals": 25
+   "natGoals": 25,
+   "detail": {
+    "wc": [
+     "2006 (mistrz)"
+    ],
+    "league": [
+     "Juventus: 1998",
+     "AC Milan: 2004, 2011"
+    ],
+    "natCup": [
+     "AC Milan: 2003"
+    ],
+    "natSupercup": [
+     "Juventus: 1997"
+    ],
+    "ucl": [
+     "AC Milan: 2003, 2007"
+    ],
+    "euroSupercup": [
+     "AC Milan: 2003, 2007"
+    ],
+    "intercontinental": [
+     "AC Milan: 2007"
+    ]
+   }
   },
   {
    "name": "Peter Schmeichel",
@@ -2017,6 +2459,15 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 6,
+    "natCup": 3,
+    "leagueCup": 1,
+    "natSupercup": 5,
     "ucl": {
      "win": 1,
      "final": 0
@@ -2025,6 +2476,12 @@
      "win": 0,
      "final": 0
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 1,
+    "intercontinental": 0,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -2034,25 +2491,35 @@
      "first": 0,
      "second": 0,
      "third": 0
-    },
-    "league": 6,
-    "natCup": 3,
-    "leagueCup": 1,
-    "natSupercup": 4,
-    "euroSupercup": 1,
-    "intercontinental": 0,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 129,
-   "natGoals": 1
+   "natGoals": 1,
+   "detail": {
+    "euro": [
+     "1992 (mistrz)"
+    ],
+    "league": [
+     "Manchester United: 1993, 1994, 1996, 1997, 1999",
+     "Sporting CP: 2000"
+    ],
+    "natCup": [
+     "Manchester United: 1994, 1996, 1999"
+    ],
+    "leagueCup": [
+     "Manchester United: 1992"
+    ],
+    "natSupercup": [
+     "Manchester United: 1993, 1994, 1996, 1997",
+     "Sporting CP: 2000"
+    ],
+    "ucl": [
+     "Manchester United: 1999"
+    ],
+    "euroSupercup": [
+     "Manchester United: 1991"
+    ]
+   }
   },
   {
    "name": "Rivaldo",
@@ -2075,6 +2542,15 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 1,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 2,
+    "natCup": 2,
+    "leagueCup": 0,
+    "natSupercup": 0,
     "ucl": {
      "win": 1,
      "final": 0
@@ -2083,6 +2559,12 @@
      "win": 0,
      "final": 0
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 2,
+    "intercontinental": 0,
     "ballon": {
      "first": 1,
      "second": 0,
@@ -2092,25 +2574,40 @@
      "first": 1,
      "second": 0,
      "third": 1
-    },
-    "league": 2,
-    "natCup": 2,
-    "leagueCup": 0,
-    "natSupercup": 0,
-    "euroSupercup": 2,
-    "intercontinental": 0,
-    "copa": {
-     "win": 1,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 74,
-   "natGoals": 35
+   "natGoals": 35,
+   "detail": {
+    "wc": [
+     "2002 (mistrz)",
+     "1998 (finał)"
+    ],
+    "copa": [
+     "1999 (mistrz)"
+    ],
+    "league": [
+     "Barcelona: 1998, 1999"
+    ],
+    "natCup": [
+     "Barcelona: 1998",
+     "AC Milan: 2003"
+    ],
+    "ucl": [
+     "AC Milan: 2003"
+    ],
+    "euroSupercup": [
+     "Barcelona: 1997",
+     "AC Milan: 2003"
+    ],
+    "ballon": [
+     "1999 (1.)"
+    ],
+    "fifa": [
+     "1999 (1.)",
+     "2000 (3.)"
+    ]
+   }
   },
   {
    "name": "Javier Zanetti",
@@ -2131,7 +2628,7 @@
     },
     "copa": {
      "win": 0,
-     "final": 2,
+     "final": 0,
      "semi": 0
     },
     "league": 5,
@@ -2168,7 +2665,27 @@
    "notes": "",
    "photo": "img/javier-zanetti.jpg",
    "natApp": 145,
-   "natGoals": 5
+   "natGoals": 5,
+   "detail": {
+    "league": [
+     "Inter Mediolan: 2006, 2007, 2008, 2009, 2010"
+    ],
+    "natCup": [
+     "Inter Mediolan: 2005, 2006, 2010, 2011"
+    ],
+    "natSupercup": [
+     "Inter Mediolan: 2005, 2006, 2008, 2010"
+    ],
+    "ucl": [
+     "Inter Mediolan: 2010"
+    ],
+    "uefa": [
+     "Inter Mediolan: 1998"
+    ],
+    "intercontinental": [
+     "Inter Mediolan: 2010"
+    ]
+   }
   },
   {
    "name": "Frank Lampard",
@@ -2195,7 +2712,7 @@
     "league": 3,
     "natCup": 4,
     "leagueCup": 2,
-    "natSupercup": 1,
+    "natSupercup": 2,
     "ucl": {
      "win": 1,
      "final": 1
@@ -2212,12 +2729,12 @@
     "intercontinental": 0,
     "ballon": {
      "first": 0,
-     "second": 1,
+     "second": 0,
      "third": 0
     },
     "fifa": {
      "first": 0,
-     "second": 1,
+     "second": 0,
      "third": 0
     }
    },
@@ -2226,7 +2743,28 @@
    "notes": "",
    "photo": "img/frank-lampard.jpg",
    "natApp": 106,
-   "natGoals": 29
+   "natGoals": 29,
+   "detail": {
+    "league": [
+     "Chelsea: 2005, 2006, 2010"
+    ],
+    "natCup": [
+     "Chelsea: 2007, 2009, 2010, 2012"
+    ],
+    "leagueCup": [
+     "Chelsea: 2005, 2007"
+    ],
+    "natSupercup": [
+     "Chelsea: 2005, 2009"
+    ],
+    "ucl": [
+     "Chelsea: 2012",
+     "Chelsea 2008 (finał)"
+    ],
+    "uefa": [
+     "Chelsea: 2013"
+    ]
+   }
   },
   {
    "name": "Jaap Stam",
@@ -2247,16 +2785,31 @@
     "euro": {
      "win": 0,
      "final": 0,
-     "semi": 1
+     "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 4,
+    "natCup": 3,
+    "leagueCup": 0,
+    "natSupercup": 4,
     "ucl": {
      "win": 1,
-     "final": 0
+     "final": 1
     },
     "uefa": {
      "win": 0,
      "final": 0
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 0,
+    "intercontinental": 1,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -2266,25 +2819,32 @@
      "first": 0,
      "second": 0,
      "third": 0
-    },
-    "league": 4,
-    "natCup": 4,
-    "leagueCup": 0,
-    "natSupercup": 6,
-    "euroSupercup": 0,
-    "intercontinental": 1,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 67,
-   "natGoals": 3
+   "natGoals": 3,
+   "detail": {
+    "league": [
+     "PSV: 1997",
+     "Manchester United: 1999, 2000, 2001"
+    ],
+    "natCup": [
+     "PSV: 1996",
+     "Lazio: 2004",
+     "Ajax: 2007"
+    ],
+    "natSupercup": [
+     "PSV: 1996, 1997",
+     "Ajax: 2006, 2007"
+    ],
+    "ucl": [
+     "Manchester United: 1999",
+     "AC Milan 2005 (finał)"
+    ],
+    "intercontinental": [
+     "Manchester United: 1999"
+    ]
+   }
   },
   {
    "name": "Pep Guardiola",
@@ -2307,6 +2867,15 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 6,
+    "natCup": 2,
+    "leagueCup": 0,
+    "natSupercup": 4,
     "ucl": {
      "win": 1,
      "final": 0
@@ -2315,6 +2884,12 @@
      "win": 1,
      "final": 0
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 1,
+    "intercontinental": 0,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -2324,25 +2899,30 @@
      "first": 0,
      "second": 0,
      "third": 0
-    },
-    "league": 6,
-    "natCup": 2,
-    "leagueCup": 0,
-    "natSupercup": 4,
-    "euroSupercup": 2,
-    "intercontinental": 0,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 47,
-   "natGoals": 5
+   "natGoals": 5,
+   "detail": {
+    "league": [
+     "Barcelona: 1991, 1992, 1993, 1994, 1998, 1999"
+    ],
+    "natCup": [
+     "Barcelona: 1997, 1998"
+    ],
+    "natSupercup": [
+     "Barcelona: 1991, 1992, 1994, 1996"
+    ],
+    "ucl": [
+     "Barcelona: 1992"
+    ],
+    "uefa": [
+     "Barcelona: 1997"
+    ],
+    "euroSupercup": [
+     "Barcelona: 1992"
+    ]
+   }
   },
   {
    "name": "Ruud van Nistelrooy",
@@ -2369,7 +2949,7 @@
     "league": 5,
     "natCup": 1,
     "leagueCup": 1,
-    "natSupercup": 2,
+    "natSupercup": 3,
     "ucl": {
      "win": 0,
      "final": 0
@@ -2400,7 +2980,25 @@
    "notes": "",
    "photo": "img/ruud-van-nistelrooy.jpg",
    "natApp": 70,
-   "natGoals": 35
+   "natGoals": 35,
+   "detail": {
+    "league": [
+     "PSV Eindhoven: 2000, 2001",
+     "Manchester United: 2003",
+     "Real Madryt: 2007, 2008"
+    ],
+    "natCup": [
+     "Manchester United: 2004"
+    ],
+    "leagueCup": [
+     "Manchester United: 2006"
+    ],
+    "natSupercup": [
+     "PSV Eindhoven: 1998",
+     "Manchester United: 2003",
+     "Real Madryt: 2008"
+    ]
+   }
   },
   {
    "name": "Andrij Szewczenko",
@@ -2423,6 +3021,15 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 1,
+    "natCup": 2,
+    "leagueCup": 1,
+    "natSupercup": 1,
     "ucl": {
      "win": 1,
      "final": 2
@@ -2431,34 +3038,54 @@
      "win": 0,
      "final": 0
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 1,
+    "intercontinental": 0,
     "ballon": {
      "first": 1,
      "second": 0,
-     "third": 2
+     "third": 0
     },
     "fifa": {
      "first": 0,
      "second": 0,
      "third": 1
-    },
-    "league": 1,
-    "natCup": 2,
-    "leagueCup": 1,
-    "natSupercup": 1,
-    "euroSupercup": 1,
-    "intercontinental": 0,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 111,
-   "natGoals": 48
+   "natGoals": 48,
+   "detail": {
+    "league": [
+     "AC Milan: 2004"
+    ],
+    "natCup": [
+     "AC Milan: 2003",
+     "Chelsea: 2007"
+    ],
+    "leagueCup": [
+     "Chelsea: 2007"
+    ],
+    "natSupercup": [
+     "AC Milan: 2004"
+    ],
+    "ucl": [
+     "AC Milan: 2003",
+     "AC Milan 2005 (finał)",
+     "Chelsea 2008 (finał)"
+    ],
+    "euroSupercup": [
+     "AC Milan: 2003"
+    ],
+    "ballon": [
+     "2004 (1.)"
+    ],
+    "fifa": [
+     "2004 (3.)"
+    ]
+   }
   },
   {
    "name": "Iker Casillas",
@@ -2483,9 +3110,9 @@
      "semi": 0
     },
     "league": 6,
-    "natCup": 3,
+    "natCup": 2,
     "leagueCup": 0,
-    "natSupercup": 1,
+    "natSupercup": 5,
     "ucl": {
      "win": 3,
      "final": 0
@@ -2499,7 +3126,7 @@
      "final": 0
     },
     "euroSupercup": 2,
-    "intercontinental": 1,
+    "intercontinental": 2,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -2516,7 +3143,36 @@
    "notes": "",
    "photo": "img/iker-casillas.jpg",
    "natApp": 167,
-   "natGoals": 0
+   "natGoals": 0,
+   "detail": {
+    "wc": [
+     "2010 (mistrz)"
+    ],
+    "euro": [
+     "2008 (mistrz)",
+     "2012 (mistrz)"
+    ],
+    "league": [
+     "Real Madryt: 2001, 2003, 2007, 2008, 2012",
+     "Porto: 2018"
+    ],
+    "natCup": [
+     "Real Madryt: 2011, 2014"
+    ],
+    "natSupercup": [
+     "Real Madryt: 2001, 2003, 2008, 2012",
+     "Porto: 2018"
+    ],
+    "ucl": [
+     "Real Madryt: 2000, 2002, 2014"
+    ],
+    "euroSupercup": [
+     "Real Madryt: 2002, 2014"
+    ],
+    "intercontinental": [
+     "Real Madryt: 2002, 2014"
+    ]
+   }
   },
   {
    "name": "Gianluigi Buffon",
@@ -2630,10 +3286,10 @@
      "final": 0,
      "semi": 0
     },
-    "league": 2,
+    "league": 3,
     "natCup": 3,
     "leagueCup": 0,
-    "natSupercup": 1,
+    "natSupercup": 2,
     "ucl": {
      "win": 1,
      "final": 1
@@ -2664,7 +3320,29 @@
    "notes": "",
    "photo": "img/nicolas-anelka.jpg",
    "natApp": 69,
-   "natGoals": 14
+   "natGoals": 14,
+   "detail": {
+    "euro": [
+     "2000 (mistrz)"
+    ],
+    "league": [
+     "Arsenal: 1998",
+     "Chelsea: 2010",
+     "Juventus: 2013"
+    ],
+    "natCup": [
+     "Arsenal: 1998",
+     "Chelsea: 2009, 2010"
+    ],
+    "natSupercup": [
+     "Arsenal: 1998",
+     "Chelsea: 2009"
+    ],
+    "ucl": [
+     "Real Madryt: 2000",
+     "Chelsea 2008 (finał)"
+    ]
+   }
   },
   {
    "name": "Juan Sebastián Verón",
@@ -2687,14 +3365,29 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 1,
+     "semi": 0
+    },
+    "league": 3,
+    "natCup": 4,
+    "leagueCup": 0,
+    "natSupercup": 2,
     "ucl": {
      "win": 0,
      "final": 0
     },
     "uefa": {
+     "win": 1,
+     "final": 0
+    },
+    "conference": {
      "win": 0,
      "final": 0
     },
+    "euroSupercup": 1,
+    "intercontinental": 0,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -2704,25 +3397,35 @@
      "first": 0,
      "second": 0,
      "third": 0
-    },
-    "league": 3,
-    "natCup": 4,
-    "leagueCup": 0,
-    "natSupercup": 2,
-    "euroSupercup": 1,
-    "intercontinental": 0,
-    "copa": {
-     "win": 0,
-     "final": 1,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 72,
-   "natGoals": 9
+   "natGoals": 9,
+   "detail": {
+    "copa": [
+     "2007 (finał)"
+    ],
+    "league": [
+     "Lazio: 2000",
+     "Manchester United: 2003",
+     "Inter Mediolan: 2006"
+    ],
+    "natCup": [
+     "Parma: 1999",
+     "Lazio: 2000",
+     "Inter Mediolan: 2005, 2006"
+    ],
+    "natSupercup": [
+     "Lazio: 2000",
+     "Inter Mediolan: 2005"
+    ],
+    "uefa": [
+     "Parma: 1999"
+    ],
+    "euroSupercup": [
+     "Lazio: 1999"
+    ]
+   }
   },
   {
    "name": "Michael Owen",
@@ -2746,13 +3449,13 @@
      "final": 0,
      "semi": 0
     },
-    "league": 0,
+    "league": 1,
     "natCup": 1,
-    "leagueCup": 2,
-    "natSupercup": 0,
+    "leagueCup": 3,
+    "natSupercup": 2,
     "ucl": {
      "win": 0,
-     "final": 0
+     "final": 1
     },
     "uefa": {
      "win": 1,
@@ -2780,7 +3483,35 @@
    "notes": "",
    "photo": "img/michael-owen.jpg",
    "natApp": 89,
-   "natGoals": 40
+   "natGoals": 40,
+   "detail": {
+    "league": [
+     "Manchester United: 2011"
+    ],
+    "natCup": [
+     "Liverpool: 2001"
+    ],
+    "leagueCup": [
+     "Liverpool: 2001, 2003",
+     "Manchester United: 2010"
+    ],
+    "natSupercup": [
+     "Liverpool: 2001",
+     "Manchester United: 2010"
+    ],
+    "ucl": [
+     "Manchester United 2011 (finał)"
+    ],
+    "uefa": [
+     "Liverpool: 2001"
+    ],
+    "euroSupercup": [
+     "Liverpool: 2001"
+    ],
+    "ballon": [
+     "2001 (1.)"
+    ]
+   }
   },
   {
    "name": "Alan Shearer",
@@ -2803,6 +3534,15 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 1,
+    "natCup": 0,
+    "leagueCup": 0,
+    "natSupercup": 0,
     "ucl": {
      "win": 0,
      "final": 0
@@ -2811,6 +3551,12 @@
      "win": 0,
      "final": 0
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 0,
+    "intercontinental": 0,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -2820,25 +3566,21 @@
      "first": 0,
      "second": 0,
      "third": 1
-    },
-    "league": 1,
-    "natCup": 0,
-    "leagueCup": 0,
-    "natSupercup": 0,
-    "euroSupercup": 0,
-    "intercontinental": 0,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 63,
-   "natGoals": 30
+   "natGoals": 30,
+   "detail": {
+    "league": [
+     "Blackburn Rovers: 1995"
+    ],
+    "ballon": [
+     "1996 (3.)"
+    ],
+    "fifa": [
+     "1996 (3.)"
+    ]
+   }
   },
   {
    "name": "Robert Lewandowski",
@@ -2953,6 +3695,15 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 2,
+    "natCup": 2,
+    "leagueCup": 1,
+    "natSupercup": 3,
     "ucl": {
      "win": 1,
      "final": 0
@@ -2961,6 +3712,12 @@
      "win": 0,
      "final": 0
     },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 0,
+    "intercontinental": 0,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -2970,25 +3727,31 @@
      "first": 0,
      "second": 0,
      "third": 0
-    },
-    "league": 2,
-    "natCup": 1,
-    "leagueCup": 1,
-    "natSupercup": 3,
-    "euroSupercup": 1,
-    "intercontinental": 0,
-    "copa": {
-     "win": 0,
-     "final": 0,
-     "semi": 0
-    },
-    "conference": {
-     "win": 0,
-     "final": 0
     }
    },
    "natApp": 60,
-   "natGoals": 0
+   "natGoals": 0,
+   "detail": {
+    "league": [
+     "Feyenoord: 1999",
+     "Real Madryt: 2008"
+    ],
+    "natCup": [
+     "Liverpool: 2006",
+     "Real Madryt: 2011"
+    ],
+    "leagueCup": [
+     "Liverpool: 2003"
+    ],
+    "natSupercup": [
+     "Feyenoord: 1999",
+     "Liverpool: 2006",
+     "Real Madryt: 2008"
+    ],
+    "ucl": [
+     "Liverpool: 2005"
+    ]
+   }
   },
   {
    "name": "Roberto Baggio",
@@ -3007,7 +3770,11 @@
      "final": 0,
      "semi": 0
     },
-    "copa": {},
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 2,
     "natCup": 1,
     "leagueCup": 0,
@@ -3018,9 +3785,12 @@
     },
     "uefa": {
      "win": 1,
-     "final": 2
+     "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 0,
     "intercontinental": 0,
     "ballon": {
@@ -3039,7 +3809,31 @@
    "notes": "wloskie top. MS1994 final,MS1990 polfinal. Zlota Pilka1993. ZASTEPUJE legacy Roberto Baggio.",
    "photo": "img/roberto-baggio.jpg",
    "natApp": 56,
-   "natGoals": 27
+   "natGoals": 27,
+   "detail": {
+    "wc": [
+     "1994 (finał)",
+     "1990 (półfinał)"
+    ],
+    "league": [
+     "Juventus: 1995",
+     "AC Milan: 1996"
+    ],
+    "natCup": [
+     "Juventus: 1995"
+    ],
+    "uefa": [
+     "Juventus: 1993"
+    ],
+    "ballon": [
+     "1993 (1.)",
+     "1994 (2.)"
+    ],
+    "fifa": [
+     "1993 (1.)",
+     "1994 (3.)"
+    ]
+   }
   },
   {
    "name": "Fabio Cannavaro",
@@ -3079,7 +3873,7 @@
      "win": 0,
      "final": 0
     },
-    "euroSupercup": 1,
+    "euroSupercup": 0,
     "intercontinental": 0,
     "ballon": {
      "first": 1,
@@ -3097,7 +3891,34 @@
    "notes": "Tytuly Serie A Juventusu (2005,2006) odebrane w Calciopoli - nie liczone; league=2 (La Liga Real 2007,2008).",
    "photo": "img/fabio-cannavaro.jpg",
    "natApp": 136,
-   "natGoals": 2
+   "natGoals": 2,
+   "detail": {
+    "wc": [
+     "2006 (mistrz)"
+    ],
+    "euro": [
+     "2000 (finał)"
+    ],
+    "league": [
+     "Real Madryt: 2007, 2008"
+    ],
+    "natCup": [
+     "Parma: 1999, 2002"
+    ],
+    "natSupercup": [
+     "Parma: 1999",
+     "Real Madryt: 2008"
+    ],
+    "uefa": [
+     "Parma: 1999"
+    ],
+    "ballon": [
+     "2006 (1.)"
+    ],
+    "fifa": [
+     "2006 (1.)"
+    ]
+   }
   },
   {
    "name": "Kaká",
@@ -3117,10 +3938,15 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 2,
     "natCup": 1,
     "leagueCup": 0,
-    "natSupercup": 0,
+    "natSupercup": 1,
     "ucl": {
      "win": 1,
      "final": 0
@@ -3129,7 +3955,11 @@
      "win": 0,
      "final": 0
     },
-    "euroSupercup": 2,
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 1,
     "intercontinental": 1,
     "ballon": {
      "first": 1,
@@ -3146,7 +3976,37 @@
    "source": "https://en.wikipedia.org/wiki/Kak%C3%A1",
    "photo": "img/kaka.jpg",
    "natApp": 92,
-   "natGoals": 29
+   "natGoals": 29,
+   "detail": {
+    "wc": [
+     "2002 (mistrz)"
+    ],
+    "league": [
+     "AC Milan: 2004",
+     "Real Madryt: 2012"
+    ],
+    "natCup": [
+     "Real Madryt: 2011"
+    ],
+    "natSupercup": [
+     "AC Milan: 2004"
+    ],
+    "ucl": [
+     "AC Milan: 2007"
+    ],
+    "euroSupercup": [
+     "AC Milan: 2007"
+    ],
+    "intercontinental": [
+     "AC Milan: 2007"
+    ],
+    "ballon": [
+     "2007 (1.)"
+    ],
+    "fifa": [
+     "2007 (1.)"
+    ]
+   }
   },
   {
    "name": "Fernando Torres",
@@ -3186,7 +4046,7 @@
      "win": 0,
      "final": 0
     },
-    "euroSupercup": 1,
+    "euroSupercup": 0,
     "intercontinental": 0,
     "ballon": {
      "first": 0,
@@ -3196,7 +4056,7 @@
     "fifa": {
      "first": 0,
      "second": 0,
-     "third": 1
+     "third": 0
     }
    },
    "dataComplete": true,
@@ -3204,7 +4064,30 @@
    "notes": "",
    "photo": "img/fernando-torres.jpg",
    "natApp": 110,
-   "natGoals": 38
+   "natGoals": 38,
+   "detail": {
+    "wc": [
+     "2010 (mistrz)"
+    ],
+    "euro": [
+     "2008 (mistrz)",
+     "2012 (mistrz)"
+    ],
+    "natCup": [
+     "Chelsea: 2012"
+    ],
+    "ucl": [
+     "Chelsea: 2012",
+     "Atlético Madryt 2016 (finał)"
+    ],
+    "uefa": [
+     "Atlético Madryt: 2018",
+     "Chelsea: 2013"
+    ],
+    "ballon": [
+     "2008 (3.)"
+    ]
+   }
   },
   {
    "name": "Xavi",
@@ -3321,7 +4204,7 @@
     "league": 0,
     "natCup": 2,
     "leagueCup": 3,
-    "natSupercup": 0,
+    "natSupercup": 1,
     "ucl": {
      "win": 1,
      "final": 1
@@ -3339,12 +4222,12 @@
     "ballon": {
      "first": 0,
      "second": 0,
-     "third": 1
+     "third": 0
     },
     "fifa": {
      "first": 0,
      "second": 0,
-     "third": 1
+     "third": 0
     }
    },
    "dataComplete": true,
@@ -3352,7 +4235,28 @@
    "notes": "",
    "photo": "img/steven-gerrard.jpg",
    "natApp": 114,
-   "natGoals": 21
+   "natGoals": 21,
+   "detail": {
+    "natCup": [
+     "Liverpool: 2001, 2006"
+    ],
+    "leagueCup": [
+     "Liverpool: 2001, 2003, 2012"
+    ],
+    "natSupercup": [
+     "Liverpool: 2006"
+    ],
+    "ucl": [
+     "Liverpool: 2005",
+     "Liverpool 2007 (finał)"
+    ],
+    "uefa": [
+     "Liverpool: 2001"
+    ],
+    "euroSupercup": [
+     "Liverpool: 2001"
+    ]
+   }
   },
   {
    "name": "Samuel Eto'o",
@@ -3410,7 +4314,32 @@
    "notes": "",
    "photo": "img/samuel-eto-o.jpg",
    "natApp": 118,
-   "natGoals": 56
+   "natGoals": 56,
+   "detail": {
+    "league": [
+     "Barcelona: 2005, 2006, 2009",
+     "Inter Mediolan: 2010"
+    ],
+    "natCup": [
+     "Mallorca: 2003",
+     "Barcelona: 2009",
+     "Inter Mediolan: 2010, 2011"
+    ],
+    "natSupercup": [
+     "Barcelona: 2005, 2006",
+     "Inter Mediolan: 2010"
+    ],
+    "ucl": [
+     "Barcelona: 2006, 2009",
+     "Inter Mediolan: 2010"
+    ],
+    "intercontinental": [
+     "Inter Mediolan: 2010"
+    ],
+    "fifa": [
+     "2005 (3.)"
+    ]
+   }
   },
   {
    "name": "Gabriel Batistuta",
@@ -3468,7 +4397,26 @@
    "notes": "",
    "photo": "img/gabriel-batistuta.jpg",
    "natApp": 78,
-   "natGoals": 56
+   "natGoals": 56,
+   "detail": {
+    "copa": [
+     "1991 (mistrz)",
+     "1993 (mistrz)"
+    ],
+    "league": [
+     "Roma: 2001"
+    ],
+    "natCup": [
+     "Fiorentina: 1996"
+    ],
+    "natSupercup": [
+     "Fiorentina: 1996",
+     "Roma: 2001"
+    ],
+    "fifa": [
+     "1999 (3.)"
+    ]
+   }
   },
   {
    "name": "Zlatan Ibrahimović",
@@ -3492,10 +4440,10 @@
      "final": 0,
      "semi": 0
     },
-    "league": 8,
-    "natCup": 2,
-    "leagueCup": 3,
-    "natSupercup": 3,
+    "league": 12,
+    "natCup": 3,
+    "leagueCup": 4,
+    "natSupercup": 8,
     "ucl": {
      "win": 0,
      "final": 0
@@ -3508,8 +4456,8 @@
      "win": 0,
      "final": 0
     },
-    "euroSupercup": 0,
-    "intercontinental": 0,
+    "euroSupercup": 1,
+    "intercontinental": 1,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -3526,7 +4474,40 @@
    "notes": "",
    "photo": "img/zlatan-ibrahimovic.jpg",
    "natApp": 122,
-   "natGoals": 62
+   "natGoals": 62,
+   "detail": {
+    "league": [
+     "Ajax: 2002, 2004",
+     "Inter Mediolan: 2007, 2008, 2009",
+     "Barcelona: 2010",
+     "AC Milan: 2011, 2022",
+     "Paris Saint-Germain: 2013, 2014, 2015, 2016"
+    ],
+    "natCup": [
+     "Ajax: 2002",
+     "Paris Saint-Germain: 2015, 2016"
+    ],
+    "leagueCup": [
+     "Paris Saint-Germain: 2014, 2015, 2016",
+     "Manchester United: 2017"
+    ],
+    "natSupercup": [
+     "Ajax: 2002",
+     "Inter Mediolan: 2006, 2008",
+     "AC Milan: 2011",
+     "Paris Saint-Germain: 2013, 2014, 2015",
+     "Manchester United: 2016"
+    ],
+    "uefa": [
+     "Manchester United: 2017"
+    ],
+    "euroSupercup": [
+     "Barcelona: 2009"
+    ],
+    "intercontinental": [
+     "Barcelona: 2009"
+    ]
+   }
   },
   {
    "name": "Fernando Morientes",
@@ -3551,7 +4532,7 @@
      "semi": 0
     },
     "league": 3,
-    "natCup": 2,
+    "natCup": 1,
     "leagueCup": 1,
     "natSupercup": 1,
     "ucl": {
@@ -3584,7 +4565,32 @@
    "notes": "",
    "photo": "img/fernando-morientes.jpg",
    "natApp": 47,
-   "natGoals": 27
+   "natGoals": 27,
+   "detail": {
+    "league": [
+     "Real Madryt: 2001, 2003",
+     "Marseille: 2010"
+    ],
+    "natCup": [
+     "Valencia: 2008"
+    ],
+    "leagueCup": [
+     "Marseille: 2010"
+    ],
+    "natSupercup": [
+     "Real Madryt: 2001"
+    ],
+    "ucl": [
+     "Real Madryt: 1998, 2000, 2002",
+     "Monaco 2004 (finał)"
+    ],
+    "euroSupercup": [
+     "Liverpool: 2005"
+    ],
+    "intercontinental": [
+     "Real Madryt: 1998, 2002"
+    ]
+   }
   },
   {
    "name": "David Trezeguet",
@@ -3614,7 +4620,7 @@
     "natSupercup": 2,
     "ucl": {
      "win": 0,
-     "final": 1
+     "final": 0
     },
     "uefa": {
      "win": 0,
@@ -3642,7 +4648,24 @@
    "notes": "",
    "photo": "img/david-trezeguet.jpg",
    "natApp": 71,
-   "natGoals": 34
+   "natGoals": 34,
+   "detail": {
+    "wc": [
+     "1998 (mistrz)",
+     "2006 (finał)"
+    ],
+    "euro": [
+     "2000 (mistrz)"
+    ],
+    "league": [
+     "Monaco: 1997, 2000",
+     "Juventus: 2002, 2003"
+    ],
+    "natSupercup": [
+     "Monaco: 1997",
+     "Juventus: 2003"
+    ]
+   }
   },
   {
    "name": "Gaizka Mendieta",
@@ -3700,7 +4723,25 @@
    "notes": "",
    "photo": "img/gaizka-mendieta.jpg",
    "natApp": 40,
-   "natGoals": 8
+   "natGoals": 8,
+   "detail": {
+    "natCup": [
+     "Valencia: 1999"
+    ],
+    "leagueCup": [
+     "Middlesbrough: 2004"
+    ],
+    "natSupercup": [
+     "Valencia: 1999"
+    ],
+    "ucl": [
+     "Valencia 2000 (finał)",
+     "Valencia 2001 (finał)"
+    ],
+    "uefa": [
+     "Middlesbrough 2006 (finał)"
+    ]
+   }
   },
   {
    "name": "Andrés Iniesta",
@@ -3847,7 +4888,24 @@
    "notes": "",
    "photo": "img/rio-ferdinand.jpg",
    "natApp": 81,
-   "natGoals": 3
+   "natGoals": 3,
+   "detail": {
+    "league": [
+     "Manchester United: 2003, 2007, 2008, 2009, 2011, 2013"
+    ],
+    "leagueCup": [
+     "Manchester United: 2006, 2009"
+    ],
+    "natSupercup": [
+     "Manchester United: 2003, 2007, 2008, 2011"
+    ],
+    "ucl": [
+     "Manchester United: 2008"
+    ],
+    "intercontinental": [
+     "Manchester United: 2008"
+    ]
+   }
   },
   {
    "name": "Wayne Rooney",
@@ -3873,8 +4931,8 @@
     },
     "league": 5,
     "natCup": 1,
-    "leagueCup": 2,
-    "natSupercup": 2,
+    "leagueCup": 3,
+    "natSupercup": 4,
     "ucl": {
      "win": 1,
      "final": 0
@@ -3905,7 +4963,30 @@
    "notes": "",
    "photo": "img/wayne-rooney.jpg",
    "natApp": 120,
-   "natGoals": 53
+   "natGoals": 53,
+   "detail": {
+    "league": [
+     "Manchester United: 2007, 2008, 2009, 2011, 2013"
+    ],
+    "natCup": [
+     "Manchester United: 2016"
+    ],
+    "leagueCup": [
+     "Manchester United: 2006, 2010, 2017"
+    ],
+    "natSupercup": [
+     "Manchester United: 2007, 2010, 2011, 2016"
+    ],
+    "ucl": [
+     "Manchester United: 2008"
+    ],
+    "uefa": [
+     "Manchester United: 2017"
+    ],
+    "intercontinental": [
+     "Manchester United: 2008"
+    ]
+   }
   },
   {
    "name": "Patrick Vieira",
@@ -3929,7 +5010,7 @@
      "final": 0,
      "semi": 0
     },
-    "league": 6,
+    "league": 7,
     "natCup": 5,
     "leagueCup": 0,
     "natSupercup": 4,
@@ -3963,7 +5044,31 @@
    "notes": "Liga 6 = 3 Premier (Arsenal) + 3 Serie A (Inter); tytul Juventusu anulowany.",
    "photo": "img/patrick-vieira.jpg",
    "natApp": 107,
-   "natGoals": 6
+   "natGoals": 6,
+   "detail": {
+    "wc": [
+     "1998 (mistrz)"
+    ],
+    "euro": [
+     "2000 (mistrz)"
+    ],
+    "league": [
+     "AC Milan: 1996",
+     "Arsenal: 1998, 2002, 2004",
+     "Inter Mediolan: 2007, 2008, 2009"
+    ],
+    "natCup": [
+     "Arsenal: 1998, 2002, 2003, 2005",
+     "Manchester City: 2011"
+    ],
+    "natSupercup": [
+     "Arsenal: 1998, 1999, 2002",
+     "Inter Mediolan: 2006"
+    ],
+    "uefa": [
+     "Arsenal 2000 (finał)"
+    ]
+   }
   },
   {
    "name": "Didier Drogba",
@@ -3987,9 +5092,9 @@
      "final": 0,
      "semi": 0
     },
-    "league": 3,
+    "league": 4,
     "natCup": 4,
-    "leagueCup": 2,
+    "leagueCup": 3,
     "natSupercup": 2,
     "ucl": {
      "win": 1,
@@ -3997,7 +5102,7 @@
     },
     "uefa": {
      "win": 0,
-     "final": 0
+     "final": 1
     },
     "conference": {
      "win": 0,
@@ -4021,7 +5126,28 @@
    "notes": "Galatasaray (Turcja) wykluczony (nie top-7): odjeto 37 wyst/15 goli, tytul Super Lig i turecki superpuchar. Liga 3 = Premier League z Chelsea.",
    "photo": "img/didier-drogba.jpg",
    "natApp": 105,
-   "natGoals": 65
+   "natGoals": 65,
+   "detail": {
+    "league": [
+     "Chelsea: 2005, 2006, 2010, 2015"
+    ],
+    "natCup": [
+     "Chelsea: 2007, 2009, 2010, 2012"
+    ],
+    "leagueCup": [
+     "Chelsea: 2005, 2007, 2015"
+    ],
+    "natSupercup": [
+     "Chelsea: 2005, 2009"
+    ],
+    "ucl": [
+     "Chelsea: 2012",
+     "Chelsea 2008 (finał)"
+    ],
+    "uefa": [
+     "Marseille 2004 (finał)"
+    ]
+   }
   },
   {
    "name": "John Terry",
@@ -4079,7 +5205,28 @@
    "notes": "",
    "photo": "img/john-terry.jpg",
    "natApp": 78,
-   "natGoals": 6
+   "natGoals": 6,
+   "detail": {
+    "league": [
+     "Chelsea: 2005, 2006, 2010, 2015, 2017"
+    ],
+    "natCup": [
+     "Chelsea: 2000, 2007, 2009, 2010, 2012"
+    ],
+    "leagueCup": [
+     "Chelsea: 2005, 2007, 2015"
+    ],
+    "natSupercup": [
+     "Chelsea: 2005, 2009"
+    ],
+    "ucl": [
+     "Chelsea: 2012",
+     "Chelsea 2008 (finał)"
+    ],
+    "uefa": [
+     "Chelsea: 2013"
+    ]
+   }
   },
   {
    "name": "Alessandro Del Piero",
@@ -4137,7 +5284,36 @@
    "notes": "",
    "photo": "img/alessandro-del-piero.jpg",
    "natApp": 91,
-   "natGoals": 27
+   "natGoals": 27,
+   "detail": {
+    "wc": [
+     "2006 (mistrz)"
+    ],
+    "euro": [
+     "2000 (finał)"
+    ],
+    "league": [
+     "Juventus: 1995, 1997, 1998, 2002, 2003, 2012"
+    ],
+    "natCup": [
+     "Juventus: 1995"
+    ],
+    "natSupercup": [
+     "Juventus: 1995, 1997, 2002, 2003"
+    ],
+    "ucl": [
+     "Juventus: 1996",
+     "Juventus 1997 (finał)",
+     "Juventus 1998 (finał)",
+     "Juventus 2003 (finał)"
+    ],
+    "euroSupercup": [
+     "Juventus: 1996"
+    ],
+    "intercontinental": [
+     "Juventus: 1996"
+    ]
+   }
   },
   {
    "name": "Alessandro Nesta",
@@ -4164,7 +5340,7 @@
     "league": 3,
     "natCup": 3,
     "leagueCup": 0,
-    "natSupercup": 4,
+    "natSupercup": 3,
     "ucl": {
      "win": 2,
      "final": 0
@@ -4195,7 +5371,40 @@
    "notes": "",
    "photo": "img/alessandro-nesta.jpg",
    "natApp": 78,
-   "natGoals": 0
+   "natGoals": 0,
+   "detail": {
+    "wc": [
+     "2006 (mistrz)"
+    ],
+    "euro": [
+     "2000 (finał)"
+    ],
+    "league": [
+     "Lazio: 2000",
+     "AC Milan: 2004, 2011"
+    ],
+    "natCup": [
+     "Lazio: 1998, 2000",
+     "AC Milan: 2003"
+    ],
+    "natSupercup": [
+     "Lazio: 2000",
+     "AC Milan: 2004, 2011"
+    ],
+    "ucl": [
+     "AC Milan: 2003, 2007"
+    ],
+    "uefa": [
+     "Lazio: 1999"
+    ],
+    "euroSupercup": [
+     "Lazio: 1999",
+     "AC Milan: 2003, 2007"
+    ],
+    "intercontinental": [
+     "AC Milan: 2007"
+    ]
+   }
   },
   {
    "name": "Andrea Pirlo",
@@ -4222,7 +5431,7 @@
     "league": 6,
     "natCup": 2,
     "leagueCup": 0,
-    "natSupercup": 3,
+    "natSupercup": 2,
     "ucl": {
      "win": 2,
      "final": 2
@@ -4253,7 +5462,37 @@
    "notes": "",
    "photo": "img/andrea-pirlo.jpg",
    "natApp": 116,
-   "natGoals": 13
+   "natGoals": 13,
+   "detail": {
+    "wc": [
+     "2006 (mistrz)"
+    ],
+    "euro": [
+     "2012 (finał)"
+    ],
+    "league": [
+     "AC Milan: 2004, 2011",
+     "Juventus: 2012, 2013, 2014, 2015"
+    ],
+    "natCup": [
+     "AC Milan: 2003",
+     "Juventus: 2015"
+    ],
+    "natSupercup": [
+     "Juventus: 2012, 2013"
+    ],
+    "ucl": [
+     "AC Milan: 2003, 2007",
+     "AC Milan 2005 (finał)",
+     "Juventus 2015 (finał)"
+    ],
+    "euroSupercup": [
+     "AC Milan: 2003, 2007"
+    ],
+    "intercontinental": [
+     "AC Milan: 2007"
+    ]
+   }
   },
   {
    "name": "Dunga",
@@ -4264,7 +5503,7 @@
    "counts": {
     "wc": {
      "win": 1,
-     "final": 1,
+     "final": 0,
      "semi": 0
     },
     "euro": {
@@ -4311,7 +5550,16 @@
    "notes": "",
    "photo": "img/dunga.jpg",
    "natApp": 91,
-   "natGoals": 6
+   "natGoals": 6,
+   "detail": {
+    "wc": [
+     "1994 (mistrz)"
+    ],
+    "copa": [
+     "1989 (mistrz)",
+     "1997 (mistrz)"
+    ]
+   }
   },
   {
    "name": "Francesco Totti",
@@ -4369,7 +5617,24 @@
    "notes": "",
    "photo": "img/francesco-totti.jpg",
    "natApp": 58,
-   "natGoals": 9
+   "natGoals": 9,
+   "detail": {
+    "wc": [
+     "2006 (mistrz)"
+    ],
+    "euro": [
+     "2000 (finał)"
+    ],
+    "league": [
+     "AS Roma: 2001"
+    ],
+    "natCup": [
+     "AS Roma: 2007, 2008"
+    ],
+    "natSupercup": [
+     "AS Roma: 2001, 2007"
+    ]
+   }
   },
   {
    "name": "Michael Ballack",
@@ -4381,7 +5646,7 @@
     "wc": {
      "win": 0,
      "final": 1,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
@@ -4396,7 +5661,7 @@
     "league": 5,
     "natCup": 6,
     "leagueCup": 1,
-    "natSupercup": 0,
+    "natSupercup": 2,
     "ucl": {
      "win": 0,
      "final": 2
@@ -4427,7 +5692,36 @@
    "notes": "",
    "photo": "img/michael-ballack.jpg",
    "natApp": 98,
-   "natGoals": 42
+   "natGoals": 42,
+   "detail": {
+    "wc": [
+     "2002 (finał)",
+     "2006 (półfinał)"
+    ],
+    "euro": [
+     "2008 (finał)"
+    ],
+    "league": [
+     "1. FC Kaiserslautern: 1998",
+     "Bayern Monachium: 2003, 2005, 2006",
+     "Chelsea: 2010"
+    ],
+    "natCup": [
+     "Bayern Monachium: 2003, 2005, 2006",
+     "Chelsea: 2007, 2009, 2010"
+    ],
+    "leagueCup": [
+     "Chelsea: 2007"
+    ],
+    "natSupercup": [
+     "Bayern Monachium: 2004",
+     "Chelsea: 2009"
+    ],
+    "ucl": [
+     "Bayer Leverkusen 2002 (finał)",
+     "Chelsea 2008 (finał)"
+    ]
+   }
   },
   {
    "name": "Patrick Kluivert",
@@ -4439,19 +5733,19 @@
     "wc": {
      "win": 0,
      "final": 0,
-     "semi": 1
+     "semi": 0
     },
     "euro": {
      "win": 0,
      "final": 0,
-     "semi": 1
+     "semi": 0
     },
     "copa": {
      "win": 0,
      "final": 0,
      "semi": 0
     },
-    "league": 3,
+    "league": 4,
     "natCup": 0,
     "leagueCup": 0,
     "natSupercup": 2,
@@ -4485,7 +5779,26 @@
    "notes": "",
    "photo": "img/patrick-kluivert.jpg",
    "natApp": 79,
-   "natGoals": 40
+   "natGoals": 40,
+   "detail": {
+    "league": [
+     "Ajax: 1995, 1996",
+     "Barcelona: 1999",
+     "PSV: 2007"
+    ],
+    "natSupercup": [
+     "Ajax: 1994, 1995"
+    ],
+    "ucl": [
+     "Ajax: 1995"
+    ],
+    "euroSupercup": [
+     "Ajax: 1995"
+    ],
+    "intercontinental": [
+     "Ajax: 1995"
+    ]
+   }
   },
   {
    "name": "Henrik Larsson",
@@ -4509,10 +5822,10 @@
      "final": 0,
      "semi": 0
     },
-    "league": 2,
+    "league": 3,
     "natCup": 2,
     "leagueCup": 0,
-    "natSupercup": 0,
+    "natSupercup": 1,
     "ucl": {
      "win": 1,
      "final": 0
@@ -4543,7 +5856,25 @@
    "notes": "Celtic (Szkocja) i Helsingborg (Szwecja) wykluczone. Liczone: Feyenoord+Barcelona+ManUtd + reprezentacja.",
    "photo": "img/henrik-larsson.jpg",
    "natApp": 106,
-   "natGoals": 37
+   "natGoals": 37,
+   "detail": {
+    "wc": [
+     "1994 (półfinał)"
+    ],
+    "league": [
+     "Barcelona: 2005, 2006",
+     "Manchester United: 2007"
+    ],
+    "natCup": [
+     "Feyenoord: 1994, 1995"
+    ],
+    "natSupercup": [
+     "Barcelona: 2005"
+    ],
+    "ucl": [
+     "Barcelona: 2006"
+    ]
+   }
   },
   {
    "name": "Ashley Cole",
@@ -4573,7 +5904,7 @@
     "natSupercup": 3,
     "ucl": {
      "win": 1,
-     "final": 1
+     "final": 2
     },
     "uefa": {
      "win": 1,
@@ -4601,7 +5932,32 @@
    "notes": "",
    "photo": "img/ashley-cole.jpg",
    "natApp": 107,
-   "natGoals": 0
+   "natGoals": 0,
+   "detail": {
+    "league": [
+     "Arsenal: 2002, 2004",
+     "Chelsea: 2010"
+    ],
+    "natCup": [
+     "Arsenal: 2002, 2003, 2005",
+     "Chelsea: 2007, 2009, 2010, 2012"
+    ],
+    "leagueCup": [
+     "Chelsea: 2007"
+    ],
+    "natSupercup": [
+     "Arsenal: 2002, 2004",
+     "Chelsea: 2009"
+    ],
+    "ucl": [
+     "Chelsea: 2012",
+     "Arsenal 2006 (finał)",
+     "Chelsea 2008 (finał)"
+    ],
+    "uefa": [
+     "Chelsea: 2013"
+    ]
+   }
   },
   {
    "name": "Raúl",
@@ -4621,6 +5977,11 @@
      "final": 0,
      "semi": 0
     },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 6,
     "natCup": 1,
     "leagueCup": 0,
@@ -4630,6 +5991,10 @@
      "final": 0
     },
     "uefa": {
+     "win": 0,
+     "final": 0
+    },
+    "conference": {
      "win": 0,
      "final": 0
     },
@@ -4650,7 +6015,34 @@
    "source": "https://en.wikipedia.org/wiki/Ra%C3%BAl_Gonz%C3%A1lez",
    "photo": "img/raul.jpg",
    "natApp": 102,
-   "natGoals": 44
+   "natGoals": 44,
+   "detail": {
+    "league": [
+     "Real Madryt: 1995, 1997, 2001, 2003, 2007, 2008"
+    ],
+    "natCup": [
+     "Schalke 04: 2011"
+    ],
+    "natSupercup": [
+     "Real Madryt: 1997, 2001, 2003, 2008",
+     "Schalke 04: 2011"
+    ],
+    "ucl": [
+     "Real Madryt: 1998, 2000, 2002"
+    ],
+    "euroSupercup": [
+     "Real Madryt: 2002"
+    ],
+    "intercontinental": [
+     "Real Madryt: 1998, 2002"
+    ],
+    "ballon": [
+     "2001 (2.)"
+    ],
+    "fifa": [
+     "2001 (3.)"
+    ]
+   }
   },
   {
    "name": "Luka Modrić",
@@ -5023,20 +6415,27 @@
      "final": 0,
      "semi": 0
     },
-    "copa": {},
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 4,
     "natCup": 2,
     "leagueCup": 3,
     "natSupercup": 1,
     "ucl": {
      "win": 1,
-     "final": 2
+     "final": 1
     },
     "uefa": {
      "win": 0,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 2,
     "intercontinental": 1,
     "ballon": {
@@ -5055,7 +6454,38 @@
    "notes": "wszystkie ligi top; ME2024.",
    "photo": "img/rodri.jpg",
    "natApp": 67,
-   "natGoals": 4
+   "natGoals": 4,
+   "detail": {
+    "euro": [
+     "2024 (mistrz)"
+    ],
+    "league": [
+     "Manchester City: 2021, 2022, 2023, 2024"
+    ],
+    "natCup": [
+     "Manchester City: 2023, 2026"
+    ],
+    "leagueCup": [
+     "Manchester City: 2020, 2021, 2026"
+    ],
+    "natSupercup": [
+     "Manchester City: 2019"
+    ],
+    "ucl": [
+     "Manchester City: 2023",
+     "Manchester City 2021 (finał)"
+    ],
+    "euroSupercup": [
+     "Atlético Madryt: 2018",
+     "Manchester City: 2023"
+    ],
+    "intercontinental": [
+     "Manchester City: 2023"
+    ],
+    "ballon": [
+     "2024 (1.)"
+    ]
+   }
   },
   {
    "name": "Jude Bellingham",
@@ -5074,7 +6504,11 @@
      "final": 2,
      "semi": 0
     },
-    "copa": {},
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 1,
     "natCup": 1,
     "leagueCup": 0,
@@ -5087,18 +6521,21 @@
      "win": 0,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 1,
     "intercontinental": 1,
     "ballon": {
      "first": 0,
      "second": 0,
-     "third": 1
+     "third": 0
     },
     "fifa": {
      "first": 0,
      "second": 0,
-     "third": 1
+     "third": 0
     }
    },
    "dataComplete": true,
@@ -5106,7 +6543,31 @@
    "notes": "natCup=1 DFB-Pokal; ligi top.",
    "photo": "img/jude-bellingham.jpg",
    "natApp": 53,
-   "natGoals": 10
+   "natGoals": 10,
+   "detail": {
+    "euro": [
+     "2020 (finał)",
+     "2024 (finał)"
+    ],
+    "league": [
+     "Real Madryt: 2024"
+    ],
+    "natCup": [
+     "Borussia Dortmund: 2021"
+    ],
+    "natSupercup": [
+     "Real Madryt: 2024"
+    ],
+    "ucl": [
+     "Real Madryt: 2024"
+    ],
+    "euroSupercup": [
+     "Real Madryt: 2024"
+    ],
+    "intercontinental": [
+     "Real Madryt: 2024"
+    ]
+   }
   },
   {
    "name": "Kevin De Bruyne",
@@ -5125,22 +6586,29 @@
      "final": 0,
      "semi": 0
     },
-    "copa": {},
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 6,
     "natCup": 3,
     "leagueCup": 5,
-    "natSupercup": 4,
+    "natSupercup": 5,
     "ucl": {
      "win": 1,
-     "final": 2
+     "final": 1
     },
     "uefa": {
      "win": 0,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 1,
-    "intercontinental": 2,
+    "intercontinental": 1,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -5157,7 +6625,40 @@
    "notes": "FIX league7=6 Premier+1 Belgian(Genk); belgijska nie top-7 -> 6. natCup3 zawiera 1 DFB-Pokal(Wolfsburg,top ok)+2 FA.",
    "photo": "img/kevin-de-bruyne.jpg",
    "natApp": 123,
-   "natGoals": 38
+   "natGoals": 38,
+   "detail": {
+    "wc": [
+     "2018 (półfinał)"
+    ],
+    "league": [
+     "Manchester City: 2018, 2019, 2021, 2022, 2023, 2024"
+    ],
+    "natCup": [
+     "VfL Wolfsburg: 2015",
+     "Manchester City: 2019, 2023"
+    ],
+    "leagueCup": [
+     "Manchester City: 2016, 2018, 2019, 2020, 2021"
+    ],
+    "natSupercup": [
+     "VfL Wolfsburg: 2015",
+     "Manchester City: 2018, 2019, 2024",
+     "Napoli: 2026"
+    ],
+    "ucl": [
+     "Manchester City: 2023",
+     "Manchester City 2021 (finał)"
+    ],
+    "euroSupercup": [
+     "Manchester City: 2023"
+    ],
+    "intercontinental": [
+     "Manchester City: 2023"
+    ],
+    "ballon": [
+     "2022 (3.)"
+    ]
+   }
   },
   {
    "name": "Virgil van Dijk",
@@ -5174,27 +6675,34 @@
     "euro": {
      "win": 0,
      "final": 0,
-     "semi": 1
+     "semi": 0
     },
-    "copa": {},
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 2,
     "natCup": 1,
     "leagueCup": 2,
     "natSupercup": 1,
     "ucl": {
      "win": 1,
-     "final": 3
+     "final": 2
     },
     "uefa": {
      "win": 0,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 1,
     "intercontinental": 1,
     "ballon": {
      "first": 0,
-     "second": 1,
+     "second": 0,
      "third": 0
     },
     "fifa": {
@@ -5208,7 +6716,32 @@
    "notes": "FIX league4=2 Premier+2 Scottish(Celtic); szkocka nie top-7 -> 2; leagueCup3 zawiera 1 szkocki -> 2. Groningen/Celtic wystepy? Celtic odjac.",
    "photo": "img/virgil-van-dijk.jpg",
    "natApp": 96,
-   "natGoals": 13
+   "natGoals": 13,
+   "detail": {
+    "league": [
+     "Liverpool: 2020, 2025"
+    ],
+    "natCup": [
+     "Liverpool: 2022"
+    ],
+    "leagueCup": [
+     "Liverpool: 2022, 2024"
+    ],
+    "natSupercup": [
+     "Liverpool: 2022"
+    ],
+    "ucl": [
+     "Liverpool: 2019",
+     "Liverpool 2018 (finał)",
+     "Liverpool 2022 (finał)"
+    ],
+    "euroSupercup": [
+     "Liverpool: 2019"
+    ],
+    "intercontinental": [
+     "Liverpool: 2019"
+    ]
+   }
   },
   {
    "name": "Manuel Neuer",
@@ -5319,7 +6852,11 @@
      "final": 1,
      "semi": 0
     },
-    "copa": {},
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 0,
     "natCup": 1,
     "leagueCup": 0,
@@ -5332,18 +6869,21 @@
      "win": 1,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 1,
     "intercontinental": 0,
     "ballon": {
      "first": 0,
      "second": 0,
-     "third": 1
+     "third": 2
     },
     "fifa": {
      "first": 0,
      "second": 0,
-     "third": 1
+     "third": 0
     }
    },
    "dataComplete": true,
@@ -5351,7 +6891,35 @@
    "notes": "league0 (tylko Segunda). ligi top. Real Sociedad/Atletico/Barca top.",
    "photo": "img/antoine-griezmann.jpg",
    "natApp": 137,
-   "natGoals": 44
+   "natGoals": 44,
+   "detail": {
+    "wc": [
+     "2018 (mistrz)",
+     "2022 (finał)"
+    ],
+    "euro": [
+     "2016 (finał)"
+    ],
+    "natCup": [
+     "Barcelona: 2021"
+    ],
+    "natSupercup": [
+     "Atlético Madryt: 2014"
+    ],
+    "ucl": [
+     "Atlético Madryt 2016 (finał)"
+    ],
+    "uefa": [
+     "Atlético Madryt: 2018"
+    ],
+    "euroSupercup": [
+     "Atlético Madryt: 2018"
+    ],
+    "ballon": [
+     "2016 (3.)",
+     "2018 (3.)"
+    ]
+   }
   },
   {
    "name": "Sadio Mané",
@@ -5365,12 +6933,20 @@
      "final": 0,
      "semi": 0
     },
-    "euro": {},
-    "copa": {},
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 2,
     "natCup": 1,
     "leagueCup": 1,
-    "natSupercup": 0,
+    "natSupercup": 1,
     "ucl": {
      "win": 1,
      "final": 2
@@ -5379,12 +6955,15 @@
      "win": 0,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 1,
     "intercontinental": 1,
     "ballon": {
      "first": 0,
-     "second": 1,
+     "second": 0,
      "third": 0
     },
     "fifa": {
@@ -5398,7 +6977,33 @@
    "notes": "FIX league4=Austria(Salzburg)+Premier+Bundesliga+Saudi -> tylko Premier2020+Bundesliga2023 = 2. natCup2 zawiera Puchar Austrii -> 1 (FA Cup). Salzburg+Saudi wystepy odjac.",
    "photo": "img/sadio-mane.jpg",
    "natApp": 132,
-   "natGoals": 55
+   "natGoals": 55,
+   "detail": {
+    "league": [
+     "Liverpool: 2020",
+     "Bayern Monachium: 2023"
+    ],
+    "natCup": [
+     "Liverpool: 2022"
+    ],
+    "leagueCup": [
+     "Liverpool: 2022"
+    ],
+    "natSupercup": [
+     "Bayern Monachium: 2022"
+    ],
+    "ucl": [
+     "Liverpool: 2019",
+     "Liverpool 2018 (finał)",
+     "Liverpool 2022 (finał)"
+    ],
+    "euroSupercup": [
+     "Liverpool: 2019"
+    ],
+    "intercontinental": [
+     "Liverpool: 2019"
+    ]
+   }
   },
   {
    "name": "Ousmane Dembélé",
@@ -5412,8 +7017,16 @@
      "final": 1,
      "semi": 0
     },
-    "euro": {},
-    "copa": {},
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 6,
     "natCup": 5,
     "leagueCup": 0,
@@ -5426,7 +7039,10 @@
      "win": 0,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 1,
     "intercontinental": 1,
     "ballon": {
@@ -5445,7 +7061,41 @@
    "notes": "ligi top. Zlota Pilka+The Best 2025.",
    "photo": "img/ousmane-dembele.jpg",
    "natApp": 64,
-   "natGoals": 11
+   "natGoals": 11,
+   "detail": {
+    "wc": [
+     "2018 (mistrz)",
+     "2022 (finał)"
+    ],
+    "league": [
+     "Barcelona: 2018, 2019, 2023",
+     "Paris Saint-Germain: 2024, 2025, 2026"
+    ],
+    "natCup": [
+     "Borussia Dortmund: 2017",
+     "Barcelona: 2018, 2021",
+     "Paris Saint-Germain: 2024, 2025"
+    ],
+    "natSupercup": [
+     "Barcelona: 2018, 2023",
+     "Paris Saint-Germain: 2024, 2025, 2026"
+    ],
+    "ucl": [
+     "Paris Saint-Germain: 2025, 2026"
+    ],
+    "euroSupercup": [
+     "Paris Saint-Germain: 2025"
+    ],
+    "intercontinental": [
+     "Paris Saint-Germain: 2025"
+    ],
+    "ballon": [
+     "2025 (1.)"
+    ],
+    "fifa": [
+     "2025 (1.)"
+    ]
+   }
   },
   {
    "name": "Lamine Yamal",
@@ -5461,10 +7111,14 @@
     },
     "euro": {
      "win": 1,
-     "final": 1,
+     "final": 0,
      "semi": 0
     },
-    "copa": {},
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 3,
     "natCup": 1,
     "leagueCup": 0,
@@ -5477,7 +7131,10 @@
      "win": 0,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 0,
     "intercontinental": 0,
     "ballon": {
@@ -5496,7 +7153,24 @@
    "notes": "ME2024. ligi top.",
    "photo": "img/lamine-yamal.jpg",
    "natApp": 30,
-   "natGoals": 7
+   "natGoals": 7,
+   "detail": {
+    "euro": [
+     "2024 (mistrz)"
+    ],
+    "league": [
+     "Barcelona: 2023, 2025, 2026"
+    ],
+    "natCup": [
+     "Barcelona: 2025"
+    ],
+    "natSupercup": [
+     "Barcelona: 2025, 2026"
+    ],
+    "ballon": [
+     "2025 (2.)"
+    ]
+   }
   },
   {
    "name": "Franck Ribéry",
@@ -5515,20 +7189,27 @@
      "final": 0,
      "semi": 0
     },
-    "copa": {},
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 9,
     "natCup": 6,
-    "leagueCup": 0,
-    "natSupercup": 3,
+    "leagueCup": 1,
+    "natSupercup": 4,
     "ucl": {
      "win": 1,
-     "final": 2
+     "final": 0
     },
     "uefa": {
      "win": 0,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 1,
     "intercontinental": 1,
     "ballon": {
@@ -5547,7 +7228,36 @@
    "notes": "9 Bundesliga; MS2006 final. Fiorentina wloska top. Marsylia/Bayern top.",
    "photo": "img/franck-ribery.jpg",
    "natApp": 81,
-   "natGoals": 16
+   "natGoals": 16,
+   "detail": {
+    "wc": [
+     "2006 (finał)"
+    ],
+    "league": [
+     "Bayern Monachium: 2008, 2010, 2013, 2014, 2015, 2016, 2017, 2018, 2019"
+    ],
+    "natCup": [
+     "Bayern Monachium: 2008, 2010, 2013, 2014, 2016, 2019"
+    ],
+    "leagueCup": [
+     "Bayern Monachium: 2007"
+    ],
+    "natSupercup": [
+     "Bayern Monachium: 2012, 2016, 2017, 2018"
+    ],
+    "ucl": [
+     "Bayern Monachium: 2013"
+    ],
+    "euroSupercup": [
+     "Bayern Monachium: 2013"
+    ],
+    "intercontinental": [
+     "Bayern Monachium: 2013"
+    ],
+    "ballon": [
+     "2013 (3.)"
+    ]
+   }
   },
   {
    "name": "Philipp Lahm",
@@ -5754,22 +7464,29 @@
      "final": 0,
      "semi": 0
     },
-    "copa": {},
-    "league": 2,
-    "natCup": 2,
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 3,
+    "natCup": 3,
     "leagueCup": 0,
-    "natSupercup": 2,
+    "natSupercup": 3,
     "ucl": {
      "win": 1,
-     "final": 1
+     "final": 0
     },
     "uefa": {
      "win": 0,
      "final": 0
     },
-    "conference": {},
-    "euroSupercup": 0,
-    "intercontinental": 0,
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 1,
+    "intercontinental": 1,
     "ballon": {
      "first": 0,
      "second": 0,
@@ -5786,7 +7503,37 @@
    "notes": "MS2010,ME2008. hiszp top. NYCFC(MLS)+Vissel(JP) wystepy odjac.",
    "photo": "img/david-villa.jpg",
    "natApp": 98,
-   "natGoals": 59
+   "natGoals": 59,
+   "detail": {
+    "wc": [
+     "2010 (mistrz)"
+    ],
+    "euro": [
+     "2008 (mistrz)"
+    ],
+    "league": [
+     "Barcelona: 2011, 2013",
+     "Atlético Madryt: 2014"
+    ],
+    "natCup": [
+     "Zaragoza: 2004",
+     "Valencia: 2008",
+     "Barcelona: 2012"
+    ],
+    "natSupercup": [
+     "Zaragoza: 2004",
+     "Barcelona: 2010, 2011"
+    ],
+    "ucl": [
+     "Barcelona: 2011"
+    ],
+    "euroSupercup": [
+     "Barcelona: 2011"
+    ],
+    "intercontinental": [
+     "Barcelona: 2011"
+    ]
+   }
   },
   {
    "name": "Diego Godín",
@@ -5800,11 +7547,15 @@
      "final": 0,
      "semi": 0
     },
-    "euro": {},
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "copa": {
      "win": 1,
-     "final": 1,
-     "semi": 1
+     "final": 0,
+     "semi": 0
     },
     "league": 1,
     "natCup": 1,
@@ -5816,9 +7567,12 @@
     },
     "uefa": {
      "win": 2,
-     "final": 2
+     "final": 1
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 3,
     "intercontinental": 0,
     "ballon": {
@@ -5837,7 +7591,32 @@
    "notes": "COPA 2011. Atletico hiszp top. Nacional/Velez/AtleticoMineiro/Cerro wystepy odjac.",
    "photo": "img/diego-godin.jpg",
    "natApp": 161,
-   "natGoals": 8
+   "natGoals": 8,
+   "detail": {
+    "copa": [
+     "2011 (mistrz)"
+    ],
+    "league": [
+     "Atlético Madryt: 2014"
+    ],
+    "natCup": [
+     "Atlético Madryt: 2013"
+    ],
+    "natSupercup": [
+     "Atlético Madryt: 2014"
+    ],
+    "ucl": [
+     "Atlético Madryt 2014 (finał)",
+     "Atlético Madryt 2016 (finał)"
+    ],
+    "uefa": [
+     "Atlético Madryt: 2012, 2018",
+     "Inter Mediolan 2020 (finał)"
+    ],
+    "euroSupercup": [
+     "Atlético Madryt: 2010, 2012, 2018"
+    ]
+   }
   },
   {
    "name": "Romário",
@@ -5848,19 +7627,23 @@
    "counts": {
     "wc": {
      "win": 1,
-     "final": 1,
-     "semi": 1
+     "final": 0,
+     "semi": 0
     },
-    "euro": {},
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "copa": {
      "win": 2,
-     "final": 2,
-     "semi": 2
+     "final": 0,
+     "semi": 0
     },
     "league": 4,
-    "natCup": 0,
+    "natCup": 2,
     "leagueCup": 0,
-    "natSupercup": 0,
+    "natSupercup": 2,
     "ucl": {
      "win": 0,
      "final": 1
@@ -5869,7 +7652,10 @@
      "win": 0,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 0,
     "intercontinental": 0,
     "ballon": {
@@ -5879,7 +7665,7 @@
     },
     "fifa": {
      "first": 1,
-     "second": 0,
+     "second": 1,
      "third": 0
     }
    },
@@ -5888,7 +7674,34 @@
    "notes": "FIX league=4 (3 Eredivisie PSV + 1 La Liga Barca); agent bledn dal 1 brazylijska. Wystepy 768/597 zawieraja kluby brazylijskie -> mocno odjac (zostaje PSV+Barca+Valencia+repr). FIFA WPY1994.",
    "photo": "img/romario.jpg",
    "natApp": 70,
-   "natGoals": 55
+   "natGoals": 55,
+   "detail": {
+    "wc": [
+     "1994 (mistrz)"
+    ],
+    "copa": [
+     "1989 (mistrz)",
+     "1997 (mistrz)"
+    ],
+    "league": [
+     "PSV Eindhoven: 1989, 1991, 1992",
+     "Barcelona: 1994"
+    ],
+    "natCup": [
+     "PSV Eindhoven: 1989, 1990"
+    ],
+    "natSupercup": [
+     "PSV Eindhoven: 1992",
+     "Barcelona: 1994"
+    ],
+    "ucl": [
+     "Barcelona 1994 (finał)"
+    ],
+    "fifa": [
+     "1994 (1.)",
+     "1993 (2.)"
+    ]
+   }
   },
   {
    "name": "Gerard Piqué",
@@ -6353,8 +8166,12 @@
      "final": 0,
      "semi": 0
     },
-    "copa": {},
-    "league": 6,
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 7,
     "natCup": 4,
     "leagueCup": 2,
     "natSupercup": 3,
@@ -6366,13 +8183,16 @@
      "win": 0,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 1,
     "intercontinental": 1,
     "ballon": {
      "first": 0,
      "second": 0,
-     "third": 0
+     "third": 1
     },
     "fifa": {
      "first": 0,
@@ -6385,7 +8205,38 @@
    "notes": "ligi top. MS2018 win,2022 final.",
    "photo": "img/kylian-mbappe.jpg",
    "natApp": 103,
-   "natGoals": 63
+   "natGoals": 63,
+   "detail": {
+    "wc": [
+     "2018 (mistrz)",
+     "2022 (finał)"
+    ],
+    "league": [
+     "Monaco: 2017",
+     "Paris Saint-Germain: 2018, 2019, 2020, 2022, 2023, 2024"
+    ],
+    "natCup": [
+     "Paris Saint-Germain: 2018, 2020, 2021, 2024"
+    ],
+    "leagueCup": [
+     "Paris Saint-Germain: 2018, 2020"
+    ],
+    "natSupercup": [
+     "Paris Saint-Germain: 2019, 2020, 2023"
+    ],
+    "ucl": [
+     "Paris Saint-Germain 2020 (finał)"
+    ],
+    "euroSupercup": [
+     "Real Madryt: 2024"
+    ],
+    "intercontinental": [
+     "Real Madryt: 2024"
+    ],
+    "ballon": [
+     "2023 (3.)"
+    ]
+   }
   },
   {
    "name": "Neymar",
@@ -6399,16 +8250,20 @@
      "final": 0,
      "semi": 0
     },
-    "euro": {},
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "copa": {
      "win": 0,
      "final": 1,
      "semi": 0
     },
     "league": 7,
-    "natCup": 7,
-    "leagueCup": 1,
-    "natSupercup": 2,
+    "natCup": 6,
+    "leagueCup": 2,
+    "natSupercup": 1,
     "ucl": {
      "win": 1,
      "final": 1
@@ -6417,8 +8272,11 @@
      "win": 0,
      "final": 0
     },
-    "conference": {},
-    "euroSupercup": 1,
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 0,
     "intercontinental": 1,
     "ballon": {
      "first": 0,
@@ -6428,7 +8286,7 @@
     "fifa": {
      "first": 0,
      "second": 0,
-     "third": 1
+     "third": 0
     }
    },
    "dataComplete": true,
@@ -6436,7 +8294,37 @@
    "notes": "COPA final2021. league7=2 La Liga+5 Ligue1 top. natCup7. Santos(br)+AlHilal(sa) wystepy odjac.",
    "photo": "img/neymar.jpg",
    "natApp": 130,
-   "natGoals": 80
+   "natGoals": 80,
+   "detail": {
+    "copa": [
+     "2021 (finał)"
+    ],
+    "league": [
+     "Barcelona: 2015, 2016",
+     "Paris Saint-Germain: 2018, 2019, 2020, 2022, 2023"
+    ],
+    "natCup": [
+     "Barcelona: 2015, 2016, 2017",
+     "Paris Saint-Germain: 2018, 2020, 2021"
+    ],
+    "leagueCup": [
+     "Paris Saint-Germain: 2018, 2020"
+    ],
+    "natSupercup": [
+     "Barcelona: 2013"
+    ],
+    "ucl": [
+     "Barcelona: 2015",
+     "Paris Saint-Germain 2020 (finał)"
+    ],
+    "intercontinental": [
+     "Barcelona: 2015"
+    ],
+    "ballon": [
+     "2015 (3.)",
+     "2017 (3.)"
+    ]
+   }
   },
   {
    "name": "Mohamed Salah",
@@ -6450,21 +8338,32 @@
      "final": 0,
      "semi": 0
     },
-    "euro": {},
-    "copa": {},
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 2,
     "natCup": 1,
-    "leagueCup": 1,
+    "leagueCup": 2,
     "natSupercup": 1,
     "ucl": {
      "win": 1,
-     "final": 1
+     "final": 2
     },
     "uefa": {
      "win": 0,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 1,
     "intercontinental": 1,
     "ballon": {
@@ -6475,7 +8374,7 @@
     "fifa": {
      "first": 0,
      "second": 0,
-     "third": 2
+     "third": 0
     }
    },
    "dataComplete": true,
@@ -6483,7 +8382,32 @@
    "notes": "FIX league4=2 Premier+2 Swiss(Basel); szwajc nie top-7 -> 2. Basel wystepy odjac.",
    "photo": "img/mohamed-salah.jpg",
    "natApp": 120,
-   "natGoals": 68
+   "natGoals": 68,
+   "detail": {
+    "league": [
+     "Liverpool: 2020, 2025"
+    ],
+    "natCup": [
+     "Liverpool: 2022"
+    ],
+    "leagueCup": [
+     "Liverpool: 2022, 2024"
+    ],
+    "natSupercup": [
+     "Liverpool: 2022"
+    ],
+    "ucl": [
+     "Liverpool: 2019",
+     "Liverpool 2018 (finał)",
+     "Liverpool 2022 (finał)"
+    ],
+    "euroSupercup": [
+     "Liverpool: 2019"
+    ],
+    "intercontinental": [
+     "Liverpool: 2019"
+    ]
+   }
   },
   {
    "name": "Erling Haaland",
@@ -6497,11 +8421,19 @@
      "final": 0,
      "semi": 0
     },
-    "euro": {},
-    "copa": {},
-    "league": 3,
-    "natCup": 2,
-    "leagueCup": 0,
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 2,
+    "natCup": 3,
+    "leagueCup": 1,
     "natSupercup": 1,
     "ucl": {
      "win": 1,
@@ -6511,7 +8443,10 @@
      "win": 0,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 1,
     "intercontinental": 1,
     "ballon": {
@@ -6530,7 +8465,34 @@
    "notes": "FIX league4=Austria(Salzburg)+3 Premier; Austria nie top-7 -> 3. Salzburg/Molde wystepy odjac.",
    "photo": "img/erling-haaland.jpg",
    "natApp": 54,
-   "natGoals": 62
+   "natGoals": 62,
+   "detail": {
+    "league": [
+     "Manchester City: 2023, 2024"
+    ],
+    "natCup": [
+     "Borussia Dortmund: 2021",
+     "Manchester City: 2023, 2026"
+    ],
+    "leagueCup": [
+     "Manchester City: 2026"
+    ],
+    "natSupercup": [
+     "Manchester City: 2024"
+    ],
+    "ucl": [
+     "Manchester City: 2023"
+    ],
+    "euroSupercup": [
+     "Manchester City: 2023"
+    ],
+    "ballon": [
+     "2023 (2.)"
+    ],
+    "intercontinental": [
+     "Manchester City: 2023"
+    ]
+   }
   },
   {
    "name": "Vinícius Júnior",
@@ -6544,7 +8506,11 @@
      "final": 0,
      "semi": 0
     },
-    "euro": {},
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "copa": {
      "win": 0,
      "final": 1,
@@ -6562,7 +8528,10 @@
      "win": 0,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 2,
     "intercontinental": 3,
     "ballon": {
@@ -6581,7 +8550,36 @@
    "notes": "COPA final2021. 3 La Liga top. Flamengo wystepy odjac. The Best 2024.",
    "photo": "img/vinicius-junior.jpg",
    "natApp": 54,
-   "natGoals": 13
+   "natGoals": 13,
+   "detail": {
+    "copa": [
+     "2021 (finał)"
+    ],
+    "league": [
+     "Real Madryt: 2020, 2022, 2024"
+    ],
+    "natCup": [
+     "Real Madryt: 2023"
+    ],
+    "natSupercup": [
+     "Real Madryt: 2020, 2022, 2024"
+    ],
+    "ucl": [
+     "Real Madryt: 2022, 2024"
+    ],
+    "euroSupercup": [
+     "Real Madryt: 2022, 2024"
+    ],
+    "intercontinental": [
+     "Real Madryt: 2018, 2022, 2024"
+    ],
+    "ballon": [
+     "2024 (2.)"
+    ],
+    "fifa": [
+     "2024 (1.)"
+    ]
+   }
   },
   {
    "name": "Ángel Di María",
@@ -6695,7 +8693,11 @@
      "final": 1,
      "semi": 0
     },
-    "copa": {},
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 2,
     "natCup": 1,
     "leagueCup": 0,
@@ -6708,7 +8710,10 @@
      "win": 1,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 1,
     "intercontinental": 1,
     "ballon": {
@@ -6727,7 +8732,34 @@
    "notes": "FIX league3=2 Premier+1 Saudi -> 2; natCup2=FA+King'sCup(sa) -> 1. AlIttihad wystepy odjac. MS2018,ME2016 final.",
    "photo": "img/n-golo-kante.jpg",
    "natApp": 69,
-   "natGoals": 2
+   "natGoals": 2,
+   "detail": {
+    "wc": [
+     "2018 (mistrz)"
+    ],
+    "euro": [
+     "2016 (finał)"
+    ],
+    "league": [
+     "Leicester City: 2016",
+     "Chelsea: 2017"
+    ],
+    "natCup": [
+     "Chelsea: 2018"
+    ],
+    "ucl": [
+     "Chelsea: 2021"
+    ],
+    "uefa": [
+     "Chelsea: 2019"
+    ],
+    "euroSupercup": [
+     "Chelsea: 2021"
+    ],
+    "intercontinental": [
+     "Chelsea: 2021"
+    ]
+   }
   },
   {
    "name": "Joshua Kimmich",
@@ -6746,7 +8778,11 @@
      "final": 0,
      "semi": 1
     },
-    "copa": {},
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 10,
     "natCup": 4,
     "leagueCup": 0,
@@ -6759,7 +8795,10 @@
      "win": 0,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 1,
     "intercontinental": 1,
     "ballon": {
@@ -6778,7 +8817,30 @@
    "notes": "10 Bundesliga top. ME2016 polfinal.",
    "photo": "img/joshua-kimmich.jpg",
    "natApp": 114,
-   "natGoals": 10
+   "natGoals": 10,
+   "detail": {
+    "league": [
+     "Bayern Monachium: 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2025, 2026"
+    ],
+    "natCup": [
+     "Bayern Monachium: 2016, 2019, 2020, 2026"
+    ],
+    "natSupercup": [
+     "Bayern Monachium: 2016, 2017, 2018, 2020, 2021, 2022, 2025"
+    ],
+    "ucl": [
+     "Bayern Monachium: 2020"
+    ],
+    "euroSupercup": [
+     "Bayern Monachium: 2020"
+    ],
+    "intercontinental": [
+     "Bayern Monachium: 2020"
+    ],
+    "euro": [
+     "2016 (półfinał)"
+    ]
+   }
   },
   {
    "name": "Casemiro",
@@ -6792,10 +8854,14 @@
      "final": 0,
      "semi": 0
     },
-    "euro": {},
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "copa": {
      "win": 1,
-     "final": 1,
+     "final": 0,
      "semi": 0
     },
     "league": 3,
@@ -6810,7 +8876,10 @@
      "win": 0,
      "final": 1
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 3,
     "intercontinental": 3,
     "ballon": {
@@ -6829,7 +8898,37 @@
    "notes": "COPA 2019 win,2021 final. 3 La Liga top. SaoPaulo(br) wystepy odjac.",
    "photo": "img/casemiro.jpg",
    "natApp": 91,
-   "natGoals": 10
+   "natGoals": 10,
+   "detail": {
+    "copa": [
+     "2019 (mistrz)"
+    ],
+    "league": [
+     "Real Madryt: 2017, 2020, 2022"
+    ],
+    "natCup": [
+     "Real Madryt: 2014",
+     "Manchester United: 2024"
+    ],
+    "leagueCup": [
+     "Manchester United: 2023"
+    ],
+    "natSupercup": [
+     "Real Madryt: 2017, 2020, 2022"
+    ],
+    "ucl": [
+     "Real Madryt: 2014, 2016, 2017, 2018, 2022"
+    ],
+    "uefa": [
+     "Manchester United 2025 (finał)"
+    ],
+    "euroSupercup": [
+     "Real Madryt: 2016, 2017, 2022"
+    ],
+    "intercontinental": [
+     "Real Madryt: 2016, 2017, 2018"
+    ]
+   }
   },
   {
    "name": "Gareth Bale",
@@ -6846,12 +8945,16 @@
     "euro": {
      "win": 0,
      "final": 0,
-     "semi": 1
+     "semi": 0
     },
-    "copa": {},
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 3,
     "natCup": 1,
-    "leagueCup": 0,
+    "leagueCup": 1,
     "natSupercup": 1,
     "ucl": {
      "win": 5,
@@ -6861,8 +8964,11 @@
      "win": 0,
      "final": 0
     },
-    "conference": {},
-    "euroSupercup": 2,
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 3,
     "intercontinental": 3,
     "ballon": {
      "first": 0,
@@ -6880,7 +8986,30 @@
    "notes": "3 La Liga top. Tottenham/Southampton top. LAFC(MLS) wystepy odjac. ME2016 polfinal.",
    "photo": "img/gareth-bale.jpg",
    "natApp": 111,
-   "natGoals": 41
+   "natGoals": 41,
+   "detail": {
+    "league": [
+     "Real Madryt: 2017, 2020, 2022"
+    ],
+    "natCup": [
+     "Real Madryt: 2014"
+    ],
+    "leagueCup": [
+     "Tottenham Hotspur: 2008"
+    ],
+    "natSupercup": [
+     "Real Madryt: 2017"
+    ],
+    "ucl": [
+     "Real Madryt: 2014, 2016, 2017, 2018, 2022"
+    ],
+    "euroSupercup": [
+     "Real Madryt: 2014, 2016, 2017"
+    ],
+    "intercontinental": [
+     "Real Madryt: 2014, 2017, 2018"
+    ]
+   }
   },
   {
    "name": "Hristo Stoichkov",
@@ -6899,20 +9028,27 @@
      "final": 0,
      "semi": 0
     },
-    "copa": {},
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 5,
     "natCup": 2,
     "leagueCup": 0,
     "natSupercup": 4,
     "ucl": {
      "win": 1,
-     "final": 2
+     "final": 1
     },
     "uefa": {
      "win": 1,
-     "final": 2
+     "final": 1
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 2,
     "intercontinental": 0,
     "ballon": {
@@ -6931,7 +9067,39 @@
    "notes": "FIX league8=3 CSKA(bulg)+5 Barca; bulg nie top-7 -> 5. natCup6 zawiera 4 bulg -> 2 Copa del Rey. CSKA wystepy odjac. Zlota Pilka1994,MS1994 polfinal.",
    "photo": "img/hristo-stoichkov.jpg",
    "natApp": 83,
-   "natGoals": 37
+   "natGoals": 37,
+   "detail": {
+    "wc": [
+     "1994 (półfinał)"
+    ],
+    "league": [
+     "Barcelona: 1991, 1992, 1993, 1994, 1998"
+    ],
+    "natCup": [
+     "Barcelona: 1997, 1998"
+    ],
+    "natSupercup": [
+     "Barcelona: 1991, 1992, 1994, 1996"
+    ],
+    "ucl": [
+     "Barcelona: 1992",
+     "Barcelona 1994 (finał)"
+    ],
+    "uefa": [
+     "Barcelona: 1997",
+     "Barcelona 1991 (finał)"
+    ],
+    "euroSupercup": [
+     "Barcelona: 1992, 1997"
+    ],
+    "ballon": [
+     "1994 (1.)"
+    ],
+    "fifa": [
+     "1992 (2.)",
+     "1994 (2.)"
+    ]
+   }
   },
   {
    "name": "George Weah",
@@ -6945,8 +9113,16 @@
      "final": 0,
      "semi": 0
     },
-    "euro": {},
-    "copa": {},
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
     "league": 3,
     "natCup": 4,
     "leagueCup": 1,
@@ -6959,7 +9135,10 @@
      "win": 0,
      "final": 0
     },
-    "conference": {},
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
     "euroSupercup": 0,
     "intercontinental": 0,
     "ballon": {
@@ -6978,7 +9157,28 @@
    "notes": "FIX league3=1 Ligue1(PSG)+2 Serie A(Milan) top (agent dal 4 z liberyjska). natCup4=3 Coupe de France+1 FA Cup. Monaco/Milan/PSG/Marsylia/Chelsea/ManCity top; afryk. odjac. Zlota Pilka1995,FIFA WPY1995.",
    "photo": "img/george-weah.jpg",
    "natApp": 75,
-   "natGoals": 18
+   "natGoals": 18,
+   "detail": {
+    "league": [
+     "Paris Saint-Germain: 1994",
+     "AC Milan: 1996, 1999"
+    ],
+    "natCup": [
+     "AS Monaco: 1991",
+     "Paris Saint-Germain: 1993, 1995",
+     "Chelsea: 2000"
+    ],
+    "leagueCup": [
+     "Paris Saint-Germain: 1995"
+    ],
+    "ballon": [
+     "1995 (1.)"
+    ],
+    "fifa": [
+     "1995 (1.)",
+     "1996 (2.)"
+    ]
+   }
   },
   {
    "name": "Luis Suárez",
@@ -7002,10 +9202,10 @@
      "final": 0,
      "semi": 1
     },
-    "league": 5,
+    "league": 6,
     "natCup": 5,
     "leagueCup": 1,
-    "natSupercup": 0,
+    "natSupercup": 2,
     "ucl": {
      "win": 1,
      "final": 0
@@ -7036,7 +9236,37 @@
    "notes": "",
    "photo": "img/luis-suarez.jpg",
    "natApp": 143,
-   "natGoals": 69
+   "natGoals": 69,
+   "detail": {
+    "copa": [
+     "2011 (mistrz)",
+     "2024 (półfinał)"
+    ],
+    "league": [
+     "Ajax: 2011",
+     "Barcelona: 2015, 2016, 2018, 2019",
+     "Atlético Madryt: 2021"
+    ],
+    "natCup": [
+     "Ajax: 2010",
+     "Barcelona: 2015, 2016, 2017, 2018"
+    ],
+    "leagueCup": [
+     "Liverpool: 2012"
+    ],
+    "natSupercup": [
+     "Barcelona: 2016, 2018"
+    ],
+    "ucl": [
+     "Barcelona: 2015"
+    ],
+    "euroSupercup": [
+     "Barcelona: 2015"
+    ],
+    "intercontinental": [
+     "Barcelona: 2015"
+    ]
+   }
   },
   {
    "name": "Edinson Cavani",
@@ -7061,9 +9291,9 @@
      "semi": 0
     },
     "league": 6,
-    "natCup": 5,
-    "leagueCup": 5,
-    "natSupercup": 1,
+    "natCup": 6,
+    "leagueCup": 6,
+    "natSupercup": 4,
     "ucl": {
      "win": 0,
      "final": 0
@@ -7094,7 +9324,28 @@
    "notes": "",
    "photo": "img/edinson-cavani.jpg",
    "natApp": 136,
-   "natGoals": 58
+   "natGoals": 58,
+   "detail": {
+    "copa": [
+     "2011 (mistrz)"
+    ],
+    "league": [
+     "Paris Saint-Germain: 2014, 2015, 2016, 2018, 2019, 2020"
+    ],
+    "natCup": [
+     "Napoli: 2012",
+     "Paris Saint-Germain: 2015, 2016, 2017, 2018, 2020"
+    ],
+    "leagueCup": [
+     "Paris Saint-Germain: 2014, 2015, 2016, 2017, 2018, 2020"
+    ],
+    "natSupercup": [
+     "Paris Saint-Germain: 2014, 2015, 2017, 2019"
+    ],
+    "uefa": [
+     "Manchester United 2021 (finał)"
+    ]
+   }
   },
   {
    "name": "Harry Kane",
@@ -7106,7 +9357,7 @@
     "wc": {
      "win": 0,
      "final": 0,
-     "semi": 1
+     "semi": 0
     },
     "euro": {
      "win": 0,
@@ -7118,7 +9369,7 @@
      "final": 0,
      "semi": 0
     },
-    "league": 1,
+    "league": 2,
     "natCup": 1,
     "leagueCup": 0,
     "natSupercup": 1,
@@ -7152,7 +9403,25 @@
    "notes": "",
    "photo": "img/harry-kane.jpg",
    "natApp": 119,
-   "natGoals": 85
+   "natGoals": 85,
+   "detail": {
+    "euro": [
+     "2020 (finał)",
+     "2024 (finał)"
+    ],
+    "league": [
+     "Bayern Monachium: 2025, 2026"
+    ],
+    "natCup": [
+     "Bayern Monachium: 2026"
+    ],
+    "natSupercup": [
+     "Bayern Monachium: 2025"
+    ],
+    "ucl": [
+     "Tottenham Hotspur 2019 (finał)"
+    ]
+   }
   }
  ]
 }
