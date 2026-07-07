@@ -74,6 +74,9 @@ po akceptacji; nowych typujemy m.in. z podiów Złotej Piłki i The Best z ostat
   - **"Trofea i lata"** - przy każdej kategorii kluby i lata zdobycia (rok = zakończenie sezonu),
     tylko z czołowych lig; przegrane finały oznaczone.
 - **Zielona pulsująca kropka** przy piłkarzach wciąż aktywnych - ich pozycja może się jeszcze zmienić.
+- **Widok mobilny** - na telefonie ranking mieści się bez poziomego przewijania: tabela pokazuje
+  kluczowe kolumny (piłkarz, pozycja, punkty), a występy i gole widać po rozwinięciu wiersza; podium
+  i filtry są dopasowane do wąskiego ekranu.
 
 ## Jak to zbudowane (technicznie)
 
