@@ -2167,7 +2167,8 @@
     ]
    },
    "natApp": 233,
-   "natGoals": 146
+   "natGoals": 146,
+   "active": true
   },
   {
    "name": "Lilian Thuram",
@@ -2354,7 +2355,8 @@
     ]
    },
    "natApp": 203,
-   "natGoals": 124
+   "natGoals": 124,
+   "active": true
   },
   {
    "name": "Filippo Inzaghi",
@@ -3672,7 +3674,8 @@
     ]
    },
    "natApp": 167,
-   "natGoals": 89
+   "natGoals": 89,
+   "active": true
   },
   {
    "name": "Jerzy Dudek",
@@ -6130,7 +6133,8 @@
     ]
    },
    "natApp": 202,
-   "natGoals": 29
+   "natGoals": 29,
+   "active": true
   },
   {
    "name": "Karim Benzema",
@@ -6217,7 +6221,8 @@
     ]
    },
    "natApp": 97,
-   "natGoals": 37
+   "natGoals": 37,
+   "active": true
   },
   {
    "name": "Sergio Ramos",
@@ -6304,7 +6309,8 @@
     ]
    },
    "natApp": 180,
-   "natGoals": 23
+   "natGoals": 23,
+   "active": true
   },
   {
    "name": "Toni Kroos",
@@ -6485,7 +6491,8 @@
     "ballon": [
      "2024 (1.)"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Jude Bellingham",
@@ -6567,7 +6574,8 @@
     "intercontinental": [
      "Real Madryt: 2024"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Kevin De Bruyne",
@@ -6658,7 +6666,8 @@
     "ballon": [
      "2022 (3.)"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Virgil van Dijk",
@@ -6741,7 +6750,8 @@
     "intercontinental": [
      "Liverpool: 2019"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Manuel Neuer",
@@ -6833,7 +6843,8 @@
     ]
    },
    "natApp": 128,
-   "natGoals": 0
+   "natGoals": 0,
+   "active": true
   },
   {
    "name": "Antoine Griezmann",
@@ -6919,7 +6930,8 @@
      "2016 (3.)",
      "2018 (3.)"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Sadio Mané",
@@ -7003,7 +7015,8 @@
     "intercontinental": [
      "Liverpool: 2019"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Ousmane Dembélé",
@@ -7095,7 +7108,8 @@
     "fifa": [
      "2025 (1.)"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Lamine Yamal",
@@ -7170,7 +7184,8 @@
     "ballon": [
      "2025 (2.)"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Franck Ribéry",
@@ -8147,7 +8162,8 @@
     ]
    },
    "natApp": 113,
-   "natGoals": 7
+   "natGoals": 7,
+   "active": true
   },
   {
    "name": "Kylian Mbappé",
@@ -8236,7 +8252,8 @@
     "ballon": [
      "2023 (3.)"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Neymar",
@@ -8324,7 +8341,8 @@
      "2015 (3.)",
      "2017 (3.)"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Mohamed Salah",
@@ -8407,7 +8425,8 @@
     "intercontinental": [
      "Liverpool: 2019"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Erling Haaland",
@@ -8492,7 +8511,8 @@
     "intercontinental": [
      "Manchester City: 2023"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Vinícius Júnior",
@@ -8579,7 +8599,8 @@
     "fifa": [
      "2024 (1.)"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Ángel Di María",
@@ -8674,7 +8695,8 @@
     ]
    },
    "natApp": 145,
-   "natGoals": 31
+   "natGoals": 31,
+   "active": true
   },
   {
    "name": "N'Golo Kanté",
@@ -8759,7 +8781,8 @@
     "intercontinental": [
      "Chelsea: 2021"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Joshua Kimmich",
@@ -8840,7 +8863,8 @@
     "euro": [
      "2016 (półfinał)"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Casemiro",
@@ -8928,7 +8952,8 @@
     "intercontinental": [
      "Real Madryt: 2016, 2017, 2018"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Gareth Bale",
@@ -9266,7 +9291,8 @@
     "intercontinental": [
      "Barcelona: 2015"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Edinson Cavani",
@@ -9345,7 +9371,8 @@
     "uefa": [
      "Manchester United 2021 (finał)"
     ]
-   }
+   },
+   "active": true
   },
   {
    "name": "Harry Kane",
@@ -9421,7 +9448,8 @@
     "ucl": [
      "Tottenham Hotspur 2019 (finał)"
     ]
-   }
+   },
+   "active": true
   }
  ]
 }
