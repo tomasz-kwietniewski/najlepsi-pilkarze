@@ -16,8 +16,8 @@
     appearancesPer: 35,               // 1 pkt za 35 wystepow
     goalDivisor: { GK: 17, DEF: 3, MID: 8, FWD: 17 }, // 1 pkt za N goli wg pozycji
     wc: { win: 12, final: 8, semi: 6 },   // MS (1. miejsce podniesione 10 -> 12)
-    euro: { win: 9, final: 7, semi: 5 },  // ME
-    copa: { win: 4.5, final: 3.5, semi: 2.5 }, // Copa America = polowa wag ME
+    euro: { win: 10, final: 7, semi: 5 }, // ME (1. miejsce podniesione 9 -> 10)
+    copa: { win: 5, final: 3.5, semi: 2.5 }, // Copa America = polowa wag ME
     league: 5,          // mistrzostwo kraju (za kazde; TYLKO top ligi: Anglia/Hiszpania/Wlochy/Niemcy/Francja/Portugalia/Holandia)
     natCup: 3,          // puchar kraju
     leagueCup: 1,       // puchar ligi krajowej

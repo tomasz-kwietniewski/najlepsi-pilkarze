@@ -3,7 +3,8 @@
 ## Metodologia (ustalona z użytkownikiem) - WDROŻONE
 - [x] Obrońca 1 pkt za 3 gole (było 2).
 - [x] MŚ 1. miejsce 12 (było 10). Liga Mistrzów zwycięstwo 8 (było 7).
-- [x] Copa America = połowa wag ME (4,5 / 3,5 / 2,5). Kategoria `copa`.
+- [x] ME 1. miejsce 10 (było 9): wagi 10 / 7 / 5.
+- [x] Copa America = połowa wag ME (5 / 3,5 / 2,5). Kategoria `copa`.
 - [x] Liga Konferencji = połowa Pucharu UEFA (2,5 / 1,5). Kategoria `conference`.
 - [x] Tylko ligi top-7 (Anglia, Hiszpania, Włochy, Niemcy, Francja, Portugalia, Holandia) -
       występy, gole i tytuły. Reszta (saudyjska, MLS, brazylijska, katarska, japońska, austriacka,

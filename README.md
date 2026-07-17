@@ -27,8 +27,8 @@ i nagród indywidualnych**.
 
 ### Trofea reprezentacyjne
 - **Mistrzostwa Świata**: 1. miejsce **12**, finał **8**, półfinał **6**.
-- **Mistrzostwa Europy**: 1. miejsce **9**, finał **7**, półfinał **5**.
-- **Copa America**: połowa wag ME - **4,5 / 3,5 / 2,5**.
+- **Mistrzostwa Europy**: 1. miejsce **10**, finał **7**, półfinał **5**.
+- **Copa America**: połowa wag ME - **5 / 3,5 / 2,5**.
 
 Za "półfinał" liczymy dotarcie do najlepszej czwórki (3.-4. miejsce MŚ, top-4 ME/Copa), gdy piłkarz
 był w kadrze turnieju. Copa America liczymy osobno od Mistrzostw Europy (częsty błąd u zawodników
