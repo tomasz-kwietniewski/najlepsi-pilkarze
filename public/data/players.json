@@ -420,8 +420,8 @@
     },
     "fifa": {
      "first": 3,
-     "second": 0,
-     "third": 0
+     "second": 1,
+     "third": 1
     }
    },
    "detail": {
@@ -465,7 +465,9 @@
     "fifa": [
      "1998 (1.)",
      "2000 (1.)",
-     "2003 (1.)"
+     "2003 (1.)",
+     "2006 (2.)",
+     "2002 (3.)"
     ]
    },
    "natApp": 108,
@@ -774,7 +776,7 @@
     "ballon": {
      "first": 0,
      "second": 1,
-     "third": 0
+     "third": 1
     },
     "fifa": {
      "first": 0,
@@ -821,7 +823,8 @@
      "Barcelona: 2009"
     ],
     "ballon": [
-     "2003 (2.)"
+     "2003 (2.)",
+     "2006 (3.)"
     ],
     "fifa": [
      "2003 (2.)",
@@ -1932,7 +1935,7 @@
     "ballon": {
      "first": 1,
      "second": 0,
-     "third": 0
+     "third": 1
     },
     "fifa": {
      "first": 2,
@@ -1963,7 +1966,8 @@
      "Barcelona: 2006"
     ],
     "ballon": [
-     "2005 (1.)"
+     "2005 (1.)",
+     "2004 (3.)"
     ],
     "fifa": [
      "2004 (1.)",
@@ -2084,9 +2088,9 @@
      "semi": 0
     },
     "league": 7,
-    "natCup": 3,
+    "natCup": 4,
     "leagueCup": 2,
-    "natSupercup": 5,
+    "natSupercup": 6,
     "ucl": {
      "win": 5,
      "final": 1
@@ -2103,13 +2107,13 @@
     "intercontinental": 4,
     "ballon": {
      "first": 5,
-     "second": 0,
-     "third": 0
+     "second": 6,
+     "third": 1
     },
     "fifa": {
      "first": 3,
-     "second": 0,
-     "third": 0
+     "second": 3,
+     "third": 2
     }
    },
    "notes": "5x Złota Piłka, 5x LM (+ finał 2009), ME 2016. Mistrzostwa skorygowane do 7 (3 PL + 2 La Liga + 2 Serie A; ligi saudyjskiej NIE zdobył). Puchar ligi 2 (2006, 2009). Występy/gole przybliżone (Wikipedia: ponad 1300/970).",
@@ -2131,12 +2135,14 @@
     ],
     "natCup": [
      "Manchester United: 2004",
-     "Real Madryt: 2011, 2014"
+     "Real Madryt: 2011, 2014",
+     "Juventus: 2021"
     ],
     "leagueCup": [
      "Manchester United: 2006, 2009"
     ],
     "natSupercup": [
+     "Sporting: 2002",
      "Manchester United: 2007",
      "Real Madryt: 2012, 2017",
      "Juventus: 2018, 2020"
@@ -2158,12 +2164,24 @@
      "2013 (1.)",
      "2014 (1.)",
      "2016 (1.)",
-     "2017 (1.)"
+     "2017 (1.)",
+     "2007 (2.)",
+     "2009 (2.)",
+     "2011 (2.)",
+     "2012 (2.)",
+     "2015 (2.)",
+     "2018 (2.)",
+     "2019 (3.)"
     ],
     "fifa": [
      "2008 (1.)",
      "2016 (1.)",
-     "2017 (1.)"
+     "2017 (1.)",
+     "2009 (2.)",
+     "2018 (2.)",
+     "2020 (2.)",
+     "2007 (3.)",
+     "2019 (3.)"
     ]
    },
    "natApp": 233,
@@ -2255,14 +2273,14 @@
   {
    "name": "Lionel Messi",
    "position": "FWD",
-   "appearances": 1056,
-   "goals": 828,
+   "appearances": 1060,
+   "goals": 829,
    "style": "counts",
    "dataComplete": true,
    "counts": {
     "wc": {
      "win": 1,
-     "final": 1,
+     "final": 2,
      "semi": 0
     },
     "euro": {
@@ -2286,13 +2304,13 @@
     "intercontinental": 3,
     "ballon": {
      "first": 8,
-     "second": 0,
-     "third": 0
+     "second": 5,
+     "third": 1
     },
     "fifa": {
      "first": 4,
-     "second": 1,
-     "third": 0
+     "second": 5,
+     "third": 1
     },
     "copa": {
      "win": 2,
@@ -2306,7 +2324,8 @@
    "detail": {
     "wc": [
      "2022 (mistrz)",
-     "2014 (finał)"
+     "2014 (finał)",
+     "2026 (finał)"
     ],
     "copa": [
      "2021 (mistrz)",
@@ -2344,18 +2363,29 @@
      "2015 (1.)",
      "2019 (1.)",
      "2021 (1.)",
-     "2023 (1.)"
+     "2023 (1.)",
+     "2008 (2.)",
+     "2013 (2.)",
+     "2014 (2.)",
+     "2016 (2.)",
+     "2017 (2.)",
+     "2007 (3.)"
     ],
     "fifa": [
      "2009 (1.)",
      "2019 (1.)",
      "2022 (1.)",
      "2023 (1.)",
-     "2021 (2.)"
+     "2007 (2.)",
+     "2008 (2.)",
+     "2016 (2.)",
+     "2017 (2.)",
+     "2021 (2.)",
+     "2020 (3.)"
     ]
    },
-   "natApp": 203,
-   "natGoals": 124,
+   "natApp": 207,
+   "natGoals": 125,
    "active": true
   },
   {
@@ -2731,12 +2761,12 @@
     "intercontinental": 0,
     "ballon": {
      "first": 0,
-     "second": 0,
+     "second": 1,
      "third": 0
     },
     "fifa": {
      "first": 0,
-     "second": 0,
+     "second": 1,
      "third": 0
     }
    },
@@ -2765,6 +2795,12 @@
     ],
     "uefa": [
      "Chelsea: 2013"
+    ],
+    "ballon": [
+     "2005 (2.)"
+    ],
+    "fifa": [
+     "2005 (2.)"
     ]
    }
   },
@@ -3049,7 +3085,7 @@
     "ballon": {
      "first": 1,
      "second": 0,
-     "third": 0
+     "third": 2
     },
     "fifa": {
      "first": 0,
@@ -3082,7 +3118,9 @@
      "AC Milan: 2003"
     ],
     "ballon": [
-     "2004 (1.)"
+     "2004 (1.)",
+     "1999 (3.)",
+     "2000 (3.)"
     ],
     "fifa": [
      "2004 (3.)"
@@ -4058,7 +4096,7 @@
     "fifa": {
      "first": 0,
      "second": 0,
-     "third": 0
+     "third": 1
     }
    },
    "dataComplete": true,
@@ -4087,6 +4125,9 @@
      "Chelsea: 2013"
     ],
     "ballon": [
+     "2008 (3.)"
+    ],
+    "fifa": [
      "2008 (3.)"
     ]
    }
@@ -4140,7 +4181,7 @@
     "fifa": {
      "first": 0,
      "second": 0,
-     "third": 0
+     "third": 1
     }
    },
    "notes": "MŚ 2010, ME 2008+2012, 4x LM, 8 La Liga + 1 liga Kataru. Trofea Al Sadd tylko z okresu gry (bez trenerskich).",
@@ -4176,6 +4217,9 @@
      "2009 (3.)",
      "2010 (3.)",
      "2011 (3.)"
+    ],
+    "fifa": [
+     "2009 (3.)"
     ]
    },
    "natApp": 133,
@@ -4224,7 +4268,7 @@
     "ballon": {
      "first": 0,
      "second": 0,
-     "third": 0
+     "third": 1
     },
     "fifa": {
      "first": 0,
@@ -4257,6 +4301,9 @@
     ],
     "euroSupercup": [
      "Liverpool: 2001"
+    ],
+    "ballon": [
+     "2005 (3.)"
     ]
    }
   },
@@ -6184,7 +6231,7 @@
     "fifa": {
      "first": 0,
      "second": 0,
-     "third": 0
+     "third": 1
     }
    },
    "notes": "5x LM, Złota Piłka 2022, 9 mistrzostw (4 Ligue1 + 4 La Liga + 1 Saudi), MŚ finał 2022.",
@@ -6217,6 +6264,9 @@
     ],
     "ballon": [
      "2022 (1.)"
+    ],
+    "fifa": [
+     "2022 (3.)"
     ]
    },
    "natApp": 97,
@@ -6406,19 +6456,19 @@
   {
    "name": "Rodri",
    "position": "MID",
-   "appearances": 470,
+   "appearances": 473,
    "goals": 35,
    "style": "counts",
    "counts": {
     "wc": {
-     "win": 0,
+     "win": 1,
      "final": 0,
      "semi": 0
     },
     "euro": {
      "win": 1,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "copa": {
      "win": 0,
@@ -6450,7 +6500,7 @@
     },
     "fifa": {
      "first": 0,
-     "second": 0,
+     "second": 1,
      "third": 0
     }
    },
@@ -6458,11 +6508,12 @@
    "source": "https://en.wikipedia.org/wiki/Rodri_(footballer,_born_1996)",
    "notes": "wszystkie ligi top; ME2024.",
    "photo": "img/rodri.jpg",
-   "natApp": 67,
+   "natApp": 70,
    "natGoals": 4,
    "detail": {
     "euro": [
-     "2024 (mistrz)"
+     "2024 (mistrz)",
+     "2020 (półfinał)"
     ],
     "league": [
      "Manchester City: 2021, 2022, 2023, 2024"
@@ -6489,6 +6540,12 @@
     ],
     "ballon": [
      "2024 (1.)"
+    ],
+    "fifa": [
+     "2024 (2.)"
+    ],
+    "wc": [
+     "2026 (mistrz)"
     ]
    },
    "active": true
@@ -6496,14 +6553,14 @@
   {
    "name": "Jude Bellingham",
    "position": "MID",
-   "appearances": 272,
-   "goals": 58,
+   "appearances": 275,
+   "goals": 61,
    "style": "counts",
    "counts": {
     "wc": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
@@ -6536,20 +6593,20 @@
     "ballon": {
      "first": 0,
      "second": 0,
-     "third": 0
+     "third": 1
     },
     "fifa": {
      "first": 0,
      "second": 0,
-     "third": 0
+     "third": 1
     }
    },
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Jude_Bellingham",
    "notes": "natCup=1 DFB-Pokal; ligi top.",
    "photo": "img/jude-bellingham.jpg",
-   "natApp": 53,
-   "natGoals": 10,
+   "natApp": 56,
+   "natGoals": 13,
    "detail": {
     "euro": [
      "2020 (finał)",
@@ -6572,6 +6629,15 @@
     ],
     "intercontinental": [
      "Real Madryt: 2024"
+    ],
+    "ballon": [
+     "2024 (3.)"
+    ],
+    "fifa": [
+     "2024 (3.)"
+    ],
+    "wc": [
+     "2026 (półfinał)"
     ]
    },
    "active": true
@@ -6579,7 +6645,7 @@
   {
    "name": "Kevin De Bruyne",
    "position": "MID",
-   "appearances": 545,
+   "appearances": 546,
    "goals": 110,
    "style": "counts",
    "counts": {
@@ -6631,7 +6697,7 @@
    "source": "https://en.wikipedia.org/wiki/Kevin_De_Bruyne",
    "notes": "FIX league7=6 Premier+1 Belgian(Genk); belgijska nie top-7 -> 6. natCup3 zawiera 1 DFB-Pokal(Wolfsburg,top ok)+2 FA.",
    "photo": "img/kevin-de-bruyne.jpg",
-   "natApp": 123,
+   "natApp": 124,
    "natGoals": 38,
    "detail": {
     "wc": [
@@ -6683,7 +6749,7 @@
     "euro": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "copa": {
      "win": 0,
@@ -6710,12 +6776,12 @@
     "intercontinental": 1,
     "ballon": {
      "first": 0,
-     "second": 0,
+     "second": 1,
      "third": 0
     },
     "fifa": {
      "first": 0,
-     "second": 0,
+     "second": 1,
      "third": 0
     }
    },
@@ -6748,6 +6814,15 @@
     ],
     "intercontinental": [
      "Liverpool: 2019"
+    ],
+    "ballon": [
+     "2019 (2.)"
+    ],
+    "fifa": [
+     "2019 (2.)"
+    ],
+    "euro": [
+     "2024 (półfinał)"
     ]
    },
    "active": true
@@ -6762,12 +6837,12 @@
     "wc": {
      "win": 1,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
      "final": 0,
-     "semi": 1
+     "semi": 2
     },
     "copa": {
      "win": 0,
@@ -6809,10 +6884,12 @@
    "photo": "img/manuel-neuer.jpg",
    "detail": {
     "wc": [
-     "2014 (mistrz)"
+     "2014 (mistrz)",
+     "2010 (półfinał)"
     ],
     "euro": [
-     "2012 (półfinał)"
+     "2012 (półfinał)",
+     "2016 (półfinał)"
     ],
     "league": [
      "Bayern Monachium: 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2025, 2026"
@@ -6860,7 +6937,7 @@
     "euro": {
      "win": 0,
      "final": 1,
-     "semi": 0
+     "semi": 1
     },
     "copa": {
      "win": 0,
@@ -6893,7 +6970,7 @@
     "fifa": {
      "first": 0,
      "second": 0,
-     "third": 0
+     "third": 1
     }
    },
    "dataComplete": true,
@@ -6908,7 +6985,8 @@
      "2022 (finał)"
     ],
     "euro": [
-     "2016 (finał)"
+     "2016 (finał)",
+     "2024 (półfinał)"
     ],
     "natCup": [
      "Barcelona: 2021"
@@ -6928,6 +7006,9 @@
     "ballon": [
      "2016 (3.)",
      "2018 (3.)"
+    ],
+    "fifa": [
+     "2016 (3.)"
     ]
    },
    "active": true
@@ -6974,7 +7055,7 @@
     "intercontinental": 1,
     "ballon": {
      "first": 0,
-     "second": 0,
+     "second": 1,
      "third": 0
     },
     "fifa": {
@@ -7013,6 +7094,9 @@
     ],
     "intercontinental": [
      "Liverpool: 2019"
+    ],
+    "ballon": [
+     "2022 (2.)"
     ]
    },
    "active": true
@@ -7020,19 +7104,19 @@
   {
    "name": "Ousmane Dembélé",
    "position": "FWD",
-   "appearances": 421,
-   "goals": 136,
+   "appearances": 424,
+   "goals": 138,
    "style": "counts",
    "counts": {
     "wc": {
      "win": 1,
      "final": 1,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "copa": {
      "win": 0,
@@ -7072,12 +7156,13 @@
    "source": "https://en.wikipedia.org/wiki/Ousmane_Demb%C3%A9l%C3%A9",
    "notes": "ligi top. Zlota Pilka+The Best 2025.",
    "photo": "img/ousmane-dembele.jpg",
-   "natApp": 64,
-   "natGoals": 11,
+   "natApp": 67,
+   "natGoals": 13,
    "detail": {
     "wc": [
      "2018 (mistrz)",
-     "2022 (finał)"
+     "2022 (finał)",
+     "2026 (półfinał)"
     ],
     "league": [
      "Barcelona: 2018, 2019, 2023",
@@ -7106,6 +7191,9 @@
     ],
     "fifa": [
      "2025 (1.)"
+    ],
+    "euro": [
+     "2024 (półfinał)"
     ]
    },
    "active": true
@@ -7113,12 +7201,12 @@
   {
    "name": "Lamine Yamal",
    "position": "FWD",
-   "appearances": 154,
+   "appearances": 157,
    "goals": 49,
    "style": "counts",
    "counts": {
     "wc": {
-     "win": 0,
+     "win": 1,
      "final": 0,
      "semi": 0
     },
@@ -7157,7 +7245,7 @@
     },
     "fifa": {
      "first": 0,
-     "second": 0,
+     "second": 1,
      "third": 0
     }
    },
@@ -7165,7 +7253,7 @@
    "source": "https://en.wikipedia.org/wiki/Lamine_Yamal",
    "notes": "ME2024. ligi top.",
    "photo": "img/lamine-yamal.jpg",
-   "natApp": 30,
+   "natApp": 33,
    "natGoals": 7,
    "detail": {
     "euro": [
@@ -7182,6 +7270,12 @@
     ],
     "ballon": [
      "2025 (2.)"
+    ],
+    "fifa": [
+     "2025 (2.)"
+    ],
+    "wc": [
+     "2026 (mistrz)"
     ]
    },
    "active": true
@@ -8167,19 +8261,19 @@
   {
    "name": "Kylian Mbappé",
    "position": "FWD",
-   "appearances": 425,
-   "goals": 313,
+   "appearances": 428,
+   "goals": 316,
    "style": "counts",
    "counts": {
     "wc": {
      "win": 1,
      "final": 1,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "copa": {
      "win": 0,
@@ -8211,20 +8305,21 @@
     },
     "fifa": {
      "first": 0,
-     "second": 0,
-     "third": 0
+     "second": 1,
+     "third": 2
     }
    },
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9",
    "notes": "ligi top. MS2018 win,2022 final.",
    "photo": "img/kylian-mbappe.jpg",
-   "natApp": 103,
-   "natGoals": 63,
+   "natApp": 106,
+   "natGoals": 66,
    "detail": {
     "wc": [
      "2018 (mistrz)",
-     "2022 (finał)"
+     "2022 (finał)",
+     "2026 (półfinał)"
     ],
     "league": [
      "Monaco: 2017",
@@ -8250,6 +8345,14 @@
     ],
     "ballon": [
      "2023 (3.)"
+    ],
+    "fifa": [
+     "2022 (2.)",
+     "2023 (3.)",
+     "2025 (3.)"
+    ],
+    "euro": [
+     "2024 (półfinał)"
     ]
    },
    "active": true
@@ -8264,7 +8367,7 @@
     "wc": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
@@ -8279,7 +8382,7 @@
     "league": 7,
     "natCup": 6,
     "leagueCup": 2,
-    "natSupercup": 1,
+    "natSupercup": 4,
     "ucl": {
      "win": 1,
      "final": 1
@@ -8302,7 +8405,7 @@
     "fifa": {
      "first": 0,
      "second": 0,
-     "third": 0
+     "third": 1
     }
    },
    "dataComplete": true,
@@ -8327,7 +8430,8 @@
      "Paris Saint-Germain: 2018, 2020"
     ],
     "natSupercup": [
-     "Barcelona: 2013"
+     "Barcelona: 2013",
+     "Paris Saint-Germain: 2018, 2020, 2022"
     ],
     "ucl": [
      "Barcelona: 2015",
@@ -8339,6 +8443,12 @@
     "ballon": [
      "2015 (3.)",
      "2017 (3.)"
+    ],
+    "fifa": [
+     "2017 (3.)"
+    ],
+    "wc": [
+     "2014 (półfinał)"
     ]
    },
    "active": true
@@ -8346,7 +8456,7 @@
   {
    "name": "Mohamed Salah",
    "position": "FWD",
-   "appearances": 648,
+   "appearances": 649,
    "goals": 355,
    "style": "counts",
    "counts": {
@@ -8367,7 +8477,7 @@
     },
     "league": 2,
     "natCup": 1,
-    "leagueCup": 2,
+    "leagueCup": 1,
     "natSupercup": 1,
     "ucl": {
      "win": 1,
@@ -8391,14 +8501,14 @@
     "fifa": {
      "first": 0,
      "second": 0,
-     "third": 0
+     "third": 2
     }
    },
    "dataComplete": true,
    "source": "https://en.wikipedia.org/wiki/Mohamed_Salah",
    "notes": "FIX league4=2 Premier+2 Swiss(Basel); szwajc nie top-7 -> 2. Basel wystepy odjac.",
    "photo": "img/mohamed-salah.jpg",
-   "natApp": 120,
+   "natApp": 121,
    "natGoals": 68,
    "detail": {
     "league": [
@@ -8408,7 +8518,7 @@
      "Liverpool: 2022"
     ],
     "leagueCup": [
-     "Liverpool: 2022, 2024"
+     "Liverpool: 2022"
     ],
     "natSupercup": [
      "Liverpool: 2022"
@@ -8423,6 +8533,10 @@
     ],
     "intercontinental": [
      "Liverpool: 2019"
+    ],
+    "fifa": [
+     "2018 (3.)",
+     "2021 (3.)"
     ]
    },
    "active": true
@@ -8430,7 +8544,7 @@
   {
    "name": "Erling Haaland",
    "position": "FWD",
-   "appearances": 314,
+   "appearances": 315,
    "goals": 276,
    "style": "counts",
    "counts": {
@@ -8474,7 +8588,7 @@
     },
     "fifa": {
      "first": 0,
-     "second": 0,
+     "second": 1,
      "third": 0
     }
    },
@@ -8482,7 +8596,7 @@
    "source": "https://en.wikipedia.org/wiki/Erling_Haaland",
    "notes": "FIX league4=Austria(Salzburg)+3 Premier; Austria nie top-7 -> 3. Salzburg/Molde wystepy odjac.",
    "photo": "img/erling-haaland.jpg",
-   "natApp": 54,
+   "natApp": 55,
    "natGoals": 62,
    "detail": {
     "league": [
@@ -8509,6 +8623,9 @@
     ],
     "intercontinental": [
      "Manchester City: 2023"
+    ],
+    "fifa": [
+     "2023 (2.)"
     ]
    },
    "active": true
@@ -8621,7 +8738,7 @@
     "copa": {
      "win": 2,
      "final": 2,
-     "semi": 0
+     "semi": 1
     },
     "league": 7,
     "natCup": 7,
@@ -8665,7 +8782,8 @@
      "2021 (mistrz)",
      "2024 (mistrz)",
      "2015 (finał)",
-     "2016 (finał)"
+     "2016 (finał)",
+     "2019 (półfinał)"
     ],
     "league": [
      "Benfica: 2010",
@@ -8707,12 +8825,12 @@
     "wc": {
      "win": 1,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
      "final": 1,
-     "semi": 0
+     "semi": 1
     },
     "copa": {
      "win": 0,
@@ -8756,10 +8874,12 @@
    "natGoals": 2,
    "detail": {
     "wc": [
-     "2018 (mistrz)"
+     "2018 (mistrz)",
+     "2026 (półfinał)"
     ],
     "euro": [
-     "2016 (finał)"
+     "2016 (finał)",
+     "2024 (półfinał)"
     ],
     "league": [
      "Leicester City: 2016",
@@ -8884,7 +9004,7 @@
     },
     "copa": {
      "win": 1,
-     "final": 0,
+     "final": 1,
      "semi": 0
     },
     "league": 3,
@@ -8924,7 +9044,8 @@
    "natGoals": 10,
    "detail": {
     "copa": [
-     "2019 (mistrz)"
+     "2019 (mistrz)",
+     "2021 (finał)"
     ],
     "league": [
      "Real Madryt: 2017, 2020, 2022"
@@ -9077,7 +9198,7 @@
     "intercontinental": 0,
     "ballon": {
      "first": 1,
-     "second": 0,
+     "second": 1,
      "third": 0
     },
     "fifa": {
@@ -9117,7 +9238,8 @@
      "Barcelona: 1992, 1997"
     ],
     "ballon": [
-     "1994 (1.)"
+     "1994 (1.)",
+     "1992 (2.)"
     ],
     "fifa": [
      "1992 (2.)",
@@ -9214,7 +9336,7 @@
     "wc": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
@@ -9289,6 +9411,9 @@
     ],
     "intercontinental": [
      "Barcelona: 2015"
+    ],
+    "wc": [
+     "2010 (półfinał)"
     ]
    },
    "active": true
@@ -9303,7 +9428,7 @@
     "wc": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
@@ -9369,6 +9494,9 @@
     ],
     "uefa": [
      "Manchester United 2021 (finał)"
+    ],
+    "wc": [
+     "2010 (półfinał)"
     ]
    },
    "active": true
@@ -9376,14 +9504,14 @@
   {
    "name": "Harry Kane",
    "position": "FWD",
-   "appearances": 585,
+   "appearances": 587,
    "goals": 409,
    "style": "counts",
    "counts": {
     "wc": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 2
     },
     "euro": {
      "win": 0,
@@ -9428,7 +9556,7 @@
    "source": "https://en.wikipedia.org/wiki/Harry_Kane",
    "notes": "",
    "photo": "img/harry-kane.jpg",
-   "natApp": 119,
+   "natApp": 121,
    "natGoals": 85,
    "detail": {
     "euro": [
@@ -9446,8 +9574,1334 @@
     ],
     "ucl": [
      "Tottenham Hotspur 2019 (finał)"
+    ],
+    "wc": [
+     "2018 (półfinał)",
+     "2026 (półfinał)"
     ]
    },
+   "active": true
+  },
+  {
+   "name": "Thomas Müller",
+   "position": "FWD",
+   "appearances": 887,
+   "goals": 295,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/Thomas_M%C3%BCller",
+   "notes": "",
+   "photo": "img/thomas-muller.jpg",
+   "counts": {
+    "wc": {
+     "win": 1,
+     "final": 0,
+     "semi": 1
+    },
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 2
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 13,
+    "natCup": 6,
+    "leagueCup": 0,
+    "natSupercup": 8,
+    "ucl": {
+     "win": 2,
+     "final": 2
+    },
+    "uefa": {
+     "win": 0,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 2,
+    "intercontinental": 2,
+    "ballon": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    },
+    "fifa": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "league": [
+     "Bayern Monachium: 2010, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2025"
+    ],
+    "natCup": [
+     "Bayern Monachium: 2010, 2013, 2014, 2016, 2019, 2020"
+    ],
+    "natSupercup": [
+     "Bayern Monachium: 2010, 2012, 2016, 2017, 2018, 2020, 2021, 2022"
+    ],
+    "ucl": [
+     "Bayern Monachium: 2013, 2020",
+     "Bayern Monachium 2010 (finał)",
+     "Bayern Monachium 2012 (finał)"
+    ],
+    "euroSupercup": [
+     "Bayern Monachium: 2013, 2020"
+    ],
+    "intercontinental": [
+     "Bayern Monachium: 2013, 2020"
+    ],
+    "wc": [
+     "2014 (mistrz)",
+     "2010 (półfinał)"
+    ],
+    "euro": [
+     "2012 (półfinał)",
+     "2016 (półfinał)"
+    ]
+   },
+   "natApp": 131,
+   "natGoals": 45,
+   "active": true
+  },
+  {
+   "name": "David Alaba",
+   "position": "DEF",
+   "appearances": 698,
+   "goals": 55,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/David_Alaba",
+   "notes": "",
+   "photo": "img/david-alaba.jpg",
+   "counts": {
+    "wc": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 12,
+    "natCup": 7,
+    "leagueCup": 0,
+    "natSupercup": 4,
+    "ucl": {
+     "win": 4,
+     "final": 1
+    },
+    "uefa": {
+     "win": 0,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 3,
+    "intercontinental": 4,
+    "ballon": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    },
+    "fifa": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "league": [
+     "Bayern Monachium: 2010, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021",
+     "Real Madryt: 2022, 2024"
+    ],
+    "natCup": [
+     "Bayern Monachium: 2010, 2013, 2014, 2016, 2019, 2020",
+     "Real Madryt: 2023"
+    ],
+    "natSupercup": [
+     "Bayern Monachium: 2016, 2018, 2020",
+     "Real Madryt: 2022"
+    ],
+    "ucl": [
+     "Bayern Monachium: 2013, 2020",
+     "Real Madryt: 2022, 2024",
+     "Bayern Monachium 2012 (finał)"
+    ],
+    "euroSupercup": [
+     "Bayern Monachium: 2013, 2020",
+     "Real Madryt: 2022"
+    ],
+    "intercontinental": [
+     "Bayern Monachium: 2013, 2020",
+     "Real Madryt: 2022, 2024"
+    ]
+   },
+   "natApp": 117,
+   "natGoals": 15,
+   "active": true
+  },
+  {
+   "name": "Marquinhos",
+   "position": "DEF",
+   "appearances": 663,
+   "goals": 50,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/Marquinhos",
+   "notes": "",
+   "photo": "img/marquinhos.jpg",
+   "counts": {
+    "wc": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "copa": {
+     "win": 1,
+     "final": 1,
+     "semi": 0
+    },
+    "league": 11,
+    "natCup": 8,
+    "leagueCup": 6,
+    "natSupercup": 10,
+    "ucl": {
+     "win": 2,
+     "final": 1
+    },
+    "uefa": {
+     "win": 0,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 1,
+    "intercontinental": 1,
+    "ballon": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    },
+    "fifa": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "copa": [
+     "2019 (mistrz)",
+     "2021 (finał)"
+    ],
+    "league": [
+     "PSG: 2014, 2015, 2016, 2018, 2019, 2020, 2022, 2023, 2024, 2025, 2026"
+    ],
+    "natCup": [
+     "PSG: 2015, 2016, 2017, 2018, 2020, 2021, 2024, 2025"
+    ],
+    "leagueCup": [
+     "PSG: 2014, 2015, 2016, 2017, 2018, 2020"
+    ],
+    "natSupercup": [
+     "PSG: 2014, 2015, 2017, 2018, 2019, 2020, 2022, 2023, 2024, 2025"
+    ],
+    "ucl": [
+     "PSG: 2025, 2026",
+     "PSG 2020 (finał)"
+    ],
+    "euroSupercup": [
+     "PSG: 2025"
+    ],
+    "intercontinental": [
+     "PSG: 2025"
+    ]
+   },
+   "natApp": 110,
+   "natGoals": 7,
+   "active": true
+  },
+  {
+   "name": "Lothar Matthäus",
+   "position": "MID",
+   "appearances": 909,
+   "goals": 227,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us",
+   "notes": "",
+   "photo": "img/lothar-matthaus.jpg",
+   "counts": {
+    "wc": {
+     "win": 1,
+     "final": 2,
+     "semi": 0
+    },
+    "euro": {
+     "win": 1,
+     "final": 0,
+     "semi": 1
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 7,
+    "natCup": 2,
+    "leagueCup": 3,
+    "natSupercup": 2,
+    "ucl": {
+     "win": 0,
+     "final": 2
+    },
+    "uefa": {
+     "win": 2,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 0,
+    "intercontinental": 0,
+    "ballon": {
+     "first": 1,
+     "second": 0,
+     "third": 0
+    },
+    "fifa": {
+     "first": 1,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "wc": [
+     "1990 (mistrz)",
+     "1982 (finał)",
+     "1986 (finał)"
+    ],
+    "euro": [
+     "1980 (mistrz)",
+     "1988 (półfinał)"
+    ],
+    "league": [
+     "Bayern Monachium: 1985, 1986, 1987, 1994, 1997, 1999",
+     "Inter Mediolan: 1989"
+    ],
+    "natCup": [
+     "Bayern Monachium: 1986, 1998"
+    ],
+    "leagueCup": [
+     "Bayern Monachium: 1997, 1998, 1999"
+    ],
+    "natSupercup": [
+     "Bayern Monachium: 1987",
+     "Inter Mediolan: 1989"
+    ],
+    "ucl": [
+     "Bayern Monachium 1987 (finał)",
+     "Bayern Monachium 1999 (finał)"
+    ],
+    "uefa": [
+     "Bayern Monachium: 1996",
+     "Inter Mediolan: 1991"
+    ],
+    "ballon": [
+     "1990 (1.)"
+    ],
+    "fifa": [
+     "1991 (1.)"
+    ]
+   },
+   "natApp": 150,
+   "natGoals": 23
+  },
+  {
+   "name": "Arjen Robben",
+   "position": "FWD",
+   "appearances": 710,
+   "goals": 246,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/Arjen_Robben",
+   "notes": "",
+   "photo": "img/arjen-robben.jpg",
+   "counts": {
+    "wc": {
+     "win": 0,
+     "final": 1,
+     "semi": 1
+    },
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 1
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 12,
+    "natCup": 6,
+    "leagueCup": 2,
+    "natSupercup": 5,
+    "ucl": {
+     "win": 1,
+     "final": 2
+    },
+    "uefa": {
+     "win": 0,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 1,
+    "intercontinental": 0,
+    "ballon": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    },
+    "fifa": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "wc": [
+     "2010 (finał)",
+     "2014 (półfinał)"
+    ],
+    "euro": [
+     "2004 (półfinał)"
+    ],
+    "league": [
+     "PSV Eindhoven: 2003",
+     "Chelsea: 2005, 2006",
+     "Real Madryt: 2008",
+     "Bayern Monachium: 2010, 2013, 2014, 2015, 2016, 2017, 2018, 2019"
+    ],
+    "natCup": [
+     "Chelsea: 2007",
+     "Bayern Monachium: 2010, 2013, 2014, 2016, 2019"
+    ],
+    "leagueCup": [
+     "Chelsea: 2005, 2007"
+    ],
+    "natSupercup": [
+     "PSV Eindhoven: 2003",
+     "Chelsea: 2005",
+     "Real Madryt: 2008",
+     "Bayern Monachium: 2012, 2018"
+    ],
+    "ucl": [
+     "Bayern Monachium: 2013",
+     "Bayern Monachium 2010 (finał)",
+     "Bayern Monachium 2012 (finał)"
+    ],
+    "euroSupercup": [
+     "Bayern Monachium: 2013"
+    ]
+   },
+   "natApp": 96,
+   "natGoals": 37
+  },
+  {
+   "name": "Jérôme Boateng",
+   "position": "DEF",
+   "appearances": 630,
+   "goals": 12,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Boateng",
+   "notes": "",
+   "photo": "img/jerome-boateng.jpg",
+   "counts": {
+    "wc": {
+     "win": 1,
+     "final": 0,
+     "semi": 1
+    },
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 2
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 9,
+    "natCup": 6,
+    "leagueCup": 0,
+    "natSupercup": 2,
+    "ucl": {
+     "win": 2,
+     "final": 1
+    },
+    "uefa": {
+     "win": 0,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 2,
+    "intercontinental": 2,
+    "ballon": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    },
+    "fifa": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "wc": [
+     "2014 (mistrz)",
+     "2010 (półfinał)"
+    ],
+    "euro": [
+     "2012 (półfinał)",
+     "2016 (półfinał)"
+    ],
+    "league": [
+     "Bayern Monachium: 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021"
+    ],
+    "natCup": [
+     "Manchester City: 2011",
+     "Bayern Monachium: 2013, 2014, 2016, 2019, 2020"
+    ],
+    "natSupercup": [
+     "Bayern Monachium: 2012, 2020"
+    ],
+    "ucl": [
+     "Bayern Monachium: 2013, 2020",
+     "Bayern Monachium 2012 (finał)"
+    ],
+    "euroSupercup": [
+     "Bayern Monachium: 2013, 2020"
+    ],
+    "intercontinental": [
+     "Bayern Monachium: 2013, 2020"
+    ]
+   },
+   "natApp": 76,
+   "natGoals": 1
+  },
+  {
+   "name": "Dani Carvajal",
+   "position": "DEF",
+   "appearances": 539,
+   "goals": 16,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/Dani_Carvajal",
+   "notes": "",
+   "photo": "img/dani-carvajal.jpg",
+   "counts": {
+    "wc": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "euro": {
+     "win": 1,
+     "final": 0,
+     "semi": 0
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 4,
+    "natCup": 2,
+    "leagueCup": 0,
+    "natSupercup": 4,
+    "ucl": {
+     "win": 6,
+     "final": 0
+    },
+    "uefa": {
+     "win": 0,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 5,
+    "intercontinental": 5,
+    "ballon": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    },
+    "fifa": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "euro": [
+     "2024 (mistrz)"
+    ],
+    "league": [
+     "Real Madryt: 2017, 2020, 2022, 2024"
+    ],
+    "natCup": [
+     "Real Madryt: 2014, 2023"
+    ],
+    "natSupercup": [
+     "Real Madryt: 2017, 2020, 2022, 2024"
+    ],
+    "ucl": [
+     "Real Madryt: 2014, 2016, 2017, 2018, 2022, 2024"
+    ],
+    "euroSupercup": [
+     "Real Madryt: 2014, 2016, 2017, 2022, 2024"
+    ],
+    "intercontinental": [
+     "Real Madryt: 2014, 2016, 2017, 2018, 2022"
+    ]
+   },
+   "natApp": 52,
+   "natGoals": 1,
+   "active": true
+  },
+  {
+   "name": "Ruud Gullit",
+   "position": "MID",
+   "appearances": 641,
+   "goals": 236,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/Ruud_Gullit",
+   "notes": "",
+   "photo": "img/ruud-gullit.jpg",
+   "counts": {
+    "wc": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "euro": {
+     "win": 1,
+     "final": 0,
+     "semi": 1
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 6,
+    "natCup": 3,
+    "leagueCup": 0,
+    "natSupercup": 2,
+    "ucl": {
+     "win": 2,
+     "final": 0
+    },
+    "uefa": {
+     "win": 0,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 2,
+    "intercontinental": 1,
+    "ballon": {
+     "first": 1,
+     "second": 1,
+     "third": 0
+    },
+    "fifa": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "euro": [
+     "1988 (mistrz)",
+     "1992 (półfinał)"
+    ],
+    "league": [
+     "Feyenoord: 1984",
+     "PSV Eindhoven: 1986, 1987",
+     "AC Milan: 1988, 1992, 1993"
+    ],
+    "natCup": [
+     "Feyenoord: 1984",
+     "Sampdoria: 1994",
+     "Chelsea: 1997"
+    ],
+    "natSupercup": [
+     "AC Milan: 1992, 1994"
+    ],
+    "ucl": [
+     "AC Milan: 1989, 1990"
+    ],
+    "euroSupercup": [
+     "AC Milan: 1989, 1990"
+    ],
+    "intercontinental": [
+     "AC Milan: 1990"
+    ],
+    "ballon": [
+     "1987 (1.)",
+     "1988 (2.)"
+    ]
+   },
+   "natApp": 66,
+   "natGoals": 17
+  },
+  {
+   "name": "Marco van Basten",
+   "position": "FWD",
+   "appearances": 437,
+   "goals": 307,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/Marco_van_Basten",
+   "notes": "",
+   "photo": "img/marco-van-basten.jpg",
+   "counts": {
+    "wc": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "euro": {
+     "win": 1,
+     "final": 0,
+     "semi": 1
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 7,
+    "natCup": 3,
+    "leagueCup": 0,
+    "natSupercup": 2,
+    "ucl": {
+     "win": 2,
+     "final": 0
+    },
+    "uefa": {
+     "win": 1,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 2,
+    "intercontinental": 2,
+    "ballon": {
+     "first": 3,
+     "second": 0,
+     "third": 0
+    },
+    "fifa": {
+     "first": 1,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "euro": [
+     "1988 (mistrz)",
+     "1992 (półfinał)"
+    ],
+    "league": [
+     "Ajax: 1982, 1983, 1985",
+     "AC Milan: 1988, 1992, 1993, 1994"
+    ],
+    "natCup": [
+     "Ajax: 1983, 1986, 1987"
+    ],
+    "natSupercup": [
+     "AC Milan: 1988, 1992"
+    ],
+    "ucl": [
+     "AC Milan: 1989, 1990"
+    ],
+    "uefa": [
+     "Ajax: 1987"
+    ],
+    "euroSupercup": [
+     "AC Milan: 1989, 1990"
+    ],
+    "intercontinental": [
+     "AC Milan: 1989, 1990"
+    ],
+    "ballon": [
+     "1988 (1.)",
+     "1989 (1.)",
+     "1992 (1.)"
+    ],
+    "fifa": [
+     "1992 (1.)"
+    ]
+   },
+   "natApp": 58,
+   "natGoals": 24
+  },
+  {
+   "name": "Xabi Alonso",
+   "position": "MID",
+   "appearances": 801,
+   "goals": 60,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/Xabi_Alonso",
+   "notes": "",
+   "photo": "img/xabi-alonso.jpg",
+   "counts": {
+    "wc": {
+     "win": 1,
+     "final": 0,
+     "semi": 0
+    },
+    "euro": {
+     "win": 2,
+     "final": 0,
+     "semi": 0
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 4,
+    "natCup": 4,
+    "leagueCup": 0,
+    "natSupercup": 3,
+    "ucl": {
+     "win": 2,
+     "final": 1
+    },
+    "uefa": {
+     "win": 0,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 1,
+    "intercontinental": 0,
+    "ballon": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    },
+    "fifa": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "wc": [
+     "2010 (mistrz)"
+    ],
+    "euro": [
+     "2008 (mistrz)",
+     "2012 (mistrz)"
+    ],
+    "league": [
+     "Real Madryt: 2012",
+     "Bayern Monachium: 2015, 2016, 2017"
+    ],
+    "natCup": [
+     "Liverpool: 2006",
+     "Real Madryt: 2011, 2014",
+     "Bayern Monachium: 2016"
+    ],
+    "natSupercup": [
+     "Liverpool: 2006",
+     "Real Madryt: 2012",
+     "Bayern Monachium: 2016"
+    ],
+    "ucl": [
+     "Liverpool: 2005",
+     "Real Madryt: 2014",
+     "Liverpool 2007 (finał)"
+    ],
+    "euroSupercup": [
+     "Liverpool: 2005"
+    ]
+   },
+   "natApp": 114,
+   "natGoals": 16
+  },
+  {
+   "name": "Carles Puyol",
+   "position": "DEF",
+   "appearances": 693,
+   "goals": 21,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/Carles_Puyol",
+   "notes": "",
+   "photo": "img/carles-puyol.jpg",
+   "counts": {
+    "wc": {
+     "win": 1,
+     "final": 0,
+     "semi": 0
+    },
+    "euro": {
+     "win": 1,
+     "final": 0,
+     "semi": 0
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 6,
+    "natCup": 2,
+    "leagueCup": 0,
+    "natSupercup": 4,
+    "ucl": {
+     "win": 3,
+     "final": 0
+    },
+    "uefa": {
+     "win": 0,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 1,
+    "intercontinental": 2,
+    "ballon": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    },
+    "fifa": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "wc": [
+     "2010 (mistrz)"
+    ],
+    "euro": [
+     "2008 (mistrz)"
+    ],
+    "league": [
+     "Barcelona: 2005, 2006, 2009, 2010, 2011, 2013"
+    ],
+    "natCup": [
+     "Barcelona: 2009, 2012"
+    ],
+    "natSupercup": [
+     "Barcelona: 2005, 2006, 2009, 2010"
+    ],
+    "ucl": [
+     "Barcelona: 2006, 2009, 2011"
+    ],
+    "euroSupercup": [
+     "Barcelona: 2009"
+    ],
+    "intercontinental": [
+     "Barcelona: 2009, 2011"
+    ]
+   },
+   "natApp": 100,
+   "natGoals": 3
+  },
+  {
+   "name": "Bernardo Silva",
+   "position": "MID",
+   "appearances": 723,
+   "goals": 118,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/Bernardo_Silva",
+   "notes": "",
+   "photo": "img/bernardo-silva.jpg",
+   "counts": {
+    "wc": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 8,
+    "natCup": 4,
+    "leagueCup": 6,
+    "natSupercup": 3,
+    "ucl": {
+     "win": 1,
+     "final": 1
+    },
+    "uefa": {
+     "win": 0,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 0,
+    "intercontinental": 1,
+    "ballon": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    },
+    "fifa": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "league": [
+     "Benfica: 2014",
+     "Monaco: 2017",
+     "Manchester City: 2018, 2019, 2021, 2022, 2023, 2024"
+    ],
+    "natCup": [
+     "Benfica: 2014",
+     "Manchester City: 2019, 2023, 2026"
+    ],
+    "leagueCup": [
+     "Benfica: 2014",
+     "Manchester City: 2018, 2019, 2020, 2021, 2026"
+    ],
+    "natSupercup": [
+     "Manchester City: 2018, 2019, 2024"
+    ],
+    "ucl": [
+     "Manchester City: 2023",
+     "Manchester City 2021 (finał)"
+    ],
+    "intercontinental": [
+     "Manchester City: 2023"
+    ]
+   },
+   "natApp": 113,
+   "natGoals": 14,
+   "active": true
+  },
+  {
+   "name": "Miroslav Klose",
+   "position": "FWD",
+   "appearances": 753,
+   "goals": 303,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/Miroslav_Klose",
+   "notes": "",
+   "photo": "img/miroslav-klose.jpg",
+   "counts": {
+    "wc": {
+     "win": 1,
+     "final": 1,
+     "semi": 2
+    },
+    "euro": {
+     "win": 0,
+     "final": 1,
+     "semi": 1
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 2,
+    "natCup": 3,
+    "leagueCup": 2,
+    "natSupercup": 1,
+    "ucl": {
+     "win": 0,
+     "final": 1
+    },
+    "uefa": {
+     "win": 0,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 0,
+    "intercontinental": 0,
+    "ballon": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    },
+    "fifa": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "wc": [
+     "2014 (mistrz)",
+     "2002 (finał)",
+     "2006 (półfinał)",
+     "2010 (półfinał)"
+    ],
+    "euro": [
+     "2008 (finał)",
+     "2012 (półfinał)"
+    ],
+    "league": [
+     "Bayern Monachium: 2008, 2010"
+    ],
+    "natCup": [
+     "Bayern Monachium: 2008, 2010",
+     "Lazio: 2013"
+    ],
+    "leagueCup": [
+     "Werder Brema: 2006",
+     "Bayern Monachium: 2007"
+    ],
+    "natSupercup": [
+     "Bayern Monachium: 2010"
+    ],
+    "ucl": [
+     "Bayern Monachium 2010 (finał)"
+    ]
+   },
+   "natApp": 137,
+   "natGoals": 71
+  },
+  {
+   "name": "Achraf Hakimi",
+   "position": "DEF",
+   "appearances": 444,
+   "goals": 61,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/Achraf_Hakimi",
+   "notes": "",
+   "photo": "img/achraf-hakimi.jpg",
+   "counts": {
+    "wc": {
+     "win": 0,
+     "final": 0,
+     "semi": 1
+    },
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 6,
+    "natCup": 2,
+    "leagueCup": 0,
+    "natSupercup": 5,
+    "ucl": {
+     "win": 3,
+     "final": 0
+    },
+    "uefa": {
+     "win": 0,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 2,
+    "intercontinental": 1,
+    "ballon": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    },
+    "fifa": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "wc": [
+     "2022 (półfinał)"
+    ],
+    "league": [
+     "Inter Mediolan: 2021",
+     "PSG: 2022, 2023, 2024, 2025, 2026"
+    ],
+    "natCup": [
+     "PSG: 2024, 2025"
+    ],
+    "natSupercup": [
+     "Real Madryt: 2017",
+     "Borussia Dortmund: 2019",
+     "PSG: 2022, 2023, 2024"
+    ],
+    "ucl": [
+     "Real Madryt: 2018",
+     "PSG: 2025, 2026"
+    ],
+    "euroSupercup": [
+     "Real Madryt: 2017",
+     "PSG: 2025"
+    ],
+    "intercontinental": [
+     "Real Madryt: 2017"
+    ]
+   },
+   "natApp": 102,
+   "natGoals": 12,
+   "active": true
+  },
+  {
+   "name": "İlkay Gündoğan",
+   "position": "MID",
+   "appearances": 701,
+   "goals": 112,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/%C4%B0lkay_G%C3%BCndo%C4%9Fan",
+   "notes": "",
+   "photo": "img/ilkay-gundogan.jpg",
+   "counts": {
+    "wc": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 1
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 6,
+    "natCup": 3,
+    "leagueCup": 4,
+    "natSupercup": 3,
+    "ucl": {
+     "win": 1,
+     "final": 2
+    },
+    "uefa": {
+     "win": 0,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 0,
+    "intercontinental": 0,
+    "ballon": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    },
+    "fifa": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "euro": [
+     "2012 (półfinał)"
+    ],
+    "league": [
+     "Borussia Dortmund: 2012",
+     "Manchester City: 2018, 2019, 2021, 2022, 2023"
+    ],
+    "natCup": [
+     "Borussia Dortmund: 2012",
+     "Manchester City: 2019, 2023"
+    ],
+    "leagueCup": [
+     "Manchester City: 2018, 2019, 2020, 2021"
+    ],
+    "natSupercup": [
+     "Borussia Dortmund: 2013",
+     "Manchester City: 2018, 2019"
+    ],
+    "ucl": [
+     "Manchester City: 2023",
+     "Borussia Dortmund 2013 (finał)",
+     "Manchester City 2021 (finał)"
+    ]
+   },
+   "natApp": 82,
+   "natGoals": 19,
    "active": true
   }
  ]

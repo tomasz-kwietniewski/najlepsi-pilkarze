@@ -26,29 +26,17 @@ Format wejscia (dwa warianty per gracz):
 Uzycie:  python tools/merge_detail.py public/data/players.json path/to/detail.json
          (dodaj --dry-run, aby tylko zwalidowac i pokazac roznice bez zapisu)
 """
-import json, sys, re, unicodedata
+import json, sys, re, os, unicodedata
 
-# Replika wag ze scoring.js (do policzenia wplywu korekt counts na punkty).
-WEIGHTS = {
-    "wc": {"win": 12, "final": 8, "semi": 6}, "euro": {"win": 9, "final": 7, "semi": 5},
-    "copa": {"win": 4.5, "final": 3.5, "semi": 2.5}, "league": 5, "natCup": 3, "leagueCup": 1,
-    "natSupercup": 1, "ucl": {"win": 8, "final": 5}, "uefa": {"win": 5, "final": 3},
-    "conference": {"win": 2.5, "final": 1.5}, "euroSupercup": 2, "intercontinental": 2,
-    "ballon": {"first": 5, "second": 3, "third": 1}, "fifa": {"first": 5, "second": 3, "third": 1},
-}
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# Wagi czytane WPROST ze scoring.js - zero replik, zero rozjazdu (patrz scoring_weights.py).
+from scoring_weights import WEIGHTS, cat_points, TROPHY_KEYS
 
-def cat_points(key, val):
-    if val is None:
-        return 0
-    w = WEIGHTS[key]
-    if isinstance(w, (int, float)):
-        return (val or 0) * w
-    return sum((val.get(p, 0) or 0) * wt for p, wt in w.items())
 
 def counts_diff(old, new):
     """Lista (key, old, new, delta_pkt) dla zmienionych kategorii."""
     out = []
-    for key in WEIGHTS:
+    for key in TROPHY_KEYS:
         o, n = old.get(key), new.get(key)
         if o != n:
             dp = cat_points(key, n) - cat_points(key, o)

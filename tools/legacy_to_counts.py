@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Konwersja legacy (punkty) -> counts (liczby zdobyc), dekodujac wg STARYCH wag.
 import json, itertools, os
-ROOT = "C:/Users/L857K/claude/najlepsi-pilkarze"
+ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))  # katalog repo (dziala tez w git worktree)
 db = json.load(open(os.path.join(ROOT, "public/data/players.json"), encoding="utf-8"))
 
 # stare wagi, ktorymi liczono punkty w arkuszu
