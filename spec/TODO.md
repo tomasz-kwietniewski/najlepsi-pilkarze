@@ -45,5 +45,24 @@
 - [x] Zdjęcia self-hostowane w public/img/ (110/110, w tym Deco i Xavi z plików usera).
 - [x] Występy/gole = wszystkie rozgrywki, tylko top-ligi + reprezentacja.
 
+## Aktualizacja po MŚ 2026 (20.07.2026) - WDROŻONE
+- [x] **Procedura aktualizacji** spisana: `spec/PROCEDURA-AKTUALIZACJI.md` (kalendarz + kroki + bramki
+      jakości) oraz `tools/REGULY_AUDYTU.md` (reguły mapowania trofeów, prompt dla agentów).
+- [x] MŚ 2026 (Hiszpania - Argentyna 1:0 po dogrywce, 3. Anglia, 4. Francja): mistrzostwo, finał
+      i półfinały naniesione; występy/gole w kadrze zaktualizowane po turnieju.
+- [x] "Przetrzepanie" 28 aktywnych: audyt trofeów wg świeżych sekcji Honours + weryfikacja udziału
+      w kadrach turniejów. Wyłapane stare luki, m.in. półfinały MŚ/ME (Neuer 2010, Kane 2018,
+      van Dijk ME 2024, Suárez i Cavani MŚ 2010, Neymar MŚ 2014) i superpuchary (Neymar, CR7).
+- [x] **Podia nagród** (2. i 3. miejsce Złotej Piłki i nagrody FIFA) - dotąd niekompletne, teraz
+      pobierane automatycznie z Wikipedii przez `tools/fetch_awards.py --apply` (27 poprawek).
+- [x] 15 nowych piłkarzy powyżej progu 100 pkt (m.in. Müller, Alaba, Matthäus, Marquinhos, Robben,
+      van Basten, Gullit) wraz ze zdjęciami. Razem 125 piłkarzy, 35 aktywnych.
+- [x] Wagi punktacji czytane przez skrypty wprost ze `scoring.js` (`tools/scoring_weights.py`) -
+      koniec z rozjeżdżającymi się replikami. Ścieżki w tools/ liczone od repo (działa w git worktree).
+
 ## Opcjonalne
 - [ ] Dokładniejsza weryfikacja występów/goli co do meczu (kosmetyka, ~1 pkt różnicy).
+- [ ] Dokończyć przegląd kandydatów spoza rankingu - w 2026 sprawdzono listę 20 nazwisk, ale to nie
+      jest wyczerpujące (do sprawdzenia m.in. Agüero, Rúben Dias, Jordi Alba, Mascherano, Alisson).
+- [ ] Audyt półfinałów reprezentacji u piłkarzy **nieaktywnych** (u aktywnych zrobiony w 2026;
+      u emerytów mogą zostać podobne luki).

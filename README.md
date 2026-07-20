@@ -64,6 +64,10 @@ przy weryfikacji poprawiliśmy sporo błędów w obie strony (zawyżenia z lig s
 pominięcia - np. przegrane finały Ligi Mistrzów czy półfinały reprezentacji). Piłkarze dodawani są
 po akceptacji; nowych typujemy m.in. z podiów Złotej Piłki i The Best z ostatnich lat.
 
+Ranking jest odświeżany po każdym dużym turnieju i po nagrodach indywidualnych - krok po kroku
+opisuje to [`spec/PROCEDURA-AKTUALIZACJI.md`](spec/PROCEDURA-AKTUALIZACJI.md).
+**Stan: 20 lipca 2026** (po MŚ 2026), 125 piłkarzy.
+
 ## Co widać na stronie
 
 - **Podium** trzech najlepszych i pełny, sortowalny ranking (po pozycji, występach, golach, punktach).
@@ -87,9 +91,12 @@ Czysta strona statyczna, bez serwera i bazy. Trzy warstwy:
 - `public/scoring.js` - reguły punktacji (jedno źródło prawdy; zmiana wagi = jedna liczba).
 - `public/index.html` - interaktywny raport.
 
-Narzędzia pomocnicze w `tools/` (Python): `merge_detail.py` (dopisuje trofea/lata i **waliduje spójność**
-liczb z punktacją), `merge_caps.py` (występy/gole reprezentacji), `merge_active.py` (status aktywności).
-Skrypty pobierające dane z Wikipedii (sekcje Honours, infoboksy) są uruchamiane doraźnie.
+Narzędzia pomocnicze w `tools/` (Python) - opis w [`tools/README.md`](tools/README.md):
+pobieranie danych z Wikipedii (`fetch_wiki.py` - trofea i infoboksy, `fetch_awards.py` - podia Złotej
+Piłki i nagród FIFA, `fetch_photos.py` - zdjęcia), nanoszenie zmian (`merge_detail.py` - trofea/lata
+z **walidacją spójności** z punktacją, `merge_caps.py` - występy/gole reprezentacji, `merge_active.py` -
+status aktywności, `add_players.py` - nowi piłkarze). Wagi punktacji skrypty czytają wprost
+ze `scoring.js` (`scoring_weights.py`), więc nie da się ich rozjechać z jedynym źródłem prawdy.
 
 Publikacja: push do `main` -> GitHub Actions publikuje na GitHub Pages pod subdomeną
 (bez sekretów, autoryzacja tokenem OIDC). Folder `docs/` to lokalny katalog roboczy (poza repo).

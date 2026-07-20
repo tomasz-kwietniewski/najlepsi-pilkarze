@@ -16,3 +16,10 @@ docs/
 
 # Pliki tymczasowe/lock MS Office (np. ~$Tabela....xlsx).
 ~$*
+
+# Cache Pythona ze skryptow w tools/.
+__pycache__/
+*.pyc
+
+# Artefakty weryfikacji w przegladarce (Playwright MCP).
+.playwright-mcp/

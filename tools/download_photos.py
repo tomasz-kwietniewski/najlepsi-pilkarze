@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import urllib.request, json, os, re, unicodedata, shutil
-ROOT = "C:/Users/L857K/claude/najlepsi-pilkarze"
+ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))  # katalog repo (dziala tez w git worktree)
 IMG = os.path.join(ROOT, "public/img")
 os.makedirs(IMG, exist_ok=True)
 UA = "najlepsi-pilkarze/1.0 (hobby; tomasz.kwietniewski@gmail.com)"

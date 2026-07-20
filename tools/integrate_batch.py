@@ -2,7 +2,7 @@
 # Wpina batch (styl "counts", final methodology) do players.json.
 # Dopasowanie po nazwie odporne na akcenty/wielkosc liter; zachowuje istniejace 'photo'.
 import json, sys, unicodedata, os
-ROOT = "C:/Users/L857K/claude/najlepsi-pilkarze"
+ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))  # katalog repo (dziala tez w git worktree)
 batch_path = sys.argv[1]
 
 def norm(s):
