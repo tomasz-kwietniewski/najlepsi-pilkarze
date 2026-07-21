@@ -671,7 +671,7 @@
     "euro": {
      "win": 1,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "copa": {
      "win": 0,
@@ -714,7 +714,8 @@
      "1998 (mistrz)"
     ],
     "euro": [
-     "2000 (mistrz)"
+     "2000 (mistrz)",
+     "1996 (półfinał)"
     ],
     "league": [
      "Auxerre: 1996",
@@ -853,7 +854,7 @@
     "euro": {
      "win": 1,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "copa": {
      "win": 0,
@@ -896,7 +897,8 @@
      "1998 (mistrz)"
     ],
     "euro": [
-     "2000 (mistrz)"
+     "2000 (mistrz)",
+     "1996 (półfinał)"
     ],
     "league": [
      "Bayern Monachium: 1999, 2000, 2001, 2003, 2005, 2006"
@@ -1026,7 +1028,7 @@
     "wc": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
@@ -1101,6 +1103,9 @@
     "fifa": [
      "1993 (3.)",
      "1997 (3.)"
+    ],
+    "wc": [
+     "1998 (półfinał)"
     ]
    }
   },
@@ -1305,7 +1310,7 @@
     "wc": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
@@ -1379,6 +1384,9 @@
     ],
     "ballon": [
      "2004 (2.)"
+    ],
+    "wc": [
+     "2006 (półfinał)"
     ]
    }
   },
@@ -1486,7 +1494,7 @@
     "euro": {
      "win": 0,
      "final": 1,
-     "semi": 0
+     "semi": 1
     },
     "copa": {
      "win": 0,
@@ -1526,7 +1534,8 @@
    "natGoals": 18,
    "detail": {
     "euro": [
-     "1996 (finał)"
+     "1996 (finał)",
+     "2004 (półfinał)"
     ],
     "league": [
      "Lazio: 2000",
@@ -1573,7 +1582,7 @@
     "euro": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 3
     },
     "copa": {
      "win": 0,
@@ -1636,6 +1645,11 @@
     ],
     "intercontinental": [
      "Ajax: 1995"
+    ],
+    "euro": [
+     "1992 (półfinał)",
+     "2000 (półfinał)",
+     "2004 (półfinał)"
     ]
    }
   },
@@ -1658,7 +1672,7 @@
     "euro": {
      "win": 1,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "copa": {
      "win": 0,
@@ -1701,7 +1715,8 @@
      "1998 (mistrz)"
     ],
     "euro": [
-     "2000 (mistrz)"
+     "2000 (mistrz)",
+     "1996 (półfinał)"
     ],
     "league": [
      "Marseille: 1990, 1992",
@@ -1826,7 +1841,7 @@
     "euro": {
      "win": 1,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "copa": {
      "win": 0,
@@ -1869,7 +1884,8 @@
      "1998 (mistrz)"
     ],
     "euro": [
-     "2000 (mistrz)"
+     "2000 (mistrz)",
+     "1996 (półfinał)"
     ],
     "league": [
      "AC Milan: 1994, 1996"
@@ -2207,7 +2223,7 @@
     "euro": {
      "win": 1,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "copa": {
      "win": 0,
@@ -2251,7 +2267,8 @@
      "2006 (finał)"
     ],
     "euro": [
-     "2000 (mistrz)"
+     "2000 (mistrz)",
+     "1996 (półfinał)"
     ],
     "league": [
      "Juventus: 2002, 2003"
@@ -2402,7 +2419,7 @@
     },
     "euro": {
      "win": 0,
-     "final": 0,
+     "final": 1,
      "semi": 0
     },
     "copa": {
@@ -2467,6 +2484,9 @@
     ],
     "intercontinental": [
      "AC Milan: 2007"
+    ],
+    "euro": [
+     "2000 (finał)"
     ]
    }
   },
@@ -2660,7 +2680,7 @@
     },
     "copa": {
      "win": 0,
-     "final": 0,
+     "final": 2,
      "semi": 0
     },
     "league": 4,
@@ -2716,6 +2736,10 @@
     ],
     "intercontinental": [
      "Inter Mediolan: 2010"
+    ],
+    "copa": [
+     "2004 (finał)",
+     "2007 (finał)"
     ]
    }
   },
@@ -2818,12 +2842,12 @@
     "wc": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 2
     },
     "copa": {
      "win": 0,
@@ -2881,6 +2905,13 @@
     ],
     "intercontinental": [
      "Manchester United: 1999"
+    ],
+    "wc": [
+     "1998 (półfinał)"
+    ],
+    "euro": [
+     "2000 (półfinał)",
+     "2004 (półfinał)"
     ]
    }
   },
@@ -2977,7 +3008,7 @@
     "euro": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "copa": {
      "win": 0,
@@ -3035,6 +3066,9 @@
      "PSV Eindhoven: 1998",
      "Manchester United: 2003",
      "Real Madryt: 2008"
+    ],
+    "euro": [
+     "2004 (półfinał)"
     ]
    }
   },
@@ -3571,7 +3605,7 @@
     "euro": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "copa": {
      "win": 0,
@@ -3618,6 +3652,9 @@
     ],
     "fifa": [
      "1996 (3.)"
+    ],
+    "euro": [
+     "1996 (półfinał)"
     ]
    }
   },
@@ -5046,7 +5083,7 @@
    "counts": {
     "wc": {
      "win": 1,
-     "final": 0,
+     "final": 1,
      "semi": 0
     },
     "euro": {
@@ -5096,7 +5133,8 @@
    "natGoals": 6,
    "detail": {
     "wc": [
-     "1998 (mistrz)"
+     "1998 (mistrz)",
+     "2006 (finał)"
     ],
     "euro": [
      "2000 (mistrz)"
@@ -5552,7 +5590,7 @@
    "counts": {
     "wc": {
      "win": 1,
-     "final": 0,
+     "final": 1,
      "semi": 0
     },
     "euro": {
@@ -5562,7 +5600,7 @@
     },
     "copa": {
      "win": 2,
-     "final": 0,
+     "final": 1,
      "semi": 0
     },
     "league": 0,
@@ -5602,11 +5640,13 @@
    "natGoals": 6,
    "detail": {
     "wc": [
-     "1994 (mistrz)"
+     "1994 (mistrz)",
+     "1998 (finał)"
     ],
     "copa": [
      "1989 (mistrz)",
-     "1997 (mistrz)"
+     "1997 (mistrz)",
+     "1995 (finał)"
     ]
    }
   },
@@ -5782,12 +5822,12 @@
     "wc": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 2
     },
     "copa": {
      "win": 0,
@@ -5846,6 +5886,13 @@
     ],
     "intercontinental": [
      "Ajax: 1995"
+    ],
+    "wc": [
+     "1998 (półfinał)"
+    ],
+    "euro": [
+     "2000 (półfinał)",
+     "2004 (półfinał)"
     ]
    }
   },
@@ -6372,7 +6419,7 @@
     "wc": {
      "win": 1,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
@@ -6418,7 +6465,8 @@
    "photo": "img/toni-kroos.jpg",
    "detail": {
     "wc": [
-     "2014 (mistrz)"
+     "2014 (mistrz)",
+     "2010 (półfinał)"
     ],
     "euro": [
      "2012 (półfinał)",
@@ -7474,7 +7522,7 @@
     "euro": {
      "win": 0,
      "final": 1,
-     "semi": 1
+     "semi": 2
     },
     "copa": {
      "win": 0,
@@ -7522,7 +7570,8 @@
     ],
     "euro": [
      "2008 (finał)",
-     "2012 (półfinał)"
+     "2012 (półfinał)",
+     "2016 (półfinał)"
     ],
     "league": [
      "Bayern Monachium: 2003, 2005, 2006, 2008, 2010, 2013, 2014, 2015"
@@ -7653,7 +7702,7 @@
     "wc": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "euro": {
      "win": 0,
@@ -7723,6 +7772,9 @@
     ],
     "euroSupercup": [
      "Atlético Madryt: 2010, 2012, 2018"
+    ],
+    "wc": [
+     "2010 (półfinał)"
     ]
    }
   },
@@ -9090,7 +9142,7 @@
     "euro": {
      "win": 0,
      "final": 0,
-     "semi": 0
+     "semi": 1
     },
     "copa": {
      "win": 0,
@@ -9153,6 +9205,9 @@
     ],
     "intercontinental": [
      "Real Madryt: 2014, 2017, 2018"
+    ],
+    "euro": [
+     "2016 (półfinał)"
     ]
    }
   },
