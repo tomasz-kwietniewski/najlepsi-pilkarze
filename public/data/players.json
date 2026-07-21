@@ -12953,6 +12953,89 @@
    },
    "natApp": 91,
    "natGoals": 34
+  },
+  {
+   "name": "Zbigniew Boniek",
+   "position": "FWD",
+   "appearances": 225,
+   "goals": 54,
+   "style": "counts",
+   "dataComplete": true,
+   "source": "https://en.wikipedia.org/wiki/Zbigniew_Boniek",
+   "notes": "",
+   "photo": "img/zbigniew-boniek.jpg",
+   "counts": {
+    "wc": {
+     "win": 0,
+     "final": 0,
+     "semi": 1
+    },
+    "euro": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "copa": {
+     "win": 0,
+     "final": 0,
+     "semi": 0
+    },
+    "league": 1,
+    "natCup": 2,
+    "leagueCup": 0,
+    "natSupercup": 0,
+    "ucl": {
+     "win": 1,
+     "final": 1
+    },
+    "uefa": {
+     "win": 1,
+     "final": 0
+    },
+    "conference": {
+     "win": 0,
+     "final": 0
+    },
+    "euroSupercup": 1,
+    "intercontinental": 0,
+    "ballon": {
+     "first": 0,
+     "second": 0,
+     "third": 1
+    },
+    "fifa": {
+     "first": 0,
+     "second": 0,
+     "third": 0
+    }
+   },
+   "detail": {
+    "wc": [
+     "1982 (półfinał)"
+    ],
+    "league": [
+     "Juventus: 1984"
+    ],
+    "natCup": [
+     "Juventus: 1983",
+     "Roma: 1986"
+    ],
+    "ucl": [
+     "Juventus: 1985",
+     "Juventus 1983 (finał)"
+    ],
+    "uefa": [
+     "Juventus: 1984"
+    ],
+    "euroSupercup": [
+     "Juventus: 1984"
+    ],
+    "ballon": [
+     "1982 (3.)"
+    ]
+   },
+   "natApp": 80,
+   "natGoals": 24
   }
  ]
 }
