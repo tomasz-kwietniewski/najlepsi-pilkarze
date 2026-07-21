@@ -73,9 +73,20 @@
       Beckenbauer, Gerd Müller, Di Stéfano...) świadomie POZA rankingiem - to wybór, nie przeoczenie.
 - [x] Razem 149 piłkarzy, 41 aktywnych.
 
+## Audyt półfinałów reprezentacji u nieaktywnych (21.07.2026) - WDROŻONE
+- [x] Półfinały MŚ/ME (3./4. miejsce = semi) rzadko są w sekcji Honours, więc stare counts miały luki.
+      Weryfikacja turniej-po-turnieju (4 subagenci, potwierdzenie obecności w kadrach) poprawiła 21 graczy:
+      ME 1996 Francja (Thuram, Deschamps, Desailly, Lizarazu, Blanc), Holandia (de Boer +3 ME, Stam,
+      Kluivert, van Nistelrooy, Bergkamp), Niemcy (Kroos -> top 10, Schweinsteiger), Nedved, Bale,
+      Shearer, Deco, Godín. Przy okazji brakujące FINAŁY: Vieira (MŚ 2006), Inzaghi (ME 2000),
+      Dunga (MŚ 1998 + Copa 1995), Zanetti (Copa 2004/2007).
+- [x] Weryfikacja ochroniła przed błędami: odrzucono Zanetti Copa 1995 (Argentyna odpadła w ćwierćfinale,
+      4. miejsce = USA), Cafu Copa 1995 (nie w kadrze), Verón Copa 2004 (poza kadrą w erze Bielsy).
+      LEKCJA: przesłanka o "Copa 1995 Argentyna 4. miejsce" była moim błędem - subagent go wychwycił.
+
 ## Opcjonalne / na przyszłość
 - [ ] Dokładniejsza weryfikacja występów/goli co do meczu (kosmetyka, ~1 pkt różnicy).
-- [ ] Audyt półfinałów reprezentacji u piłkarzy **nieaktywnych** (u aktywnych zrobiony w 2026;
-      u emerytów mogą zostać podobne luki - np. czy stare counts nie pomijają 3./4. miejsc).
 - [ ] Jeśli user zechce jeszcze szerzej: kolejni kandydaci ~90-100 pkt (Ederson, Stanković, Čech,
       Alexis Sánchez) i ewentualnie pełne otwarcie na legendy lat 50.-80.
+- [ ] Ewentualnie audyt brakujących copa WIN/FINAL u Brazylijczyków/Argentyńczyków (np. czy ktoś
+      nie pomija Copa América, w której był w kadrze mistrza) - przy okazji semi wyszło kilka finałów.
