@@ -66,7 +66,7 @@ po akceptacji; nowych typujemy m.in. z podiów Złotej Piłki i The Best z ostat
 
 Ranking jest odświeżany po każdym dużym turnieju i po nagrodach indywidualnych - krok po kroku
 opisuje to [`spec/PROCEDURA-AKTUALIZACJI.md`](spec/PROCEDURA-AKTUALIZACJI.md).
-**Stan: 20 lipca 2026** (po MŚ 2026), 125 piłkarzy.
+**Stan: 21 lipca 2026** (po MŚ 2026), 149 piłkarzy.
 
 ## Co widać na stronie
 

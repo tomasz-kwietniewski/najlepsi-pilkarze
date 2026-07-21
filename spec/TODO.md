@@ -60,9 +60,22 @@
 - [x] Wagi punktacji czytane przez skrypty wprost ze `scoring.js` (`tools/scoring_weights.py`) -
       koniec z rozjeżdżającymi się replikami. Ścieżki w tools/ liczone od repo (działa w git worktree).
 
-## Opcjonalne
+## Rozszerzenie rankingu (21.07.2026) - WDROŻONE
+- [x] Lautaro Martínez dodany (98,3 pkt) na wyraźną prośbę usera, mimo progu 100.
+- [x] Przejrzano ~40 dalszych kandydatów (bramkarze, obrońcy, pomocnicy, napastnicy). Weszło 21
+      powyżej progu 100 pkt: Scholes 144, Chiellini, Thiago, Bonucci, Khedira, Evra, Vidal, David Silva,
+      Agüero, Varane, Fàbregas, Mascherano, Jordi Alba, Verratti, Valdés, Higuaín, Isco, Walker, Matuidi,
+      Rakitić, Courtois. Poniżej progu (nie dodani): Ederson 98, Stanković, Čech, Alexis, Makélélé, Özil,
+      Sneijder, Pogba, Cambiasso, Džeko, Sterling, Rüdiger, Alisson.
+- [x] **Granica epok**: dodano Maradonę i Platiniego (decyzja usera). Platini 137,8 (top-32).
+      Maradona 64,9 (ok. 135. miejsca) - system premiuje kolekcję tytułów w top-ligach i Ligę Mistrzów,
+      a nie profil "geniusz + MŚ + Napoli", więc wypada nisko. Reszta legend sprzed 1990 (Cruyff,
+      Beckenbauer, Gerd Müller, Di Stéfano...) świadomie POZA rankingiem - to wybór, nie przeoczenie.
+- [x] Razem 149 piłkarzy, 41 aktywnych.
+
+## Opcjonalne / na przyszłość
 - [ ] Dokładniejsza weryfikacja występów/goli co do meczu (kosmetyka, ~1 pkt różnicy).
-- [ ] Dokończyć przegląd kandydatów spoza rankingu - w 2026 sprawdzono listę 20 nazwisk, ale to nie
-      jest wyczerpujące (do sprawdzenia m.in. Agüero, Rúben Dias, Jordi Alba, Mascherano, Alisson).
 - [ ] Audyt półfinałów reprezentacji u piłkarzy **nieaktywnych** (u aktywnych zrobiony w 2026;
-      u emerytów mogą zostać podobne luki).
+      u emerytów mogą zostać podobne luki - np. czy stare counts nie pomijają 3./4. miejsc).
+- [ ] Jeśli user zechce jeszcze szerzej: kolejni kandydaci ~90-100 pkt (Ederson, Stanković, Čech,
+      Alexis Sánchez) i ewentualnie pełne otwarcie na legendy lat 50.-80.
