@@ -51,4 +51,24 @@ check("legacy Maldini gole 40/3 = 13.33 (obronca)", near(m.goalPts, 13.333));
 check("legacy Maldini suma trofeow = 114", near(m.trophyPts, 114));
 check("legacy Maldini total = 156.70", near(m.total, 29.371 + 13.333 + 114));
 
+// 5. Mnoznik ligi: krajowe kategorie liczone z byLeague
+const bl = S.scorePlayer({ position: "MID", style: "counts",
+  counts: { league: 13, natCup: 6, natSupercup: 8 },
+  byLeague: { league: {"Niemcy":13}, natCup: {"Niemcy":6}, natSupercup: {"Niemcy":8} } });
+check("byLeague: 13 mistrzostw Niemiec x5 x0.6 = 39", near(bl.categories.find(x=>x.key==="league").points, 39));
+check("byLeague: 6 pucharow Niemiec x3 x0.6 = 10.8", near(bl.categories.find(x=>x.key==="natCup").points, 10.8));
+check("byLeague: 8 superpucharow Niemiec x1 x0.6 = 4.8", near(bl.categories.find(x=>x.key==="natSupercup").points, 4.8));
+
+const mixL = S.scorePlayer({ position: "MID", style: "counts",
+  counts: { league: 5 }, byLeague: { league: {"Niemcy":3, "Hiszpania":2} } });
+check("byLeague mix: Niemcy3 x0.6 + Hiszpania2 x0.7 = 9 + 7 = 16", near(mixL.categories.find(x=>x.key==="league").points, 16));
+
+const engL = S.scorePlayer({ position: "MID", style: "counts",
+  counts: { league: 3 }, byLeague: { league: {"Anglia":3} } });
+check("byLeague Anglia x1.0 = bez zmian (3x5=15)", near(engL.categories.find(x=>x.key==="league").points, 15));
+
+// fallback: brak byLeague -> stara plaska waga (mnoznik 1)
+const fb = S.scorePlayer({ position: "MID", style: "counts", counts: { league: 4 } });
+check("fallback bez byLeague: 4x5 = 20", near(fb.categories.find(x=>x.key==="league").points, 20));
+
 console.log("\nPRZESZLO: " + pass + " asercji");

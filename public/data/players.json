@@ -94,7 +94,18 @@
     ]
    },
    "natApp": 126,
-   "natGoals": 7
+   "natGoals": 7,
+   "byLeague": {
+    "league": {
+     "Włochy": 7
+    },
+    "natCup": {
+     "Włochy": 1
+    },
+    "natSupercup": {
+     "Włochy": 3
+    }
+   }
   },
   {
    "name": "Luis Figo",
@@ -196,7 +207,22 @@
     ]
    },
    "natApp": 127,
-   "natGoals": 32
+   "natGoals": 32,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 4,
+     "Włochy": 3
+    },
+    "natCup": {
+     "Portugalia": 1,
+     "Hiszpania": 2,
+     "Włochy": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 3,
+     "Włochy": 2
+    }
+   }
   },
   {
    "name": "Ryan Giggs",
@@ -277,7 +303,21 @@
     ]
    },
    "natApp": 64,
-   "natGoals": 12
+   "natGoals": 12,
+   "byLeague": {
+    "league": {
+     "Anglia": 13
+    },
+    "natCup": {
+     "Anglia": 4
+    },
+    "leagueCup": {
+     "Anglia": 4
+    },
+    "natSupercup": {
+     "Anglia": 9
+    }
+   }
   },
   {
    "name": "Roberto Carlos",
@@ -367,7 +407,15 @@
     ]
    },
    "natApp": 125,
-   "natGoals": 10
+   "natGoals": 10,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 4
+    },
+    "natSupercup": {
+     "Hiszpania": 3
+    }
+   }
   },
   {
    "name": "Zinedine Zidane",
@@ -471,7 +519,17 @@
     ]
    },
    "natApp": 108,
-   "natGoals": 31
+   "natGoals": 31,
+   "byLeague": {
+    "league": {
+     "Włochy": 2,
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Włochy": 1,
+     "Hiszpania": 2
+    }
+   }
   },
   {
    "name": "Fernando Hierro",
@@ -549,6 +607,17 @@
     "intercontinental": [
      "Real Madryt: 1998, 2002"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Hiszpania": 5
+    },
+    "natCup": {
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 4
+    }
    }
   },
   {
@@ -650,7 +719,19 @@
     ]
    },
    "natApp": 98,
-   "natGoals": 62
+   "natGoals": 62,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 2
+    },
+    "natCup": {
+     "Holandia": 1,
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 2
+    }
+   }
   },
   {
    "name": "Laurent Blanc",
@@ -732,6 +813,19 @@
     "uefa": [
      "Barcelona: 1997"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Francja": 1,
+     "Anglia": 1
+    },
+    "natCup": {
+     "Francja": 2,
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 1
+    }
    }
   },
   {
@@ -833,7 +927,22 @@
     ]
    },
    "natApp": 123,
-   "natGoals": 51
+   "natGoals": 51,
+   "byLeague": {
+    "league": {
+     "Francja": 1,
+     "Anglia": 2,
+     "Hiszpania": 2
+    },
+    "natCup": {
+     "Anglia": 2,
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Anglia": 2,
+     "Hiszpania": 1
+    }
+   }
   },
   {
    "name": "Bixente Lizarazu",
@@ -919,6 +1028,17 @@
     "intercontinental": [
      "Bayern Monachium: 2001"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Niemcy": 6
+    },
+    "natCup": {
+     "Niemcy": 5
+    },
+    "leagueCup": {
+     "Niemcy": 1
+    }
    }
   },
   {
@@ -1012,6 +1132,17 @@
     "fifa": [
      "2002 (2.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Niemcy": 8
+    },
+    "natCup": {
+     "Niemcy": 6
+    },
+    "leagueCup": {
+     "Niemcy": 5
+    }
    }
   },
   {
@@ -1107,6 +1238,19 @@
     "wc": [
      "1998 (półfinał)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Holandia": 1,
+     "Anglia": 3
+    },
+    "natCup": {
+     "Holandia": 2,
+     "Anglia": 4
+    },
+    "natSupercup": {
+     "Anglia": 3
+    }
    }
   },
   {
@@ -1200,7 +1344,23 @@
     ]
    },
    "natApp": 87,
-   "natGoals": 11
+   "natGoals": 11,
+   "byLeague": {
+    "league": {
+     "Holandia": 2,
+     "Hiszpania": 1,
+     "Włochy": 2
+    },
+    "natCup": {
+     "Holandia": 1,
+     "Włochy": 1
+    },
+    "natSupercup": {
+     "Holandia": 1,
+     "Hiszpania": 1,
+     "Włochy": 1
+    }
+   }
   },
   {
    "name": "Edwin van der Sar",
@@ -1298,7 +1458,23 @@
     ]
    },
    "natApp": 130,
-   "natGoals": 0
+   "natGoals": 0,
+   "byLeague": {
+    "league": {
+     "Holandia": 4,
+     "Anglia": 4
+    },
+    "natCup": {
+     "Holandia": 3
+    },
+    "leagueCup": {
+     "Anglia": 2
+    },
+    "natSupercup": {
+     "Holandia": 3,
+     "Anglia": 3
+    }
+   }
   },
   {
    "name": "Deco",
@@ -1388,6 +1564,22 @@
     "wc": [
      "2006 (półfinał)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Portugalia": 3,
+     "Hiszpania": 2,
+     "Anglia": 1
+    },
+    "natCup": {
+     "Portugalia": 3,
+     "Anglia": 2
+    },
+    "natSupercup": {
+     "Portugalia": 2,
+     "Hiszpania": 2,
+     "Anglia": 1
+    }
    }
   },
   {
@@ -1473,6 +1665,20 @@
      "1999 (2.)",
      "2001 (2.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Anglia": 6,
+     "Hiszpania": 1,
+     "Francja": 1
+    },
+    "natCup": {
+     "Anglia": 2
+    },
+    "natSupercup": {
+     "Anglia": 2,
+     "Hiszpania": 1
+    }
    }
   },
   {
@@ -1561,6 +1767,17 @@
     "ballon": [
      "2003 (1.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 3
+    },
+    "natCup": {
+     "Włochy": 2
+    },
+    "natSupercup": {
+     "Włochy": 4
+    }
    }
   },
   {
@@ -1651,6 +1868,18 @@
      "2000 (półfinał)",
      "2004 (półfinał)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Holandia": 5,
+     "Hiszpania": 1
+    },
+    "natCup": {
+     "Holandia": 2
+    },
+    "natSupercup": {
+     "Holandia": 3
+    }
    }
   },
   {
@@ -1745,6 +1974,19 @@
     "intercontinental": [
      "Juventus: 1996"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Francja": 2,
+     "Włochy": 3
+    },
+    "natCup": {
+     "Włochy": 1,
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Włochy": 2
+    }
    }
   },
   {
@@ -1820,6 +2062,17 @@
     "intercontinental": [
      "Manchester United: 1999"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Anglia": 7
+    },
+    "natCup": {
+     "Anglia": 4
+    },
+    "natSupercup": {
+     "Anglia": 4
+    }
    }
   },
   {
@@ -1905,6 +2158,18 @@
      "AC Milan: 1994",
      "Chelsea: 1998"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 2
+    },
+    "natCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Włochy": 1,
+     "Anglia": 1
+    }
    }
   },
   {
@@ -1990,6 +2255,15 @@
      "2005 (1.)",
      "2006 (3.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Hiszpania": 2,
+     "Włochy": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 2
+    }
    }
   },
   {
@@ -2078,6 +2352,14 @@
     "intercontinental": [
      "AC Milan: 2007"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 2
+    },
+    "natSupercup": {
+     "Włochy": 1
+    }
    }
   },
   {
@@ -2202,7 +2484,28 @@
    },
    "natApp": 233,
    "natGoals": 146,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Anglia": 3,
+     "Hiszpania": 2,
+     "Włochy": 2
+    },
+    "natCup": {
+     "Anglia": 1,
+     "Hiszpania": 2,
+     "Włochy": 1
+    },
+    "leagueCup": {
+     "Anglia": 2
+    },
+    "natSupercup": {
+     "Portugalia": 1,
+     "Anglia": 1,
+     "Hiszpania": 2,
+     "Włochy": 2
+    }
+   }
   },
   {
    "name": "Lilian Thuram",
@@ -2285,6 +2588,19 @@
     "uefa": [
      "Parma: 1999"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 2
+    },
+    "natCup": {
+     "Francja": 1,
+     "Włochy": 1
+    },
+    "natSupercup": {
+     "Włochy": 2,
+     "Hiszpania": 1
+    }
    }
   },
   {
@@ -2403,7 +2719,20 @@
    },
    "natApp": 207,
    "natGoals": 125,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 10,
+     "Francja": 2
+    },
+    "natCup": {
+     "Hiszpania": 7
+    },
+    "natSupercup": {
+     "Hiszpania": 8,
+     "Francja": 1
+    }
+   }
   },
   {
    "name": "Filippo Inzaghi",
@@ -2488,6 +2817,17 @@
     "euro": [
      "2000 (finał)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 3
+    },
+    "natCup": {
+     "Włochy": 1
+    },
+    "natSupercup": {
+     "Włochy": 1
+    }
    }
   },
   {
@@ -2571,6 +2911,22 @@
     "euroSupercup": [
      "Manchester United: 1991"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Anglia": 5,
+     "Portugalia": 1
+    },
+    "natCup": {
+     "Anglia": 3
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Anglia": 4,
+     "Portugalia": 1
+    }
    }
   },
   {
@@ -2659,6 +3015,15 @@
      "1999 (1.)",
      "2000 (3.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Hiszpania": 2
+    },
+    "natCup": {
+     "Hiszpania": 1,
+     "Włochy": 1
+    }
    }
   },
   {
@@ -2741,6 +3106,17 @@
      "2004 (finał)",
      "2007 (finał)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 4
+    },
+    "natCup": {
+     "Włochy": 4
+    },
+    "natSupercup": {
+     "Włochy": 4
+    }
    }
   },
   {
@@ -2826,6 +3202,20 @@
     "fifa": [
      "2005 (2.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Anglia": 3
+    },
+    "natCup": {
+     "Anglia": 4
+    },
+    "leagueCup": {
+     "Anglia": 2
+    },
+    "natSupercup": {
+     "Anglia": 2
+    }
    }
   },
   {
@@ -2913,6 +3303,19 @@
      "2000 (półfinał)",
      "2004 (półfinał)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Holandia": 1,
+     "Anglia": 3
+    },
+    "natCup": {
+     "Holandia": 2,
+     "Włochy": 1
+    },
+    "natSupercup": {
+     "Holandia": 4
+    }
    }
   },
   {
@@ -2991,6 +3394,17 @@
     "euroSupercup": [
      "Barcelona: 1992"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Hiszpania": 6
+    },
+    "natCup": {
+     "Hiszpania": 2
+    },
+    "natSupercup": {
+     "Hiszpania": 4
+    }
    }
   },
   {
@@ -3070,6 +3484,24 @@
     "euro": [
      "2004 (półfinał)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Holandia": 2,
+     "Anglia": 1,
+     "Hiszpania": 2
+    },
+    "natCup": {
+     "Anglia": 1
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Holandia": 1,
+     "Anglia": 1,
+     "Hiszpania": 1
+    }
    }
   },
   {
@@ -3159,6 +3591,21 @@
     "fifa": [
      "2004 (3.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 1
+    },
+    "natCup": {
+     "Włochy": 1,
+     "Anglia": 1
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Włochy": 1
+    }
    }
   },
   {
@@ -3246,6 +3693,19 @@
     "intercontinental": [
      "Real Madryt: 2002, 2014"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Hiszpania": 5,
+     "Portugalia": 1
+    },
+    "natCup": {
+     "Hiszpania": 2
+    },
+    "natSupercup": {
+     "Hiszpania": 4,
+     "Portugalia": 1
+    }
    }
   },
   {
@@ -3336,7 +3796,20 @@
     ]
    },
    "natApp": 176,
-   "natGoals": 0
+   "natGoals": 0,
+   "byLeague": {
+    "league": {
+     "Włochy": 10,
+     "Francja": 1
+    },
+    "natCup": {
+     "Włochy": 6
+    },
+    "natSupercup": {
+     "Włochy": 8,
+     "Francja": 1
+    }
+   }
   },
   {
    "name": "Nicolas Anelka",
@@ -3416,6 +3889,18 @@
      "Real Madryt: 2000",
      "Chelsea 2008 (finał)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Anglia": 2,
+     "Włochy": 1
+    },
+    "natCup": {
+     "Anglia": 3
+    },
+    "natSupercup": {
+     "Anglia": 2
+    }
    }
   },
   {
@@ -3498,6 +3983,18 @@
     "euroSupercup": [
      "Lazio: 1999"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 1,
+     "Anglia": 1
+    },
+    "natCup": {
+     "Włochy": 4
+    },
+    "natSupercup": {
+     "Włochy": 2
+    }
    }
   },
   {
@@ -3584,6 +4081,20 @@
     "ballon": [
      "2001 (1.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Anglia": 1
+    },
+    "natCup": {
+     "Anglia": 1
+    },
+    "leagueCup": {
+     "Anglia": 3
+    },
+    "natSupercup": {
+     "Anglia": 2
+    }
    }
   },
   {
@@ -3656,6 +4167,11 @@
     "euro": [
      "1996 (półfinał)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Anglia": 1
+    }
    }
   },
   {
@@ -3749,7 +4265,21 @@
    },
    "natApp": 167,
    "natGoals": 89,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Niemcy": 10,
+     "Hiszpania": 3
+    },
+    "natCup": {
+     "Niemcy": 4,
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Niemcy": 6,
+     "Hiszpania": 3
+    }
+   }
   },
   {
    "name": "Jerzy Dudek",
@@ -3828,6 +4358,24 @@
     "ucl": [
      "Liverpool: 2005"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Holandia": 1,
+     "Hiszpania": 1
+    },
+    "natCup": {
+     "Anglia": 1,
+     "Hiszpania": 1
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Holandia": 1,
+     "Anglia": 1,
+     "Hiszpania": 1
+    }
    }
   },
   {
@@ -3910,6 +4458,14 @@
      "1993 (1.)",
      "1994 (3.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 2
+    },
+    "natCup": {
+     "Włochy": 1
+    }
    }
   },
   {
@@ -3995,6 +4551,18 @@
     "fifa": [
      "2006 (1.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Hiszpania": 2
+    },
+    "natCup": {
+     "Włochy": 2
+    },
+    "natSupercup": {
+     "Włochy": 1,
+     "Hiszpania": 1
+    }
    }
   },
   {
@@ -4083,6 +4651,18 @@
     "fifa": [
      "2007 (1.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 1,
+     "Hiszpania": 1
+    },
+    "natCup": {
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Włochy": 1
+    }
    }
   },
   {
@@ -4167,6 +4747,11 @@
     "fifa": [
      "2008 (3.)"
     ]
+   },
+   "byLeague": {
+    "natCup": {
+     "Anglia": 1
+    }
    }
   },
   {
@@ -4260,7 +4845,18 @@
     ]
    },
    "natApp": 133,
-   "natGoals": 13
+   "natGoals": 13,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 8
+    },
+    "natCup": {
+     "Hiszpania": 3
+    },
+    "natSupercup": {
+     "Hiszpania": 6
+    }
+   }
   },
   {
    "name": "Steven Gerrard",
@@ -4342,6 +4938,17 @@
     "ballon": [
      "2005 (3.)"
     ]
+   },
+   "byLeague": {
+    "natCup": {
+     "Anglia": 2
+    },
+    "leagueCup": {
+     "Anglia": 3
+    },
+    "natSupercup": {
+     "Anglia": 1
+    }
    }
   },
   {
@@ -4425,6 +5032,20 @@
     "fifa": [
      "2005 (3.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Hiszpania": 3,
+     "Włochy": 1
+    },
+    "natCup": {
+     "Hiszpania": 2,
+     "Włochy": 2
+    },
+    "natSupercup": {
+     "Hiszpania": 2,
+     "Włochy": 1
+    }
    }
   },
   {
@@ -4502,6 +5123,17 @@
     "fifa": [
      "1999 (3.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 1
+    },
+    "natCup": {
+     "Włochy": 1
+    },
+    "natSupercup": {
+     "Włochy": 2
+    }
    }
   },
   {
@@ -4593,6 +5225,28 @@
     "intercontinental": [
      "Barcelona: 2009"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Holandia": 2,
+     "Włochy": 5,
+     "Hiszpania": 1,
+     "Francja": 4
+    },
+    "natCup": {
+     "Holandia": 1,
+     "Francja": 2
+    },
+    "leagueCup": {
+     "Francja": 3,
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Holandia": 1,
+     "Włochy": 3,
+     "Francja": 3,
+     "Anglia": 1
+    }
    }
   },
   {
@@ -4676,6 +5330,21 @@
     "intercontinental": [
      "Real Madryt: 1998, 2002"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Hiszpania": 2,
+     "Francja": 1
+    },
+    "natCup": {
+     "Hiszpania": 1
+    },
+    "leagueCup": {
+     "Francja": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 1
+    }
    }
   },
   {
@@ -4751,6 +5420,16 @@
      "Monaco: 1997",
      "Juventus: 2003"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Francja": 2,
+     "Włochy": 2
+    },
+    "natSupercup": {
+     "Francja": 1,
+     "Włochy": 1
+    }
    }
   },
   {
@@ -4827,6 +5506,17 @@
     "uefa": [
      "Middlesbrough 2006 (finał)"
     ]
+   },
+   "byLeague": {
+    "natCup": {
+     "Hiszpania": 1
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 1
+    }
    }
   },
   {
@@ -4916,7 +5606,18 @@
     ]
    },
    "natApp": 131,
-   "natGoals": 13
+   "natGoals": 13,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 9
+    },
+    "natCup": {
+     "Hiszpania": 6
+    },
+    "natSupercup": {
+     "Hiszpania": 6
+    }
+   }
   },
   {
    "name": "Rio Ferdinand",
@@ -4991,6 +5692,17 @@
     "intercontinental": [
      "Manchester United: 2008"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Anglia": 6
+    },
+    "leagueCup": {
+     "Anglia": 2
+    },
+    "natSupercup": {
+     "Anglia": 4
+    }
    }
   },
   {
@@ -5072,6 +5784,20 @@
     "intercontinental": [
      "Manchester United: 2008"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Anglia": 5
+    },
+    "natCup": {
+     "Anglia": 1
+    },
+    "leagueCup": {
+     "Anglia": 3
+    },
+    "natSupercup": {
+     "Anglia": 4
+    }
    }
   },
   {
@@ -5155,6 +5881,19 @@
     "uefa": [
      "Arsenal 2000 (finał)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 4,
+     "Anglia": 3
+    },
+    "natCup": {
+     "Anglia": 5
+    },
+    "natSupercup": {
+     "Anglia": 3,
+     "Włochy": 1
+    }
    }
   },
   {
@@ -5234,6 +5973,20 @@
     "uefa": [
      "Marseille 2004 (finał)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Anglia": 4
+    },
+    "natCup": {
+     "Anglia": 4
+    },
+    "leagueCup": {
+     "Anglia": 3
+    },
+    "natSupercup": {
+     "Anglia": 2
+    }
    }
   },
   {
@@ -5313,6 +6066,20 @@
     "uefa": [
      "Chelsea: 2013"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Anglia": 5
+    },
+    "natCup": {
+     "Anglia": 5
+    },
+    "leagueCup": {
+     "Anglia": 3
+    },
+    "natSupercup": {
+     "Anglia": 2
+    }
    }
   },
   {
@@ -5400,6 +6167,17 @@
     "intercontinental": [
      "Juventus: 1996"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 6
+    },
+    "natCup": {
+     "Włochy": 1
+    },
+    "natSupercup": {
+     "Włochy": 4
+    }
    }
   },
   {
@@ -5491,6 +6269,17 @@
     "intercontinental": [
      "AC Milan: 2007"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 3
+    },
+    "natCup": {
+     "Włochy": 3
+    },
+    "natSupercup": {
+     "Włochy": 3
+    }
    }
   },
   {
@@ -5579,6 +6368,17 @@
     "intercontinental": [
      "AC Milan: 2007"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 6
+    },
+    "natCup": {
+     "Włochy": 2
+    },
+    "natSupercup": {
+     "Włochy": 2
+    }
    }
   },
   {
@@ -5723,6 +6523,17 @@
     "natSupercup": [
      "AS Roma: 2001, 2007"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Włochy": 1
+    },
+    "natCup": {
+     "Włochy": 2
+    },
+    "natSupercup": {
+     "Włochy": 2
+    }
    }
   },
   {
@@ -5810,6 +6621,23 @@
      "Bayer Leverkusen 2002 (finał)",
      "Chelsea 2008 (finał)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Niemcy": 4,
+     "Anglia": 1
+    },
+    "natCup": {
+     "Niemcy": 3,
+     "Anglia": 3
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Niemcy": 1,
+     "Anglia": 1
+    }
    }
   },
   {
@@ -5894,6 +6722,15 @@
      "2000 (półfinał)",
      "2004 (półfinał)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Holandia": 3,
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Holandia": 2
+    }
    }
   },
   {
@@ -5970,6 +6807,18 @@
     "ucl": [
      "Barcelona: 2006"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Hiszpania": 2,
+     "Anglia": 1
+    },
+    "natCup": {
+     "Holandia": 2
+    },
+    "natSupercup": {
+     "Hiszpania": 1
+    }
    }
   },
   {
@@ -6053,6 +6902,20 @@
     "uefa": [
      "Chelsea: 2013"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Anglia": 3
+    },
+    "natCup": {
+     "Anglia": 7
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Anglia": 3
+    }
    }
   },
   {
@@ -6138,6 +7001,18 @@
     "fifa": [
      "2001 (3.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Hiszpania": 6
+    },
+    "natCup": {
+     "Niemcy": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 4,
+     "Niemcy": 1
+    }
    }
   },
   {
@@ -6227,7 +7102,18 @@
    },
    "natApp": 202,
    "natGoals": 29,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 4
+    },
+    "natCup": {
+     "Hiszpania": 2
+    },
+    "natSupercup": {
+     "Hiszpania": 5
+    }
+   }
   },
   {
    "name": "Karim Benzema",
@@ -6318,7 +7204,21 @@
    },
    "natApp": 97,
    "natGoals": 37,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Francja": 4,
+     "Hiszpania": 4
+    },
+    "natCup": {
+     "Francja": 1,
+     "Hiszpania": 3
+    },
+    "natSupercup": {
+     "Francja": 2,
+     "Hiszpania": 4
+    }
+   }
   },
   {
    "name": "Sergio Ramos",
@@ -6406,7 +7306,20 @@
    },
    "natApp": 180,
    "natGoals": 23,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 5,
+     "Francja": 2
+    },
+    "natCup": {
+     "Hiszpania": 2
+    },
+    "natSupercup": {
+     "Hiszpania": 4,
+     "Francja": 1
+    }
+   }
   },
   {
    "name": "Toni Kroos",
@@ -6499,7 +7412,21 @@
     ]
    },
    "natApp": 114,
-   "natGoals": 17
+   "natGoals": 17,
+   "byLeague": {
+    "league": {
+     "Niemcy": 3,
+     "Hiszpania": 4
+    },
+    "natCup": {
+     "Niemcy": 3,
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Niemcy": 1,
+     "Hiszpania": 4
+    }
+   }
   },
   {
    "name": "Rodri",
@@ -6596,7 +7523,21 @@
      "2026 (mistrz)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Anglia": 4
+    },
+    "natCup": {
+     "Anglia": 2
+    },
+    "leagueCup": {
+     "Anglia": 3
+    },
+    "natSupercup": {
+     "Anglia": 1
+    }
+   }
   },
   {
    "name": "Jude Bellingham",
@@ -6688,7 +7629,18 @@
      "2026 (półfinał)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 1
+    },
+    "natCup": {
+     "Niemcy": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 1
+    }
+   }
   },
   {
    "name": "Kevin De Bruyne",
@@ -6780,7 +7732,24 @@
      "2022 (3.)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Anglia": 6
+    },
+    "natCup": {
+     "Niemcy": 1,
+     "Anglia": 2
+    },
+    "leagueCup": {
+     "Anglia": 5
+    },
+    "natSupercup": {
+     "Niemcy": 1,
+     "Anglia": 3,
+     "Włochy": 1
+    }
+   }
   },
   {
    "name": "Virgil van Dijk",
@@ -6873,7 +7842,21 @@
      "2024 (półfinał)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Anglia": 2
+    },
+    "natCup": {
+     "Anglia": 1
+    },
+    "leagueCup": {
+     "Anglia": 2
+    },
+    "natSupercup": {
+     "Anglia": 1
+    }
+   }
   },
   {
    "name": "Manuel Neuer",
@@ -6968,7 +7951,21 @@
    },
    "natApp": 128,
    "natGoals": 0,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Niemcy": 13
+    },
+    "natCup": {
+     "Niemcy": 7
+    },
+    "leagueCup": {
+     "Niemcy": 1
+    },
+    "natSupercup": {
+     "Niemcy": 7
+    }
+   }
   },
   {
    "name": "Antoine Griezmann",
@@ -7059,7 +8056,15 @@
      "2016 (3.)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "natCup": {
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 1
+    }
+   }
   },
   {
    "name": "Sadio Mané",
@@ -7147,7 +8152,22 @@
      "2022 (2.)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Anglia": 1,
+     "Niemcy": 1
+    },
+    "natCup": {
+     "Anglia": 1
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Niemcy": 1
+    }
+   }
   },
   {
    "name": "Ousmane Dembélé",
@@ -7244,7 +8264,22 @@
      "2024 (półfinał)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 3,
+     "Francja": 3
+    },
+    "natCup": {
+     "Niemcy": 1,
+     "Hiszpania": 2,
+     "Francja": 2
+    },
+    "natSupercup": {
+     "Hiszpania": 2,
+     "Francja": 3
+    }
+   }
   },
   {
    "name": "Lamine Yamal",
@@ -7326,7 +8361,18 @@
      "2026 (mistrz)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 3
+    },
+    "natCup": {
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 2
+    }
+   }
   },
   {
    "name": "Franck Ribéry",
@@ -7413,6 +8459,20 @@
     "ballon": [
      "2013 (3.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Niemcy": 9
+    },
+    "natCup": {
+     "Niemcy": 6
+    },
+    "leagueCup": {
+     "Niemcy": 1
+    },
+    "natSupercup": {
+     "Niemcy": 4
+    }
    }
   },
   {
@@ -7505,7 +8565,21 @@
     ]
    },
    "natApp": 113,
-   "natGoals": 5
+   "natGoals": 5,
+   "byLeague": {
+    "league": {
+     "Niemcy": 8
+    },
+    "natCup": {
+     "Niemcy": 6
+    },
+    "leagueCup": {
+     "Niemcy": 1
+    },
+    "natSupercup": {
+     "Niemcy": 3
+    }
+   }
   },
   {
    "name": "Bastian Schweinsteiger",
@@ -7602,7 +8676,22 @@
     ]
    },
    "natApp": 121,
-   "natGoals": 24
+   "natGoals": 24,
+   "byLeague": {
+    "league": {
+     "Niemcy": 8
+    },
+    "natCup": {
+     "Niemcy": 7,
+     "Anglia": 1
+    },
+    "leagueCup": {
+     "Niemcy": 1
+    },
+    "natSupercup": {
+     "Niemcy": 1
+    }
+   }
   },
   {
    "name": "David Villa",
@@ -7690,6 +8779,17 @@
     "intercontinental": [
      "Barcelona: 2011"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Hiszpania": 3
+    },
+    "natCup": {
+     "Hiszpania": 3
+    },
+    "natSupercup": {
+     "Hiszpania": 3
+    }
    }
   },
   {
@@ -7776,6 +8876,17 @@
     "wc": [
      "2010 (półfinał)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Hiszpania": 1
+    },
+    "natCup": {
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 1
+    }
    }
   },
   {
@@ -7861,6 +8972,19 @@
      "1994 (1.)",
      "1993 (2.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Holandia": 3,
+     "Hiszpania": 1
+    },
+    "natCup": {
+     "Holandia": 2
+    },
+    "natSupercup": {
+     "Holandia": 1,
+     "Hiszpania": 1
+    }
    }
   },
   {
@@ -7951,7 +9075,23 @@
     ]
    },
    "natApp": 102,
-   "natGoals": 5
+   "natGoals": 5,
+   "byLeague": {
+    "league": {
+     "Anglia": 1,
+     "Hiszpania": 9
+    },
+    "natCup": {
+     "Hiszpania": 7
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Anglia": 1,
+     "Hiszpania": 6
+    }
+   }
   },
   {
    "name": "Sergio Busquets",
@@ -8036,7 +9176,18 @@
     ]
    },
    "natApp": 143,
-   "natGoals": 2
+   "natGoals": 2,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 9
+    },
+    "natCup": {
+     "Hiszpania": 7
+    },
+    "natSupercup": {
+     "Hiszpania": 7
+    }
+   }
   },
   {
    "name": "Dani Alves",
@@ -8135,7 +9286,26 @@
     ]
    },
    "natApp": 126,
-   "natGoals": 8
+   "natGoals": 8,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 6,
+     "Włochy": 1,
+     "Francja": 2
+    },
+    "natCup": {
+     "Hiszpania": 5,
+     "Włochy": 1,
+     "Francja": 1
+    },
+    "leagueCup": {
+     "Francja": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 5,
+     "Francja": 1
+    }
+   }
   },
   {
    "name": "Marcelo",
@@ -8216,7 +9386,18 @@
     ]
    },
    "natApp": 58,
-   "natGoals": 6
+   "natGoals": 6,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 6
+    },
+    "natCup": {
+     "Hiszpania": 2
+    },
+    "natSupercup": {
+     "Hiszpania": 5
+    }
+   }
   },
   {
    "name": "Thiago Silva",
@@ -8308,7 +9489,24 @@
    },
    "natApp": 113,
    "natGoals": 7,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Włochy": 1,
+     "Francja": 7,
+     "Portugalia": 1
+    },
+    "natCup": {
+     "Francja": 5
+    },
+    "leagueCup": {
+     "Francja": 6
+    },
+    "natSupercup": {
+     "Włochy": 1,
+     "Francja": 5
+    }
+   }
   },
   {
    "name": "Kylian Mbappé",
@@ -8407,7 +9605,21 @@
      "2024 (półfinał)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Francja": 7
+    },
+    "natCup": {
+     "Francja": 4
+    },
+    "leagueCup": {
+     "Francja": 2
+    },
+    "natSupercup": {
+     "Francja": 3
+    }
+   }
   },
   {
    "name": "Neymar",
@@ -8503,7 +9715,24 @@
      "2014 (półfinał)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 2,
+     "Francja": 5
+    },
+    "natCup": {
+     "Hiszpania": 3,
+     "Francja": 3
+    },
+    "leagueCup": {
+     "Francja": 2
+    },
+    "natSupercup": {
+     "Hiszpania": 1,
+     "Francja": 3
+    }
+   }
   },
   {
    "name": "Mohamed Salah",
@@ -8591,7 +9820,21 @@
      "2021 (3.)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Anglia": 2
+    },
+    "natCup": {
+     "Anglia": 1
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Anglia": 1
+    }
+   }
   },
   {
    "name": "Erling Haaland",
@@ -8680,7 +9923,22 @@
      "2023 (2.)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Anglia": 2
+    },
+    "natCup": {
+     "Niemcy": 1,
+     "Anglia": 2
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Anglia": 1
+    }
+   }
   },
   {
    "name": "Vinícius Júnior",
@@ -8768,7 +10026,18 @@
      "2024 (1.)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 3
+    },
+    "natCup": {
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 3
+    }
+   }
   },
   {
    "name": "Ángel Di María",
@@ -8865,7 +10134,27 @@
    },
    "natApp": 145,
    "natGoals": 31,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Portugalia": 1,
+     "Hiszpania": 1,
+     "Francja": 5
+    },
+    "natCup": {
+     "Hiszpania": 2,
+     "Francja": 5
+    },
+    "leagueCup": {
+     "Portugalia": 3,
+     "Francja": 4
+    },
+    "natSupercup": {
+     "Portugalia": 1,
+     "Hiszpania": 1,
+     "Francja": 5
+    }
+   }
   },
   {
    "name": "N'Golo Kanté",
@@ -8953,7 +10242,15 @@
      "Chelsea: 2021"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Anglia": 2
+    },
+    "natCup": {
+     "Anglia": 1
+    }
+   }
   },
   {
    "name": "Joshua Kimmich",
@@ -9035,7 +10332,18 @@
      "2016 (półfinał)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Niemcy": 10
+    },
+    "natCup": {
+     "Niemcy": 4
+    },
+    "natSupercup": {
+     "Niemcy": 7
+    }
+   }
   },
   {
    "name": "Casemiro",
@@ -9125,7 +10433,22 @@
      "Real Madryt: 2016, 2017, 2018"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 3
+    },
+    "natCup": {
+     "Hiszpania": 1,
+     "Anglia": 1
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 3
+    }
+   }
   },
   {
    "name": "Gareth Bale",
@@ -9209,6 +10532,20 @@
     "euro": [
      "2016 (półfinał)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Hiszpania": 3
+    },
+    "natCup": {
+     "Hiszpania": 1
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 1
+    }
    }
   },
   {
@@ -9300,6 +10637,17 @@
      "1992 (2.)",
      "1994 (2.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Hiszpania": 5
+    },
+    "natCup": {
+     "Hiszpania": 2
+    },
+    "natSupercup": {
+     "Hiszpania": 4
+    }
    }
   },
   {
@@ -9379,6 +10727,19 @@
      "1995 (1.)",
      "1996 (2.)"
     ]
+   },
+   "byLeague": {
+    "league": {
+     "Francja": 1,
+     "Włochy": 2
+    },
+    "natCup": {
+     "Francja": 3,
+     "Anglia": 1
+    },
+    "leagueCup": {
+     "Francja": 1
+    }
    }
   },
   {
@@ -9471,7 +10832,23 @@
      "2010 (półfinał)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Holandia": 1,
+     "Hiszpania": 5
+    },
+    "natCup": {
+     "Holandia": 1,
+     "Hiszpania": 4
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 2
+    }
+   }
   },
   {
    "name": "Edinson Cavani",
@@ -9554,7 +10931,22 @@
      "2010 (półfinał)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Francja": 6
+    },
+    "natCup": {
+     "Włochy": 1,
+     "Francja": 5
+    },
+    "leagueCup": {
+     "Francja": 6
+    },
+    "natSupercup": {
+     "Francja": 4
+    }
+   }
   },
   {
    "name": "Harry Kane",
@@ -9635,7 +11027,18 @@
      "2026 (półfinał)"
     ]
    },
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Niemcy": 2
+    },
+    "natCup": {
+     "Niemcy": 1
+    },
+    "natSupercup": {
+     "Niemcy": 1
+    }
+   }
   },
   {
    "name": "Thomas Müller",
@@ -9724,7 +11127,18 @@
    },
    "natApp": 131,
    "natGoals": 45,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Niemcy": 13
+    },
+    "natCup": {
+     "Niemcy": 6
+    },
+    "natSupercup": {
+     "Niemcy": 8
+    }
+   }
   },
   {
    "name": "David Alaba",
@@ -9810,7 +11224,21 @@
    },
    "natApp": 117,
    "natGoals": 15,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Niemcy": 10,
+     "Hiszpania": 2
+    },
+    "natCup": {
+     "Niemcy": 6,
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Niemcy": 3,
+     "Hiszpania": 1
+    }
+   }
   },
   {
    "name": "Marquinhos",
@@ -9897,7 +11325,21 @@
    },
    "natApp": 110,
    "natGoals": 7,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Francja": 11
+    },
+    "natCup": {
+     "Francja": 8
+    },
+    "leagueCup": {
+     "Francja": 6
+    },
+    "natSupercup": {
+     "Francja": 10
+    }
+   }
   },
   {
    "name": "Lothar Matthäus",
@@ -9994,7 +11436,23 @@
     ]
    },
    "natApp": 150,
-   "natGoals": 23
+   "natGoals": 23,
+   "byLeague": {
+    "league": {
+     "Niemcy": 6,
+     "Włochy": 1
+    },
+    "natCup": {
+     "Niemcy": 2
+    },
+    "leagueCup": {
+     "Niemcy": 3
+    },
+    "natSupercup": {
+     "Niemcy": 1,
+     "Włochy": 1
+    }
+   }
   },
   {
    "name": "Arjen Robben",
@@ -10088,7 +11546,28 @@
     ]
    },
    "natApp": 96,
-   "natGoals": 37
+   "natGoals": 37,
+   "byLeague": {
+    "league": {
+     "Holandia": 1,
+     "Anglia": 2,
+     "Hiszpania": 1,
+     "Niemcy": 8
+    },
+    "natCup": {
+     "Anglia": 1,
+     "Niemcy": 5
+    },
+    "leagueCup": {
+     "Anglia": 2
+    },
+    "natSupercup": {
+     "Holandia": 1,
+     "Anglia": 1,
+     "Hiszpania": 1,
+     "Niemcy": 2
+    }
+   }
   },
   {
    "name": "Jérôme Boateng",
@@ -10176,7 +11655,19 @@
     ]
    },
    "natApp": 76,
-   "natGoals": 1
+   "natGoals": 1,
+   "byLeague": {
+    "league": {
+     "Niemcy": 9
+    },
+    "natCup": {
+     "Anglia": 1,
+     "Niemcy": 5
+    },
+    "natSupercup": {
+     "Niemcy": 2
+    }
+   }
   },
   {
    "name": "Dani Carvajal",
@@ -10258,7 +11749,18 @@
    },
    "natApp": 52,
    "natGoals": 1,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 4
+    },
+    "natCup": {
+     "Hiszpania": 2
+    },
+    "natSupercup": {
+     "Hiszpania": 4
+    }
+   }
   },
   {
    "name": "Ruud Gullit",
@@ -10348,7 +11850,21 @@
     ]
    },
    "natApp": 66,
-   "natGoals": 17
+   "natGoals": 17,
+   "byLeague": {
+    "league": {
+     "Holandia": 3,
+     "Włochy": 3
+    },
+    "natCup": {
+     "Holandia": 1,
+     "Włochy": 1,
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Włochy": 2
+    }
+   }
   },
   {
    "name": "Marco van Basten",
@@ -10442,7 +11958,19 @@
     ]
    },
    "natApp": 58,
-   "natGoals": 24
+   "natGoals": 24,
+   "byLeague": {
+    "league": {
+     "Holandia": 3,
+     "Włochy": 4
+    },
+    "natCup": {
+     "Holandia": 3
+    },
+    "natSupercup": {
+     "Włochy": 2
+    }
+   }
   },
   {
    "name": "Xabi Alonso",
@@ -10531,7 +12059,23 @@
     ]
    },
    "natApp": 114,
-   "natGoals": 16
+   "natGoals": 16,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 1,
+     "Niemcy": 3
+    },
+    "natCup": {
+     "Anglia": 1,
+     "Hiszpania": 2,
+     "Niemcy": 1
+    },
+    "natSupercup": {
+     "Anglia": 1,
+     "Hiszpania": 1,
+     "Niemcy": 1
+    }
+   }
   },
   {
    "name": "Carles Puyol",
@@ -10615,7 +12159,18 @@
     ]
    },
    "natApp": 100,
-   "natGoals": 3
+   "natGoals": 3,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 6
+    },
+    "natCup": {
+     "Hiszpania": 2
+    },
+    "natSupercup": {
+     "Hiszpania": 4
+    }
+   }
   },
   {
    "name": "Bernardo Silva",
@@ -10699,7 +12254,25 @@
    },
    "natApp": 113,
    "natGoals": 14,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Portugalia": 1,
+     "Francja": 1,
+     "Anglia": 6
+    },
+    "natCup": {
+     "Portugalia": 1,
+     "Anglia": 3
+    },
+    "leagueCup": {
+     "Portugalia": 1,
+     "Anglia": 5
+    },
+    "natSupercup": {
+     "Anglia": 3
+    }
+   }
   },
   {
    "name": "Miroslav Klose",
@@ -10786,7 +12359,22 @@
     ]
    },
    "natApp": 137,
-   "natGoals": 71
+   "natGoals": 71,
+   "byLeague": {
+    "league": {
+     "Niemcy": 2
+    },
+    "natCup": {
+     "Niemcy": 2,
+     "Włochy": 1
+    },
+    "leagueCup": {
+     "Niemcy": 2
+    },
+    "natSupercup": {
+     "Niemcy": 1
+    }
+   }
   },
   {
    "name": "Achraf Hakimi",
@@ -10873,7 +12461,21 @@
    },
    "natApp": 102,
    "natGoals": 12,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Włochy": 1,
+     "Francja": 5
+    },
+    "natCup": {
+     "Francja": 2
+    },
+    "natSupercup": {
+     "Hiszpania": 1,
+     "Niemcy": 1,
+     "Francja": 3
+    }
+   }
   },
   {
    "name": "İlkay Gündoğan",
@@ -10957,7 +12559,24 @@
    },
    "natApp": 82,
    "natGoals": 19,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Niemcy": 1,
+     "Anglia": 5
+    },
+    "natCup": {
+     "Niemcy": 1,
+     "Anglia": 2
+    },
+    "leagueCup": {
+     "Anglia": 4
+    },
+    "natSupercup": {
+     "Niemcy": 1,
+     "Anglia": 2
+    }
+   }
   },
   {
    "name": "Lautaro Martínez",
@@ -11043,7 +12662,18 @@
    },
    "natApp": 84,
    "natGoals": 40,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Włochy": 3
+    },
+    "natCup": {
+     "Włochy": 3
+    },
+    "natSupercup": {
+     "Włochy": 3
+    }
+   }
   },
   {
    "name": "Paul Scholes",
@@ -11123,7 +12753,21 @@
     ]
    },
    "natApp": 66,
-   "natGoals": 14
+   "natGoals": 14,
+   "byLeague": {
+    "league": {
+     "Anglia": 11
+    },
+    "natCup": {
+     "Anglia": 3
+    },
+    "leagueCup": {
+     "Anglia": 2
+    },
+    "natSupercup": {
+     "Anglia": 5
+    }
+   }
   },
   {
    "name": "Giorgio Chiellini",
@@ -11200,7 +12844,18 @@
     ]
    },
    "natApp": 117,
-   "natGoals": 8
+   "natGoals": 8,
+   "byLeague": {
+    "league": {
+     "Włochy": 9
+    },
+    "natCup": {
+     "Włochy": 5
+    },
+    "natSupercup": {
+     "Włochy": 5
+    }
+   }
   },
   {
    "name": "Thiago Alcântara",
@@ -11289,7 +12944,23 @@
     ]
    },
    "natApp": 46,
-   "natGoals": 2
+   "natGoals": 2,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 4,
+     "Niemcy": 7
+    },
+    "natCup": {
+     "Hiszpania": 1,
+     "Niemcy": 4,
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 2,
+     "Niemcy": 2,
+     "Anglia": 1
+    }
+   }
   },
   {
    "name": "Leonardo Bonucci",
@@ -11366,7 +13037,18 @@
     ]
    },
    "natApp": 121,
-   "natGoals": 8
+   "natGoals": 8,
+   "byLeague": {
+    "league": {
+     "Włochy": 8
+    },
+    "natCup": {
+     "Włochy": 4
+    },
+    "natSupercup": {
+     "Włochy": 5
+    }
+   }
   },
   {
    "name": "Sami Khedira",
@@ -11457,7 +13139,22 @@
     ]
    },
    "natApp": 77,
-   "natGoals": 7
+   "natGoals": 7,
+   "byLeague": {
+    "league": {
+     "Niemcy": 1,
+     "Hiszpania": 1,
+     "Włochy": 5
+    },
+    "natCup": {
+     "Hiszpania": 2,
+     "Włochy": 3
+    },
+    "natSupercup": {
+     "Hiszpania": 1,
+     "Włochy": 1
+    }
+   }
   },
   {
    "name": "Patrice Evra",
@@ -11545,7 +13242,24 @@
     ]
    },
    "natApp": 81,
-   "natGoals": 0
+   "natGoals": 0,
+   "byLeague": {
+    "league": {
+     "Anglia": 5,
+     "Włochy": 2
+    },
+    "natCup": {
+     "Włochy": 2
+    },
+    "leagueCup": {
+     "Francja": 1,
+     "Anglia": 3
+    },
+    "natSupercup": {
+     "Anglia": 4,
+     "Włochy": 1
+    }
+   }
   },
   {
    "name": "Arturo Vidal",
@@ -11631,7 +13345,23 @@
    },
    "natApp": 147,
    "natGoals": 34,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Włochy": 5,
+     "Niemcy": 3,
+     "Hiszpania": 1
+    },
+    "natCup": {
+     "Włochy": 2,
+     "Niemcy": 1
+    },
+    "natSupercup": {
+     "Włochy": 3,
+     "Niemcy": 2,
+     "Hiszpania": 1
+    }
+   }
   },
   {
    "name": "David Silva",
@@ -11712,7 +13442,22 @@
     ]
    },
    "natApp": 125,
-   "natGoals": 35
+   "natGoals": 35,
+   "byLeague": {
+    "league": {
+     "Anglia": 4
+    },
+    "natCup": {
+     "Hiszpania": 2,
+     "Anglia": 2
+    },
+    "leagueCup": {
+     "Anglia": 5
+    },
+    "natSupercup": {
+     "Anglia": 2
+    }
+   }
   },
   {
    "name": "Sergio Agüero",
@@ -11802,7 +13547,21 @@
     ]
    },
    "natApp": 101,
-   "natGoals": 41
+   "natGoals": 41,
+   "byLeague": {
+    "league": {
+     "Anglia": 5
+    },
+    "natCup": {
+     "Anglia": 1
+    },
+    "leagueCup": {
+     "Anglia": 6
+    },
+    "natSupercup": {
+     "Anglia": 3
+    }
+   }
   },
   {
    "name": "Raphaël Varane",
@@ -11888,7 +13647,22 @@
     ]
    },
    "natApp": 93,
-   "natGoals": 5
+   "natGoals": 5,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 3
+    },
+    "natCup": {
+     "Hiszpania": 1,
+     "Anglia": 1
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 3
+    }
+   }
   },
   {
    "name": "Cesc Fàbregas",
@@ -11983,7 +13757,24 @@
     ]
    },
    "natApp": 110,
-   "natGoals": 15
+   "natGoals": 15,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 1,
+     "Anglia": 2
+    },
+    "natCup": {
+     "Anglia": 2,
+     "Hiszpania": 1
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Anglia": 1,
+     "Hiszpania": 2
+    }
+   }
   },
   {
    "name": "Javier Mascherano",
@@ -12071,7 +13862,18 @@
     ]
    },
    "natApp": 147,
-   "natGoals": 3
+   "natGoals": 3,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 5
+    },
+    "natCup": {
+     "Hiszpania": 5
+    },
+    "natSupercup": {
+     "Hiszpania": 3
+    }
+   }
   },
   {
    "name": "Jordi Alba",
@@ -12150,7 +13952,18 @@
     ]
    },
    "natApp": 93,
-   "natGoals": 9
+   "natGoals": 9,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 6
+    },
+    "natCup": {
+     "Hiszpania": 5
+    },
+    "natSupercup": {
+     "Hiszpania": 4
+    }
+   }
   },
   {
    "name": "Marco Verratti",
@@ -12229,7 +14042,21 @@
    },
    "natApp": 55,
    "natGoals": 3,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Francja": 9
+    },
+    "natCup": {
+     "Francja": 6
+    },
+    "leagueCup": {
+     "Francja": 6
+    },
+    "natSupercup": {
+     "Francja": 9
+    }
+   }
   },
   {
    "name": "Víctor Valdés",
@@ -12313,7 +14140,18 @@
     ]
    },
    "natApp": 20,
-   "natGoals": 0
+   "natGoals": 0,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 6
+    },
+    "natCup": {
+     "Hiszpania": 2
+    },
+    "natSupercup": {
+     "Hiszpania": 6
+    }
+   }
   },
   {
    "name": "Gonzalo Higuaín",
@@ -12399,7 +14237,21 @@
     ]
    },
    "natApp": 75,
-   "natGoals": 31
+   "natGoals": 31,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 3,
+     "Włochy": 3
+    },
+    "natCup": {
+     "Hiszpania": 1,
+     "Włochy": 3
+    },
+    "natSupercup": {
+     "Hiszpania": 2,
+     "Włochy": 1
+    }
+   }
   },
   {
    "name": "Isco",
@@ -12481,7 +14333,18 @@
    },
    "natApp": 39,
    "natGoals": 12,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 3
+    },
+    "natCup": {
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 3
+    }
+   }
   },
   {
    "name": "Kyle Walker",
@@ -12571,7 +14434,21 @@
    },
    "natApp": 96,
    "natGoals": 1,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Anglia": 6
+    },
+    "natCup": {
+     "Anglia": 2
+    },
+    "leagueCup": {
+     "Anglia": 4
+    },
+    "natSupercup": {
+     "Anglia": 2
+    }
+   }
   },
   {
    "name": "Blaise Matuidi",
@@ -12652,7 +14529,24 @@
     ]
    },
    "natApp": 84,
-   "natGoals": 9
+   "natGoals": 9,
+   "byLeague": {
+    "league": {
+     "Francja": 4,
+     "Włochy": 3
+    },
+    "natCup": {
+     "Francja": 3,
+     "Włochy": 1
+    },
+    "leagueCup": {
+     "Francja": 4
+    },
+    "natSupercup": {
+     "Francja": 5,
+     "Włochy": 1
+    }
+   }
   },
   {
    "name": "Ivan Rakitić",
@@ -12736,7 +14630,18 @@
     ]
    },
    "natApp": 106,
-   "natGoals": 15
+   "natGoals": 15,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 4
+    },
+    "natCup": {
+     "Hiszpania": 4
+    },
+    "natSupercup": {
+     "Hiszpania": 2
+    }
+   }
   },
   {
    "name": "Thibaut Courtois",
@@ -12829,7 +14734,23 @@
    },
    "natApp": 115,
    "natGoals": 0,
-   "active": true
+   "active": true,
+   "byLeague": {
+    "league": {
+     "Hiszpania": 4,
+     "Anglia": 2
+    },
+    "natCup": {
+     "Hiszpania": 2,
+     "Anglia": 1
+    },
+    "leagueCup": {
+     "Anglia": 1
+    },
+    "natSupercup": {
+     "Hiszpania": 2
+    }
+   }
   },
   {
    "name": "Michel Platini",
@@ -12924,7 +14845,17 @@
     ]
    },
    "natApp": 72,
-   "natGoals": 41
+   "natGoals": 41,
+   "byLeague": {
+    "league": {
+     "Francja": 1,
+     "Włochy": 2
+    },
+    "natCup": {
+     "Francja": 1,
+     "Włochy": 1
+    }
+   }
   },
   {
    "name": "Diego Maradona",
@@ -13007,7 +14938,22 @@
     ]
    },
    "natApp": 91,
-   "natGoals": 34
+   "natGoals": 34,
+   "byLeague": {
+    "league": {
+     "Włochy": 2
+    },
+    "natCup": {
+     "Hiszpania": 1,
+     "Włochy": 1
+    },
+    "leagueCup": {
+     "Hiszpania": 1
+    },
+    "natSupercup": {
+     "Włochy": 1
+    }
+   }
   },
   {
    "name": "Zbigniew Boniek",
@@ -13090,7 +15036,15 @@
     ]
    },
    "natApp": 80,
-   "natGoals": 24
+   "natGoals": 24,
+   "byLeague": {
+    "league": {
+     "Włochy": 1
+    },
+    "natCup": {
+     "Włochy": 2
+    }
+   }
   }
  ]
 }

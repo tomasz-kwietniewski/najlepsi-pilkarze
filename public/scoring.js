@@ -31,6 +31,23 @@
     fifa: { first: 5, second: 3, third: 1 }    // Pilkarz Roku FIFA / The Best
   };
 
+  // Mnoznik sily ligi - skaluje mistrzostwo i krajowe puchary (waga bazowa x mnoznik).
+  // Mistrzostwo Bundesligi z Bayernem jest latwiejsze niz Premier League - stad zroznicowanie.
+  var LEAGUE_MULT = {
+    "Anglia": 1.0, "Włochy": 0.8, "Hiszpania": 0.7,
+    "Niemcy": 0.6, "Francja": 0.6, "Portugalia": 0.5, "Holandia": 0.5
+  };
+  var NATIONAL_KEYS = { league: 1, natCup: 1, leagueCup: 1, natSupercup: 1 };
+  function leagueMult(lg) { return LEAGUE_MULT.hasOwnProperty(lg) ? LEAGUE_MULT[lg] : 1; }
+  // Punkty krajowej kategorii z rozbicia per liga: suma liczba x waga_bazowa x mnoznik.
+  function nationalPoints(key, byLeagueForKey) {
+    var base = WEIGHTS[key], sum = 0;
+    for (var lg in byLeagueForKey) {
+      if (byLeagueForKey.hasOwnProperty(lg)) sum += byLeagueForKey[lg] * base * leagueMult(lg);
+    }
+    return sum;
+  }
+
   // Kolejnosc i etykiety kategorii w rozbiciu (poza wystepami i golami).
   var CATEGORIES = [
     { key: "wc",              label: "Mistrzostwa Swiata" },
@@ -81,8 +98,10 @@
       var pts;
       if (p.style === "legacy") {
         pts = (p.pts && p.pts[key]) || 0;   // juz w punktach
+      } else if (NATIONAL_KEYS[key] && p.byLeague && p.byLeague[key]) {
+        pts = nationalPoints(key, p.byLeague[key]);  // rozbicie per liga x mnoznik
       } else {
-        pts = pointsForCount(key, p.counts ? p.counts[key] : 0);
+        pts = pointsForCount(key, p.counts ? p.counts[key] : 0);  // fallback: plaska waga
       }
       trophyPts += pts;
       categories.push({ key: key, label: CATEGORIES[i].label, points: pts });
@@ -100,10 +119,12 @@
 
   var api = {
     WEIGHTS: WEIGHTS,
+    LEAGUE_MULT: LEAGUE_MULT,
     CATEGORIES: CATEGORIES,
     scorePlayer: scorePlayer,
     pointsForCount: pointsForCount,
-    goalDivisor: goalDivisor
+    goalDivisor: goalDivisor,
+    leagueMult: leagueMult
   };
 
   if (typeof module !== "undefined" && module.exports) {

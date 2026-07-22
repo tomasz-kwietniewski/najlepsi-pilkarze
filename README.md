@@ -32,10 +32,14 @@ i nagród indywidualnych**.
 
 Za "półfinał" liczymy dotarcie do najlepszej czwórki (3.-4. miejsce MŚ, top-4 ME/Copa), gdy piłkarz
 był w kadrze turnieju. Copa America liczymy osobno od Mistrzostw Europy (częsty błąd u zawodników
-z Ameryki Płd.). Nations League i Puchar Konfederacji nie liczą się.
+z Ameryki Płd.). Liga Narodów i Puchar Konfederacji nie liczą się.
 
 ### Trofea klubowe
-- Mistrzostwo kraju: **5** (za każde). Puchar kraju: **3**. Puchar ligi: **1**. Superpuchar kraju: **1**.
+- Mistrzostwo kraju: **5 × mnożnik siły ligi**. Mnożnik: Anglia 1,0 · Włochy 0,8 · Hiszpania 0,7 ·
+  Niemcy i Francja 0,6 · Portugalia i Holandia 0,5. Ten sam mnożnik skaluje puchar kraju (baza **3**),
+  puchar ligi (baza **1**) i superpuchar kraju (baza **1**). Powód: mistrzostwo łatwej do zdominowania
+  ligi (Bundesliga z Bayernem, Ligue 1 z PSG) jest warte mniej niż Premier League. Szczegóły i analiza
+  konkurencyjności lig: strona **Metodologia i wagi**.
 - **Liga Mistrzów**: zwycięstwo **8**, przegrany finał **5**.
 - **Puchar UEFA / Liga Europy / Puchar Zdobywców Pucharów**: **5 / 3**.
 - **Liga Konferencji**: połowa tego - **2,5 / 1,5**.
