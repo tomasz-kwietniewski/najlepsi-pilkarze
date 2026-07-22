@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Metodologia i wagi - Najlepsi piłkarze</title>
+<style>
+  :root {
+    --bg: #0e1116; --bg2: #151a22; --card: #1b212b; --line: #2a323f;
+    --txt: #e8edf4; --muted: #8b97a8; --accent: #35c46b; --accent2: #f0b429;
+    --gold: #f7c948; --good: #35c46b; --mid: #f0b429; --bad: #e5674b;
+    --c0:#e05a5a; --c1:#5a95dd; --c2:#5cb26f; --c3:#e0ac4a; --c4:#a37fd6;
+    --c5:#41bab2; --c6:#dd86b8; --c7:#c39a51; --c8:#86a44f; --c9:#94a1ae;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: radial-gradient(1200px 600px at 50% -200px, #1a2230 0%, var(--bg) 60%);
+    color: var(--txt); font: 16px/1.6 "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 20px 18px 80px; }
+  a { color: var(--accent); }
+  h1, h2, h3 { line-height: 1.2; text-wrap: balance; }
+  .mono { font-variant-numeric: tabular-nums; }
+
+  .topnav { display: flex; gap: 6px; justify-content: center; margin: 8px 0 0; }
+  .topnav a { color: var(--muted); text-decoration: none; font-weight: 600; font-size: 14px;
+    padding: 8px 16px; border-radius: 9px; border: 1px solid transparent; }
+  .topnav a:hover { color: var(--txt); background: var(--bg2); }
+  .topnav a.active { color: #0c1017; background: var(--accent); }
+
+  header.top { text-align: center; padding: 24px 0 6px; }
+  header.top .kicker { color: var(--accent); font-weight: 700; letter-spacing: .18em; text-transform: uppercase; font-size: 12px; }
+  header.top h1 { font-size: clamp(28px, 5vw, 44px); margin: 8px 0 4px; letter-spacing: -.02em; }
+  header.top p.lead { color: var(--muted); max-width: 640px; margin: 8px auto 0; }
+
+  section.block { margin-top: 30px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px 22px; }
+  section.block > h2 { margin: 0 0 6px; font-size: 21px; }
+  section.block > h3 { margin: 22px 0 8px; font-size: 16px; color: var(--txt); }
+  section.block p { color: #cdd6e2; }
+  section.block ul { color: #cdd6e2; padding-left: 20px; margin: 8px 0; }
+  section.block li { margin: 4px 0; }
+  section.block b { color: var(--accent2); }
+  .lead-note { color: var(--muted); font-size: 14px; margin-top: 4px; }
+
+  /* karty ENC */
+  .enc-cards { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
+  .encrow { display: grid; grid-template-columns: 22px 1.5fr 2fr 1.4fr; gap: 14px; align-items: center;
+    background: var(--bg2); border: 1px solid var(--line); border-radius: 10px; padding: 11px 14px; }
+  .encrow .r { color: var(--muted); font-weight: 700; font-size: 13px; text-align: center; }
+  .encrow .nm { font-weight: 700; } .encrow .nm small { display: block; color: var(--muted); font-weight: 500; font-size: 12px; }
+  .encrow .encwrap { display: flex; flex-direction: column; gap: 5px; }
+  .encline { display: flex; align-items: center; gap: 9px; }
+  .encline .lab { font-size: 10px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); width: 70px; flex: none; }
+  .encbar { flex: 1; height: 8px; border-radius: 5px; background: #10151d; overflow: hidden; }
+  .encbar > i { display: block; height: 100%; border-radius: 5px; }
+  .encline .v { font-weight: 800; min-width: 44px; text-align: right; font-variant-numeric: tabular-nums; }
+  .encline.epoka .v { font-size: 19px; }
+  .encline.dekada .v { font-size: 16px; }
+  .encline.dekada .lab { color: #cdd6e2; }
+  .encrow .dom { font-size: 13px; color: #cdd6e2; }
+  .encrow .dom b { color: var(--txt); } .encrow .dom span { display: block; font-size: 11px; color: var(--muted); }
+  .tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 20px; }
+  .tag.good { color: var(--good); background: rgba(53,196,107,.15); }
+  .tag.mid { color: var(--mid); background: rgba(240,180,41,.16); }
+  .tag.bad { color: var(--bad); background: rgba(229,103,75,.16); }
+
+  /* macierz */
+  .mx { margin-top: 14px; }
+  .mxblock { margin-bottom: 20px; }
+  .mxhead { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; flex-wrap: wrap; }
+  .mxhead .t { font-weight: 700; } .mxhead .s { color: var(--muted); font-size: 12px; }
+  .mxscroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--bg2); }
+  .mxgrid { display: grid; min-width: 720px; }
+  .mxyrs, .mxrow { display: grid; grid-template-columns: 120px repeat(37, 1fr); }
+  .mxyrs { border-bottom: 1px solid var(--line); }
+  .mxyrs > span { font-size: 9px; color: var(--muted); text-align: center; padding: 5px 0 4px; font-variant-numeric: tabular-nums; }
+  .mxyrs > span:first-child { text-align: left; padding-left: 11px; font-size: 10px; color: #cdd6e2; }
+  .mxrow { border-top: 1px solid #222a35; } .mxrow:first-of-type { border-top: none; }
+  .mxclub { font-size: 12px; padding: 0 8px 0 11px; display: flex; align-items: center; gap: 6px; min-height: 21px; font-weight: 600; white-space: nowrap; overflow: hidden; }
+  .mxclub .dot { width: 8px; height: 8px; border-radius: 2px; flex: none; }
+  .mxclub .n { color: var(--muted); font-weight: 600; font-size: 11px; margin-left: auto; padding-left: 6px; }
+  .cell { border-left: 1px solid #222a35; min-height: 21px; }
+  .cell.void { background: repeating-linear-gradient(45deg,#222a35,#222a35 3px,transparent 3px,transparent 6px); }
+
+  /* tabela wag */
+  .wtscroll { overflow-x: auto; margin-top: 10px; }
+  table.wt { width: 100%; border-collapse: collapse; min-width: 640px; }
+  table.wt th, table.wt td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--line); font-size: 14px; }
+  table.wt th { font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+  table.wt th.num, table.wt td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  table.wt tr:last-child td { border-bottom: none; }
+  table.wt .lg b { font-weight: 700; } table.wt .lg small { display: block; color: var(--muted); font-size: 12px; }
+  table.wt .mlt { color: var(--muted); }
+  table.wt .wm { color: var(--accent2); font-weight: 700; }
+
+  /* przyklady wplywu */
+  .impact { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; margin-top: 12px; }
+  .icard { background: var(--bg2); border: 1px solid var(--line); border-radius: 11px; padding: 13px 15px; }
+  .icard .who { font-weight: 700; }
+  .icard .mv { font-size: 12px; color: var(--bad); font-weight: 700; margin-top: 2px; }
+  .icard .pts { margin-top: 7px; font-variant-numeric: tabular-nums; }
+  .icard .pts .old { color: var(--muted); } .icard .pts .arr { color: var(--muted); margin: 0 5px; }
+  .icard .pts .new { color: var(--accent2); font-weight: 800; font-size: 18px; }
+  .icard .why { color: var(--muted); font-size: 12.5px; margin-top: 6px; }
+  .keep { margin-top: 12px; padding: 12px 15px; background: rgba(53,196,107,.08); border: 1px solid rgba(53,196,107,.25); border-radius: 11px; color: #cdd6e2; font-size: 14px; }
+  .keep b { color: var(--accent); }
+
+  footer { color: var(--muted); font-size: 13px; text-align: center; margin-top: 36px; line-height: 1.7; }
+  footer a { color: var(--accent); text-decoration: none; }
+
+  @media (max-width: 640px) {
+    .wrap { padding: 14px 12px 56px; }
+    .encrow { grid-template-columns: 20px 1fr; gap: 6px 10px; }
+    .encrow .encwrap, .encrow .dom { grid-column: 1 / -1; }
+    section.block { padding: 16px 15px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="topnav">
+    <a href="index.html">Ranking</a>
+    <a href="metodologia.html" class="active" aria-current="page">Metodologia i wagi</a>
+  </nav>
+
+  <header class="top">
+    <div class="kicker">Jak liczymy i dlaczego</div>
+    <h1>Metodologia i wagi</h1>
+    <p class="lead">Cały system punktowy rankingu oraz analiza, dlaczego mistrzostwo nie w każdej lidze jest warte tyle samo.</p>
+  </header>
+
+  <section class="block">
+    <h2>Skąd to się wzięło</h2>
+    <p>To projekt hobbystyczny, który zacząłem z przyjacielem <b>Emilem</b> jeszcze na studiach, w latach 2008-2010.
+    Chcieliśmy przeliczyć osiągnięcia piłkarzy, których dobrze wspominamy z lat 90. i 2000., na jeden system punktowy -
+    żeby dało się ich uczciwie porównać i docenić najlepszych. Wtedy robiliśmy to ręcznie w arkuszu, na danych z angielskiej
+    Wikipedii. Ta wersja to odświeżenie tamtego pomysłu: pełne kariery do dziś i współcześni piłkarze.</p>
+  </section>
+
+  <section class="block">
+    <h2>Jak liczymy punkty</h2>
+    <p>Punkty sumują się z trzech źródeł: <b>występów</b>, <b>goli</b> (ważonych pozycją) oraz <b>trofeów i nagród
+    indywidualnych</b>.</p>
+
+    <h3>Występy i gole</h3>
+    <ul>
+      <li>Występy: <b>1 pkt za 35 meczów</b>.</li>
+      <li>Gole zależnie od pozycji: napastnik 1 pkt/<b>17</b>, pomocnik 1/<b>8</b>, obrońca 1/<b>3</b>, bramkarz jak napastnik
+      (gol obrońcy jest rzadszy, więc cenniejszy).</li>
+    </ul>
+
+    <h3>Trofea reprezentacyjne</h3>
+    <ul>
+      <li>Mistrzostwa Świata: 1. miejsce <b>12</b>, finał <b>8</b>, półfinał <b>6</b>.</li>
+      <li>Mistrzostwa Europy: <b>10 / 7 / 5</b>. Copa America: połowa tego - <b>5 / 3,5 / 2,5</b>.</li>
+      <li>Za "półfinał" liczymy dotarcie do najlepszej czwórki, gdy piłkarz był w kadrze. Liga Narodów i Puchar
+      Konfederacji nie liczą się.</li>
+    </ul>
+
+    <h3>Trofea klubowe</h3>
+    <ul>
+      <li>Mistrzostwo kraju: <b>5 × mnożnik siły ligi</b> (patrz niżej). Ten sam mnożnik skaluje puchar kraju (baza <b>3</b>),
+      puchar ligi (baza <b>1</b>) i superpuchar kraju (baza <b>1</b>).</li>
+      <li>Liga Mistrzów: zwycięstwo <b>8</b>, przegrany finał <b>5</b>.</li>
+      <li>Puchar UEFA / Liga Europy / Puchar Zdobywców Pucharów: <b>5 / 3</b>. Liga Konferencji: połowa - <b>2,5 / 1,5</b>.</li>
+      <li>Superpuchar Europy <b>2</b>, Puchar Interkontynentalny / Klubowe MŚ <b>2</b>.</li>
+    </ul>
+
+    <h3>Nagrody indywidualne</h3>
+    <ul>
+      <li>Złota Piłka i Piłkarz Roku FIFA / The Best: za 1./2./3. miejsce <b>5 / 3 / 1</b>.</li>
+    </ul>
+
+    <h3>Zasady szczegółowe</h3>
+    <ul>
+      <li>Liczą się tylko <b>czołowe ligi europejskie</b> (Anglia, Hiszpania, Włochy, Niemcy, Francja, Portugalia, Holandia).
+      Występy, gole i tytuły ze słabszych rozgrywek (saudyjska, MLS, brazylijska, katarska, japońska itd.) nie liczą się wcale.</li>
+      <li><b>Calciopoli</b>: tytuły Serie A 2004/05 i 2005/06 odebrane Juventusowi nie liczą się ani Juventusowi, ani Interowi.</li>
+      <li>Dane z angielskiej Wikipedii, zweryfikowane wg sekcji "Honours" jako źródła prawdy.</li>
+    </ul>
+  </section>
+
+  <section class="block" id="analiza">
+    <h2>Dlaczego mistrzostwa lig są warte różnie</h2>
+    <p>Do niedawna mistrzostwo dawało <b>5 punktów niezależnie od ligi</b>. Problem w tym, że zdobyć tytuł z Bayernem
+    w Bundeslidze albo dziś z PSG we Francji jest znacznie łatwiej niż wygrać Premier League. Bayern zdobył
+    <b>24 z 37 mistrzostw</b> od 1990 roku (11 z rzędu), a Ligue 1 to od 2013 praktycznie monopol PSG. Sztywne 5 punktów
+    zawyżało więc kolekcjonerów łatwych tytułów.</p>
+    <p class="lead-note">Rozwiązanie: każda liga ma mnożnik siły (waga mistrzostwa ÷ 5), który skaluje mistrzostwo i wszystkie
+    trzy krajowe puchary.</p>
+    <p>Ale sama konkurencyjność wewnętrzna to nie wszystko. Mnożnik ligi jest <b>wypadkową dwóch rzeczy</b>: łatwości
+    zdobycia mistrzostwa (jak bardzo tytuły rozkładają się na różne kluby, mierzone niżej) oraz obiektywnej siły klubów danej
+    ligi na arenie międzynarodowej (europejskie puchary, Liga Mistrzów). Dlatego Portugalia i Holandia, choć ich tytuły
+    bywają dzielone między kilka klubów, dostają niską wagę - ich mistrzowie rzadko liczą się w europejskich pucharach.
+    I odwrotnie: Hiszpania to wąski duopol Barcelony i Realu, ale zarazem najsilniejsze kluby Europy, więc jej mistrzostwo
+    waży więcej. Anglia stoi wysoko w obu wymiarach naraz, dlatego jest wzorcem.</p>
+
+    <h3>Ranking konkurencyjności lig</h3>
+    <p class="lead-note"><b>ENC</b> (efektywna liczba mistrzów) mówi, ilu realnie różnych klubów wygrywa ligę: im wyżej, tym trudniej
+    o tytuł. Górny pasek to cała epoka 1990-2026, dolny to ostatnia dekada (2017-2026). Gdy dolny jest wyraźnie krótszy,
+    liga się zamknęła - najlepszy przykład to Ligue 1, gdzie z otwartej ligi lat 90. zrobił się monopol PSG (5,02 spada do 1,52).</p>
+    <div class="enc-cards" id="encCards"></div>
+
+    <h3>Macierz mistrzów 1990-2026</h3>
+    <p class="lead-note">Każdy wiersz to klub, każda kolumna to sezon. Długie jednokolorowe pasy = dominacja jednego klubu
+    (Bayern, Porto). Mozaika = liga otwarta (Anglia). Ukośne pole = tytuł nieprzyznany.</p>
+    <div class="mx" id="matrix"></div>
+
+    <h3>Wagi mistrzostwa i pucharów</h3>
+    <p class="lead-note">Anglia jako wzorzec (mnożnik 1,0). Wagi łączą rozkład tytułów (ENC), dominację ostatniej dekady
+    i siłę ligi w europejskich pucharach - dlatego Niemcy stoją wyżej niż Holandia mimo niższego ENC.</p>
+    <div class="wtscroll">
+      <table class="wt">
+        <thead><tr>
+          <th>Liga</th><th class="num">ENC ep./10l</th><th class="num">Mnożnik</th>
+          <th class="num">Mistrzostwo</th><th class="num">Puchar kraju</th><th class="num">Puchar ligi</th><th class="num">Superpuchar</th>
+        </tr></thead>
+        <tbody id="wbody"></tbody>
+      </table>
+    </div>
+
+    <h3>Co to zmieniło w rankingu</h3>
+    <p class="lead-note">Punkty każdego gracza skorygowane mnożnikiem przy jego mistrzostwach i krajowych pucharach. Najbardziej
+    tracą kolekcjonerzy łatwych trofeów Bayernu i PSG.</p>
+    <div class="impact">
+      <div class="icard"><div class="who">Marquinhos</div><div class="mv">▼ 17. → 30. miejsce</div>
+        <div class="pts"><span class="old">164,1</span><span class="arr">→</span><span class="new">126,1</span></div>
+        <div class="why">Największy spadek punktowy. Cała kolekcja mistrzostw, pucharów i superpucharów PSG (Francja ×0,6).</div></div>
+      <div class="icard"><div class="who">Thomas Müller</div><div class="mv">▼ 3. → 8. miejsce</div>
+        <div class="pts"><span class="old">195,7</span><span class="arr">→</span><span class="new">159,3</span></div>
+        <div class="why">Schodzi z podium. 13 mistrzostw Bundesligi z Bayernem (Niemcy ×0,6).</div></div>
+      <div class="icard"><div class="who">Manuel Neuer</div><div class="mv">▼ 13. → 23. miejsce</div>
+        <div class="pts"><span class="old">172,0</span><span class="arr">→</span><span class="new">134,4</span></div>
+        <div class="why">Ta sama oś Bayernu - komplet krajowych trofeów niemieckich.</div></div>
+      <div class="icard"><div class="who">Robert Lewandowski</div><div class="mv">▼ 15. → 24. miejsce</div>
+        <div class="pts"><span class="old">167,0</span><span class="arr">→</span><span class="new">133,5</span></div>
+        <div class="why">Nasz biedny Robert: 8 tytułów Bayernu (×0,6) plus trofea Barcelony (Hiszpania ×0,7).</div></div>
+    </div>
+    <div class="keep"><b>Na szczycie bez zmian:</b> Messi zostaje 1. (356 → 328), Cristiano 2. (traci tylko 8,9 pkt). Na podium
+    wchodzi za to Paolo Maldini - obrońca Milanu, bo Serie A jest karana łagodnie (×0,8), a jego dorobek to głównie Liga
+    Mistrzów i reprezentacja, których mnożnik nie dotyka.</div>
+  </section>
+
+  <footer>
+    <p><a href="index.html">← Wróć do rankingu</a></p>
+    <p>Dane: angielska Wikipedia (sekcje "Honours" i infoboksy), zweryfikowane. Analiza konkurencyjności lig: sezony 1990-2026,
+    rok = zakończenie sezonu.</p>
+  </footer>
+</div>
+
+<script type="application/json" id="leagues">[{"name":"Francja","league":"Ligue 1","seasons":{"1990":"Marseille","1991":"Marseille","1992":"Marseille","1993":null,"1994":"PSG","1995":"Nantes","1996":"Auxerre","1997":"Monaco","1998":"Lens","1999":"Bordeaux","2000":"Monaco","2001":"Nantes","2002":"Lyon","2003":"Lyon","2004":"Lyon","2005":"Lyon","2006":"Lyon","2007":"Lyon","2008":"Lyon","2009":"Bordeaux","2010":"Marseille","2011":"Lille","2012":"Montpellier","2013":"PSG","2014":"PSG","2015":"PSG","2016":"PSG","2017":"Monaco","2018":"PSG","2019":"PSG","2020":"PSG","2021":"Lille","2022":"PSG","2023":"PSG","2024":"PSG","2025":"PSG","2026":"PSG"},"clubs":[{"club":"PSG","titles":13,"years":[1994,2013,2014,2015,2016,2018,2019,2020,2022,2023,2024,2025,2026]},{"club":"Lyon","titles":7,"years":[2002,2003,2004,2005,2006,2007,2008]},{"club":"Marseille","titles":4,"years":[1990,1991,1992,2010]},{"club":"Monaco","titles":3,"years":[1997,2000,2017]},{"club":"Nantes","titles":2,"years":[1995,2001]},{"club":"Bordeaux","titles":2,"years":[1999,2009]},{"club":"Lille","titles":2,"years":[2011,2021]},{"club":"Auxerre","titles":1,"years":[1996]},{"club":"Lens","titles":1,"years":[1998]},{"club":"Montpellier","titles":1,"years":[2012]}],"all":{"enc":5.023255813953488,"uniq":10,"top":"PSG","topN":13,"topShare":0.3611111111111111,"n":36},"dec":{"enc":1.515151515151515,"top":"PSG","topN":8,"n":10},"streak":{"club":"Lyon","len":7}},{"name":"Anglia","league":"Premier League / First Division","seasons":{"1990":"Liverpool","1991":"Arsenal","1992":"Leeds United","1993":"Man Utd","1994":"Man Utd","1995":"Blackburn","1996":"Man Utd","1997":"Man Utd","1998":"Arsenal","1999":"Man Utd","2000":"Man Utd","2001":"Man Utd","2002":"Arsenal","2003":"Man Utd","2004":"Arsenal","2005":"Chelsea","2006":"Chelsea","2007":"Man Utd","2008":"Man Utd","2009":"Man Utd","2010":"Chelsea","2011":"Man Utd","2012":"Man City","2013":"Man Utd","2014":"Man City","2015":"Chelsea","2016":"Leicester","2017":"Chelsea","2018":"Man City","2019":"Man City","2020":"Liverpool","2021":"Man City","2022":"Man City","2023":"Man City","2024":"Man City","2025":"Liverpool","2026":"Arsenal"},"clubs":[{"club":"Man Utd","titles":13,"years":[1993,1994,1996,1997,1999,2000,2001,2003,2007,2008,2009,2011,2013]},{"club":"Man City","titles":8,"years":[2012,2014,2018,2019,2021,2022,2023,2024]},{"club":"Arsenal","titles":5,"years":[1991,1998,2002,2004,2026]},{"club":"Chelsea","titles":5,"years":[2005,2006,2010,2015,2017]},{"club":"Liverpool","titles":3,"years":[1990,2020,2025]},{"club":"Leeds United","titles":1,"years":[1992]},{"club":"Blackburn","titles":1,"years":[1995]},{"club":"Leicester","titles":1,"years":[2016]}],"all":{"enc":4.640677966101694,"uniq":8,"top":"Man Utd","topN":13,"topShare":0.35135135135135137,"n":37},"dec":{"enc":2.380952380952381,"top":"Man City","topN":6,"n":10},"streak":{"club":"Man City","len":4}},{"name":"Włochy","league":"Serie A","seasons":{"1990":"Napoli","1991":"Sampdoria","1992":"Milan","1993":"Milan","1994":"Milan","1995":"Juventus","1996":"Milan","1997":"Juventus","1998":"Juventus","1999":"Milan","2000":"Lazio","2001":"Roma","2002":"Juventus","2003":"Juventus","2004":"Milan","2005":null,"2006":"Inter","2007":"Inter","2008":"Inter","2009":"Inter","2010":"Inter","2011":"Milan","2012":"Juventus","2013":"Juventus","2014":"Juventus","2015":"Juventus","2016":"Juventus","2017":"Juventus","2018":"Juventus","2019":"Juventus","2020":"Juventus","2021":"Inter","2022":"Milan","2023":"Napoli","2024":"Inter","2025":"Napoli","2026":"Inter"},"clubs":[{"club":"Juventus","titles":14,"years":[1995,1997,1998,2002,2003,2012,2013,2014,2015,2016,2017,2018,2019,2020]},{"club":"Milan","titles":8,"years":[1992,1993,1994,1996,1999,2004,2011,2022]},{"club":"Inter","titles":8,"years":[2006,2007,2008,2009,2010,2021,2024,2026]},{"club":"Napoli","titles":3,"years":[1990,2023,2025]},{"club":"Sampdoria","titles":1,"years":[1991]},{"club":"Lazio","titles":1,"years":[2000]},{"club":"Roma","titles":1,"years":[2001]}],"all":{"enc":3.8571428571428563,"uniq":7,"top":"Juventus","topN":14,"topShare":0.3888888888888889,"n":36},"dec":{"enc":3.333333333333333,"top":"Juventus","topN":4,"n":10},"streak":{"club":"Juventus","len":9}},{"name":"Holandia","league":"Eredivisie","seasons":{"1990":"Ajax","1991":"PSV","1992":"PSV","1993":"Feyenoord","1994":"Ajax","1995":"Ajax","1996":"Ajax","1997":"PSV","1998":"Ajax","1999":"Feyenoord","2000":"PSV","2001":"PSV","2002":"Ajax","2003":"PSV","2004":"Ajax","2005":"PSV","2006":"PSV","2007":"PSV","2008":"PSV","2009":"AZ","2010":"Twente","2011":"Ajax","2012":"Ajax","2013":"Ajax","2014":"Ajax","2015":"PSV","2016":"PSV","2017":"Feyenoord","2018":"PSV","2019":"Ajax","2020":null,"2021":"Ajax","2022":"Ajax","2023":"Feyenoord","2024":"PSV","2025":"PSV","2026":"PSV"},"clubs":[{"club":"PSV","titles":16,"years":[1991,1992,1997,2000,2001,2003,2005,2006,2007,2008,2015,2016,2018,2024,2025,2026]},{"club":"Ajax","titles":14,"years":[1990,1994,1995,1996,1998,2002,2004,2011,2012,2013,2014,2019,2021,2022]},{"club":"Feyenoord","titles":4,"years":[1993,1999,2017,2023]},{"club":"AZ","titles":1,"years":[2009]},{"club":"Twente","titles":1,"years":[2010]}],"all":{"enc":2.7574468085106383,"uniq":5,"top":"PSV","topN":16,"topShare":0.4444444444444444,"n":36},"dec":{"enc":2.793103448275862,"top":"PSV","topN":4,"n":9},"streak":{"club":"PSV","len":4}},{"name":"Hiszpania","league":"La Liga","seasons":{"1990":"Real Madrid","1991":"Barcelona","1992":"Barcelona","1993":"Barcelona","1994":"Barcelona","1995":"Real Madrid","1996":"Atlético","1997":"Real Madrid","1998":"Barcelona","1999":"Barcelona","2000":"Deportivo","2001":"Real Madrid","2002":"Valencia","2003":"Real Madrid","2004":"Valencia","2005":"Barcelona","2006":"Barcelona","2007":"Real Madrid","2008":"Real Madrid","2009":"Barcelona","2010":"Barcelona","2011":"Barcelona","2012":"Real Madrid","2013":"Barcelona","2014":"Atlético","2015":"Barcelona","2016":"Barcelona","2017":"Real Madrid","2018":"Barcelona","2019":"Barcelona","2020":"Real Madrid","2021":"Atlético","2022":"Real Madrid","2023":"Barcelona","2024":"Real Madrid","2025":"Barcelona","2026":"Barcelona"},"clubs":[{"club":"Barcelona","titles":19,"years":[1991,1992,1993,1994,1998,1999,2005,2006,2009,2010,2011,2013,2015,2016,2018,2019,2023,2025,2026]},{"club":"Real Madrid","titles":12,"years":[1990,1995,1997,2001,2003,2007,2008,2012,2017,2020,2022,2024]},{"club":"Atlético","titles":3,"years":[1996,2014,2021]},{"club":"Valencia","titles":2,"years":[2002,2004]},{"club":"Deportivo","titles":1,"years":[2000]}],"all":{"enc":2.6377649325626207,"uniq":5,"top":"Barcelona","topN":19,"topShare":0.5135135135135135,"n":37},"dec":{"enc":2.380952380952381,"top":"Barcelona","topN":5,"n":10},"streak":{"club":"Barcelona","len":4}},{"name":"Portugalia","league":"Primeira Liga","seasons":{"1990":"Porto","1991":"Benfica","1992":"Porto","1993":"Porto","1994":"Benfica","1995":"Porto","1996":"Porto","1997":"Porto","1998":"Porto","1999":"Porto","2000":"Sporting CP","2001":"Boavista","2002":"Sporting CP","2003":"Porto","2004":"Porto","2005":"Benfica","2006":"Porto","2007":"Porto","2008":"Porto","2009":"Porto","2010":"Benfica","2011":"Porto","2012":"Porto","2013":"Porto","2014":"Benfica","2015":"Benfica","2016":"Benfica","2017":"Benfica","2018":"Porto","2019":"Benfica","2020":"Porto","2021":"Sporting CP","2022":"Porto","2023":"Benfica","2024":"Sporting CP","2025":"Sporting CP","2026":"Porto"},"clubs":[{"club":"Porto","titles":21,"years":[1990,1992,1993,1995,1996,1997,1998,1999,2003,2004,2006,2007,2008,2009,2011,2012,2013,2018,2020,2022,2026]},{"club":"Benfica","titles":10,"years":[1991,1994,2005,2010,2014,2015,2016,2017,2019,2023]},{"club":"Sporting CP","titles":5,"years":[2000,2002,2021,2024,2025]},{"club":"Boavista","titles":1,"years":[2001]}],"all":{"enc":2.4144620811287476,"uniq":4,"top":"Porto","topN":21,"topShare":0.5675675675675675,"n":37},"dec":{"enc":2.9411764705882355,"top":"Porto","topN":4,"n":10},"streak":{"club":"Porto","len":5}},{"name":"Niemcy","league":"Bundesliga","seasons":{"1990":"Bayern","1991":"Kaiserslautern","1992":"Stuttgart","1993":"Werder Bremen","1994":"Bayern","1995":"Dortmund","1996":"Dortmund","1997":"Bayern","1998":"Kaiserslautern","1999":"Bayern","2000":"Bayern","2001":"Bayern","2002":"Dortmund","2003":"Bayern","2004":"Werder Bremen","2005":"Bayern","2006":"Bayern","2007":"Stuttgart","2008":"Bayern","2009":"Wolfsburg","2010":"Bayern","2011":"Dortmund","2012":"Dortmund","2013":"Bayern","2014":"Bayern","2015":"Bayern","2016":"Bayern","2017":"Bayern","2018":"Bayern","2019":"Bayern","2020":"Bayern","2021":"Bayern","2022":"Bayern","2023":"Bayern","2024":"Leverkusen","2025":"Bayern","2026":"Bayern"},"clubs":[{"club":"Bayern","titles":24,"years":[1990,1994,1997,1999,2000,2001,2003,2005,2006,2008,2010,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2025,2026]},{"club":"Dortmund","titles":5,"years":[1995,1996,2002,2011,2012]},{"club":"Kaiserslautern","titles":2,"years":[1991,1998]},{"club":"Stuttgart","titles":2,"years":[1992,2007]},{"club":"Werder Bremen","titles":2,"years":[1993,2004]},{"club":"Wolfsburg","titles":1,"years":[2009]},{"club":"Leverkusen","titles":1,"years":[2024]}],"all":{"enc":2.2260162601626017,"uniq":7,"top":"Bayern","topN":24,"topShare":0.6486486486486487,"n":37},"dec":{"enc":1.2195121951219512,"top":"Bayern","topN":9,"n":10},"streak":{"club":"Bayern","len":11}}]</script>
+<script>
+(function () {
+  "use strict";
+  var LEAGUES = JSON.parse(document.getElementById("leagues").textContent);
+  // finalne wagi mistrzostwa (mnoznik = waga/5); baza pucharow 3/1/1
+  var W = { "Anglia":5, "Włochy":4, "Hiszpania":3.5, "Niemcy":3, "Francja":3, "Portugalia":2.5, "Holandia":2.5 };
+  var PAL = ["--c0","--c1","--c2","--c3","--c4","--c5","--c6","--c7","--c8","--c9"];
+  var YEARS = []; for (var y = 1990; y <= 2026; y++) YEARS.push(y);
+  function nf(x){ return (Math.round(x*100)/100).toLocaleString("pl-PL"); }
+  function encTag(e){ return e>=4?"good":(e>=3?"mid":"bad"); }
+  function encWord(e){ return e>=4?"otwarta":(e>=3?"umiarkowana":"skoncentrowana"); }
+  var maxEnc = Math.max.apply(null, LEAGUES.map(function(l){return l.all.enc;}));
+
+  // karty ENC
+  var ec = document.getElementById("encCards");
+  LEAGUES.forEach(function (L, i) {
+    var tag = encTag(L.all.enc);
+    var col = tag==="good"?"var(--good)":(tag==="mid"?"var(--mid)":"var(--bad)");
+    var dtag = encTag(L.dec.enc);
+    var decCol = dtag==="good"?"var(--good)":(dtag==="mid"?"var(--mid)":"var(--bad)");
+    var d = document.createElement("div"); d.className = "encrow";
+    d.innerHTML =
+      '<div class="r">'+(i+1)+'</div>'+
+      '<div class="nm">'+L.name+'<small>'+L.league+'</small></div>'+
+      '<div class="encwrap">'+
+        '<div class="encline epoka"><span class="lab">cała epoka</span>'+
+          '<span class="encbar"><i style="width:'+(L.all.enc/maxEnc*100).toFixed(0)+'%;background:'+col+'"></i></span>'+
+          '<span class="v">'+nf(L.all.enc)+'</span></div>'+
+        '<div class="encline dekada"><span class="lab">ost. dekada</span>'+
+          '<span class="encbar"><i style="width:'+(L.dec.enc/maxEnc*100).toFixed(0)+'%;background:'+decCol+'"></i></span>'+
+          '<span class="v" style="color:'+decCol+'">'+nf(L.dec.enc)+'</span></div>'+
+      '</div>'+
+      '<div class="dom"><b>'+L.all.top+'</b> '+L.all.topN+' tytułów <span class="tag '+tag+'">'+encWord(L.all.enc)+'</span>'+
+        '<span>'+Math.round(L.all.topShare*100)+'% wszystkich · seria '+L.streak.len+' z rzędu</span></div>';
+    ec.appendChild(d);
+  });
+
+  // macierz
+  var host = document.getElementById("matrix");
+  LEAGUES.forEach(function (L) {
+    var cmap = {}; L.clubs.forEach(function(c,i){ cmap[c.club] = "var("+PAL[Math.min(i,9)]+")"; });
+    var blk = document.createElement("div"); blk.className = "mxblock";
+    var head = '<div class="mxhead"><span class="t">'+L.name+'</span><span class="s">'+L.league+' · '+
+      L.clubs.length+' różnych mistrzów · ENC '+nf(L.all.enc)+'</span></div>';
+    var yrs = '<div class="mxyrs"><span>Klub</span>';
+    YEARS.forEach(function(y){ yrs += '<span>'+((y%5===0||y===2026)?("'"+String(y).slice(2)):'')+'</span>'; });
+    yrs += '</div>';
+    var rows = '';
+    L.clubs.forEach(function(c){
+      rows += '<div class="mxrow"><div class="mxclub"><span class="dot" style="background:'+cmap[c.club]+'"></span>'+
+        '<span>'+c.club+'</span><span class="n">'+c.titles+'</span></div>';
+      YEARS.forEach(function(y){
+        rows += (L.seasons[y]===c.club)
+          ? '<span class="cell" style="background:'+cmap[c.club]+'" title="'+y+': '+c.club+'"></span>'
+          : '<span class="cell"></span>';
+      });
+      rows += '</div>';
+    });
+    var voids = YEARS.filter(function(y){ return L.seasons[y]===null; });
+    if (voids.length) {
+      rows += '<div class="mxrow"><div class="mxclub"><span class="dot" style="background:#222a35"></span>'+
+        '<span style="color:var(--muted)">nieprzyznany</span><span class="n">'+voids.length+'</span></div>';
+      YEARS.forEach(function(y){
+        rows += (L.seasons[y]===null) ? '<span class="cell void" title="'+y+': tytuł nieprzyznany"></span>' : '<span class="cell"></span>';
+      });
+      rows += '</div>';
+    }
+    blk.innerHTML = head + '<div class="mxscroll"><div class="mxgrid">'+yrs+rows+'</div></div>';
+    host.appendChild(blk);
+  });
+
+  // tabela wag
+  var wb = document.getElementById("wbody");
+  LEAGUES.forEach(function (L) {
+    var m = W[L.name] / 5;
+    var tr = document.createElement("tr");
+    tr.innerHTML =
+      '<td class="lg"><b>'+L.name+'</b><small>'+L.league+'</small></td>'+
+      '<td class="num mono">'+nf(L.all.enc)+' / '+nf(L.dec.enc)+'</td>'+
+      '<td class="num mono mlt">×'+nf(m)+'</td>'+
+      '<td class="num mono wm">'+nf(5*m)+'</td>'+
+      '<td class="num mono">'+nf(3*m)+'</td>'+
+      '<td class="num mono">'+nf(1*m)+'</td>'+
+      '<td class="num mono">'+nf(1*m)+'</td>';
+    wb.appendChild(tr);
+  });
+})();
+</script>
+</body>
+</html>
